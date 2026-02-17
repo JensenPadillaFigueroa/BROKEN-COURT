@@ -10,7 +10,7 @@
 
 ## 1. Yadi Vazq — Character Sheet
 ```
-black and white manga character sheet, front side back views, Kuroko no Basuke art style, handsome 16-year-old Latino boy, brown skin, tall lean athletic build, sharp facial features, dark messy hair, intense dark eyes with diamond glint, old worn tennis clothes, bandana on forehead, taped racket, worn sneakers, confident stance, Tadatoshi Fujimaki protagonist design, heavy screentones, crosshatching shadows --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel
+black and white manga character sheet, exactly 3 poses front view side view back view only, Kuroko no Basuke art style, handsome 16-year-old Latino boy, brown skin, tall lean athletic build, sharp facial features, dark messy hair, intense dark eyes with diamond glint, old worn tennis clothes, bandana on forehead, taped racket, worn sneakers, confident stance, Tadatoshi Fujimaki protagonist design, heavy screentones, crosshatching shadows --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel multiple poses
 ```
 
 ## 2. Yadi — Tiger Aura Power Version
