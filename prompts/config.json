@@ -1,0 +1,48 @@
+{
+  "project": "YADI VAZQ: The Rise",
+  "volume": 1,
+  "total_illustrations": 48,
+  "style": {
+    "base_style": "manga style, Japanese shōnen sports manga, dynamic poses, expressive eyes, speed lines, high contrast black and white with screentones, detailed backgrounds, Takeshi Obata meets Takehiko Inoue art style, clean linework, dramatic lighting",
+    "color_style": "vibrant anime color palette, cel-shaded, dramatic lighting, cinematic composition, manga illustration, professional quality",
+    "negative_prompt": "bad anatomy, deformed hands, extra fingers, blurry, low quality, chibi, super deformed, western cartoon style",
+    "negative_prompt_human_characters": "animal ears, animal features, furry, anthro",
+    "recommended_models": ["Anything V5", "Counterfeit V3", "MeinaMix"],
+    "resolution": {
+      "splash_pages": "2048x2048",
+      "panels": "1024x1024",
+      "character_sheets": "2048x1024"
+    }
+  },
+  "rules": {
+    "hybrid_rule": "ONLY the Great 3 (Novacronos, Rafa Nal, Noak) have LITERAL animal heads on human bodies. ALL other characters are 100% human. Animal associations for non-Great-3 appear ONLY as translucent shadow/aura BEHIND or AROUND the character, NEVER on them.",
+    "tropical_setting": "For Isla Brava scenes use: Caribbean tropical island, palm trees, turquoise ocean, colorful faded houses, tropical vegetation, humid heat",
+    "luna_borin_mural": "Include 'faded mural of woman holding Olympic gold medal on concrete wall' in every scene set at the island court"
+  },
+  "generation_priority": [
+    "1. Character sheets: Great 3 (Novacronos, Rafa Nal, Noak)",
+    "2. Character sheet: Yadi Vazq",
+    "3. Volume 1 Cover",
+    "4. Final splash (Scene 14 — Great 3 in the sky)",
+    "5. Diamond Vision Activation (Scene 10)",
+    "6. Remaining character sheets",
+    "7. Luna Borín mural",
+    "8. Remaining scenes in chapter order"
+  ],
+  "characters_summary": [
+    {"name": "Roger Novacronos", "animal": "Eagle", "type": "LITERAL_HYBRID", "palette": "gold/white/cream"},
+    {"name": "Rafa Nal", "animal": "Bull", "type": "LITERAL_HYBRID", "palette": "red/orange/earth"},
+    {"name": "Noak", "animal": "Goat", "type": "LITERAL_HYBRID", "palette": "silver/grey/white"},
+    {"name": "Yadi Vazq", "animal": "Tiger", "type": "HUMAN_AURA", "palette": "orange/black/gold"},
+    {"name": "Yen", "animal": "Owl", "type": "HUMAN_AURA", "palette": "dark blue/silver"},
+    {"name": "Charlie", "animal": "Lion", "type": "HUMAN_AURA", "palette": "gold/multicolor"},
+    {"name": "Jani", "animal": "Arctic Fox", "type": "HUMAN_AURA", "palette": "ice blue/white/silver"},
+    {"name": "Daimon Richwell", "animal": "Peacock", "type": "HUMAN_AURA", "palette": "blue-green/iridescent"},
+    {"name": "Kai Morimoto", "animal": "Turtle", "type": "HUMAN_AURA", "palette": "grey/green/stone"},
+    {"name": "Luca Santori", "animal": "Viper", "type": "HUMAN_AURA", "palette": "green/purple/venom"},
+    {"name": "Papa Vazq", "animal": null, "type": "HUMAN", "palette": "earth/warm"},
+    {"name": "Mama Vazq", "animal": null, "type": "HUMAN", "palette": "warm/colorful"},
+    {"name": "Don Emilio", "animal": null, "type": "HUMAN", "palette": "brown/grey"},
+    {"name": "Luna Borín", "animal": null, "type": "MURAL_ONLY", "palette": "faded colors"}
+  ]
+}

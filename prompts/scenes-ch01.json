@@ -1,0 +1,28 @@
+{
+  "chapter": 1,
+  "title": "The Broken Court",
+  "illustrations": [
+    {
+      "id": "scene_ch01_splash",
+      "name": "Ch 1, Pg 1 — Aerial View of Isla Brava",
+      "page": 1,
+      "type": "splash_page",
+      "priority": 8,
+      "color": true,
+      "prompt": "manga splash page, aerial bird's eye view, small Caribbean tropical island, colorful houses faded by sun and sea salt, palm trees everywhere, turquoise ocean surrounding the island, lush tropical vegetation, narrow streets, in the center of a barrio: a cracked broken tennis court with weeds growing through cracks, faded lines and a sagging net, a FADED MURAL of a woman holding an Olympic gold medal on the wall, a single small figure hitting a ball against that wall next to the mural, vibrant tropical color palette (turquoise, green, orange sunset, ocean blue), sense of isolation but also beauty, cinematic wide shot, text boxes at top and bottom for narration",
+      "negative_prompt": "bad anatomy, deformed hands, extra fingers, blurry, low quality, chibi, super deformed, western cartoon style",
+      "resolution": "2048x2048"
+    },
+    {
+      "id": "scene_ch01_flashback",
+      "name": "Ch 1, Pgs 5-6 — Flashback: Young Yadi Watching TV",
+      "page": "5-6",
+      "type": "double_page",
+      "priority": 8,
+      "color": true,
+      "prompt": "manga double page spread, soft dreamy colors (flashback effect), small 8-year-old Caribbean boy sitting on the floor in front of an old small TV, on the TV screen: two figures playing tennis — one with a literal EAGLE HEAD (Novacronos, elegant golden), one with a literal BULL HEAD (Rafa Nal, powerful, horns visible even on the tiny screen), boy's eyes huge and filled with wonder reflecting the TV light, behind him: father (serious, proud smile) placing a bandana on the boy's head, mother beside them with hand on chest looking nervous, humble tropical living room with warm lighting, open window showing palm trees outside, magical nostalgic atmosphere, the moment a dream is born",
+      "negative_prompt": "bad anatomy, deformed hands, extra fingers, blurry, low quality, chibi, super deformed, western cartoon style",
+      "resolution": "2048x2048"
+    }
+  ]
+}

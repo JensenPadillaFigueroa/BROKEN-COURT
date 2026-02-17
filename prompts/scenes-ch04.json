@@ -1,0 +1,17 @@
+{
+  "chapter": 4,
+  "title": "First Blood",
+  "illustrations": [
+    {
+      "id": "scene_ch04_smile",
+      "name": "Ch 4, Pg 5 — Yadi Smiles for the First Time in a Match",
+      "page": 5,
+      "type": "panel",
+      "priority": 8,
+      "color": true,
+      "prompt": "manga panel, close-up of teenage boy's face on a tennis court, transitioning from tense and frustrated to a genuine relaxed SMILE, the first real smile of the match, sweat on his face, bandana on forehead, eyes softening, the moment he remembers tennis is supposed to be FUN, light breaking through clouds metaphorically, a weight lifting visually from his shoulders, warm golden light, pivotal emotional moment, the smile that changes everything",
+      "negative_prompt": "animal ears, animal features, furry, anthro, bad anatomy, deformed hands, extra fingers, blurry, low quality, chibi, super deformed, western cartoon style",
+      "resolution": "1024x1024"
+    }
+  ]
+}

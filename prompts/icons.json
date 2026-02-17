@@ -1,0 +1,55 @@
+{
+  "category": "Recurring Icons and Objects",
+  "illustrations": [
+    {
+      "id": "icon_racket",
+      "name": "Mama's Racket",
+      "type": "object",
+      "priority": 8,
+      "color": true,
+      "prompt": "manga object illustration, used tennis racket, new grip tape and fresh strings on an old frame, slightly scratched but lovingly maintained, wrapped in recycled gift paper (partially unwrapped), warm golden glow around it, emotional weight, this racket represents family sacrifice and love",
+      "negative_prompt": "bad anatomy, deformed hands, extra fingers, blurry, low quality, chibi, super deformed, western cartoon style",
+      "resolution": "1024x1024"
+    },
+    {
+      "id": "icon_bandana",
+      "name": "Papa's Bandana",
+      "type": "object",
+      "priority": 8,
+      "color": true,
+      "prompt": "manga object illustration, old cloth bandana, faded dark color, slightly frayed edges, sweat-stained, tied in a knot, tiger stripe pattern barely visible in the worn fabric (subtle detail), represents competitive spirit and family legacy",
+      "negative_prompt": "bad anatomy, blurry, low quality, chibi, super deformed, western cartoon style",
+      "resolution": "1024x1024"
+    },
+    {
+      "id": "icon_wall_mural",
+      "name": "The Cracked Wall with Luna Borín's Mural",
+      "type": "location",
+      "priority": 8,
+      "color": true,
+      "prompt": "manga illustration, old concrete wall on a tropical tennis court, a FADED MURAL of a young woman holding an Olympic gold medal painted on the left side of the wall, paint cracked and bleached by years of tropical sun and sea salt, next to the mural: multiple impact marks from tennis balls getting progressively deeper and more powerful from left to right (showing Yadi's growth over time), cracks spreading from the deepest marks, tropical weeds growing at the base of the wall, palm trees in background, Caribbean sunset lighting, the wall tells two stories: a legend who left, and a boy who's about to",
+      "negative_prompt": "bad anatomy, blurry, low quality, chibi, super deformed, western cartoon style",
+      "resolution": "2048x1024"
+    },
+    {
+      "id": "icon_trophy",
+      "name": "The Junior Trophy",
+      "type": "object",
+      "priority": 8,
+      "color": true,
+      "prompt": "manga object illustration, a junior national tennis tournament trophy, modest size, golden cup on a wooden base, engraved nameplate reading \"Y. VAZQ\", sitting on a humble bedside table next to the bandana and a family photo, moonlight illuminating it through a small window",
+      "negative_prompt": "bad anatomy, blurry, low quality, chibi, super deformed, western cartoon style",
+      "resolution": "1024x1024"
+    },
+    {
+      "id": "icon_note",
+      "name": "The Tupperware Note",
+      "type": "object",
+      "priority": 8,
+      "color": true,
+      "prompt": "manga close-up illustration, a small handwritten note on a folded piece of paper, mother's handwriting (round, warm): \"Eat everything. I love you. Win or lose, you're my champion.\" Below in different pen, father's handwriting (sharp, direct): \"Win.\", the note is slightly food-stained and crinkled from being carried in a pocket, immense emotional weight in a tiny object",
+      "negative_prompt": "bad anatomy, blurry, low quality, chibi, super deformed, western cartoon style",
+      "resolution": "1024x1024"
+    }
+  ]
+}

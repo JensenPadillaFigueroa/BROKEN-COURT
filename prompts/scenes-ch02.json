@@ -1,0 +1,17 @@
+{
+  "chapter": 2,
+  "title": "The Truth That Hurts",
+  "illustrations": [
+    {
+      "id": "scene_ch02_training",
+      "name": "Ch 2, Pgs 6-7 — Training Montage",
+      "page": "6-7",
+      "type": "double_page",
+      "priority": 8,
+      "color": true,
+      "prompt": "manga double page spread, dynamic training montage, multiple action panels: blindfolded boy hitting tennis balls by sound, boy meditating on court with eyes closed, boy playing tennis in tropical rain slipping and getting back up, boy running at dawn through dark island streets with palm trees and ocean, boy hitting against the mural wall at night with deep impact marks next to the faded Olympic champion painting, close-up of boy's eyes becoming more focused and calm, mentor watching with arms crossed, tropical sweat and humidity everywhere, progression from chaos to control, shōnen training arc energy, Caribbean setting throughout",
+      "negative_prompt": "animal ears, animal features, furry, anthro, bad anatomy, deformed hands, extra fingers, blurry, low quality, chibi, super deformed, western cartoon style",
+      "resolution": "2048x2048"
+    }
+  ]
+}

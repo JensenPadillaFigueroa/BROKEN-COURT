@@ -1,0 +1,17 @@
+{
+  "chapter": 6,
+  "title": "Venom",
+  "illustrations": [
+    {
+      "id": "scene_ch06_armor",
+      "name": "Ch 6, Pg 10 — The Birth of the Mental Armor",
+      "page": 10,
+      "type": "full_page",
+      "priority": 8,
+      "color": true,
+      "prompt": "manga full page, dramatic internal visualization, teenage boy sitting with eyes closed, darkness around him, a CRYSTAL DIAMOND ARMOR forming piece by piece around his body — translucent geometric plates covering his chest, arms, and head, each piece has a word engraved: LET GO, ENJOY, FOCUS, ENDURE, the armor glows like cut diamond facets, the darkness around him SHATTERS like broken glass, tiger stripes faintly visible through the crystal, transformation moment, the birth of mental fortitude, blue-white-gold color palette, shōnen power-up but INTERNAL not external",
+      "negative_prompt": "animal ears, animal features, furry, anthro, bad anatomy, deformed hands, extra fingers, blurry, low quality, chibi, super deformed, western cartoon style",
+      "resolution": "2048x2048"
+    }
+  ]
+}

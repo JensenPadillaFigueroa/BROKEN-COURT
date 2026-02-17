@@ -1,0 +1,17 @@
+{
+  "chapter": 3,
+  "title": "The World Out There",
+  "illustrations": [
+    {
+      "id": "scene_ch03_rivals",
+      "name": "Ch 3, Pg 6 — Rival Introductions",
+      "page": 6,
+      "type": "full_page",
+      "priority": 8,
+      "color": true,
+      "prompt": "manga full page character introduction spread, three dramatic panels stacked vertically, ALL CHARACTERS FULLY HUMAN: TOP — blonde rich boy stepping out of a luxury SUV with entourage, faint translucent PEACOCK TAIL shadow on the wall behind him, arrogant smile, text: \"DAIMON RICHWELL #1 Junior\"; MIDDLE — stocky expressionless boy sitting alone in a corner, faint TURTLE SHELL shadow on the floor behind him, text: \"KAI MORIMOTO #3 Junior\"; BOTTOM — thin smiling boy leaning against a pillar watching everyone, faint SNAKE shadow coiling on the ground behind him, text: \"LUCA SANTORI #5 Junior\"; in the background corner, barely visible: a brown-skinned island boy with an old backpack and taped racket, NO text introduction — invisible, shōnen rival introduction page style, all boys are fully human, animal associations are background shadows only",
+      "negative_prompt": "animal ears, animal features, furry, anthro, bad anatomy, deformed hands, extra fingers, blurry, low quality, chibi, super deformed, western cartoon style",
+      "resolution": "2048x2048"
+    }
+  ]
+}

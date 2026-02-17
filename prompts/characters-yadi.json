@@ -1,0 +1,41 @@
+{
+  "character": "Yadi Vazq",
+  "alias": "The Tiger",
+  "animal": "Tiger",
+  "type": "HUMAN_AURA",
+  "age": 16,
+  "role": "Protagonist",
+  "palette": ["orange", "black", "gold"],
+  "illustrations": [
+    {
+      "id": "char_yadi_sheet",
+      "name": "Yadi Vazq — Character Sheet",
+      "category": "character_sheet",
+      "priority": 2,
+      "color": false,
+      "prompt": "manga character sheet, three views (front, side, back), 16-year-old Latino boy, brown skin tanned by tropical sun, lean athletic build, medium height, dark messy hair, intense dark eyes with a subtle diamond-like sparkle, wearing old worn-out tennis clothes, bandana on forehead, holding a used tennis racket with tape on the grip, worn-out sneakers with peeling soles, confident but humble stance, Caribbean island boy energy, shōnen protagonist, fully human",
+      "negative_prompt": "animal ears, animal features, furry, anthro, bad anatomy, deformed hands, extra fingers, blurry, low quality, chibi, super deformed, western cartoon style",
+      "resolution": "2048x1024"
+    },
+    {
+      "id": "char_yadi_power",
+      "name": "Yadi Vazq — Tiger Aura Power Version",
+      "category": "character_power",
+      "priority": 6,
+      "color": true,
+      "prompt": "manga illustration, teenage Latino boy mid-tennis swing, fully human, behind him a TRANSLUCENT SPECTRAL TIGER appears as a massive shadow/aura — the tiger is separate from his body, roaring behind him like a spirit guardian, boy's eyes glowing with diamond facets but his face remains fully human, orange-gold energy light emanating around him, dynamic action pose, speed lines, tennis court background, dramatic lighting, shōnen power-up moment, the tiger is a METAPHOR not a transformation",
+      "negative_prompt": "animal ears, animal features, furry, anthro, bad anatomy, deformed hands, extra fingers, blurry, low quality, chibi, super deformed, western cartoon style",
+      "resolution": "2048x2048"
+    },
+    {
+      "id": "char_yadi_eyes",
+      "name": "Yadi Vazq — Diamond Vision Eyes Close-up",
+      "category": "character_detail",
+      "priority": 6,
+      "color": true,
+      "prompt": "extreme close-up manga illustration, teenage boy's eyes, fully human face, pupils transformed into diamond/crystal facets, glowing golden-white light from within, reflections of a tennis ball trajectory visible in the iris, tears of intensity at the corners, dramatic lighting, high detail, no animal features on face",
+      "negative_prompt": "animal ears, animal features, furry, anthro, bad anatomy, blurry, low quality, chibi, super deformed, western cartoon style",
+      "resolution": "1024x1024"
+    }
+  ]
+}

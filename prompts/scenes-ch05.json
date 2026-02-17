@@ -1,0 +1,17 @@
+{
+  "chapter": 5,
+  "title": "The Wall",
+  "illustrations": [
+    {
+      "id": "scene_ch05_wall",
+      "name": "Ch 5 — Kai 'The Wall' Returning Everything",
+      "page": null,
+      "type": "panel_sequence",
+      "priority": 8,
+      "color": false,
+      "prompt": "manga panel sequence, repetitive claustrophobic layout, 4-5 identical small panels showing the same stocky expressionless boy sliding and returning tennis balls, TURTLE SHELL aura visible, every ball comes back, no emotion, no effort shown, mechanical and terrifying, the visual should feel SUFFOCATING to the reader, like hitting a wall that never breaks, grey and stone color palette, defensive fortress energy",
+      "negative_prompt": "animal ears, animal features, furry, anthro, bad anatomy, deformed hands, extra fingers, blurry, low quality, chibi, super deformed, western cartoon style",
+      "resolution": "2048x1024"
+    }
+  ]
+}

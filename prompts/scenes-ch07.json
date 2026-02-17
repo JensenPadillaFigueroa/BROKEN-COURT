@@ -1,0 +1,28 @@
+{
+  "chapter": 7,
+  "title": "The Golden Boy vs. The Island Diamond",
+  "illustrations": [
+    {
+      "id": "scene_ch07_entrance",
+      "name": "Ch 7, Pgs 1-2 — Yadi vs Daimon Entrance",
+      "page": "1-2",
+      "type": "double_page",
+      "priority": 8,
+      "color": true,
+      "prompt": "manga double page spread, split composition, tennis stadium with 2000 people, dramatic lighting, LEFT SIDE: teenage boy with bandana, old racket, worn clothes, TIGER shadow behind him growing larger, eyes glowing subtly, walking from a dark tunnel into the light; RIGHT SIDE: blonde rich boy with perfect gear, entourage behind him, PEACOCK tail fanning out behind him in iridescent colors; CENTER: the net dividing them, text: \"Money vs Hunger. Privilege vs Will.\", electric tension in the air, the crowd as silhouettes, two worlds colliding",
+      "negative_prompt": "animal ears, animal features, furry, anthro, bad anatomy, deformed hands, extra fingers, blurry, low quality, chibi, super deformed, western cartoon style",
+      "resolution": "2048x2048"
+    },
+    {
+      "id": "scene_ch07_diamond_vision",
+      "name": "Ch 7, Pgs 10-11 — Diamond Vision FULL ACTIVATION",
+      "page": "10-11",
+      "type": "double_page",
+      "priority": 5,
+      "color": true,
+      "prompt": "manga double page spread, THE most important illustration of Volume 1, teenage Latino boy (fully human) mid-tennis-swing, behind him a MASSIVE TRANSLUCENT SPECTRAL TIGER roaring as a separate spirit aura (NOT a transformation — the tiger is behind him, not on him), boy's eyes glowing with diamond crystal facets but face remains fully human, trajectory lines of the tennis ball visible as light threads in the air, the ball leaving a DIAMOND TRAIL as it flies, behind the tiger aura: faint ghostly silhouettes of three ANIMAL-HEADED legends (literal eagle head, literal bull head with horns, literal goat head with curved horns) as if his potential is invoking the gods, the opponent (blonde fully human boy) on his knees in shock, crowd on their feet, SPEED LINES AND ENERGY EVERYWHERE, the moment a legend is born, maximum shōnen energy, this is the poster image of the series",
+      "negative_prompt": "bad anatomy, deformed hands, extra fingers, blurry, low quality, chibi, super deformed, western cartoon style",
+      "resolution": "2048x2048"
+    }
+  ]
+}

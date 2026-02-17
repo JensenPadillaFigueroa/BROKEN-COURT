@@ -1,0 +1,93 @@
+{
+  "group": "Support Characters",
+  "type": "HUMAN",
+  "rule": "These characters are fully human with no animal associations or auras.",
+  "characters": [
+    {
+      "character": "Papa Vazq",
+      "alias": "The Old Tiger",
+      "age": "middle-aged",
+      "role": "Father",
+      "palette": ["earth", "warm"],
+      "illustrations": [
+        {
+          "id": "char_papa_sheet",
+          "name": "Papa Vazq — Character Sheet",
+          "category": "character_sheet",
+          "priority": 6,
+          "color": false,
+          "prompt": "manga character sheet, three views, middle-aged Latino man, strong weathered build from hard work, serious stern face but warm eyes, short dark hair with some grey, work clothes, calloused hands, stands with arms crossed, competitive energy even standing still, the kind of man who says more with a look than with words, proud father archetype",
+          "negative_prompt": "animal ears, animal features, furry, anthro, bad anatomy, deformed hands, extra fingers, blurry, low quality, chibi, super deformed, western cartoon style",
+          "resolution": "2048x1024"
+        }
+      ]
+    },
+    {
+      "character": "Mama Vazq",
+      "alias": "The Nervous One",
+      "age": "middle-aged",
+      "role": "Mother",
+      "palette": ["warm", "colorful"],
+      "illustrations": [
+        {
+          "id": "char_mama_sheet",
+          "name": "Mama Vazq — Character Sheet",
+          "category": "character_sheet",
+          "priority": 6,
+          "color": false,
+          "prompt": "manga character sheet, three views, middle-aged Latina woman, warm expressive face, always in motion (hands gesturing, eyes wide, mouth open mid-sentence), flower-print dress or simple colorful clothes, hair slightly messy from constantly running her hands through it, sarcastic smile, eyes that switch between terrified and overjoyed in one second, carrying food/towels/first-aid kit, the heart of the family",
+          "negative_prompt": "animal ears, animal features, furry, anthro, bad anatomy, deformed hands, extra fingers, blurry, low quality, chibi, super deformed, western cartoon style",
+          "resolution": "2048x1024"
+        }
+      ]
+    },
+    {
+      "character": "Don Emilio",
+      "alias": "The Old Condor",
+      "age": "70+",
+      "role": "Island court caretaker",
+      "palette": ["brown", "grey"],
+      "illustrations": [
+        {
+          "id": "char_emilio_sheet",
+          "name": "Don Emilio — Character Sheet",
+          "category": "character_sheet",
+          "priority": 6,
+          "color": false,
+          "prompt": "manga character sheet, three views, elderly Caribbean man (70+), thin and weathered, wrinkled dark skin beaten by tropical sun and sea salt, old straw hat, cigarette always in mouth, sitting on a bench next to a machete (for cutting weeds on the court), wise tired eyes that have seen everything, old man of the island who knows more than he says, wearing old linen clothes, flip flops, tropical background",
+          "negative_prompt": "animal ears, animal features, furry, anthro, bad anatomy, deformed hands, extra fingers, blurry, low quality, chibi, super deformed, western cartoon style",
+          "resolution": "2048x1024"
+        }
+      ]
+    },
+    {
+      "character": "Luna Borín",
+      "alias": "The Lioness of the Island",
+      "age": null,
+      "role": "Legend (appears only as mural in Vol. 1)",
+      "palette": ["faded colors", "golden sunset"],
+      "illustrations": [
+        {
+          "id": "char_luna_mural",
+          "name": "Luna Borín — The Mural",
+          "category": "location",
+          "priority": 7,
+          "color": true,
+          "prompt": "manga illustration, a large faded mural painted on a concrete wall of an old tropical tennis court, depicting a young Latina woman triumphantly holding up an Olympic gold medal, she is painted in vibrant colors but years of tropical sun and sea salt have faded and cracked the paint, tropical vegetation growing around the edges of the mural, the wall also has tennis ball impact marks from years of practice next to it, warm golden sunset lighting, Caribbean island setting, palm trees visible, this mural represents the dream — proof that someone from this island made it to the top, inspirational and bittersweet",
+          "negative_prompt": "bad anatomy, deformed hands, extra fingers, blurry, low quality, chibi, super deformed, western cartoon style",
+          "resolution": "2048x2048"
+        },
+        {
+          "id": "char_luna_mural_yadi",
+          "name": "Luna Borín Mural — With Yadi Practicing",
+          "category": "scene",
+          "priority": 7,
+          "color": true,
+          "prompt": "manga illustration, teenage Latino boy hitting a tennis ball against a concrete wall, next to him on the same wall: a large faded mural of a woman holding an Olympic gold medal, the boy practices in the shadow of the mural, his ball impacts are leaving marks right next to the painted figure, tropical cracked court with weeds growing through, palm trees, Caribbean sunset, the visual metaphor: he is literally following in her footsteps, warm emotional scene, humble but powerful",
+          "negative_prompt": "animal ears, animal features, furry, anthro, bad anatomy, deformed hands, extra fingers, blurry, low quality, chibi, super deformed, western cartoon style",
+          "resolution": "2048x2048"
+        }
+      ]
+    }
+  ]
+}

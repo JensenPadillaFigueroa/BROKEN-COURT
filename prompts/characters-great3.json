@@ -1,0 +1,130 @@
+{
+  "group": "The Great 3",
+  "type": "LITERAL_HYBRID",
+  "rule": "These characters ALWAYS have literal animal heads on human bodies. They do NOT transform — they ARE this way. They are gods of tennis.",
+  "characters": [
+    {
+      "character": "Roger Novacronos",
+      "alias": "The Golden Eagle",
+      "animal": "Eagle",
+      "age": "early 40s",
+      "role": "Legend (retired)",
+      "palette": ["gold", "white", "cream"],
+      "illustrations": [
+        {
+          "id": "char_novacronos_sheet",
+          "name": "Novacronos — Character Sheet",
+          "category": "character_sheet",
+          "priority": 1,
+          "color": false,
+          "prompt": "manga character sheet, three views, anthropomorphic golden eagle head on human body, man in his early 40s, majestic golden eagle head with sharp golden eyes and elegant plumage, silver-white feathers on the crown, human athletic body in an expensive tailored suit, tall and graceful, perfect posture, regal aristocratic bearing, golden eagle beak slightly open in a knowing expression, every detail refined, aura of royalty and calm power, European aesthetic, god-tier character design, mythological tennis deity",
+          "negative_prompt": "bad anatomy, deformed hands, extra fingers, blurry, low quality, chibi, super deformed, western cartoon style",
+          "resolution": "2048x1024"
+        },
+        {
+          "id": "char_novacronos_action",
+          "name": "Novacronos — In Action (Golden Era Flashback)",
+          "category": "character_action",
+          "priority": 7,
+          "color": true,
+          "prompt": "manga illustration, anthropomorphic golden eagle headed man on a tennis court in his prime, literal eagle head with piercing golden eyes, human athletic body in pristine white tennis outfit, massive golden eagle wings spread wide behind him, feathers falling like gold leaf, holding a tennis racket like a scepter, divine radiance, tennis ball glowing gold in the air, cathedral-like tennis stadium background, god-tier aura, regal and untouchable, the most elegant player who ever lived",
+          "negative_prompt": "bad anatomy, deformed hands, extra fingers, blurry, low quality, chibi, super deformed, western cartoon style",
+          "resolution": "2048x2048"
+        },
+        {
+          "id": "char_novacronos_silhouette",
+          "name": "Novacronos — Mysterious Silhouette (Ch 8)",
+          "category": "character_scene",
+          "chapter": 8,
+          "priority": 7,
+          "color": false,
+          "prompt": "manga silhouette illustration, tall figure with eagle head silhouette sitting in a leather armchair, sharp beak profile visible, golden eyes glowing in the shadow, reading a tablet with light illuminating his eagle features, surrounded by trophies and paintings, European office interior, Torre del Tiempo academy, mysterious and powerful atmosphere",
+          "negative_prompt": "bad anatomy, blurry, low quality, chibi, super deformed, western cartoon style",
+          "resolution": "1024x1024"
+        }
+      ]
+    },
+    {
+      "character": "Rafa Nal",
+      "alias": "The Bull",
+      "animal": "Bull",
+      "age": "late 30s",
+      "role": "Legend (retired)",
+      "palette": ["red", "orange", "earth"],
+      "illustrations": [
+        {
+          "id": "char_rafanal_sheet",
+          "name": "Rafa Nal — Character Sheet",
+          "category": "character_sheet",
+          "priority": 1,
+          "color": false,
+          "prompt": "manga character sheet, three views, anthropomorphic bull head on human body, man in his late 30s, massive fierce bull head with huge curved horns, fiery red eyes, steam/breath coming from nostrils, dark fur on the head, human extremely muscular and powerful body even in retirement, bandana on wrist (old and worn), tanned skin, wearing training clothes, standing on clay court, aura of raw physical power, warrior energy, the most physically imposing figure in tennis history, mythological beast-warrior",
+          "negative_prompt": "bad anatomy, deformed hands, extra fingers, blurry, low quality, chibi, super deformed, western cartoon style",
+          "resolution": "2048x1024"
+        },
+        {
+          "id": "char_rafanal_action",
+          "name": "Rafa Nal — In Action (Clay Era Flashback)",
+          "category": "character_action",
+          "priority": 7,
+          "color": true,
+          "prompt": "manga illustration, anthropomorphic bull headed man on a clay tennis court, literal massive bull head with horns glowing with heat, steam from nostrils, fierce red eyes, human muscular body in tennis outfit covered in clay dust, charging forward with a tennis racket, earth and dust exploding around him, red and orange fire aura, arena/coliseum tennis stadium background, raw unstoppable power, berserker energy, the ground cracks where he steps",
+          "negative_prompt": "bad anatomy, deformed hands, extra fingers, blurry, low quality, chibi, super deformed, western cartoon style",
+          "resolution": "2048x2048"
+        },
+        {
+          "id": "char_rafanal_silhouette",
+          "name": "Rafa Nal — Mysterious Silhouette (Ch 8)",
+          "category": "character_scene",
+          "chapter": 8,
+          "priority": 7,
+          "color": false,
+          "prompt": "manga silhouette illustration, massive broad-shouldered figure with bull horns silhouette standing on a clay court surrounded by mountains, Fortaleza del Toro training facility, steam visible from the silhouette's nostrils, fist clenched with emotion, watching a phone screen showing a young player, rustic training facility background, powerful and primal atmosphere",
+          "negative_prompt": "bad anatomy, blurry, low quality, chibi, super deformed, western cartoon style",
+          "resolution": "1024x1024"
+        }
+      ]
+    },
+    {
+      "character": "Noak",
+      "alias": "The Goat (GOAT)",
+      "animal": "Goat",
+      "age": "late 30s",
+      "role": "Legend (active veteran)",
+      "palette": ["silver", "grey", "white"],
+      "illustrations": [
+        {
+          "id": "char_noak_sheet",
+          "name": "Noak — Character Sheet",
+          "category": "character_sheet",
+          "priority": 1,
+          "color": false,
+          "prompt": "manga character sheet, three views, anthropomorphic mountain goat head on human body, man in his late 30s, goat head with curved horns, rectangular pupils, calm unblinking calculating eyes, an enigmatic almost-smile on the goat face, short fur, human lean and wiry body, minimalist clothing style, perfect economy of movement visible even standing still, aura of cold efficiency, wearing simple training gear, functional aesthetic, the most unsettling of the three legends, supreme intelligence radiating",
+          "negative_prompt": "bad anatomy, deformed hands, extra fingers, blurry, low quality, chibi, super deformed, western cartoon style",
+          "resolution": "2048x1024"
+        },
+        {
+          "id": "char_noak_action",
+          "name": "Noak — In Action (Present Day)",
+          "category": "character_action",
+          "priority": 7,
+          "color": true,
+          "prompt": "manga illustration, anthropomorphic goat headed man on a hard court, literal goat head with rectangular pupils and curved horns, calm unblinking eyes, enigmatic goat smile, human flexible lean body in tennis outfit, standing perfectly balanced on impossible angles, geometric patterns and mathematical formulas floating around him, silver and white aura, ice-like crystalline energy, the court bending around him like he controls the geometry of the game, matrix-like calculation visual, supreme intelligence and adaptability, still active and still dangerous",
+          "negative_prompt": "bad anatomy, deformed hands, extra fingers, blurry, low quality, chibi, super deformed, western cartoon style",
+          "resolution": "2048x2048"
+        },
+        {
+          "id": "char_noak_silhouette",
+          "name": "Noak — Mysterious Silhouette (Ch 8)",
+          "category": "character_scene",
+          "chapter": 8,
+          "priority": 7,
+          "color": false,
+          "prompt": "manga silhouette illustration, lean figure with goat horns silhouette walking through a corridor, curved horns casting shadow on the ceiling, rectangular pupil eyes glowing faintly, enigmatic smile barely visible, looking at a tablet with statistics, assistants walking behind him, minimalist modern facility, cold and calculated atmosphere",
+          "negative_prompt": "bad anatomy, blurry, low quality, chibi, super deformed, western cartoon style",
+          "resolution": "1024x1024"
+        }
+      ]
+    }
+  ]
+}

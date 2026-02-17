@@ -1,0 +1,17 @@
+{
+  "chapter": 8,
+  "title": "What Comes Next",
+  "illustrations": [
+    {
+      "id": "scene_ch08_triptych",
+      "name": "Ch 8, Pg 10 — The Three Legends React (Triptych)",
+      "page": 10,
+      "type": "triptych",
+      "priority": 8,
+      "color": true,
+      "prompt": "manga triptych layout, three horizontal panels stacked: TOP — Torre del Tiempo, elegant European office, anthropomorphic GOLDEN EAGLE HEADED man in a suit reading a tablet showing Yadi's photo, literal eagle head with sharp golden eyes, raising one feathered eyebrow, warm gold lighting; MIDDLE — Fortaleza del Toro, rustic clay court training facility in mountains, anthropomorphic BULL HEADED man watching a phone video of Yadi's match, literal bull head with horns, steam from nostrils, fist clenched with recognition, red-orange earth tones; BOTTOM — modern minimalist corridor, anthropomorphic GOAT HEADED man looking at statistics on a tablet, literal goat head with curved horns and rectangular pupils, enigmatic goat smile, cold silver-grey tones; all three are LITERAL ANIMAL-HEADED beings discovering the same human boy, each reacting differently: curiosity, recognition, calculation",
+      "negative_prompt": "bad anatomy, deformed hands, extra fingers, blurry, low quality, chibi, super deformed, western cartoon style",
+      "resolution": "2048x2048"
+    }
+  ]
+}

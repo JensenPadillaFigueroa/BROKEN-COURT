@@ -1,0 +1,157 @@
+{
+  "group": "Rivals & Active Pros",
+  "type": "HUMAN_AURA",
+  "rule": "ALL these characters are 100% human. Animal associations appear ONLY as translucent shadow/aura BEHIND or AROUND them, NEVER on them.",
+  "characters": [
+    {
+      "character": "Charlie",
+      "alias": "The Young Lion",
+      "animal": "Lion",
+      "age": 22,
+      "role": "World #1",
+      "palette": ["gold", "multicolor"],
+      "illustrations": [
+        {
+          "id": "char_charlie_sheet",
+          "name": "Charlie — Character Sheet",
+          "category": "character_sheet",
+          "priority": 6,
+          "color": false,
+          "prompt": "manga character sheet, three views, 22-year-old man, #1 world ranking, athletic perfect build with powerful legs and broad shoulders, curly wild hair naturally resembling a mane, constant bright smile, eyes that shine with pure energy, magnetic charisma visible in his stance, wearing top-brand tennis outfit, confident and approachable, radiates warmth and power simultaneously, fully human, no animal features",
+          "negative_prompt": "animal ears, animal features, furry, anthro, bad anatomy, deformed hands, extra fingers, blurry, low quality, chibi, super deformed, western cartoon style",
+          "resolution": "2048x1024"
+        },
+        {
+          "id": "char_charlie_power",
+          "name": "Charlie — Lion Aura Power Version",
+          "category": "character_power",
+          "priority": 6,
+          "color": true,
+          "prompt": "manga illustration, young athletic man mid-swing on a tennis court, fully human, behind him a MASSIVE TRANSLUCENT LION SILHOUETTE roars as a spirit aura — separate from his body, golden light radiating from him, his curly hair flowing wildly, multicolor energy trail on the ball (representing his ability to play any style), stadium crowd going wild, the lion shadow is a background metaphor only, sunshine and power, no animal features on the man himself",
+          "negative_prompt": "animal ears, animal features, furry, anthro, bad anatomy, deformed hands, extra fingers, blurry, low quality, chibi, super deformed, western cartoon style",
+          "resolution": "2048x2048"
+        }
+      ]
+    },
+    {
+      "character": "Jani",
+      "alias": "The Arctic Fox",
+      "animal": "Arctic Fox",
+      "age": 23,
+      "role": "World #2",
+      "palette": ["ice blue", "white", "silver"],
+      "illustrations": [
+        {
+          "id": "char_jani_sheet",
+          "name": "Jani — Character Sheet",
+          "category": "character_sheet",
+          "priority": 6,
+          "color": false,
+          "prompt": "manga character sheet, three views, 23-year-old man, #2 world ranking, tall and lean, red/auburn hair slicked back perfectly, ice-cold blue eyes, emotionless expression, aristocratic features, pale skin, wearing impeccable tennis outfit, posture of absolute control, aura of royalty and cold distance, no wasted movement, fully human, no animal features",
+          "negative_prompt": "animal ears, animal features, furry, anthro, bad anatomy, deformed hands, extra fingers, blurry, low quality, chibi, super deformed, western cartoon style",
+          "resolution": "2048x1024"
+        },
+        {
+          "id": "char_jani_cold",
+          "name": "Jani — Arctic Fox Cold Aura Version",
+          "category": "character_power",
+          "priority": 6,
+          "color": true,
+          "prompt": "manga illustration, tall red-haired man walking through a corridor, fully human, a TRANSLUCENT ARCTIC FOX shadow walks beside him on the floor as a separate silhouette, ice crystals forming subtly in his footsteps, piercing blue eyes but fully human face, frost-like ambient energy around him, everything around him seems colder, blue and white and silver color palette, winter cold atmosphere, silent predator energy, other people instinctively moving aside, the fox is a floor shadow only",
+          "negative_prompt": "animal ears, animal features, furry, anthro, bad anatomy, deformed hands, extra fingers, blurry, low quality, chibi, super deformed, western cartoon style",
+          "resolution": "1024x1024"
+        }
+      ]
+    },
+    {
+      "character": "Daimon Richwell",
+      "alias": "The Golden Boy / The Peacock",
+      "animal": "Peacock",
+      "age": 17,
+      "role": "Junior #1 / Main Rival",
+      "palette": ["blue-green", "iridescent", "gold"],
+      "illustrations": [
+        {
+          "id": "char_daimon_sheet",
+          "name": "Daimon Richwell — Character Sheet",
+          "category": "character_sheet",
+          "priority": 6,
+          "color": false,
+          "prompt": "manga character sheet, three views, 17-year-old boy, #1 junior ranking, blonde perfect hair, expensive branded tennis outfit, arrogant confident smile, perfect skin, carries himself like royalty, multiple rackets in a premium bag, surrounded by entourage (coach, physio, assistant), rich kid energy but genuinely talented, blue eyes with a hint of insecurity hidden deep, fully human",
+          "negative_prompt": "animal ears, animal features, furry, anthro, bad anatomy, deformed hands, extra fingers, blurry, low quality, chibi, super deformed, western cartoon style",
+          "resolution": "2048x1024"
+        },
+        {
+          "id": "char_daimon_aura",
+          "name": "Daimon — Peacock Aura (Winning/Breaking)",
+          "category": "character_power",
+          "priority": 6,
+          "color": true,
+          "prompt": "manga illustration, blonde teenage boy on a tennis court, fully human, behind him a TRANSLUCENT PEACOCK TAIL fans out as a background aura — iridescent feathers made of money/gold/jewels, shimmering blue-green energy, when winning: feathers bright and proud, when losing: feathers cracking and falling apart, the peacock aura is separate from his body, beautiful but fragile, fully human boy throughout",
+          "negative_prompt": "animal ears, animal features, furry, anthro, bad anatomy, deformed hands, extra fingers, blurry, low quality, chibi, super deformed, western cartoon style",
+          "resolution": "2048x2048"
+        }
+      ]
+    },
+    {
+      "character": "Kai Morimoto",
+      "alias": "The Silent Wall / The Turtle",
+      "animal": "Turtle",
+      "age": 16,
+      "role": "Junior #3 / Rival",
+      "palette": ["grey", "green", "stone"],
+      "illustrations": [
+        {
+          "id": "char_kai_sheet",
+          "name": "Kai Morimoto — Character Sheet",
+          "category": "character_sheet",
+          "priority": 6,
+          "color": false,
+          "prompt": "manga character sheet, three views, 16-year-old boy, short and stocky build, completely expressionless face, dark straight hair, small dark eyes that miss nothing, simple plain tennis clothes, no flashiness, stands like a wall, immovable energy, Japanese-inspired aesthetic, fully human",
+          "negative_prompt": "animal ears, animal features, furry, anthro, bad anatomy, deformed hands, extra fingers, blurry, low quality, chibi, super deformed, western cartoon style",
+          "resolution": "2048x1024"
+        },
+        {
+          "id": "char_kai_defense",
+          "name": "Kai — Turtle Shell Defensive Aura",
+          "category": "character_power",
+          "priority": 6,
+          "color": true,
+          "prompt": "manga illustration, stocky teenage boy in defensive tennis stance, fully human, behind his back a TRANSLUCENT TURTLE SHELL aura forms as a geometric shield pattern — separate from his body, hexagonal energy barriers around him, every tennis ball that comes at him bounces back, stone and earth energy, grey and green color palette, the court around him looks like a fortress, the turtle shell is a background metaphor, the boy remains fully human and expressionless throughout",
+          "negative_prompt": "animal ears, animal features, furry, anthro, bad anatomy, deformed hands, extra fingers, blurry, low quality, chibi, super deformed, western cartoon style",
+          "resolution": "2048x2048"
+        }
+      ]
+    },
+    {
+      "character": "Luca Santori",
+      "alias": "The Viper",
+      "animal": "Viper/Snake",
+      "age": 17,
+      "role": "Junior #5 / Rival",
+      "palette": ["green", "purple", "venom"],
+      "illustrations": [
+        {
+          "id": "char_luca_sheet",
+          "name": "Luca Santori — Character Sheet",
+          "category": "character_sheet",
+          "priority": 6,
+          "color": false,
+          "prompt": "manga character sheet, three views, 17-year-old boy, thin and agile build, narrow calculating eyes that never match his smile, permanent friendly smile that doesn't reach his eyes, dark slicked hair, moves fluidly, tennis clothes are neat but unremarkable, the danger is invisible, fully human",
+          "negative_prompt": "animal ears, animal features, furry, anthro, bad anatomy, deformed hands, extra fingers, blurry, low quality, chibi, super deformed, western cartoon style",
+          "resolution": "2048x1024"
+        },
+        {
+          "id": "char_luca_venom",
+          "name": "Luca — Viper Shadow Manipulator Version",
+          "category": "character_power",
+          "priority": 6,
+          "color": true,
+          "prompt": "manga illustration, thin teenage boy on a tennis court smiling, fully human, on the ground around him TRANSLUCENT SNAKE SHADOWS slither in his shadow — separate from his body, green and purple poison smoke rising from the floor around him, his words visible as green whisper-smoke in the air, the court looks subtly distorted like a hallucination around him, the boy himself looks completely normal and friendly — that's what makes it terrifying, fully human, the snakes are floor shadows only",
+          "negative_prompt": "animal ears, animal features, furry, anthro, bad anatomy, deformed hands, extra fingers, blurry, low quality, chibi, super deformed, western cartoon style",
+          "resolution": "2048x2048"
+        }
+      ]
+    }
+  ]
+}

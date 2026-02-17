@@ -1,0 +1,17 @@
+{
+  "chapter": 10,
+  "title": "The Call",
+  "illustrations": [
+    {
+      "id": "scene_ch10_final_splash",
+      "name": "Ch 10, Pg 15 — VOLUME FINAL SPLASH",
+      "page": 15,
+      "type": "splash_page",
+      "priority": 4,
+      "color": true,
+      "prompt": "manga full page splash, FINAL IMAGE OF VOLUME 1, teenage Latino boy (fully human) standing in his humble bedroom in a Caribbean island house, phone to his ear, looking out a small window at the night sky over Isla Brava, stars bright and enormous over the tropical ocean, palm trees swaying, coquí frogs singing, BUT IN THE STARS: three massive LITERAL ANIMAL-HEADED figures formed by constellations — an anthropomorphic GOLDEN EAGLE with wings spread (left, elegant, god-like), an anthropomorphic BULL with massive horns and steam (center, charging, powerful), and an anthropomorphic GOAT with curved horns and rectangular pupils (right, standing on a mountain peak, calculating) — these three have ACTUAL animal heads, they are the gods of tennis looking down at the small human boy, the boy is tiny but looking UP without fear, a faint translucent tiger aura flickering around him like a small flame about to become a wildfire (tiger is separate from his body), text at bottom: \"The rise has only just begun\", epic scale, mythological feeling, a human boy vs the animal gods, Volume 1 ending image",
+      "negative_prompt": "bad anatomy, deformed hands, extra fingers, blurry, low quality, chibi, super deformed, western cartoon style",
+      "resolution": "2048x2048"
+    }
+  ]
+}

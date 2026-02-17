@@ -1,0 +1,28 @@
+{
+  "chapter": 9,
+  "title": "The Eyes of the World",
+  "illustrations": [
+    {
+      "id": "scene_ch09_charlie",
+      "name": "Ch 9, Pgs 6-7 — Yadi Sees Charlie for the First Time",
+      "page": "6-7",
+      "type": "double_page",
+      "priority": 8,
+      "color": true,
+      "prompt": "manga double page spread, teenage Latino boy (fully human) frozen in awe watching from behind a fence, on the adjacent court: a 22-year-old man (fully human) with wild curly hair hitting a forehand with devastating power, behind him a MASSIVE TRANSLUCENT LION SILHOUETTE roars as a spirit aura (separate from his body), the ball leaving a multicolor speed trail, golden sunshine energy radiating, everyone nearby drawn to watch like moths to light, the watching boy's eyes wide as saucers, both characters are fully human — the lion is a background aura only, the gap between where he is and where he wants to be visualized, awe and aspiration",
+      "negative_prompt": "animal ears, animal features, furry, anthro, bad anatomy, deformed hands, extra fingers, blurry, low quality, chibi, super deformed, western cartoon style",
+      "resolution": "2048x2048"
+    },
+    {
+      "id": "scene_ch09_jani",
+      "name": "Ch 9, Pg 10 — Jani Walks Past Without Looking",
+      "page": 10,
+      "type": "panel",
+      "priority": 8,
+      "color": true,
+      "prompt": "manga panel, a corridor in a sports complex, tall red-haired man (fully human) walking past, an ARCTIC FOX shadow on the floor beside him (separate, a floor silhouette only), ice crystals forming subtly in his wake, completely ignoring the teenage boy standing to the side, the cold ambient energy making the air visible like winter breath, the teenage boy feeling a chill, both characters fully human, blue-white-silver cold palette contrasting with the warm Caribbean tones of the boy, the absence of recognition is more powerful than any words",
+      "negative_prompt": "animal ears, animal features, furry, anthro, bad anatomy, deformed hands, extra fingers, blurry, low quality, chibi, super deformed, western cartoon style",
+      "resolution": "1024x1024"
+    }
+  ]
+}

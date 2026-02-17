@@ -1,0 +1,31 @@
+{
+  "character": "Yen",
+  "alias": "The Owl",
+  "animal": "Owl",
+  "type": "HUMAN_AURA",
+  "age": 23,
+  "role": "Mentor",
+  "palette": ["dark blue", "silver"],
+  "illustrations": [
+    {
+      "id": "char_yen_sheet",
+      "name": "Yen — Character Sheet",
+      "category": "character_sheet",
+      "priority": 6,
+      "color": false,
+      "prompt": "manga character sheet, three views, 23-year-old man, tall and lean, long dark hair in a ponytail, calm analytical eyes, small scar on right knee (visible when wearing shorts), towel always draped over shoulder, clean but simple clothing, relaxed posture but observant energy, mysterious mentor archetype, handsome but understated, fully human",
+      "negative_prompt": "animal ears, animal features, furry, anthro, bad anatomy, deformed hands, extra fingers, blurry, low quality, chibi, super deformed, western cartoon style",
+      "resolution": "2048x1024"
+    },
+    {
+      "id": "char_yen_aura",
+      "name": "Yen — Owl Aura Analytical Version",
+      "category": "character_power",
+      "priority": 6,
+      "color": true,
+      "prompt": "manga illustration, young man standing courtside watching intently, fully human, behind him in the shadows a TRANSLUCENT OWL SILHOUETTE forms — large and watchful, separate from his body, his eyes are sharp and focused but remain fully human, dark blue and silver ambient light, night setting, calm but powerful presence, the owl is a background metaphor only",
+      "negative_prompt": "animal ears, animal features, furry, anthro, bad anatomy, deformed hands, extra fingers, blurry, low quality, chibi, super deformed, western cartoon style",
+      "resolution": "1024x1024"
+    }
+  ]
+}
