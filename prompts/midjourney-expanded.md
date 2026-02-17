@@ -1,7 +1,8 @@
 # MIDJOURNEY EXPANDED PROMPTS — ALL CHAPTER SCENES
-## ~80 additional scene prompts (3-5 per chapter)
+## 44 additional scene prompts (3-5 per chapter)
 
-> Use `--niji 6` for anime/manga mode. These supplement the 48 prompts in `midjourney-ready.md`.
+> **STYLE**: Black & white, heavy ink, aggressive mature manga. NOT for children.
+> All prompts use `--niji 6`. Supplements the 48 prompts in `midjourney-ready.md`.
 
 ---
 
@@ -9,22 +10,22 @@
 
 ## E1. Yadi Practicing Alone — Don Emilio Watching
 ```
-manga illustration, teenage Latino boy hitting tennis ball against concrete wall on a cracked tropical court, weeds growing through cracks, faded mural of woman with Olympic medal on the wall, elderly Caribbean man sitting on old bench smoking cigarette with machete beside him watching the boy, palm trees Caribbean sunset, warm golden light, solitude and dedication, worn sneakers old racket taped grip, tropical island atmosphere --niji 6 --ar 2:1
+black and white manga, heavy ink aggressive linework, teenage Latino boy hitting tennis ball against concrete wall on cracked court, weeds consuming the cracks, faded mural of woman with Olympic medal on the wall like a ghost, elderly Caribbean man sitting on old bench smoking cigarette with machete beside him watching with ancient knowing eyes, harsh shadows screentones, solitude and obsessive dedication, worn sneakers old racket taped grip, the boy alone against the world, mature intense atmospheric --niji 6 --ar 16:9 --no color cute chibi childish pastel
 ```
 
 ## E2. The Vazq Family Dinner
 ```
-manga illustration, warm interior scene, small humble Caribbean kitchen, family of three at a small dinner table, middle-aged Latino father serious but proud asking questions, teenage son mouth full of food laughing, Latina mother putting ice on the boy's blistered hands with worried loving expression, colorful Caribbean house interior, warm lamp light, salsa music feeling, the reader should want to sit at this table, intimate family moment --niji 6 --ar 2:1
+black and white manga, heavy ink expressive emotional linework, small humble Caribbean kitchen, family of three at a small dinner table under single harsh lamp, middle-aged Latino father serious piercing eyes asking questions like an interrogation, teenage son eating with fierce appetite, Latina mother putting ice on the boy's destroyed blistered hands with fierce worried expression, intimate family scene with underlying intensity, heavy shadows warm despite the darkness, the love is aggressive protective raw, mature emotional --niji 6 --ar 16:9 --no color cute chibi childish pastel
 ```
 
 ## E3. Yadi Meets Yen on the Public Courts
 ```
-manga illustration, public cement tennis courts early morning, teenage boy with old racket watching through chain-link fence, on the court a 23-year-old man with ponytail hitting balls mechanically with perfect technique, towel on shoulder, the boy fascinated watching through the fence, grey urban setting contrasting with tropical island boy, the moment two lives intersect --niji 6 --ar 2:1
+black and white manga, heavy ink atmospheric, public cement tennis courts early morning fog, teenage boy with old racket gripping chain-link fence watching like a hungry predator, on the court a 23-year-old man with ponytail hitting balls with cold mechanical precision, towel on shoulder, the boy's fingers white-knuckled on the fence wire, grey urban setting heavy screentones, the moment a predator recognizes another predator, tension and fascination, mature intense --niji 6 --ar 16:9 --no color cute chibi childish pastel
 ```
 
 ## E4. The Supernatural Shot — Yen's Reaction
 ```
-manga panel sequence, teenage boy hitting impossible passing shot down the line on tennis court, the ball leaving a subtle light trail, speed lines, close-up of boy's eyes showing a brief diamond flash that lasts half a second, cut to young man across the net eyes wide towel slipping from shoulder mouth slightly open in shock, thought bubble What was that, dramatic lighting pivotal moment --niji 6 --ar 2:1
+black and white manga, heavy ink visceral, teenage boy hitting impossible passing shot down the line, the ball leaving a violent light trail tearing through air, speed lines ripping the panel, close-up of boy's eyes showing a brief DIAMOND FLASH like lightning in darkness, cut to young man across the net eyes BLOWN WIDE towel falling from shoulder jaw dropped in shock, thought text What the hell was that, dramatic chiaroscuro lighting, the moment everything changes, mature intense pivotal --niji 6 --ar 16:9 --no color cute chibi childish pastel
 ```
 
 ---
@@ -33,22 +34,22 @@ manga panel sequence, teenage boy hitting impossible passing shot down the line 
 
 ## E5. The First Truth — Bench Scene
 ```
-manga illustration, two figures sitting on bench at edge of tennis court, 23-year-old mentor speaking directly and honestly, 16-year-old boy clenching fists with wet eyes from frustration not sadness, water bottles between them, intimate conversation, the mentor's words cutting deep but necessary, urban public courts background, emotional tension visible in body language --niji 6 --ar 2:1
+black and white manga, heavy ink raw emotional, two figures sitting on bench at edge of tennis court, 23-year-old mentor speaking with brutal honesty eyes cutting like blades, 16-year-old boy clenching fists knuckles white with wet eyes from frustration not sadness, water bottles between them, intimate confrontation not conversation, the mentor's words slicing deep like surgery without anesthesia, urban public courts harsh light, emotional violence visible in body language, mature raw intense --niji 6 --ar 16:9 --no color cute chibi childish pastel
 ```
 
 ## E6. The Handshake That Changed Everything
 ```
-manga illustration, young man extending hand to teenage boy, the boy looking at the hand then taking it, firm handshake between mentor and student, dramatic lighting from above, tennis court in background, the beginning of a partnership, narration text box This handshake changed my life, pivotal shōnen moment of alliance --niji 6 --ar 1:1
+black and white manga, heavy ink dramatic, young man extending hand to teenage boy from above, the boy looking at the hand like it's a weapon or a lifeline, firm crushing handshake between two warriors, dramatic harsh lighting from above casting long shadows, tennis court in background, the beginning of a pact not a friendship, narration text This handshake changed my life, pivotal moment of alliance between broken people, mature intense --niji 6 --ar 2:3 --no color cute chibi childish pastel
 ```
 
 ## E7. Yadi Beats Yen for the First Time
 ```
-manga illustration, two players at the net after a match, teenage boy extending hand with deep respect, young man with ponytail taking it with a genuine smile, text About time idiot, young man ruffling boy's hair, both laughing, intimate moment of camaraderie, not student-teacher anymore something more, tennis court afternoon light --niji 6 --ar 2:1
+black and white manga, heavy ink emotional, two players at the net after a grueling match both drenched in sweat, teenage boy extending hand with deep fierce respect, young man with ponytail taking it with the first genuine smile he's ever shown, text About time idiot, young man ruffling boy's hair, both laughing through exhaustion, intimate moment of brotherhood forged in battle, not student-teacher anymore — equals, heavy shadows screentones, mature raw emotional --niji 6 --ar 16:9 --no color cute chibi childish pastel
 ```
 
 ## E8. The Tournament Flyer — Yadi's Trembling Hands
 ```
-manga close-up illustration, teenage boy's hands trembling holding a glossy tournament flyer, contrast between blistered rough hands and the shiny professional paper, text NATIONAL JUNIOR TOURNAMENT visible on flyer, images of perfect courts trophies and players reflected in boy's wide eyes, the first real opportunity, enormous emotional weight --niji 6 --ar 1:1
+black and white manga, heavy ink hyper detailed close-up, teenage boy's hands TREMBLING holding a glossy tournament flyer, stark contrast between his blistered scarred rough hands and the pristine professional paper, text NATIONAL JUNIOR TOURNAMENT visible on flyer, the boy's wide eyes reflected in the glossy surface, the first real opportunity feels like holding a bomb, enormous emotional weight crushing the frame, dramatic single light source, mature intimate visceral --niji 6 --ar 4:5 --no color cute chibi childish pastel
 ```
 
 ---
@@ -57,27 +58,27 @@ manga close-up illustration, teenage boy's hands trembling holding a glossy tour
 
 ## E9. The Farewell — Parents at the Door
 ```
-manga illustration, colorful Caribbean island street at dawn, teenage boy walking away with old backpack toward a car, behind him humble house painted faded sky blue, mother crying at the door father standing with hand up serious but emotional, elderly man leaning against court gate arms crossed saying Go kid, palm trees sea breeze, emotional departure warm colors, the island getting smaller behind him --niji 6 --ar 2:1
+black and white manga, heavy ink emotional gut-punch, Caribbean island street at dawn heavy shadows, teenage boy walking away with old backpack toward a car, behind him humble weathered house, mother crying at the door gripping the doorframe father standing with hand raised serious but crumbling with emotion inside, elderly man leaning against court gate arms crossed silhouette against dawn light text Go kid, the island getting smaller behind the boy who might never be the same, heavy screentones atmospheric, departure as death and rebirth, mature raw emotional --niji 6 --ar 16:9 --no color cute chibi childish pastel
 ```
 
 ## E10. Mama's Racket — The Gift
 ```
-manga close-up illustration, Latina mother's hands giving a wrapped gift in recycled paper to teenage boy, the boy unwrapping to reveal a used tennis racket in much better condition than his old one, new grip freshly strung, boy's hands touching it like treasure, mother's teary eyes but smiling, text If you break it I'll break you, warm intimate Caribbean home interior --niji 6 --ar 1:1
+black and white manga, heavy ink intimate emotional, Latina mother's rough working hands giving a wrapped gift in recycled paper to teenage boy, the boy unwrapping to reveal a used tennis racket in better condition than his old one, new grip freshly strung, boy's scarred hands touching it like it's sacred, mother's fierce teary eyes but defiant smile, text If you break it I'll break you, harsh single lamp lighting Caribbean home interior, the weight of sacrifice in every shadow, mature intimate --niji 6 --ar 4:5 --no color cute chibi childish pastel
 ```
 
 ## E11. Arrival at Youth Arena — Culture Shock
 ```
-manga illustration, teenage boy with old backpack and taped racket standing in lobby of modern sports facility, around him rich players in brand-name clothes with professional bags and multiple rackets, coaches with tablets nutritionists with clipboards, the boy tiny and out of place in the center, stares from other players, bright clean modern interior contrasting with his humble appearance, culture shock --niji 6 --ar 2:1
+black and white manga, heavy ink oppressive contrast, teenage boy with old backpack and taped racket standing in lobby of sleek modern sports facility, around him rich players in brand-name clothes with professional bags and multiple rackets like weapons, coaches with tablets, the boy TINY and visibly different in the center surrounded by wealth, stares from other players like predators sizing up prey, bright sterile modern interior crushing his humble appearance, culture shock as psychological violence, heavy screentones, mature intense --niji 6 --ar 16:9 --no color cute chibi childish pastel
 ```
 
 ## E12. Daimon's Provocation in the Locker Room
 ```
-manga illustration, locker room scene, blonde arrogant 17-year-old rich boy looking down at a brown-skinned boy with old racket, condescending smile, two companions laughing behind him, text You with that racket, the targeted boy standing still fists clenched jaw tight not responding, contained rage, behind him a calm mentor placing hand on his shoulder, tense confrontation --niji 6 --ar 2:1
+black and white manga, heavy ink confrontational, locker room scene harsh fluorescent lighting, blonde arrogant 17-year-old rich boy looking DOWN at a brown-skinned boy with old racket, condescending venomous smile, two companions laughing behind him like hyenas, text You with that racket, the targeted boy standing STILL fists clenched jaw LOCKED not responding, contained volcanic rage visible in every muscle, behind him a calm mentor placing hand on his shoulder like a leash on a weapon, tense suffocating confrontation, mature aggressive --niji 6 --ar 16:9 --no color cute chibi childish pastel
 ```
 
 ## E13. Yadi Alone on the Perfect Court at Night
 ```
-manga illustration, single lit tennis court at night surrounded by darkness, teenage boy alone in the center hitting serves, perfect green surface taut net impeccable white lines, artificial lights creating dramatic pools of light, the boy small but firm in the center, cinematic wide shot from above, peaceful solitary determination, a painting-like composition, stars visible above the lights --niji 6 --ar 1:1
+black and white manga, heavy ink cinematic atmospheric, single lit tennis court at night surrounded by absolute darkness, teenage boy alone in the center hitting serves, perfect surface taut net white lines glowing under harsh artificial lights, dramatic pools of stark light surrounded by void, the boy small but firm like a soldier in no-man's-land, cinematic wide shot from above, solitary warrior preparing for war, painting-like composition, heavy screentones, mature contemplative intense --niji 6 --ar 16:9 --no color cute chibi childish pastel
 ```
 
 ---
@@ -86,27 +87,27 @@ manga illustration, single lit tennis court at night surrounded by darkness, tee
 
 ## E14. Pre-Match Nerves — Bandana Ritual
 ```
-manga illustration, teenage boy alone in locker room sitting on bench, looking at himself in mirror, trembling hands holding a bandana, putting it on his forehead as a ritual, eyes closing remembering mentor's voice, text Be a tiger, intimate pre-battle preparation, dramatic mirror lighting, the calm before the storm --niji 6 --ar 1:1
+black and white manga, heavy ink intimate dark, teenage boy alone in locker room sitting on bench hunched forward, looking at himself in mirror reflection harsh and unforgiving, trembling hands holding the bandana like a sacred weapon, putting it on his forehead as a war ritual, eyes closing tight remembering mentor's voice text Be a tiger, intimate pre-battle preparation, dramatic mirror lighting cutting through darkness, the calm before violence, mature intense --niji 6 --ar 2:3 --no color cute chibi childish pastel
 ```
 
 ## E15. First Set Disaster — Rigid and Failing
 ```
-manga illustration, teenage boy on tennis court in tight rigid posture missing an easy forehand into the net, body language screaming tension, in the stands scattered crowd murmuring some laughing, in another section an arrogant blonde boy watching with dismissive smile, score 0-4 visible, suffocating atmosphere, tight claustrophobic panels, everything going wrong --niji 6 --ar 2:1
+black and white manga, heavy ink suffocating claustrophobic, teenage boy on tennis court in tight RIGID posture missing an easy forehand into the net, body language screaming with tension like a coiled spring about to snap, in the stands scattered crowd murmuring some LAUGHING, in another section an arrogant blonde boy watching with dismissive cruel smile, score 0-4 visible, suffocating oppressive atmosphere, tight cramped panels crushing the boy, everything going wrong, the nightmare of public failure, mature intense --niji 6 --ar 16:9 --no color cute chibi childish pastel
 ```
 
 ## E16. The Transformation — Second Set Loose and Free
 ```
-manga illustration, same teenage boy now completely different, loose fluid dynamic tennis pose mid-forehand, body relaxed shoulders dropped jaw loose, genuine smile on his face, ball leaving speed trail with subtle diamond shimmer, contrast with the rigid panels before, open airy composition, golden warm light breaking through, the moment he remembers tennis is fun, liberation --niji 6 --ar 1:1
+black and white manga, heavy ink dynamic liberating, same teenage boy now COMPLETELY different person, loose fluid violent tennis pose mid-forehand, body relaxed shoulders dropped jaw loose, genuine fierce smile showing teeth, ball leaving aggressive speed trail with diamond shimmer, contrast with the rigid suffocation before, OPEN explosive composition, panels breaking free, the moment he remembers tennis is WAR AND FUN simultaneously, liberation as violence, mature visceral --niji 6 --ar 2:3 --no color cute chibi childish pastel
 ```
 
 ## E17. The Comeback Victory — Walking Off Court
 ```
-manga illustration, teenage boy from behind walking toward court exit, bandana on head old racket in hand, scattered crowd applauding with genuine respect, murmur text Who is that kid and Where did he come from, the boy's silhouette small against the big arena, he doesn't celebrate loudly just walks with quiet pride, warm afternoon light --niji 6 --ar 2:1
+black and white manga, heavy ink cinematic, teenage boy from behind walking toward court exit silhouette against harsh light, bandana on head mama's racket in hand, scattered crowd applauding with genuine stunned respect, murmur text Who is that kid and Where did he come from, the boy's dark silhouette small but POWERFUL against the big arena, quiet devastation left behind him, he doesn't celebrate just walks like a soldier leaving a battlefield, heavy shadows screentones, mature intense --niji 6 --ar 16:9 --no color cute chibi childish pastel
 ```
 
 ## E18. Rival Reactions — Split Panel
 ```
-manga illustration, four-panel reaction page, TOP LEFT blonde boy no longer smiling frowning for first time, TOP RIGHT stocky expressionless boy showing first spark of interest in his eyes, BOTTOM LEFT thin smiling boy with calculating cold eyes thinking Interesting, BOTTOM RIGHT mentor in stands arms crossed nodding with slight corner smile, four different reactions to the same event --niji 6 --ar 3:4
+black and white manga, heavy ink dramatic four-panel reaction page, TOP LEFT blonde boy NO LONGER SMILING frowning dark shadows falling on his face for first time, TOP RIGHT stocky expressionless boy showing first crack of interest tiny spark in his dead eyes, BOTTOM LEFT thin smiling boy with calculating cold predatory eyes thinking text Interesting, BOTTOM RIGHT mentor in stands arms crossed nodding with dangerous subtle corner smile, four different predators reacting to new prey, heavy screentones each panel its own atmosphere, mature intense --niji 6 --ar 2:3 --no color cute chibi childish pastel
 ```
 
 ---
@@ -115,22 +116,22 @@ manga illustration, four-panel reaction page, TOP LEFT blonde boy no longer smil
 
 ## E19. Yadi's Frustration Against the Wall
 ```
-manga illustration, teenage boy on tennis court shouting in frustration slapping racket against his leg, across the net stocky expressionless boy standing like an immovable wall, score 5-3 visible, the attacking boy's powerful shots all returned by the emotionless defender, claustrophobic tight panels showing suffocation, the frustration of fighting something that won't break --niji 6 --ar 2:1
+black and white manga, heavy ink claustrophobic oppressive, teenage boy on tennis court SHOUTING in rage slapping racket against his leg, across the net stocky expressionless boy standing like an immovable iron wall, score 5-3 visible, the attacking boy's most powerful shots ALL returned by the emotionless inhuman defender, claustrophobic tight crushing panels showing suffocation, the maddening frustration of fighting something that WILL NOT BREAK, heavy screentones stone and iron, mature intense psychological horror --niji 6 --ar 16:9 --no color cute chibi childish pastel
 ```
 
 ## E20. Yen Shouts — Fight Yourself
 ```
-manga dramatic panel, young man standing in stadium stands shouting with intensity, text Stop fighting him Fight yourself, below on the court teenage boy looking up at the mentor, the words hitting like lightning, crowd visible in background, the pivotal moment of understanding, dramatic lighting sharp focus on the mentor's face --niji 6 --ar 1:1
+black and white manga, heavy ink dramatic explosive, young man STANDING in stadium stands shouting with ferocious intensity, text STOP FIGHTING HIM FIGHT YOURSELF, below on the court teenage boy looking up at the mentor like being struck by lightning, the words hitting like a physical blow visible as shockwave, crowd visible in background stunned, the pivotal moment of brutal understanding, dramatic harsh lighting sharp focus on the mentor's fierce face, mature intense --niji 6 --ar 2:3 --no color cute chibi childish pastel
 ```
 
 ## E21. Yadi Comes to the Net — New Territory
 ```
-manga illustration, teenage boy at the tennis net for the first time in competition, foreground close-up, different camera perspective showing new territory, executing a volley with surprised confidence, opponent in background caught off guard, a moment of evolution, the boy literally stepping into uncharted ground, dynamic low-angle composition --niji 6 --ar 1:1
+black and white manga, heavy ink dynamic aggressive, teenage boy at the tennis net for the FIRST TIME in competition, dramatic low-angle foreground close-up, executing a volley with fierce surprised confidence, opponent in background caught completely off guard shocked, a moment of dangerous evolution, the boy literally stepping into uncharted territory like crossing enemy lines, dynamic aggressive low-angle composition, heavy shadows, mature intense --niji 6 --ar 2:3 --no color cute chibi childish pastel
 ```
 
 ## E22. Kai's Respectful Bow — Silent Respect
 ```
-manga illustration, two teenage boys at tennis net after match, handshake lingering longer than normal, the stocky expressionless boy showing first real expression ever, low whispered text We'll play again, walking away then turning for slight Japanese bow of the head, minimalist powerful moment, the respect between warriors, quiet emotional weight --niji 6 --ar 2:1
+black and white manga, heavy ink minimalist powerful, two teenage boys at tennis net after brutal match, handshake lingering longer than normal grip tight, the stocky expressionless boy showing FIRST real expression ever a crack of respect in his stone face, low whispered text We'll play again, walking away then turning for slight Japanese bow of the head, minimalist devastatingly powerful moment, the respect between warriors who tried to destroy each other, quiet emotional weight heavier than any explosion, mature intense --niji 6 --ar 16:9 --no color cute chibi childish pastel
 ```
 
 ---
@@ -139,22 +140,22 @@ manga illustration, two teenage boys at tennis net after match, handshake linger
 
 ## E23. Luca's Fake Friendship — The Viper Approaches
 ```
-manga illustration, hallway before tennis court, thin smiling boy approaching with extended hand and too-friendly smile, the smile perfect but eyes cold and calculating, the targeted boy shaking hand out of politeness sensing something wrong, subtle green venom-colored shadows on the floor around the smiling boy, surface charm hiding danger, the predator greeting its prey --niji 6 --ar 2:1
+black and white manga, heavy ink sinister unsettling, hallway before tennis court harsh lighting, thin smiling boy approaching with extended hand and too-friendly smile, the smile PERFECT but eyes dead cold calculating like a reptile, the targeted boy shaking hand out of politeness instinctively sensing danger, shadows on the floor around the smiling boy slithering like snakes, surface charm hiding lethal intent, the predator greeting its prey with a handshake, psychological horror, mature dark intense --niji 6 --ar 16:9 --no color cute chibi childish pastel
 ```
 
 ## E24. Yadi's Mental Collapse — Inner Voices
 ```
-manga dark illustration, teenage boy on tennis court staring at ground in darkness, crowd noise faded, only inner voices visible as floating aggressive text around him: You're not enough What are you doing here Just an island kid, dark oppressive atmosphere, the boy crumbling internally while looking normal externally, psychological warfare visualization, green poison tint --niji 6 --ar 1:1
+black and white manga, heavy ink psychological horror, teenage boy on tennis court staring at ground surrounded by DARKNESS consuming the panels, crowd noise faded to nothing, only inner voices visible as floating aggressive jagged text attacking him from all directions: YOU'RE NOT ENOUGH WHAT ARE YOU DOING HERE JUST AN ISLAND KID, dark suffocating oppressive atmosphere, the boy crumbling internally while the world watches, psychological warfare made visual, poison smoke consuming the frame, mature dark visceral --niji 6 --ar 2:3 --no color cute chibi childish pastel
 ```
 
 ## E25. The Cold Lethal Yadi — Post-Armor Zero Reaction
 ```
-manga illustration, teenage boy on tennis court with completely neutral expression, opponent trying provocation with exaggerated celebration looking for reaction, close-up of the boy's face showing ZERO response not a raised eyebrow not a clenched fist, crystal-like calm, the provocation bouncing off like ball against wall, cold blue-white lighting, the most terrifying version of the protagonist --niji 6 --ar 2:1
+black and white manga, heavy ink freezing terrifying, teenage boy on tennis court with completely DEAD neutral expression, opponent trying provocation with exaggerated desperate celebration searching for ANY reaction, extreme close-up of the boy's face showing ABSOLUTE ZERO response not a raised eyebrow not a clenched fist not a blink, crystal-like inhuman calm, the provocation dying against him like waves against a cliff, cold stark lighting, the most TERRIFYING version of the protagonist — emotionless lethal surgical, mature dark intense --niji 6 --ar 16:9 --no color cute chibi childish pastel
 ```
 
 ## E26. Final Ace — Luca's Mask Falls
 ```
-manga dramatic panel, split composition, TOP teenage boy serving perfect ace motion ball leaving speed flash down the center, BOTTOM the opponent's permanent smile finally cracking and shattering, racket smashed on ground, the manipulator's mask completely fallen revealing frustrated kid underneath, the irony of the manipulator losing emotional control, dramatic contrast --niji 6 --ar 3:4
+black and white manga, heavy ink visceral dramatic, split composition vertical, TOP teenage boy serving PERFECT ace ball leaving violent speed flash down the center like a bullet, cold calculated lethal delivery, BOTTOM the opponent's permanent smile FINALLY CRACKING AND SHATTERING like breaking porcelain, racket SMASHED on ground, the manipulator's mask completely destroyed revealing a frustrated terrified kid underneath, the supreme irony of the puppet master losing all control, devastating dramatic contrast, mature intense --niji 6 --ar 2:3 --no color cute chibi childish pastel
 ```
 
 ---
@@ -163,22 +164,22 @@ manga dramatic panel, split composition, TOP teenage boy serving perfect ace mot
 
 ## E27. Yadi's Memory Fuel — Internal Flashback Collage
 ```
-manga double page spread, dreamlike internal montage, multiple soft warm panels floating in darkness: small dinner table family laughing, mother handing racket with tears, father at door saying Be a tiger, mentor saying Talent opens the door, note from tupperware I love you Win, island court with mural, all surrounding a central panel of boy opening eyes with PURPOSE, warm memories as fuel, emotional power source --niji 6 --ar 2:1
+black and white manga double page spread, heavy ink dreamlike but intense, multiple raw emotional panels floating in absolute darkness like shattered glass: family at small dinner table father's stern proud eyes, mother handing racket with fierce tears, father at door text Be a tiger, mentor text Talent opens the door, tupperware note I love you Win, island court with faded mural, all fragments surrounding a CENTRAL panel of boy opening eyes blazing with PURPOSE, warm memories weaponized as fuel for war, the emotional arsenal of a fighter, heavy shadows screentones, mature visceral emotional --niji 6 --ar 16:9 --no color cute chibi childish pastel
 ```
 
 ## E28. Daimon Broken — Money Wasn't Enough
 ```
-manga illustration, blonde 17-year-old rich boy sitting in tennis chair shattered, holding expensive thousand-dollar racket with trembling hands, looking at the racket that wasn't enough, not destroyed just defeated, for first time no arrogant response just silence, his entourage coach physio standing behind unable to help, the moment privilege meets its limit, empathetic not pathetic --niji 6 --ar 1:1
+black and white manga, heavy ink devastating emotional, blonde 17-year-old rich boy sitting in tennis chair SHATTERED, holding expensive thousand-dollar racket with trembling useless hands, staring at the weapon that wasn't enough, not destroyed just emptied, for the FIRST TIME in his life no arrogant response just devastating silence, his entourage coach physio standing behind UNABLE to help powerless, the moment privilege meets its absolute limit and breaks, empathetic not pathetic — a human discovering his world is a lie, heavy shadows, mature dark emotional --niji 6 --ar 2:3 --no color cute chibi childish pastel
 ```
 
 ## E29. Yadi on His Knees — Silent Celebration
 ```
-manga illustration, teenage boy fallen to knees on tennis court center, looking at sky, silent tears running down face, mama's racket on ground beside him, papa's bandana on forehead, not a loud celebration but intimate, relief pride validation all at once, 2000 people standing applauding in background but the focus is the boy alone with his tears, golden light from above, the first title --niji 6 --ar 1:1
+black and white manga, heavy ink raw emotional devastating, teenage boy fallen to knees on tennis court center court, looking at sky, silent tears streaming down face, mama's racket on ground beside him, papa's bandana soaked with sweat on forehead, NOT a loud celebration — intimate private sacred, relief pride validation agony joy all at once in one face, 2000 people standing SCREAMING applauding in background but the focus is the boy ALONE with his tears, harsh light from above like divine spotlight, the first title earned in blood and sacrifice, mature raw intense --niji 6 --ar 2:3 --no color cute chibi childish pastel
 ```
 
 ## E30. VIP Box Mystery — Silhouette with Phone
 ```
-manga illustration, dark VIP box in tennis stadium, mysterious silhouette standing against window light, phone in hand dialing a number, face completely hidden in shadow, only the outline visible against the bright court below, a smile barely visible in the darkness, text Someone was watching, who is it remains unknown, thriller mystery atmosphere --niji 6 --ar 1:1
+black and white manga, heavy ink noir thriller, dark VIP box in tennis stadium, mysterious silhouette standing against window light, phone in hand dialing a number, face COMPLETELY hidden in impenetrable shadow, only the sharp outline visible against the bright court below, a dangerous smile barely visible cutting through the darkness, text Someone was watching, identity unknown deliberately ambiguous, thriller noir mystery atmosphere suffocating with implication, who is this figure and what do they want, mature dark suspense --niji 6 --ar 2:3 --no color cute chibi childish pastel
 ```
 
 ---
@@ -187,27 +188,27 @@ manga illustration, dark VIP box in tennis stadium, mysterious silhouette standi
 
 ## E31. Parents' Reaction — Phone Call Home
 ```
-manga split panel illustration, LEFT teenage boy in cheap hotel room laughing into phone pulling it away from ear, RIGHT his mother screaming into phone with joy and tears text YOU WONNN, father beside her trying to stay serious but eyes red with emotion, warm island home on one side cold hotel on other, humor and emotion combined, the family bond across distance --niji 6 --ar 2:1
+black and white manga, heavy ink raw emotional split panel, LEFT teenage boy in cheap bare hotel room laughing into phone pulling it away from ear deafened, RIGHT his mother SCREAMING into phone with explosive joy and fierce tears text YOU WONNN, father beside her jaw clenched trying to stay serious but eyes RED with overwhelming emotion he can't hide, humble island home on one side sterile hotel on other, humor and devastating emotion combined, the family bond stretching across distance but never breaking, heavy shadows screentones, mature raw emotional --niji 6 --ar 16:9 --no color cute chibi childish pastel
 ```
 
 ## E32. Don Emilio at the Mural — I Knew It Kid
 ```
-manga illustration, elderly Caribbean man standing alone at old broken tropical tennis court at sunset, looking at faded mural of woman holding Olympic gold medal, tennis ball impact marks on wall from years of practice, the old man smiling with pride and knowing, text I knew it kid, palm trees golden light, bittersweet beautiful, one generation watching the next rise --niji 6 --ar 2:1
+black and white manga, heavy ink atmospheric haunting, elderly Caribbean man standing alone at old broken tropical tennis court, harsh light casting long shadow, looking at faded mural of woman holding Olympic gold medal, tennis ball impact marks scarring the wall from years of obsessive practice, the old man's weathered face cracking into a knowing proud smile, text I knew it kid, the weight of witnessing history repeat, one generation's ghost watching the next rise from the same cracked ground, heavy screentones atmospheric, mature bittersweet intense --niji 6 --ar 16:9 --no color cute chibi childish pastel
 ```
 
 ## E33. Trophy Ceremony — Eye Contact with Yen
 ```
-manga illustration, award ceremony podium, teenage boy lifting trophy with both hands, not looking at trophy but looking at his mentor in the stands, mentor standing clapping softly eyes shining with one nod, direct eye contact between them worth more than a thousand trophies, crowd applauding around, emotional connection between the two, the trophy has many people's hands on it --niji 6 --ar 1:1
+black and white manga, heavy ink emotional powerful, award ceremony podium, teenage boy lifting trophy with both hands overhead, NOT looking at the trophy but looking DIRECTLY at his mentor in the stands, mentor standing clapping softly eyes shining with tears he won't wipe and one single nod, direct eye contact between them cutting through the crowd like a blade, worth more than a thousand trophies, crowd applauding around them irrelevant, the connection between two broken people who fixed each other, heavy dramatic shadows, mature raw intense --niji 6 --ar 2:3 --no color cute chibi childish pastel
 ```
 
 ## E34. The Mysterious Phone Hand
 ```
-manga dramatic close-up, a strong well-kept hand with elegant watch picking up a phone, screen lighting up showing a contact list, finger scrolling and stopping on a name cut off by panel edge, pressing call, completely ambiguous no identifying features, could be any of the three legends, black background dramatic single light source, suspense and mystery --niji 6 --ar 1:1
+black and white manga, heavy ink noir suspense, extreme close-up of a strong well-kept powerful hand with elegant watch picking up a phone in darkness, screen lighting up illuminating nothing else, contact list visible finger scrolling and stopping on a name CUT OFF by the panel edge deliberately hidden, pressing CALL, completely ambiguous no identifying features could be ANY of the three legends, pitch black background single cold light source from the phone, maximum suspense maximum mystery, who is calling and why, mature dark thriller --niji 6 --ar 4:5 --no color cute chibi childish pastel
 ```
 
 ## E35. Driving Home — Trophy in Moonlight
 ```
-manga illustration, old car on coastal road at night, enormous starry sky above, ocean on one side lights of tropical island in distance, interior view teenage boy asleep in passenger seat with sleeping smile bandana still on, mentor driving in silence protective expression, trophy visible in back seat shining with moonlight, peace after the storm, the journey home --niji 6 --ar 2:1
+black and white manga, heavy ink peaceful atmospheric, old car on coastal road at night, enormous starry sky above vast and humbling, ocean on one side distant lights of tropical island ahead, interior view teenage boy asleep in passenger seat with exhausted peaceful smile bandana still on, mentor driving in silence with protective fierce expression watching the road, trophy visible in back seat catching moonlight through window, peace after war, the quiet sacred journey home, heavy screentones night atmosphere, mature contemplative intense --niji 6 --ar 16:9 --no color cute chibi childish pastel
 ```
 
 ---
@@ -216,22 +217,22 @@ manga illustration, old car on coastal road at night, enormous starry sky above,
 
 ## E36. Arrival at Corona Stadium — Feeling Small
 ```
-manga illustration, exterior of enormous professional sports stadium, huge modern building with giant screens and sponsor logos, center court capacity 10000, two tiny figures standing at entrance looking up, teenage boy and his mentor dwarfed by the scale, the gap between junior and professional world visualized architecturally, awe and intimidation --niji 6 --ar 3:4
+black and white manga, heavy ink overwhelming scale, exterior of ENORMOUS professional sports stadium towering like a colosseum, huge modern building with giant screens and sponsor logos, center court capacity 10000, two TINY figures standing at entrance looking up dwarfed and crushed by the scale, the teenage boy and his mentor like ants before a mountain, the gap between junior dreams and professional reality visualized as architecture that could swallow them whole, heavy screentones atmospheric, awe and intimidation as physical weight, mature intense --niji 6 --ar 2:3 --no color cute chibi childish pastel
 ```
 
 ## E37. The Wild Card Letter
 ```
-manga close-up illustration, teenage boy's trembling hands holding official letter, national league logos visible, key words highlighted WILD CARD and NATIONAL OPEN TOURNAMENT and SPECIAL INVITATION, the paper looks enormous and official in his rough hands, eyes wide reflecting the text, vertigo not fear, another life-changing piece of paper --niji 6 --ar 1:1
+black and white manga, heavy ink hyper detailed close-up, teenage boy's trembling hands holding official letter, national league logos visible imposing, key words blazing WILD CARD and NATIONAL OPEN TOURNAMENT and SPECIAL INVITATION, the pristine official paper looks ENORMOUS and terrifying in his rough scarred hands, eyes wide reflecting the text like staring into an abyss of possibility, vertigo not fear — the ground shifting beneath his feet, another life-changing piece of paper that weighs like a stone, dramatic single light source, mature intimate visceral --niji 6 --ar 4:5 --no color cute chibi childish pastel
 ```
 
 ## E38. Yadi Mirror Scene — Bandana and Will
 ```
-manga illustration, teenage boy looking at himself in bathroom mirror, bandana on forehead, dark steady eyes glowing not with Diamond Vision but with pure human will, determination visible in every line of his face, small hotel bathroom humble setting, text Someday I'll be on that center court Not watching Playing, powerful self-declaration moment --niji 6 --ar 3:4
+black and white manga, heavy ink intimate powerful, teenage boy looking at himself in bathroom mirror harsh unflattering light, bandana on forehead, dark steady eyes BLAZING not with Diamond Vision but with pure raw human will, determination carved into every line of his young face like stone, small cheap hotel bathroom humble setting, text Someday I'll be on that center court Not watching Playing, a declaration of war against the world spoken to his own reflection, heavy shadows chiaroscuro, mature intense --niji 6 --ar 2:3 --no color cute chibi childish pastel
 ```
 
 ## E39. Hotel Window — Stadium on the Horizon
 ```
-manga illustration, view from small hotel room window at night, teenage boy asleep in bed in foreground small and peaceful, through the window the enormous illuminated Corona Stadium visible on the horizon against night sky, the distance between the small bed and the giant stadium is literal and metaphorical, parking lot lights below stars above, the dream is visible but not yet reached --niji 6 --ar 3:4
+black and white manga, heavy ink cinematic atmospheric, view from small cheap hotel room window at night, teenage boy asleep in bed in foreground small and peaceful exhausted, through the window the ENORMOUS illuminated Corona Stadium visible on the horizon against vast night sky like a fortress or a beacon, the distance between the small bed and the giant stadium is literal and metaphorical — the dream is visible but not yet conquered, parking lot lights below stars above, heavy screentones night atmosphere, the composition tells the entire story without words, mature contemplative intense --niji 6 --ar 2:3 --no color cute chibi childish pastel
 ```
 
 ---
@@ -240,27 +241,27 @@ manga illustration, view from small hotel room window at night, teenage boy asle
 
 ## E40. Yadi vs The Veteran — Respect Between Generations
 ```
-manga illustration, tennis court scene, teenage boy across the net from a 30-year-old stocky bearded veteran player, handshake at the net after match, the veteran genuine smile text See you soon kid, not courtesy but certainty, respect between generations, the boy lost but earned something more valuable than a win, professional stadium secondary court half-full crowd --niji 6 --ar 2:1
+black and white manga, heavy ink respectful intense, tennis court scene, teenage boy across the net from a 30-year-old stocky bearded scarred veteran player, handshake at the net after match grip FIRM and meaningful, the veteran's genuine knowing smile text See you soon kid — not courtesy but CERTAINTY like a prophecy, respect between generations of warriors, the boy LOST but earned something more valuable than any victory — recognition from a soldier, professional stadium secondary court, heavy shadows screentones, mature intense --niji 6 --ar 16:9 --no color cute chibi childish pastel
 ```
 
 ## E41. Return to Isla Brava — Family Hug
 ```
-manga illustration, tropical island street golden sunset, old car parked in front of humble Caribbean house, Latina mother running to teenage son hugging him tight checking his arms and face, stern father walking from doorway unable to contain himself joining the hug, all three embracing, mother crying father squeezing eyes shut, mentor watching from car smiling then driving away giving the moment to the family, palm trees sea breeze warm colors --niji 6 --ar 2:1
+black and white manga, heavy ink devastating emotional, tropical island street harsh shadows, old car parked in front of humble weathered Caribbean house, Latina mother RUNNING to teenage son hugging him with crushing desperate force checking his arms and face, stern father walking from doorway UNABLE to contain himself joining the embrace, all three locked together, mother crying fiercely father squeezing eyes shut jaw trembling, mentor watching from car with a fierce protective smile then driving away giving the sacred moment to the family, heavy screentones atmospheric, mature raw emotional gut-punch --niji 6 --ar 16:9 --no color cute chibi childish pastel
 ```
 
 ## E42. Back at the Broken Court — Mirrored Evolution
 ```
-manga split illustration, LEFT side Chapter 1 version: young boy hitting rough uncontrolled against cracked wall with mural at sunset, RIGHT side now: same boy same court same wall but hitting with authority power confidence, identical composition different player, the story of evolution in two mirrored panels, old marks and new deeper marks on the wall, tropical setting both sides --niji 6 --ar 2:1
+black and white manga, heavy ink powerful split composition, LEFT side Chapter 1 version: young rough boy hitting UNCONTROLLED against cracked wall with faded mural, weak form, RIGHT side NOW: same boy same court same wall but hitting with DEVASTATING authority power confidence, identical composition COMPLETELY different player, the story of evolution in two mirrored panels that punch the reader in the chest, old shallow marks on the left NEW DEEP violent marks on the right, the wall tells the story of transformation, heavy screentones both panels, mature intense visceral --niji 6 --ar 16:9 --no color cute chibi childish pastel
 ```
 
 ## E43. The Phone Rings in the Dark
 ```
-manga dramatic illustration, dark bedroom at night, phone screen illuminating teenage boy's face as he answers, half asleep eyes squinting, unknown number on screen, mysterious black speech bubble with white text Yadi Vazq different from any other dialogue in the manga, the darkness of the room becoming electric with tension, the portal to Volume 2 --niji 6 --ar 1:1
+black and white manga, heavy ink noir horror-tension, dark bedroom at night ABSOLUTE DARKNESS, phone screen BLAZING illuminating teenage boy's face as he answers, half asleep eyes squinting against the harsh light, unknown number on screen, mysterious BLACK speech bubble with WHITE text YADI VAZQ — visually DIFFERENT from any other dialogue in the entire manga, the darkness of the room becoming electric charged with tension like the air before lightning, the portal to Volume 2 ripping open, mature dark suspense maximum tension --niji 6 --ar 2:3 --no color cute chibi childish pastel
 ```
 
 ## E44. The Voice — Edge of Everything
 ```
-manga close-up illustration, teenage boy's face half-lit by phone glow half in shadow, eyes fully open and glowing not Diamond Vision but the glow of someone on the edge of something enormous, mysterious black speech bubbles with white text I have a proposal One that's going to change your life and That I'll tell you in person, maximum tension maximum mystery, the cliffhanger that haunts the reader --niji 6 --ar 1:1
+black and white manga, heavy ink intimate devastating, teenage boy's face HALF-LIT by phone glow HALF consumed by shadow, eyes FULLY OPEN and blazing not Diamond Vision but the glow of someone standing on the edge of an abyss of possibility, mysterious BLACK speech bubbles with WHITE text I have a proposal One that's going to change your life and That I'll tell you in person, maximum tension maximum mystery maximum anticipation, the cliffhanger that will HAUNT the reader until Volume 2, the last image burned into their mind, mature dark intense --niji 6 --ar 2:3 --no color cute chibi childish pastel
 ```
 
 ---
@@ -272,3 +273,5 @@ manga close-up illustration, teenage boy's face half-lit by phone glow half in s
 | `midjourney-ready.md` | 48 (characters + key scenes + icons) |
 | `midjourney-expanded.md` | 44 (additional chapter scenes) |
 | **GRAND TOTAL** | **92 illustrations** |
+
+> **STYLE**: All B&W, heavy ink, mature aggressive, Vagabond/Berserk/Slam Dunk aesthetic. NOT for children.
