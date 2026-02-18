@@ -90,12 +90,12 @@ black and white manga, Kuroko no Basuke style, dynamic low angle, athletic man t
 
 ## 17. Jani — Character Sheet
 ```
-black and white manga character sheet, exactly 3 poses front view side view back view only, Kuroko no Basuke rival style, 23-year-old man tennis player, tall lean predatory build, long red auburn hair slicked back past shoulders, ice-cold steel eyes, emotionless expression, aristocratic sharp features, pale skin, impeccable tennis outfit, perfect posture, Fujimaki antagonist design, precise linework, cold lighting --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel multiple poses
+black and white manga character sheet, exactly 3 poses front view side view back view only, Kuroko no Basuke rival style, 23-year-old man tennis player, tall lean predatory build, long red auburn hair spiked upward sharp and refined, ice-cold steel eyes, emotionless expression, aristocratic sharp features, pale skin, impeccable tennis outfit, perfect posture, Fujimaki antagonist design, precise linework, cold lighting --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel multiple poses
 ```
 
 ## 18. Jani — Arctic Fox Aura
 ```
-black and white manga, long shot corridor, tall long red-haired man tennis player walking toward camera, translucent arctic fox shadow on floor beside him, ice crystals forming in his footsteps, piercing frozen eyes, frost effects spreading on walls, visible cold breath, people stepping aside, stark harsh fluorescent lighting, heavy screentones --niji 6 --ar 2:3 --s 30 --no color cute chibi childish pastel
+black and white manga, long shot corridor, tall man long red auburn hair spiked upward sharp and refined tennis player walking toward camera, translucent arctic fox shadow on floor beside him, ice crystals forming in his footsteps, piercing frozen eyes, frost effects spreading on walls, visible cold breath, people stepping aside, stark harsh fluorescent lighting, heavy screentones --niji 6 --ar 2:3 --s 30 --no color cute chibi childish pastel
 ```
 
 ## 19. Daimon Richwell — Character Sheet
@@ -115,7 +115,7 @@ black and white manga character sheet, exactly 3 poses front view side view back
 
 ## 22. Kai — Turtle Shell Aura
 ```
-black and white manga, wide shot, stocky teen tennis player in low wide defensive stance both hands gripping tennis racket, knees deeply bent sliding to side returning ball with compact backhand, massive translucent turtle shell forming behind him as geometric shield, hexagonal barrier patterns, tennis ball bouncing back in mid-air, stone and earth texture effects, expressionless face, claustrophobic tight composition, heavy screentones, oppressive overhead lighting --niji 6 --ar 2:3 --s 30 --no color cute chibi childish pastel
+black and white manga, wide shot, stocky teen tennis player on tennis court in low wide defensive stance both hands gripping tennis racket, knees deeply bent sliding to side returning ball with compact backhand, massive translucent turtle shell forming behind him as geometric shield, hexagonal barrier patterns, tennis ball bouncing back in mid-air, stone and earth texture effects, expressionless face, claustrophobic tight composition, heavy screentones, oppressive overhead lighting --niji 6 --ar 2:3 --s 30 --no color cute chibi childish pastel
 ```
 
 ## 23. Luca Santori — Character Sheet
@@ -130,12 +130,12 @@ black and white manga, medium shot, thin teen tennis player on tennis court smil
 
 ## 25. Papa Vazq — Character Sheet
 ```
-black and white manga character sheet, exactly 3 poses front view side view back view only, middle-aged Latino man, strong weathered build, serious stern face with warm piercing eyes, short dark hair greying, stained work clothes, calloused rough hands, arms crossed, proud posture, heavy crosshatching on face details, warm side lighting --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel multiple poses
+black and white manga character sheet, exactly 3 poses front view side view back view only, middle-aged Latino man, strong weathered build, serious but warm face with caring piercing eyes, short dark hair greying, stained work clothes, calloused rough hands, arms crossed, proud posture, heavy crosshatching on face details, warm side lighting --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel multiple poses
 ```
 
 ## 26. Mama Vazq — Character Sheet
 ```
-black and white manga character sheet, exactly 3 poses front view side view back view only, middle-aged Latina woman, fierce expressive face, hands gesturing mid-motion, flower-print dress, wild hair, defiant smile, carrying food towels and first-aid supplies, energetic dynamic posture, expressive linework, warm overhead lighting --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel multiple poses
+black and white manga character sheet, exactly 3 poses front view side view back view only, middle-aged Latina woman, warm loving expressive face, gentle worried eyes full of care, hands gesturing mid-motion, flower-print dress, wild hair, bright happy smile, carrying food towels and first-aid supplies, nurturing maternal posture, expressive linework, warm soft overhead lighting --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel multiple poses
 ```
 
 ## 27. Don Emilio — Character Sheet
@@ -164,7 +164,7 @@ black and white manga double spread, over-the-shoulder shot, small 8-year-old bo
 
 ## 31. Ch 2 Pgs 6-7 — Training Montage
 ```
-black and white manga double spread, Kuroko no Basuke style, dynamic multi-panel training montage: blindfolded boy reacting to balls, meditating on court, playing in tropical rain muscles visible, running through dark streets at dawn, hitting wall at night hands bleeding, close-up eyes becoming sharp, mentor watching arms crossed, heavy screentones, varied panel sizes, Fujimaki sports training intensity --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel
+black and white manga double spread, Kuroko no Basuke style, dynamic multi-panel training montage: blindfolded boy reacting to balls on tennis court, meditating on tennis court, playing in tropical rain muscles visible, running through dark streets at dawn, hitting wall at night hands bleeding, close-up eyes becoming sharp, mentor watching arms crossed, heavy screentones, varied panel sizes, Fujimaki sports training intensity --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel
 ```
 
 ## 32. Ch 3 Pg 6 — Rival Introductions
@@ -174,12 +174,12 @@ black and white manga full page, three vertical panels stacked: TOP blonde boy s
 
 ## 33. Ch 4 Pg 5 — Yadi Smiles First Time in Match
 ```
-black and white manga, Kuroko no Basuke style, extreme close-up, handsome teen face transitioning from tension to genuine released smile, sweat dripping, bandana soaked, eyes softening, pre-Zone awakening moment, Fujimaki emotional expression detail, heavy screentones on skin, rim lighting from stadium lights --niji 6 --ar 4:5 --s 30 --no color cute chibi childish pastel
+black and white manga, Kuroko no Basuke style, extreme close-up, handsome teen face on tennis court transitioning from tension to genuine released smile, sweat dripping, bandana soaked, eyes softening, pre-Zone awakening moment, Fujimaki emotional expression detail, heavy screentones on skin, rim lighting from stadium lights --niji 6 --ar 4:5 --s 30 --no color cute chibi childish pastel
 ```
 
 ## 34. Ch 5 — Kai The Wall Returning Everything
 ```
-black and white manga, repetitive panel sequence, 4-5 identical panels same stocky expressionless boy sliding low both hands on tennis racket returning every ball with compact stroke, turtle shell aura visible as geometric shield, zero emotion mechanical repetition, claustrophobic identical composition, heavy screentones stone texture, flat oppressive lighting --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel
+black and white manga, repetitive panel sequence, 4-5 identical panels same stocky expressionless boy on tennis court sliding low both hands on tennis racket returning every ball with compact stroke, turtle shell aura visible as geometric shield, zero emotion mechanical repetition, claustrophobic identical composition, heavy screentones stone texture, flat oppressive lighting --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel
 ```
 
 ## 35. Ch 6 Pg 10 — Birth of Mental Armor
@@ -189,12 +189,12 @@ black and white manga full page, Kuroko no Basuke style, handsome teen sitting e
 
 ## 36. Ch 7 Pgs 1-2 — Yadi vs Daimon Entrance
 ```
-black and white manga double spread, split composition, LEFT handsome athletic teen with bandana old racket massive tiger shadow behind him, RIGHT blonde rich boy perfect gear peacock tail spreading, CENTER net dividing them, stadium crowd 2000 silhouettes, electric tension lines between players, heavy screentones, dramatic stadium backlighting --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel
+black and white manga double spread, split composition, LEFT handsome athletic teen with bandana old racket massive tiger shadow behind him, RIGHT blonde rich boy perfect gear peacock tail spreading, CENTER tennis court net dividing them, stadium crowd 2000 silhouettes, electric tension lines between players, heavy screentones, dramatic stadium backlighting --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel
 ```
 
 ## 37. Ch 7 Pgs 10-11 — DIAMOND VISION FULL ACTIVATION
 ```
-black and white manga double spread, Kuroko no Basuke Zone moment, handsome athletic Latino teen tennis player right arm fully extended crushing forehand holding tennis racket body twisted airborne, MASSIVE spectral tiger roaring behind him, eyes blazing diamond crystal facets full Zone activation, tennis ball leaving diamond energy trail, faint god silhouettes eagle bull goat watching from above, opponent collapsed in shock, crowd on feet, speed lines energy explosions, Fujimaki maximum intensity composition, heavy screentones --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel
+black and white manga double spread, Kuroko no Basuke Zone moment, handsome athletic Latino teen tennis player on tennis court right arm fully extended crushing forehand holding tennis racket body twisted airborne, MASSIVE spectral tiger roaring behind him, eyes blazing diamond crystal facets full Zone activation, tennis ball leaving diamond energy trail, faint god silhouettes eagle bull goat watching from above, opponent collapsed in shock, crowd on feet, speed lines energy explosions, Fujimaki maximum intensity composition, heavy screentones --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel
 ```
 
 ## 38. Ch 8 Pg 10 — Three Legends React Triptych
@@ -209,12 +209,12 @@ black and white manga double spread, Kuroko no Basuke style, over-the-shoulder f
 
 ## 40. Ch 9 Pg 10 — Jani Walks Past
 ```
-black and white manga, long shot corridor perspective, tall long red-haired man walking past in foreground, arctic fox shadow on floor, ice crystal effects in his wake, handsome athletic teen pressed against wall in background, cold breath visible, harsh fluorescent lighting, freezing atmosphere, heavy screentones --niji 6 --ar 2:3 --s 30 --no color cute chibi childish pastel
+black and white manga, long shot corridor perspective, tall red-haired man walking past in foreground, arctic fox shadow on floor, ice crystal effects in his wake, handsome athletic teen pressed against wall in background, cold breath visible, harsh fluorescent lighting, freezing atmosphere, heavy screentones --niji 6 --ar 2:3 --s 30 --no color cute chibi childish pastel
 ```
 
 ## 41. Ch 10 Pg 15 — VOLUME FINAL SPLASH
 ```
-black and white manga full page splash, Kuroko no Basuke style, handsome athletic Latino teen standing in small bedroom, phone to ear, looking out window at night sky over ocean, three massive animal-headed constellation figures in sky: eagle wings spread, bull horns wreathed in fury, goat curved horns dead eyes, faint tiger aura flickering around boy, palm trees starry sky, text THE RISE HAS ONLY JUST BEGUN, epic mythological composition --niji 6 --ar 2:3 --s 30 --no color cute chibi childish pastel
+black and white manga full page splash, Kuroko no Basuke style, close-up of phone screen glowing in darkness, three separate massive silhouettes looming behind the phone: LEFT elegant man with translucent eagle wings spread, CENTER bull-headed man with horns wreathed in fury steam rising, RIGHT goat-headed man with curved horns dead calculating eyes, each figure isolated in its own shadow space, night sky over ocean through window, palm trees starry sky, text THE RISE HAS ONLY JUST BEGUN, epic mythological composition --niji 6 --ar 2:3 --s 30 --no color cute chibi childish pastel
 ```
 
 ---
@@ -228,7 +228,7 @@ black and white manga, wide shot, large faded mural on crumbling concrete wall, 
 
 ## 43. Luna Borín Mural — With Yadi Practicing
 ```
-black and white manga, Kuroko no Basuke style, wide shot, handsome athletic teen right arm swinging tennis racket hitting ball against concrete wall forehand follow-through, faded woman's mural with Olympic medal beside him, ball impact marks scarring wall next to painted figure, cracked tropical court weeds consuming ground, harsh side lighting, heavy screentones, dynamic action pose --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel
+black and white manga, Kuroko no Basuke style, wide shot, handsome athletic teen right arm swinging tennis racket hitting ball against concrete wall forehand follow-through, faded woman's mural with Olympic medal beside him, ball impact marks scarring wall next to painted figure, cracked tropical tennis court weeds consuming ground, harsh side lighting, heavy screentones, dynamic action pose --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel
 ```
 
 ---
@@ -259,3 +259,151 @@ black and white manga object illustration, modest junior tennis trophy cup on wo
 ```
 black and white manga extreme close-up, small handwritten note on folded paper, round warm handwriting Eat everything I love you Win or lose you're my champion, below in sharp handwriting Win, food-stained crinkled paper, single warm light source, heavy crosshatching on paper texture, intimate composition --niji 6 --ar 4:5 --s 30 --no color cute chibi childish pastel
 ```
+
+---
+
+# GUÍA POR CAPÍTULO — ¿Dónde va cada imagen?
+
+## PORTADA
+| # | Imagen | Archivo |
+|---|--------|---------|
+| 28 | VOLUME 1 COVER | midjourney-ready.md |
+
+## CHARACTER SHEETS (usar como referencia visual en todo el manga)
+| # | Imagen | Archivo |
+|---|--------|---------|
+| 1 | Yadi Vazq — Character Sheet | midjourney-ready.md |
+| 2 | Yadi — Tiger Aura Power Version | midjourney-ready.md |
+| 3 | Yadi — Diamond Vision Eyes | midjourney-ready.md |
+| 4 | Yen — Character Sheet | midjourney-ready.md |
+| 5 | Yen — Owl Aura | midjourney-ready.md |
+| 6 | Novacronos — Character Sheet | midjourney-ready.md |
+| 7 | Novacronos — Eagle Aura In Action | midjourney-ready.md |
+| 9 | Rafa Nal — Character Sheet | midjourney-ready.md |
+| 10 | Rafa Nal — In Action Flashback | midjourney-ready.md |
+| 12 | Noak — Character Sheet | midjourney-ready.md |
+| 13 | Noak — In Action | midjourney-ready.md |
+| 15 | Charlie — Character Sheet | midjourney-ready.md |
+| 16 | Charlie — Lion Aura | midjourney-ready.md |
+| 17 | Jani — Character Sheet | midjourney-ready.md |
+| 18 | Jani — Arctic Fox Aura | midjourney-ready.md |
+| 19 | Daimon Richwell — Character Sheet | midjourney-ready.md |
+| 20 | Daimon — Peacock Aura | midjourney-ready.md |
+| 21 | Kai Morimoto — Character Sheet | midjourney-ready.md |
+| 22 | Kai — Turtle Shell Aura | midjourney-ready.md |
+| 23 | Luca Santori — Character Sheet | midjourney-ready.md |
+| 24 | Luca — Viper Shadow | midjourney-ready.md |
+| 25 | Papa Vazq — Character Sheet | midjourney-ready.md |
+| 26 | Mama Vazq — Character Sheet | midjourney-ready.md |
+| 27 | Don Emilio — Character Sheet | midjourney-ready.md |
+
+## CAPÍTULO 1 — "The Broken Court"
+| # | Imagen | Archivo |
+|---|--------|---------|
+| 29 | Ch 1 Pg 1 — Aerial View of Isla Brava | midjourney-ready.md |
+| 30 | Ch 1 Pgs 5-6 — Flashback Young Yadi Watching TV | midjourney-ready.md |
+| 42 | Luna Borín — The Mural | midjourney-ready.md |
+| 43 | Luna Borín Mural — With Yadi Practicing | midjourney-ready.md |
+| E1 | Yadi Practicing Alone — Don Emilio Watching | midjourney-expanded.md |
+| E2 | The Vazq Family Dinner | midjourney-expanded.md |
+| E3 | Yadi Meets Yen on the Public Courts | midjourney-expanded.md |
+| E4 | The Supernatural Shot — Yen's Reaction | midjourney-expanded.md |
+
+## CAPÍTULO 2 — "The Truth That Hurts"
+| # | Imagen | Archivo |
+|---|--------|---------|
+| 31 | Ch 2 Pgs 6-7 — Training Montage | midjourney-ready.md |
+| E5 | The First Truth — Bench Scene | midjourney-expanded.md |
+| E6 | The Handshake That Changed Everything | midjourney-expanded.md |
+| E7 | Yadi Beats Yen for the First Time | midjourney-expanded.md |
+| E8 | The Tournament Flyer — Yadi's Trembling Hands | midjourney-expanded.md |
+
+## CAPÍTULO 3 — "The World Out There"
+| # | Imagen | Archivo |
+|---|--------|---------|
+| 32 | Ch 3 Pg 6 — Rival Introductions | midjourney-ready.md |
+| E9 | The Farewell — Parents at the Door | midjourney-expanded.md |
+| E10 | Mama's Racket — The Gift | midjourney-expanded.md |
+| E11 | Arrival at Youth Arena — Culture Shock | midjourney-expanded.md |
+| E12 | Daimon's Provocation in the Locker Room | midjourney-expanded.md |
+| E13 | Yadi Alone on the Perfect Court at Night | midjourney-expanded.md |
+
+## CAPÍTULO 4 — "First Blood"
+| # | Imagen | Archivo |
+|---|--------|---------|
+| 33 | Ch 4 Pg 5 — Yadi Smiles First Time in Match | midjourney-ready.md |
+| E14 | Pre-Match Nerves — Bandana Ritual | midjourney-expanded.md |
+| E15 | First Set Disaster — Rigid and Failing | midjourney-expanded.md |
+| E16 | The Transformation — Second Set Loose and Free | midjourney-expanded.md |
+| E17 | The Comeback Victory — Walking Off Court | midjourney-expanded.md |
+| E18 | Rival Reactions — Split Panel | midjourney-expanded.md |
+
+## CAPÍTULO 5 — "The Wall"
+| # | Imagen | Archivo |
+|---|--------|---------|
+| 34 | Ch 5 — Kai The Wall Returning Everything | midjourney-ready.md |
+| E19 | Yadi's Frustration Against the Wall | midjourney-expanded.md |
+| E20 | Yen Shouts — Fight Yourself | midjourney-expanded.md |
+| E21 | Yadi Comes to the Net — New Territory | midjourney-expanded.md |
+| E22 | Kai's Respectful Bow — Silent Respect | midjourney-expanded.md |
+
+## CAPÍTULO 6 — "Venom"
+| # | Imagen | Archivo |
+|---|--------|---------|
+| 35 | Ch 6 Pg 10 — Birth of Mental Armor | midjourney-ready.md |
+| E23 | Luca's Fake Friendship — The Viper Approaches | midjourney-expanded.md |
+| E24 | Yadi's Mental Collapse — Inner Voices | midjourney-expanded.md |
+| E25 | The Cold Lethal Yadi — Post-Armor Zero Reaction | midjourney-expanded.md |
+| E26 | Final Ace — Luca's Mask Falls | midjourney-expanded.md |
+
+## CAPÍTULO 7 — "The Golden Boy vs The Island Diamond"
+| # | Imagen | Archivo |
+|---|--------|---------|
+| 36 | Ch 7 Pgs 1-2 — Yadi vs Daimon Entrance | midjourney-ready.md |
+| 37 | Ch 7 Pgs 10-11 — DIAMOND VISION FULL ACTIVATION | midjourney-ready.md |
+| E27 | Yadi's Memory Fuel — Internal Flashback Collage | midjourney-expanded.md |
+| E28 | Daimon Broken — Money Wasn't Enough | midjourney-expanded.md |
+| E29 | Yadi on His Knees — Silent Celebration | midjourney-expanded.md |
+| E30 | VIP Box Mystery — Silhouette with Phone | midjourney-expanded.md |
+
+## CAPÍTULO 8 — "What Comes Next"
+| # | Imagen | Archivo |
+|---|--------|---------|
+| 8 | Novacronos — Silhouette (Ch 8) | midjourney-ready.md |
+| 11 | Rafa Nal — Silhouette (Ch 8) | midjourney-ready.md |
+| 14 | Noak — Silhouette (Ch 8) | midjourney-ready.md |
+| 38 | Ch 8 Pg 10 — Three Legends React Triptych | midjourney-ready.md |
+| E31 | Parents' Reaction — Phone Call Home | midjourney-expanded.md |
+| E32 | Don Emilio at the Mural — I Knew It Kid | midjourney-expanded.md |
+| E33 | Trophy Ceremony — Eye Contact with Yen | midjourney-expanded.md |
+| E34 | The Mysterious Phone Hand | midjourney-expanded.md |
+| E35 | Driving Home — Trophy in Moonlight | midjourney-expanded.md |
+
+## CAPÍTULO 9 — "The Eyes of the World"
+| # | Imagen | Archivo |
+|---|--------|---------|
+| 39 | Ch 9 Pgs 6-7 — Yadi Sees Charlie | midjourney-ready.md |
+| 40 | Ch 9 Pg 10 — Jani Walks Past | midjourney-ready.md |
+| E36 | Arrival at Corona Stadium — Feeling Small | midjourney-expanded.md |
+| E37 | The Wild Card Letter | midjourney-expanded.md |
+| E38 | Yadi Mirror Scene — Bandana and Will | midjourney-expanded.md |
+| E39 | Hotel Window — Stadium on the Horizon | midjourney-expanded.md |
+
+## CAPÍTULO 10 — "The Call"
+| # | Imagen | Archivo |
+|---|--------|---------|
+| 41 | Ch 10 Pg 15 — VOLUME FINAL SPLASH | midjourney-ready.md |
+| E40 | Yadi vs The Veteran — Respect Between Generations | midjourney-expanded.md |
+| E41 | Return to Isla Brava — Family Hug | midjourney-expanded.md |
+| E42 | Back at the Broken Court — Mirrored Evolution | midjourney-expanded.md |
+| E43 | The Phone Rings in the Dark | midjourney-expanded.md |
+| E44 | The Voice — Edge of Everything | midjourney-expanded.md |
+
+## OBJETOS E ICONOS (usar donde se necesiten)
+| # | Imagen | Archivo |
+|---|--------|---------|
+| 44 | Mama's Racket | midjourney-ready.md |
+| 45 | Papa's Bandana | midjourney-ready.md |
+| 46 | The Cracked Wall with Mural | midjourney-ready.md |
+| 47 | Junior Trophy | midjourney-ready.md |
+| 48 | The Tupperware Note | midjourney-ready.md |

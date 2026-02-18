@@ -10,7 +10,7 @@
 
 ## E1. Yadi Practicing Alone — Don Emilio Watching
 ```
-black and white manga, Kuroko no Basuke style, wide shot, handsome athletic Latino teen tennis player right arm swinging tennis racket forehand hitting ball against cracked concrete wall, left foot planted forward body rotated, weeds in court cracks, faded woman's mural on wall, elderly Caribbean man with machete on bench watching, heavy screentones, crosshatching shadows, rim lighting from sunset, ink wash background --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel
+black and white manga, Kuroko no Basuke style, wide shot, handsome athletic Latino teen tennis player right arm swinging tennis racket forehand hitting ball against cracked concrete wall, left foot planted forward body rotated, weeds in tennis court cracks, faded woman's mural on wall, elderly Caribbean man with machete on bench watching, heavy screentones, crosshatching shadows, rim lighting from sunset, ink wash background --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel
 ```
 
 ## E2. The Vazq Family Dinner
@@ -20,12 +20,12 @@ black and white manga, medium shot, humble Caribbean kitchen, family of three at
 
 ## E3. Yadi Meets Yen on the Public Courts
 ```
-black and white manga, Kuroko no Basuke style, over-the-shoulder shot through chain-link fence, handsome athletic teen gripping fence wire white-knuckled watching, on court young man with ponytail tennis coach right arm extended hitting precise forehand with tennis racket, towel on shoulder, early morning fog, grey urban cement courts, heavy screentones, atmospheric ink wash --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel
+black and white manga, Kuroko no Basuke style, over-the-shoulder shot through chain-link fence, handsome athletic teen gripping fence wire white-knuckled watching, on court young man with ponytail tennis coach right arm extended hitting precise forehand with tennis racket, towel on shoulder, early morning fog, grey urban cement tennis courts, heavy screentones, atmospheric ink wash --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel
 ```
 
 ## E4. The Supernatural Shot — Yen's Reaction
 ```
-black and white manga, Kuroko no Basuke style, split panel, LEFT handsome athletic teen tennis player right arm fully extended hitting impossible passing shot with tennis racket ball leaving light trail speed lines, eyes showing brief diamond flash like Zone, RIGHT young man across net eyes blown wide towel falling jaw dropped, thought text What the hell was that, dramatic chiaroscuro, heavy screentones --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel
+black and white manga, Kuroko no Basuke style, split panel, LEFT handsome athletic teen tennis player right arm fully extended hitting impossible passing shot with tennis racket ball leaving light trail speed lines, eyes showing brief diamond flash like Zone, RIGHT young man across tennis court net eyes blown wide towel falling jaw dropped, thought text What the hell was that, dramatic chiaroscuro, heavy screentones --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel
 ```
 
 ---
@@ -34,7 +34,7 @@ black and white manga, Kuroko no Basuke style, split panel, LEFT handsome athlet
 
 ## E5. The First Truth — Bench Scene
 ```
-black and white manga, medium shot, two figures on bench at court edge, young mentor speaking bluntly piercing eyes, handsome athletic teen clenching fists knuckles white wet eyes, water bottles between them, urban public courts background, harsh overhead light, heavy shadows on faces, emotional intensity in body language --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel
+black and white manga, medium shot, two figures on bench at tennis court edge, young mentor speaking bluntly piercing eyes, handsome athletic teen clenching fists knuckles white wet eyes, water bottles between them, urban public courts background, harsh overhead light, heavy shadows on faces, emotional intensity in body language --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel
 ```
 
 ## E6. The Handshake That Changed Everything
@@ -92,12 +92,12 @@ black and white manga, Kuroko no Basuke style, medium shot, handsome athletic te
 
 ## E15. First Set Disaster — Rigid and Failing
 ```
-black and white manga, wide shot, handsome athletic teen tennis player on court in rigid stiff posture arm locked tight missing forehand into net with tennis racket, crowd murmuring in stands, blonde boy watching with dismissive smile in another section, score 0-4 visible, claustrophobic tight composition, oppressive atmosphere, heavy screentones, flat harsh lighting --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel
+black and white manga, wide shot, handsome athletic teen tennis player on tennis court in rigid stiff posture arm locked tight missing forehand into net with tennis racket, crowd murmuring in stands, blonde boy watching with dismissive smile in another section, score 0-4 visible, claustrophobic tight composition, oppressive atmosphere, heavy screentones, flat harsh lighting --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel
 ```
 
 ## E16. The Transformation — Second Set Loose and Free
 ```
-black and white manga, Kuroko no Basuke style, dynamic low angle, same handsome athletic teen tennis player now loose fluid right arm fully extended mid-forehand follow-through holding tennis racket body rotated weight forward, genuine fierce smile showing teeth, tennis ball leaving speed trail with diamond shimmer like Zone activation, open explosive composition, speed lines radiating, Fujimaki dynamic action, heavy screentones, dramatic backlighting --niji 6 --ar 2:3 --s 30 --no color cute chibi childish pastel
+black and white manga, Kuroko no Basuke style, dynamic low angle, same handsome athletic teen tennis player on tennis court now loose fluid right arm fully extended mid-forehand follow-through holding tennis racket body rotated weight forward, genuine fierce smile showing teeth, tennis ball leaving speed trail with diamond shimmer like Zone activation, open explosive composition, speed lines radiating, Fujimaki dynamic action, heavy screentones, dramatic backlighting --niji 6 --ar 2:3 --s 30 --no color cute chibi childish pastel
 ```
 
 ## E17. The Comeback Victory — Walking Off Court
@@ -116,17 +116,17 @@ black and white manga, four-panel reaction page, TOP LEFT blonde boy frowning sh
 
 ## E19. Yadi's Frustration Against the Wall
 ```
-black and white manga, wide shot, handsome athletic teen shouting in rage slapping racket against leg, across net stocky expressionless boy standing like iron wall, score 5-3 visible, claustrophobic tight panel composition, heavy screentones stone texture, oppressive flat lighting --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel
+black and white manga, wide shot, handsome athletic teen on tennis court shouting in rage slapping racket against leg, across net stocky expressionless boy standing like iron wall, score 5-3 visible, claustrophobic tight panel composition, heavy screentones stone texture, oppressive flat lighting --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel
 ```
 
 ## E20. Yen Shouts — Fight Yourself
 ```
-black and white manga, Kuroko no Basuke style, dynamic split panel, TOP young man standing in stands shouting intensely text STOP FIGHTING HIM FIGHT YOURSELF, BOTTOM teen on court looking up struck by realization, shockwave visual effect from words, crowd background, dramatic harsh lighting on mentor's face, heavy screentones --niji 6 --ar 2:3 --s 30 --no color cute chibi childish pastel
+black and white manga, Kuroko no Basuke style, dynamic split panel, TOP young man standing in stands shouting intensely text STOP FIGHTING HIM FIGHT YOURSELF, BOTTOM teen on tennis court looking up struck by realization, shockwave visual effect from words, crowd background, dramatic harsh lighting on mentor's face, heavy screentones --niji 6 --ar 2:3 --s 30 --no color cute chibi childish pastel
 ```
 
 ## E21. Yadi Comes to the Net — New Territory
 ```
-black and white manga, Kuroko no Basuke style, dramatic low angle, handsome athletic teen tennis player at net short compact punch volley holding tennis racket one hand, split step stance knees bent leaning forward, opponent in background caught off guard, tennis ball redirected sharply, speed lines, heavy shadows, aggressive low-angle composition, Fujimaki sports intensity --niji 6 --ar 2:3 --s 30 --no color cute chibi childish pastel
+black and white manga, Kuroko no Basuke style, dramatic low angle, handsome athletic teen tennis player at tennis court net short compact punch volley holding tennis racket one hand, split step stance knees bent leaning forward, opponent in background caught off guard, tennis ball redirected sharply, speed lines, heavy shadows, aggressive low-angle composition, Fujimaki sports intensity --niji 6 --ar 2:3 --s 30 --no color cute chibi childish pastel
 ```
 
 ## E22. Kai's Respectful Bow — Silent Respect
@@ -145,12 +145,12 @@ black and white manga, medium shot hallway, thin smiling boy approaching with ex
 
 ## E24. Yadi's Mental Collapse — Inner Voices
 ```
-black and white manga, Kuroko no Basuke style, close-up, handsome athletic teen on court staring at ground, darkness consuming panel edges, floating aggressive jagged text: YOU'RE NOT ENOUGH WHAT ARE YOU DOING HERE JUST AN ISLAND KID, ink wash darkness spreading, suffocating atmosphere, heavy screentones, dramatic underlighting --niji 6 --ar 2:3 --s 30 --no color cute chibi childish pastel
+black and white manga, Kuroko no Basuke style, close-up, handsome athletic teen on tennis court staring at ground, darkness consuming panel edges, floating aggressive jagged text: YOU'RE NOT ENOUGH WHAT ARE YOU DOING HERE JUST AN ISLAND KID, ink wash darkness spreading, suffocating atmosphere, heavy screentones, dramatic underlighting --niji 6 --ar 2:3 --s 30 --no color cute chibi childish pastel
 ```
 
 ## E25. The Cold Lethal Yadi — Post-Armor Zero Reaction
 ```
-black and white manga, Kuroko no Basuke style, extreme close-up, handsome athletic teen face completely neutral dead expression, opponent celebrating desperately in background searching for reaction, absolute zero emotion no raised eyebrow no blink, crystal-like inhuman calm, cold stark fluorescent lighting, heavy screentones, precise clean linework --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel
+black and white manga, Kuroko no Basuke style, extreme close-up, handsome athletic teen face completely neutral dead expression, opponent on tennis court celebrating desperately in background searching for reaction, absolute zero emotion no raised eyebrow no blink, crystal-like inhuman calm, cold stark fluorescent lighting, heavy screentones, precise clean linework --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel
 ```
 
 ## E26. Final Ace — Luca's Mask Falls
@@ -169,12 +169,12 @@ black and white manga double spread, Kuroko no Basuke style, multiple floating p
 
 ## E28. Daimon Broken — Money Wasn't Enough
 ```
-black and white manga, medium shot, blonde 17-year-old sitting in tennis chair shattered, holding expensive racket with trembling hands, staring at it emptied, entourage behind unable to help, heavy shadows, single overhead harsh light, crosshatching on face showing devastation, ink wash background --niji 6 --ar 2:3 --s 30 --no color cute chibi childish pastel
+black and white manga, medium shot, blonde 17-year-old sitting in tennis chair on tennis court shattered, holding expensive racket with trembling hands, staring at it emptied, entourage behind unable to help, heavy shadows, single overhead harsh light, crosshatching on face showing devastation, ink wash background --niji 6 --ar 2:3 --s 30 --no color cute chibi childish pastel
 ```
 
 ## E29. Yadi on His Knees — Silent Celebration
 ```
-black and white manga, Kuroko no Basuke style, medium shot, handsome athletic teen fallen to knees center court, looking at sky, silent tears streaming, racket on ground beside him, bandana soaked, crowd standing screaming applauding in background blurred, harsh spotlight from above, heavy screentones, dramatic chiaroscuro --niji 6 --ar 2:3 --s 30 --no color cute chibi childish pastel
+black and white manga, Kuroko no Basuke style, medium shot, handsome athletic teen fallen to knees center tennis court, looking at sky, silent tears streaming, racket on ground beside him, bandana soaked, crowd standing screaming applauding in background blurred, harsh spotlight from above, heavy screentones, dramatic chiaroscuro --niji 6 --ar 2:3 --s 30 --no color cute chibi childish pastel
 ```
 
 ## E30. VIP Box Mystery — Silhouette with Phone
@@ -241,7 +241,7 @@ black and white manga, cinematic wide shot from inside room, handsome athletic t
 
 ## E40. Yadi vs The Veteran — Respect Between Generations
 ```
-black and white manga, medium shot at net, handsome athletic teen handshake with 30-year-old stocky bearded veteran, firm meaningful grip, veteran's knowing smile text See you soon kid, professional stadium secondary court background, heavy screentones, warm side lighting --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel
+black and white manga, medium shot at net, handsome athletic teen handshake with 30-year-old stocky bearded veteran on tennis court, firm meaningful grip, veteran's knowing smile text See you soon kid, professional stadium secondary tennis court background, heavy screentones, warm side lighting --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel
 ```
 
 ## E41. Return to Isla Brava — Family Hug
