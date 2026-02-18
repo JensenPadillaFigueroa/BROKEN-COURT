@@ -10,137 +10,137 @@
 
 ## 1. Yadi Vazq — Character Sheet
 ```
-black and white manga character sheet, exactly 3 poses front view side view back view only, Kuroko no Basuke art style, handsome 16-year-old Latino boy, brown skin, tall lean athletic build, sharp facial features, dark messy hair, intense dark eyes with diamond glint, old worn tennis clothes, bandana on forehead, taped racket, worn sneakers, confident stance, Tadatoshi Fujimaki protagonist design, heavy screentones, crosshatching shadows --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel multiple poses
+black and white manga character sheet, exactly 3 poses front view side view back view only, Kuroko no Basuke art style, handsome 16-year-old Latino boy tennis player, brown skin, tall lean athletic build, sharp facial features, dark messy hair, intense dark eyes with diamond glint, old worn tennis clothes, bandana on forehead, taped racket, worn sneakers, confident stance, Tadatoshi Fujimaki protagonist design, heavy screentones, crosshatching shadows --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel multiple poses
 ```
 
 ## 2. Yadi — Tiger Aura Power Version
 ```
-black and white manga, Kuroko no Basuke style, low angle shot, handsome athletic Latino teen mid-forehand swing, massive spectral tiger roaring behind him as aura, eyes glowing diamond facets like Zone activation, speed lines radiating outward, tennis court cracking, lightning energy crackling, ink splatter effects, dynamic composition, Tadatoshi Fujimaki action intensity --niji 6 --ar 2:3 --s 30 --no color cute chibi childish pastel
+black and white manga, Kuroko no Basuke style, low angle shot, handsome athletic Latino teen tennis player mid-forehand swing, massive spectral tiger roaring behind him as aura, eyes glowing diamond facets like Zone activation, speed lines radiating outward, tennis court cracking, lightning energy crackling, ink splatter effects, dynamic composition, Tadatoshi Fujimaki action intensity --niji 6 --ar 2:3 --s 30 --no color cute chibi childish pastel
 ```
 
 ## 3. Yadi — Diamond Vision Eyes
 ```
-black and white manga extreme close-up, Kuroko no Basuke style, handsome teen face sharp jawline, pupils transformed into diamond crystal facets, light rays exploding from irises like Zone entry, tennis ball trajectory lines reflected in eyes, tears streaming, veins visible on temples, heavy crosshatching on skin, Rembrandt lighting, Fujimaki hyper-detailed eye rendering --niji 6 --ar 4:5 --s 30 --no color cute chibi childish pastel
+black and white manga extreme close-up, Kuroko no Basuke style, handsome teen tennis player face sharp jawline, pupils transformed into diamond crystal facets, light rays exploding from irises like Zone entry, tennis ball trajectory lines reflected in eyes, tears streaming, veins visible on temples, heavy crosshatching on skin, Rembrandt lighting, Fujimaki hyper-detailed eye rendering --niji 6 --ar 4:5 --s 30 --no color cute chibi childish pastel
 ```
 
 ## 4. Yen — Character Sheet
 ```
-black and white manga character sheet, front side back views, 23-year-old man, tall lean, long dark hair in ponytail, calm analytical piercing eyes, small scar on right knee, towel draped on shoulder, simple clean clothes, relaxed but alert posture, handsome understated, heavy screentones, clean linework, Rembrandt lighting --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel
+black and white manga character sheet, exactly 3 poses front view side view back view only, 23-year-old man tennis coach, tall lean, long dark hair in ponytail, calm analytical piercing eyes, small scar on right knee, towel draped on shoulder, simple clean clothes, relaxed but alert posture, handsome understated, heavy screentones, clean linework, Rembrandt lighting --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel multiple poses
 ```
 
 ## 5. Yen — Owl Aura
 ```
-black and white manga, medium shot, young man standing courtside arms crossed, massive translucent owl silhouette forming behind him in shadows, sharp predatory owl eyes glowing, night setting, harsh overhead light, ink wash background, heavy screentones, calm lethal atmosphere --niji 6 --ar 2:3 --s 30 --no color cute chibi childish pastel
+black and white manga, medium shot, young man tennis coach standing courtside arms crossed, massive translucent owl silhouette forming behind him in shadows, sharp predatory owl eyes glowing, night setting, harsh overhead light, ink wash background, heavy screentones, calm lethal atmosphere --niji 6 --ar 2:3 --s 30 --no color cute chibi childish pastel
 ```
 
-## 6. Novacronos — Character Sheet (LITERAL EAGLE HEAD)
+## 6. Novacronos — Character Sheet
 ```
-black and white manga character sheet, front side back views, anthropomorphic golden eagle head on human body, man early 40s, majestic eagle head sharp predatory eyes elegant plumage, silver-white feathers on crown, athletic body in tailored suit, tall imposing perfect posture, eagle beak sharp as blade, heavy crosshatching, dramatic rim lighting --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel
+black and white manga character sheet, exactly 3 poses front view side view back view only, man early 40s, fully human, legendary tennis player, tall imposing regal build, silver-white elegant hair slicked back, sharp predatory aristocratic eyes, perfect bone structure, expensive tailored suit, gold accessories, perfect posture like royalty, aura of divine authority, heavy crosshatching, dramatic rim lighting --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel multiple poses
 ```
 
-## 7. Novacronos — In Action Flashback
+## 7. Novacronos — Eagle Aura In Action
 ```
-black and white manga, dynamic low angle, anthropomorphic eagle-headed man on tennis court, massive wings fully spread, feathers falling like blades, holding racket mid-serve, tennis ball leaving destruction trail, cathedral-like stadium background, divine energy radiating, ink splatter effects, heavy screentones, backlighting through wings --niji 6 --ar 2:3 --s 30 --no color cute chibi childish pastel
+black and white manga, dynamic low angle, tall elegant regal man on tennis court mid-serve, fully human, massive translucent golden eagle spreading wings behind him as spirit aura, feathers falling like blades, tennis ball leaving destruction trail, cathedral-like stadium background, divine energy radiating, ink splatter effects, heavy screentones, backlighting --niji 6 --ar 2:3 --s 30 --no color cute chibi childish pastel
 ```
 
 ## 8. Novacronos — Silhouette (Ch 8)
 ```
-black and white manga, medium shot, eagle-headed figure sitting in leather armchair, sharp beak profile silhouette, predatory eyes glowing in darkness, holding tablet, trophies and paintings on walls, European office interior, single desk lamp light source, heavy shadows, noir atmosphere --niji 6 --ar 2:3 --s 30 --no color cute chibi childish pastel
+black and white manga, medium shot, elegant regal man sitting in leather armchair, sharp aristocratic profile silhouette, predatory piercing eyes in darkness, holding tablet, trophies and paintings on walls, European office interior, faint translucent eagle shadow on wall behind him, single desk lamp light source, heavy shadows, noir atmosphere --niji 6 --ar 2:3 --s 30 --no color cute chibi childish pastel
 ```
 
 ## 9. Rafa Nal — Character Sheet (LITERAL BULL HEAD)
 ```
-black and white manga character sheet, front side back views, anthropomorphic bull head on human body, man late 30s, massive bull head with huge curved horns, furious eyes, steam from nostrils, dark fur matted with sweat, extremely muscular scarred body, torn training clothes, clay court background, heavy crosshatching on muscles, harsh overhead lighting --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel
+black and white manga character sheet, exactly 3 poses front view side view back view only, anthropomorphic bull head on human body, legendary tennis player, man late 30s, massive bull head with huge curved horns, furious eyes, steam from nostrils, dark fur matted with sweat, extremely muscular scarred body, torn training clothes, clay court background, heavy crosshatching on muscles, harsh overhead lighting --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel multiple poses
 ```
 
 ## 10. Rafa Nal — In Action Flashback
 ```
-black and white manga, dynamic wide shot, anthropomorphic bull-headed man charging forward on clay court, horns glowing with heat, steam erupting from nostrils, muscular body covered in clay and sweat, racket swinging like a weapon, earth and dust exploding from ground, fire aura effect, coliseum stadium background, ink splatter, heavy screentones --niji 6 --ar 2:3 --s 30 --no color cute chibi childish pastel
+black and white manga, dynamic wide shot, anthropomorphic bull-headed man legendary tennis player charging forward on clay court, horns glowing with heat, steam erupting from nostrils, muscular body covered in clay and sweat, tennis racket swinging like a weapon, earth and dust exploding from ground, fire aura effect, coliseum stadium background, ink splatter, heavy screentones --niji 6 --ar 2:3 --s 30 --no color cute chibi childish pastel
 ```
 
 ## 11. Rafa Nal — Silhouette (Ch 8)
 ```
-black and white manga, wide shot, massive bull-horned silhouette standing on clay court, mountains in background, steam from nostrils, clenched fist crushing phone, screen showing young player, rustic training facility, harsh sunlight backlighting, heavy screentones, primal atmosphere --niji 6 --ar 2:3 --s 30 --no color cute chibi childish pastel
+black and white manga, wide shot, massive bull-horned silhouette legendary tennis player standing on clay tennis court, mountains in background, steam from nostrils, clenched fist crushing phone, screen showing young player, rustic training facility, harsh sunlight backlighting, heavy screentones, primal atmosphere --niji 6 --ar 2:3 --s 30 --no color cute chibi childish pastel
 ```
 
 ## 12. Noak — Character Sheet (LITERAL GOAT HEAD)
 ```
-black and white manga character sheet, front side back views, anthropomorphic mountain goat head on human body, man late 30s, curved horns sharp as blades, rectangular pupils dead calculating eyes, unsettling smile, short fur, lean wiry body, minimalist clothing, perfect posture, heavy crosshatching, cold fluorescent lighting, clinical atmosphere --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel
+black and white manga character sheet, exactly 3 poses front view side view back view only, anthropomorphic mountain goat head on human body, legendary tennis player, man late 30s, curved horns sharp as blades, rectangular pupils dead calculating eyes, unsettling smile, short fur, lean wiry body, minimalist clothing, perfect posture, heavy crosshatching, cold fluorescent lighting, clinical atmosphere --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel multiple poses
 ```
 
 ## 13. Noak — In Action
 ```
-black and white manga, medium shot, anthropomorphic goat-headed man on hard court, rectangular dead pupils curved horns, unsettling calm smile, lean body balanced on impossible angles, geometric patterns and mathematical formulas fracturing the air, crystalline energy effects, court warping and bending, matrix-like visual overlay, precise clean linework --niji 6 --ar 2:3 --s 30 --no color cute chibi childish pastel
+black and white manga, medium shot, anthropomorphic goat-headed man legendary tennis player on hard tennis court, rectangular dead pupils curved horns, unsettling calm smile, lean body balanced on impossible angles, geometric patterns and mathematical formulas fracturing the air, crystalline energy effects, court warping and bending, matrix-like visual overlay, precise clean linework --niji 6 --ar 2:3 --s 30 --no color cute chibi childish pastel
 ```
 
 ## 14. Noak — Silhouette (Ch 8)
 ```
-black and white manga, long shot corridor perspective, lean goat-horned figure walking toward camera, curved horns casting massive ceiling shadow, rectangular pupil eyes glowing faintly, unsettling smile, holding tablet, assistants behind keeping distance, minimalist modern facility, cold fluorescent lighting, heavy shadows --niji 6 --ar 2:3 --s 30 --no color cute chibi childish pastel
+black and white manga, long shot corridor perspective, lean goat-horned figure legendary tennis player walking toward camera, curved horns casting massive ceiling shadow, rectangular pupil eyes glowing faintly, unsettling smile, holding tablet, assistants behind keeping distance, minimalist modern facility, cold fluorescent lighting, heavy shadows --niji 6 --ar 2:3 --s 30 --no color cute chibi childish pastel
 ```
 
 ## 15. Charlie — Character Sheet
 ```
-black and white manga character sheet, front side back views, Kuroko no Basuke style, 22-year-old man, athletic powerful build massive legs broad shoulders, curly wild hair like untamed mane, bright intense smile showing teeth, eyes burning with energy, top-brand tennis outfit, confident dominant pose, Tadatoshi Fujimaki character design, heavy screentones, warm rim lighting --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel
+black and white manga character sheet, exactly 3 poses front view side view back view only, Kuroko no Basuke style, 22-year-old man tennis player, athletic powerful build massive legs broad shoulders, curly wild hair like untamed mane, bright intense smile showing teeth, eyes burning with energy, top-brand tennis outfit, confident dominant pose, Tadatoshi Fujimaki character design, heavy screentones, warm rim lighting --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel multiple poses
 ```
 
 ## 16. Charlie — Lion Aura
 ```
-black and white manga, Kuroko no Basuke style, dynamic low angle, athletic man mid-forehand swing, curly hair flowing wildly, massive translucent lion roaring behind him as spirit aura, Zone-like energy trail on ball, speed lines radiating, stadium crowd silhouettes, light explosion effect, Fujimaki action composition, heavy screentones --niji 6 --ar 2:3 --s 30 --no color cute chibi childish pastel
+black and white manga, Kuroko no Basuke style, dynamic low angle, athletic man tennis player mid-forehand swing on tennis court, curly hair flowing wildly, massive translucent lion roaring behind him as spirit aura, Zone-like energy trail on ball, speed lines radiating, stadium crowd silhouettes, light explosion effect, Fujimaki action composition, heavy screentones --niji 6 --ar 2:3 --s 30 --no color cute chibi childish pastel
 ```
 
 ## 17. Jani — Character Sheet
 ```
-black and white manga character sheet, front side back views, Kuroko no Basuke rival style, 23-year-old man, tall lean predatory build, red auburn hair slicked back, ice-cold steel eyes, emotionless expression, aristocratic sharp features, pale skin, impeccable tennis outfit, perfect posture, Fujimaki antagonist design, precise linework, cold lighting --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel
+black and white manga character sheet, exactly 3 poses front view side view back view only, Kuroko no Basuke rival style, 23-year-old man tennis player, tall lean predatory build, red auburn hair slicked back, ice-cold steel eyes, emotionless expression, aristocratic sharp features, pale skin, impeccable tennis outfit, perfect posture, Fujimaki antagonist design, precise linework, cold lighting --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel multiple poses
 ```
 
 ## 18. Jani — Arctic Fox Aura
 ```
-black and white manga, long shot corridor, tall red-haired man walking toward camera, translucent arctic fox shadow on floor beside him, ice crystals forming in his footsteps, piercing frozen eyes, frost effects spreading on walls, visible cold breath, people stepping aside, stark harsh fluorescent lighting, heavy screentones --niji 6 --ar 2:3 --s 30 --no color cute chibi childish pastel
+black and white manga, long shot corridor, tall red-haired man tennis player walking toward camera, translucent arctic fox shadow on floor beside him, ice crystals forming in his footsteps, piercing frozen eyes, frost effects spreading on walls, visible cold breath, people stepping aside, stark harsh fluorescent lighting, heavy screentones --niji 6 --ar 2:3 --s 30 --no color cute chibi childish pastel
 ```
 
 ## 19. Daimon Richwell — Character Sheet
 ```
-black and white manga character sheet, front side back views, 17-year-old boy, blonde perfect hair, expensive branded tennis outfit, arrogant smirk, perfect skin, premium racket bag, entourage silhouettes behind, confident but fragile posture, cracks visible in expression, heavy screentones, studio lighting --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel
+black and white manga character sheet, exactly 3 poses front view side view back view only, 17-year-old boy tennis player, blonde perfect hair, expensive branded tennis outfit, arrogant smirk, perfect skin, premium racket bag, entourage silhouettes behind, confident but fragile posture, cracks visible in expression, heavy screentones, studio lighting --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel multiple poses
 ```
 
 ## 20. Daimon — Peacock Aura
 ```
-black and white manga, medium shot, blonde teen on tennis court, translucent peacock tail fanning out behind him as aura, elaborate feathers cracking and shattering mid-collapse, fragments falling like broken glass, boy's confident expression breaking into shock, stark dramatic shadows, backlighting, heavy screentones --niji 6 --ar 2:3 --s 30 --no color cute chibi childish pastel
+black and white manga, medium shot, blonde teen tennis player on tennis court, translucent peacock tail fanning out behind him as aura, elaborate feathers cracking and shattering mid-collapse, fragments falling like broken glass, boy's confident expression breaking into shock, stark dramatic shadows, backlighting, heavy screentones --niji 6 --ar 2:3 --s 30 --no color cute chibi childish pastel
 ```
 
 ## 21. Kai Morimoto — Character Sheet
 ```
-black and white manga character sheet, front side back views, 16-year-old boy, short stocky bunker-like build, completely expressionless face, dark straight hair, small dark absorbing eyes, plain simple tennis clothes, immovable fortress stance, heavy crosshatching, flat even lighting, minimalist composition --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel
+black and white manga character sheet, exactly 3 poses front view side view back view only, 16-year-old boy tennis player, short stocky bunker-like build, completely expressionless face, dark straight hair, small dark absorbing eyes, plain simple tennis clothes, immovable fortress stance, heavy crosshatching, flat even lighting, minimalist composition --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel multiple poses
 ```
 
 ## 22. Kai — Turtle Shell Aura
 ```
-black and white manga, wide shot, stocky teen in low defensive tennis stance, massive translucent turtle shell forming behind him as geometric shield, hexagonal barrier patterns, ball bouncing back in mid-air, stone and earth texture effects, expressionless face, claustrophobic tight composition, heavy screentones, oppressive overhead lighting --niji 6 --ar 2:3 --s 30 --no color cute chibi childish pastel
+black and white manga, wide shot, stocky teen tennis player in low defensive tennis stance, massive translucent turtle shell forming behind him as geometric shield, hexagonal barrier patterns, ball bouncing back in mid-air, stone and earth texture effects, expressionless face, claustrophobic tight composition, heavy screentones, oppressive overhead lighting --niji 6 --ar 2:3 --s 30 --no color cute chibi childish pastel
 ```
 
 ## 23. Luca Santori — Character Sheet
 ```
-black and white manga character sheet, front side back views, 17-year-old boy, thin agile serpentine build, narrow calculating eyes, permanent friendly smile, dark slicked hair, neat tennis clothes, relaxed liquid posture, sinister undertone in expression, precise clean linework, subtle shadow work, even lighting --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel
+black and white manga character sheet, exactly 3 poses front view side view back view only, 17-year-old boy tennis player, thin agile serpentine build, narrow calculating eyes, permanent friendly smile, dark slicked hair, neat tennis clothes, relaxed liquid posture, sinister undertone in expression, precise clean linework, subtle shadow work, even lighting --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel multiple poses
 ```
 
 ## 24. Luca — Viper Shadow
 ```
-black and white manga, medium shot, thin teen on court smiling warmly, translucent snake shadows slithering from his feet on ground, poison smoke rising as ink wash effect, venomous words as smoke-text floating in air, court distorting like heat haze, terrifying contrast between friendly face and dark aura, heavy screentones, dramatic underlighting --niji 6 --ar 2:3 --s 30 --no color cute chibi childish pastel
+black and white manga, medium shot, thin teen tennis player on tennis court smiling warmly, translucent snake shadows slithering from his feet on ground, poison smoke rising as ink wash effect, venomous words as smoke-text floating in air, court distorting like heat haze, terrifying contrast between friendly face and dark aura, heavy screentones, dramatic underlighting --niji 6 --ar 2:3 --s 30 --no color cute chibi childish pastel
 ```
 
 ## 25. Papa Vazq — Character Sheet
 ```
-black and white manga character sheet, front side back views, middle-aged Latino man, strong weathered build, serious stern face with warm piercing eyes, short dark hair greying, stained work clothes, calloused rough hands, arms crossed, proud posture, heavy crosshatching on face details, warm side lighting --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel
+black and white manga character sheet, exactly 3 poses front view side view back view only, middle-aged Latino man, strong weathered build, serious stern face with warm piercing eyes, short dark hair greying, stained work clothes, calloused rough hands, arms crossed, proud posture, heavy crosshatching on face details, warm side lighting --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel multiple poses
 ```
 
 ## 26. Mama Vazq — Character Sheet
 ```
-black and white manga character sheet, front side back views, middle-aged Latina woman, fierce expressive face, hands gesturing mid-motion, flower-print dress, wild hair, defiant smile, carrying food towels and first-aid supplies, energetic dynamic posture, expressive linework, warm overhead lighting --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel
+black and white manga character sheet, exactly 3 poses front view side view back view only, middle-aged Latina woman, fierce expressive face, hands gesturing mid-motion, flower-print dress, wild hair, defiant smile, carrying food towels and first-aid supplies, energetic dynamic posture, expressive linework, warm overhead lighting --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel multiple poses
 ```
 
 ## 27. Don Emilio — Character Sheet
 ```
-black and white manga character sheet, front side back views, elderly Caribbean man 70+, thin weathered skin like old leather, deep wrinkles, old straw hat, cigarette in mouth, machete beside him on bench, knowing ancient eyes, old linen clothes, tropical background, heavy crosshatching on skin texture, harsh sunlight --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel
+black and white manga character sheet, exactly 3 poses front view side view back view only, elderly Caribbean man 70+, thin weathered skin like old leather, deep wrinkles, old straw hat, cigarette in mouth, machete beside him on bench, knowing ancient eyes, old linen clothes, tropical background, heavy crosshatching on skin texture, harsh sunlight --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel multiple poses
 ```
 
 ---
@@ -199,7 +199,7 @@ black and white manga double spread, Kuroko no Basuke Zone moment, handsome athl
 
 ## 38. Ch 8 Pg 10 — Three Legends React Triptych
 ```
-black and white manga triptych three horizontal panels, TOP eagle-headed man in suit reading tablet European office heavy shadows, MIDDLE bull-headed man on clay court mountains watching phone steam erupting fist clenched, BOTTOM goat-headed man in corridor studying statistics unsettling smile, each panel unique lighting and screentone pattern, dramatic atmospheric per panel --niji 6 --ar 2:3 --s 30 --no color cute chibi childish pastel
+black and white manga triptych three horizontal panels, TOP elegant regal man in suit reading tablet translucent eagle shadow on wall European office heavy shadows, MIDDLE bull-headed man on clay court mountains watching phone steam erupting fist clenched, BOTTOM goat-headed man in corridor studying statistics unsettling smile, each panel unique lighting and screentone pattern, dramatic atmospheric per panel --niji 6 --ar 2:3 --s 30 --no color cute chibi childish pastel
 ```
 
 ## 39. Ch 9 Pgs 6-7 — Yadi Sees Charlie
