@@ -1,5 +1,3 @@
-# 🎾 YADI VAZQ
-
 ## Tennis Manga | Manga de Tenis
 
 > *"It doesn't matter where you come from. It matters where you're going."*
