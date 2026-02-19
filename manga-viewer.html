@@ -1,0 +1,1227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BROKEN COURT — Volume 1: The Rise</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600;700&family=Noto+Sans+JP:wght@400;700;900&family=Crimson+Text:ital@0;1&family=Space+Grotesk:wght@300;400;500&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  :root {
+    --bg: #050505;
+    --surface: #0c0c0c;
+    --card: #111;
+    --border: #1e1e1e;
+    --text: #e0e0e0;
+    --text-dim: #666;
+    --accent: #fff;
+    --gold: #d4a853;
+    --gold-dim: rgba(212,168,83,0.15);
+  }
+
+  html { scroll-behavior: smooth; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Space Grotesk', sans-serif;
+    line-height: 1.7;
+    overflow-x: hidden;
+  }
+
+  /* PROGRESS BAR */
+  #progress {
+    position: fixed; top: 0; left: 0; height: 2px; z-index: 200;
+    background: linear-gradient(90deg, var(--gold), #fff, var(--gold));
+    width: 0%; transition: width 0.1s linear;
+    box-shadow: 0 0 12px rgba(212,168,83,0.6);
+  }
+
+  /* NAV */
+  nav {
+    position: fixed; top: 2px; left: 0; right: 0; z-index: 100;
+    background: rgba(5,5,5,0.85);
+    backdrop-filter: blur(20px) saturate(1.2);
+    border-bottom: 1px solid rgba(255,255,255,0.04);
+  }
+  .nav-inner {
+    max-width: 1200px; margin: 0 auto;
+    display: flex; align-items: center;
+    overflow-x: auto; scrollbar-width: none;
+  }
+  .nav-inner::-webkit-scrollbar { display: none; }
+  .nav-title {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700; font-size: 13px;
+    letter-spacing: 5px; text-transform: uppercase;
+    padding: 16px 24px;
+    white-space: nowrap;
+    color: var(--gold);
+    border-right: 1px solid rgba(255,255,255,0.06);
+    cursor: pointer;
+  }
+  .nav-btn {
+    background: none; border: none; color: var(--text-dim);
+    font-family: 'Oswald', sans-serif; font-size: 10px;
+    letter-spacing: 2px; text-transform: uppercase;
+    padding: 16px 14px; cursor: pointer;
+    white-space: nowrap; transition: all 0.3s;
+    position: relative;
+  }
+  .nav-btn::after {
+    content: ''; position: absolute; bottom: 0; left: 50%; width: 0; height: 1px;
+    background: var(--gold); transition: all 0.3s; transform: translateX(-50%);
+  }
+  .nav-btn:hover { color: var(--accent); }
+  .nav-btn:hover::after, .nav-btn.active::after { width: 70%; }
+  .nav-btn.active { color: var(--gold); }
+
+  /* HERO */
+  .hero {
+    min-height: 100vh; display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    text-align: center; padding: 100px 20px 60px;
+    position: relative;
+    background: radial-gradient(ellipse at 50% 30%, rgba(212,168,83,0.03) 0%, transparent 60%),
+                radial-gradient(ellipse at center, #0c0c0c 0%, #050505 70%);
+  }
+  .hero::before {
+    content: ''; position: absolute; inset: 0;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="4" height="4"><rect width="1" height="1" fill="rgba(255,255,255,0.015)"/></svg>') repeat;
+    pointer-events: none;
+  }
+  .hero-cover {
+    position: relative; margin-bottom: 40px;
+  }
+  .hero-cover img {
+    max-height: 62vh; width: auto; max-width: 85%;
+    border: 1px solid rgba(255,255,255,0.08);
+    box-shadow: 0 30px 100px rgba(0,0,0,0.9), 0 0 60px rgba(212,168,83,0.08);
+    animation: kenburns-hero 16s ease-in-out infinite alternate;
+  }
+  @keyframes kenburns-hero {
+    0%   { transform: scale(1); }
+    100% { transform: scale(1.05); }
+  }
+  .hero-cover::after {
+    content: ''; position: absolute; inset: -1px;
+    background: linear-gradient(180deg, transparent 60%, var(--bg) 100%);
+    pointer-events: none;
+  }
+  .hero h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: clamp(40px, 7vw, 80px);
+    font-weight: 700; letter-spacing: 12px;
+    text-transform: uppercase; margin-bottom: 4px;
+    background: linear-gradient(180deg, #fff 0%, #999 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .hero .subtitle {
+    font-family: 'Oswald', sans-serif;
+    font-size: clamp(12px, 1.8vw, 16px);
+    font-weight: 300; letter-spacing: 6px; color: var(--gold);
+    text-transform: uppercase; margin-bottom: 24px;
+  }
+  .hero .quote {
+    font-family: 'Crimson Text', serif;
+    font-style: italic; font-size: 19px;
+    color: #555; max-width: 480px;
+    line-height: 1.8;
+  }
+  .hero .scroll-hint {
+    margin-top: 50px; font-family: 'Oswald', sans-serif;
+    font-size: 9px; letter-spacing: 4px; color: #333;
+    text-transform: uppercase;
+  }
+  .scroll-arrow {
+    display: block; margin: 12px auto 0; width: 20px; height: 20px;
+    border-right: 1px solid #333; border-bottom: 1px solid #333;
+    transform: rotate(45deg);
+    animation: bob 2s ease-in-out infinite;
+  }
+  @keyframes bob { 0%,100%{transform:rotate(45deg) translate(0)} 50%{transform:rotate(45deg) translate(4px,4px)} }
+
+  /* SCROLL REVEAL */
+  .reveal {
+    opacity: 0; transform: translateY(40px);
+    transition: opacity 0.8s cubic-bezier(0.23,1,0.32,1), transform 0.8s cubic-bezier(0.23,1,0.32,1);
+  }
+  .reveal.visible {
+    opacity: 1; transform: translateY(0);
+  }
+
+  /* CHAPTER */
+  .chapter {
+    max-width: 860px; margin: 0 auto;
+    padding: 0 20px 80px;
+  }
+  .chapter-header {
+    text-align: center;
+    padding: 120px 0 60px;
+    position: relative;
+  }
+  .chapter-header::before {
+    content: ''; display: block; width: 40px; height: 1px;
+    background: var(--gold); margin: 0 auto 24px;
+  }
+  .chapter-num {
+    font-family: 'Oswald', sans-serif;
+    font-size: 10px; font-weight: 300; letter-spacing: 5px;
+    color: var(--gold); text-transform: uppercase;
+    margin-bottom: 12px;
+  }
+  .chapter-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: clamp(30px, 5vw, 56px);
+    font-weight: 700; letter-spacing: 4px;
+    text-transform: uppercase; margin-bottom: 20px;
+    background: linear-gradient(180deg, #fff 20%, #666 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .chapter-summary {
+    font-family: 'Crimson Text', serif;
+    font-size: 17px; color: #555;
+    max-width: 540px; margin: 0 auto;
+    font-style: italic; line-height: 1.8;
+  }
+  .chapter-divider {
+    width: 100%; height: 120px;
+    background: linear-gradient(180deg, var(--bg) 0%, rgba(212,168,83,0.03) 50%, var(--bg) 100%);
+    position: relative;
+  }
+  .chapter-divider::after {
+    content: ''; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);
+    width: 60px; height: 1px; background: linear-gradient(90deg, transparent, var(--gold), transparent);
+  }
+
+  /* MANGA PAGE */
+  .manga-page {
+    margin-bottom: 48px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    overflow: hidden;
+    border-radius: 2px;
+    box-shadow: 0 8px 40px rgba(0,0,0,0.4);
+    transition: box-shadow 0.4s;
+  }
+  .manga-page:hover {
+    box-shadow: 0 12px 60px rgba(0,0,0,0.6), 0 0 30px rgba(212,168,83,0.03);
+  }
+  .page-label {
+    font-family: 'Oswald', sans-serif;
+    font-size: 10px; font-weight: 400; letter-spacing: 3px;
+    color: #444; text-transform: uppercase;
+    padding: 14px 24px;
+    background: rgba(0,0,0,0.5);
+    border-bottom: 1px solid var(--border);
+  }
+  .page-image-wrap {
+    position: relative;
+    background: #000;
+    display: flex; align-items: center; justify-content: center;
+    min-height: 280px;
+    overflow: hidden;
+    max-height: 80vh;
+  }
+  .page-image-wrap > img {
+    width: 100%; height: 120%; object-fit: cover;
+    display: block;
+    will-change: transform;
+  }
+  .page-image-wrap.in-view > img {
+    animation: kenburns 12s ease-in-out infinite alternate;
+  }
+  @keyframes kenburns {
+    0%   { transform: scale(1)   translateY(0); }
+    100% { transform: scale(1.08) translateY(-10px); }
+  }
+  .page-image-wrap::after {
+    content: ''; position: absolute; inset: 0;
+    background: linear-gradient(180deg, transparent 70%, rgba(0,0,0,0.5) 100%);
+    pointer-events: none;
+  }
+
+  /* PLACEHOLDER */
+  .placeholder {
+    width: 100%; min-height: 350px;
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    background:
+      radial-gradient(ellipse at center, rgba(212,168,83,0.02) 0%, transparent 70%),
+      linear-gradient(135deg, #080808 0%, #111 50%, #080808 100%);
+    gap: 14px; position: relative;
+  }
+  .placeholder::before {
+    content: ''; position: absolute; inset: 20px;
+    border: 1px dashed rgba(255,255,255,0.05);
+    border-radius: 2px;
+  }
+  .placeholder .ph-icon {
+    font-size: 36px; opacity: 0.15;
+    filter: grayscale(1);
+  }
+  .placeholder .ph-name {
+    font-family: 'Oswald', sans-serif;
+    font-size: 11px; letter-spacing: 3px;
+    color: #333; text-transform: uppercase;
+  }
+  .placeholder .ph-desc {
+    font-family: 'Crimson Text', serif;
+    font-style: italic;
+    font-size: 15px; color: #2a2a2a;
+    max-width: 320px; text-align: center;
+    line-height: 1.6;
+  }
+
+  /* DIALOGUE */
+  .dialogue-block {
+    padding: 28px 32px;
+    border-top: 1px solid var(--border);
+    background: rgba(0,0,0,0.2);
+  }
+  .dialogue-block .narration {
+    font-family: 'Crimson Text', serif;
+    font-style: italic; color: #666;
+    font-size: 18px; margin-bottom: 16px;
+    padding-left: 20px;
+    border-left: 2px solid rgba(212,168,83,0.4);
+    line-height: 1.8;
+  }
+  .dialogue-block .speech {
+    margin-bottom: 14px; font-size: 15px;
+    padding: 10px 16px;
+    background: rgba(255,255,255,0.02);
+    border-left: 3px solid rgba(255,255,255,0.08);
+    border-radius: 0 4px 4px 0;
+  }
+  .dialogue-block .speaker {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600; font-size: 10px;
+    letter-spacing: 2.5px; text-transform: uppercase;
+    color: var(--gold);
+    display: block; margin-bottom: 4px;
+  }
+  .dialogue-block .line {
+    color: var(--text); font-size: 15px;
+    font-family: 'Crimson Text', serif;
+    line-height: 1.7;
+  }
+  .dialogue-block .sfx {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700; font-size: 28px;
+    letter-spacing: 8px; color: var(--accent);
+    text-align: center; margin: 24px 0;
+    text-shadow: 0 0 30px rgba(255,255,255,0.1);
+  }
+  .dialogue-block .thought {
+    font-family: 'Crimson Text', serif;
+    font-style: italic; color: #555;
+    margin-bottom: 12px; font-size: 16px;
+    padding-left: 20px;
+    line-height: 1.7;
+  }
+  .scene-note {
+    font-family: 'Oswald', sans-serif;
+    font-size: 10px; letter-spacing: 2px;
+    color: #333; text-transform: uppercase;
+    padding: 12px 32px;
+    border-top: 1px solid var(--border);
+    background: rgba(0,0,0,0.4);
+  }
+
+  /* CHAPTER END */
+  .chapter-end {
+    text-align: center; padding: 80px 20px;
+    position: relative;
+  }
+  .chapter-end::before {
+    content: ''; display: block; width: 30px; height: 1px;
+    background: rgba(212,168,83,0.3); margin: 0 auto 24px;
+  }
+  .chapter-end .next {
+    font-family: 'Oswald', sans-serif;
+    font-size: 10px; font-weight: 300; letter-spacing: 4px;
+    color: #333; text-transform: uppercase;
+  }
+  .chapter-end .next-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 26px; font-weight: 600; letter-spacing: 3px;
+    color: #555; margin-top: 8px;
+    transition: color 0.3s;
+  }
+  .chapter-end:hover .next-title { color: var(--gold); }
+
+  /* CHARACTER GALLERY */
+  .char-gallery {
+    max-width: 1100px; margin: 0 auto; padding: 0 20px 80px;
+  }
+  .char-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 12px; margin-top: 30px;
+  }
+  .char-card {
+    background: var(--card); border: 1px solid var(--border);
+    overflow: hidden; border-radius: 2px;
+    transition: all 0.4s cubic-bezier(0.23,1,0.32,1);
+    position: relative;
+  }
+  .char-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 16px 50px rgba(0,0,0,0.5), 0 0 20px rgba(212,168,83,0.05);
+    border-color: rgba(212,168,83,0.15);
+  }
+  .char-card img {
+    width: 100%; height: auto; display: block;
+    transition: transform 0.5s;
+    filter: grayscale(0.1);
+  }
+  .char-card:hover img { transform: scale(1.04); filter: grayscale(0); }
+  .char-card .char-name {
+    font-family: 'Oswald', sans-serif;
+    font-size: 10px; font-weight: 400; letter-spacing: 2.5px;
+    text-transform: uppercase; padding: 12px 14px;
+    text-align: center; color: #444;
+    transition: color 0.3s;
+  }
+  .char-card:hover .char-name { color: var(--gold); }
+
+  /* FOOTER */
+  footer {
+    text-align: center; padding: 80px 20px;
+    color: #333; font-size: 13px;
+    position: relative;
+  }
+  footer::before {
+    content: ''; display: block; width: 60px; height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(212,168,83,0.3), transparent);
+    margin: 0 auto 30px;
+  }
+  footer .end-text {
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px; letter-spacing: 5px;
+    text-transform: uppercase; margin-bottom: 8px;
+    color: var(--gold);
+  }
+
+  /* ═══ MANGA PANEL LAYOUTS ═══ */
+
+  /* Diagonal clip panels */
+  .panel-diag-r .page-image-wrap {
+    clip-path: polygon(0 0, 100% 4%, 100% 100%, 0 96%);
+    margin: -2px 0;
+  }
+  .panel-diag-l .page-image-wrap {
+    clip-path: polygon(0 4%, 100% 0, 100% 96%, 0 100%);
+    margin: -2px 0;
+  }
+
+  /* Tilted panels — slight rotation for action/tension */
+  .panel-tilt-r {
+    transform: rotate(0.8deg);
+    margin-left: 20px; margin-right: -10px;
+  }
+  .panel-tilt-l {
+    transform: rotate(-0.8deg);
+    margin-left: -10px; margin-right: 20px;
+  }
+
+  /* Side panel — image floats left or right, text beside it */
+  .panel-side {
+    display: grid;
+    grid-template-columns: 1fr;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 2px;
+    overflow: hidden;
+    margin-bottom: 48px;
+    box-shadow: 0 8px 40px rgba(0,0,0,0.4);
+  }
+  .panel-side .page-label {
+    grid-column: 1 / -1;
+  }
+  @media (min-width: 640px) {
+    .panel-side {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto 1fr;
+    }
+    .panel-side .page-label { grid-column: 1 / -1; }
+    .panel-side .page-image-wrap { grid-row: 2; }
+    .panel-side .dialogue-block { grid-row: 2; display: flex; flex-direction: column; justify-content: center; }
+    .panel-side-r .page-image-wrap { order: 2; }
+    .panel-side-r .dialogue-block { order: 1; }
+  }
+
+  /* Overlap stack — image overlaps next panel slightly */
+  .panel-overlap {
+    margin-bottom: -30px;
+    position: relative; z-index: 2;
+  }
+
+  /* Dramatic full-width splash with diagonal bottom edge */
+  .panel-splash {
+    margin-left: -20px; margin-right: -20px;
+    border-left: none; border-right: none; border-radius: 0;
+    position: relative;
+  }
+  .panel-splash .page-image-wrap {
+    clip-path: polygon(0 0, 100% 0, 100% 92%, 0 100%);
+    max-height: 90vh;
+  }
+  .panel-splash .page-image-wrap::before {
+    content: ''; position: absolute; inset: 0; z-index: 1;
+    background: linear-gradient(135deg, rgba(0,0,0,0.4) 0%, transparent 50%);
+    pointer-events: none;
+  }
+
+  /* Vertical strip — narrow tall panel like manga side cuts */
+  .panel-strip {
+    max-width: 45%; margin-left: auto; margin-right: auto;
+  }
+  .panel-strip-left {
+    max-width: 55%; margin-left: 0; margin-right: auto;
+  }
+  .panel-strip-right {
+    max-width: 55%; margin-left: auto; margin-right: 0;
+  }
+
+  /* Double panel — two images side by side with diagonal divider */
+  .panel-double {
+    display: grid; grid-template-columns: 1fr 1fr;
+    gap: 0; margin-bottom: 48px;
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 2px; overflow: hidden;
+    box-shadow: 0 8px 40px rgba(0,0,0,0.4);
+  }
+  .panel-double .page-label { grid-column: 1 / -1; }
+  .panel-double .page-image-wrap { min-height: 200px; }
+  .panel-double .panel-left-img {
+    clip-path: polygon(0 0, 100% 0, 85% 100%, 0 100%);
+  }
+  .panel-double .panel-right-img {
+    clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%);
+    margin-left: -15%;
+  }
+  .panel-double .dialogue-block,
+  .panel-double .scene-note { grid-column: 1 / -1; }
+
+  /* Speed lines overlay for action panels */
+  .panel-action .page-image-wrap::before {
+    content: ''; position: absolute; inset: 0; z-index: 1;
+    background:
+      repeating-linear-gradient(
+        -15deg,
+        transparent 0px, transparent 8px,
+        rgba(255,255,255,0.015) 8px, rgba(255,255,255,0.015) 9px
+      );
+    pointer-events: none;
+  }
+
+  /* Inset panel — smaller centered panel for intimate moments */
+  .panel-inset {
+    max-width: 70%; margin-left: auto; margin-right: auto;
+    border: 2px solid rgba(212,168,83,0.1);
+  }
+
+  @media (max-width: 600px) {
+    .panel-tilt-r, .panel-tilt-l { transform: none; margin: 0 0 48px; }
+    .panel-strip, .panel-strip-left, .panel-strip-right { max-width: 100%; }
+    .panel-double { grid-template-columns: 1fr; }
+    .panel-double .panel-left-img,
+    .panel-double .panel-right-img { clip-path: none; margin: 0; }
+    .panel-inset { max-width: 100%; }
+    .panel-splash { margin-left: -14px; margin-right: -14px; }
+  }
+
+  /* FULL-BLEED PANELS */
+  .full-bleed {
+    margin-left: -20px; margin-right: -20px;
+    border-left: none; border-right: none; border-radius: 0;
+  }
+
+  @media (max-width: 600px) {
+    .dialogue-block { padding: 18px 16px; }
+    .chapter { padding: 0 14px 60px; }
+    .char-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
+    .hero h1 { letter-spacing: 6px; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <div class="nav-title" onclick="scrollTo('#hero')">Broken Court</div>
+    <button class="nav-btn" onclick="scrollTo('#characters')">Characters</button>
+    <button class="nav-btn" onclick="scrollTo('#ch1')">Ch 1</button>
+    <button class="nav-btn" onclick="scrollTo('#ch2')">Ch 2</button>
+    <button class="nav-btn" onclick="scrollTo('#ch3')">Ch 3</button>
+    <button class="nav-btn" onclick="scrollTo('#ch4')">Ch 4</button>
+    <button class="nav-btn" onclick="scrollTo('#ch5')">Ch 5</button>
+    <button class="nav-btn" onclick="scrollTo('#ch6')">Ch 6</button>
+    <button class="nav-btn" onclick="scrollTo('#ch7')">Ch 7</button>
+    <button class="nav-btn" onclick="scrollTo('#ch8')">Ch 8</button>
+    <button class="nav-btn" onclick="scrollTo('#ch9')">Ch 9</button>
+    <button class="nav-btn" onclick="scrollTo('#ch10')">Ch 10</button>
+  </div>
+</nav>
+
+<!-- ═══════════════════ HERO ═══════════════════ -->
+<div id="progress"></div>
+
+<section class="hero" id="hero">
+  <div class="hero-cover"><img src="images/VOLUME 1 COVER.png" alt="Volume 1 Cover"></div>
+  <h1>Broken Court</h1>
+  <div class="subtitle">Volume 1 — The Rise</div>
+  <div class="quote">"In a world where giants rule the court... sometimes thunder is born from silence."</div>
+  <div class="scroll-hint">Scroll to begin</div>
+  <span class="scroll-arrow"></span>
+</section>
+
+<!-- ═══════════════════ CHARACTERS ═══════════════════ -->
+<section class="char-gallery" id="characters">
+  <div class="chapter-header">
+    <div class="chapter-num">Reference</div>
+    <div class="chapter-title">Character Sheets</div>
+  </div>
+  <div class="char-grid">
+    <div class="char-card"><img src="images/01_yadi_vazq_character_sheet.png" alt="Yadi"><div class="char-name">Yadi Vazq</div></div>
+    <div class="char-card"><img src="images/04_yen_character_sheet.png" alt="Yen"><div class="char-name">Yen</div></div>
+    <div class="char-card"><img src="images/06_novacronos_character_sheet.png" alt="Novacronos"><div class="char-name">Novacronos</div></div>
+    <div class="char-card"><img src="images/09_rafa_nal_character_sheet.png" alt="Rafa Nal"><div class="char-name">Rafa Nal</div></div>
+    <div class="char-card"><img src="images/12_noak_character_sheet.png" alt="Noak"><div class="char-name">Noak</div></div>
+    <div class="char-card"><img src="images/15_charlie_character_sheet.png" alt="Charlie"><div class="char-name">Charlie</div></div>
+    <div class="char-card"><img src="images/17_jani_character_sheet.png" alt="Jani"><div class="char-name">Jani</div></div>
+    <div class="char-card"><img src="images/19_daimon_richwell_character_sheet.png" alt="Daimon"><div class="char-name">Daimon Richwell</div></div>
+    <div class="char-card"><img src="images/21_kai_morimoto_character.png" alt="Kai"><div class="char-name">Kai Morimoto</div></div>
+    <div class="char-card"><img src="images/23_luca_santori_character_sheet.png" alt="Luca"><div class="char-name">Luca Santori</div></div>
+    <div class="char-card"><img src="images/25_papa_vazq_character_sheet.png" alt="Papa Vazq"><div class="char-name">Papa Vazq</div></div>
+    <div class="char-card"><img src="images/26_mama_vazq_character_sheet.png" alt="Mama Vazq"><div class="char-name">Mama Vazq</div></div>
+    <div class="char-card"><img src="images/27_don_emilio_character_sheet.png" alt="Don Emilio"><div class="char-name">Don Emilio</div></div>
+  </div>
+</section>
+
+<!-- ═══════════════════ CHAPTER 1 ═══════════════════ -->
+<section class="chapter" id="ch1">
+  <div class="chapter-header">
+    <div class="chapter-num">Chapter 1 — Act 1: Roots</div>
+    <div class="chapter-title">"The Broken Court"</div>
+    <div class="chapter-summary">We meet Yadi Vazq, a 16-year-old with supernatural tennis talent, trapped on a Caribbean island with no resources. A casual encounter with a stranger named Yen reveals he has something special.</div>
+  </div>
+
+  <!-- Pg 1: Aerial -->
+  <div class="manga-page panel-splash">
+    <div class="page-label">Page 1 — Opening Splash</div>
+    <div class="page-image-wrap"><img src="images/Aerial View of Isla Brava.png" alt="Aerial View of Isla Brava"></div>
+    <div class="dialogue-block">
+      <div class="narration">"In a world where giants rule the court..."</div>
+      <div class="narration">"...sometimes thunder is born from silence."</div>
+    </div>
+  </div>
+
+  <!-- Luna Mural -->
+  <div class="manga-page panel-diag-r panel-strip-right">
+    <div class="page-label">The Mural — Luna Borín</div>
+    <div class="page-image-wrap"><img src="images/Luna Borín — The Mural1.png" alt="Luna Borín Mural"></div>
+    <div class="scene-note">Luna Borín's faded mural — proof you can make it off the island</div>
+  </div>
+
+  <!-- Yadi Practicing -->
+  <div class="manga-page panel-diag-l">
+    <div class="page-label">Pages 2-4 — Yadi Practicing Alone</div>
+    <div class="page-image-wrap"><img src="images/Luna Borín Mural — With Yadi Practicing.png" alt="Yadi Practicing"></div>
+    <div class="dialogue-block">
+      <div class="speech"><span class="speaker">Don Emilio</span> <span class="line">"Hey, kid! It's already 7! Don't you have a home?"</span></div>
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"Coming, Don Emilio. One more."</span></div>
+      <div class="thought">Don Emilio: "He always says 'one more'..."</div>
+      <div class="sfx">CRACK.</div>
+      <div class="thought">Don Emilio: "What the hell...?"</div>
+    </div>
+  </div>
+
+  <!-- Don Emilio watching -->
+  <div class="manga-page panel-strip-left panel-tilt-l">
+    <div class="page-label">E1 — Don Emilio Watching</div>
+    <div class="page-image-wrap"><img src="images/donemiliowatchpractice.png" alt="Don Emilio watching Yadi practice"></div>
+    <div class="dialogue-block">
+      <div class="thought">Don Emilio: "This kid again... He's been at it for 3 hours."</div>
+    </div>
+  </div>
+
+  <!-- Flashback -->
+  <div class="manga-page panel-diag-r panel-overlap">
+    <div class="page-label">Pages 5-6 — Flashback: Young Yadi Watching TV</div>
+    <div class="page-image-wrap"><img src="images/Flashback Young Yadi Watching TV.png" alt="Flashback Young Yadi"></div>
+    <div class="dialogue-block">
+      <div class="speech"><span class="speaker">Papa Vazq</span> <span class="line">"Tennis is the only sport where you play alone against the world, son. So be a tiger."</span></div>
+      <div class="speech"><span class="speaker">Mama Vazq</span> <span class="line">"Oh god, these matches are going to kill me!"</span></div>
+      <div class="narration">"That was the day I knew tennis was my thing. Not because it was easy. Because it was impossible."</div>
+    </div>
+  </div>
+
+  <!-- Family Dinner -->
+  <div class="manga-page panel-inset">
+    <div class="page-label">E2 — The Vazq Family Dinner</div>
+    <div class="page-image-wrap"><img src="images/familydinner.png" alt="Vazq Family Dinner"></div>
+    <div class="dialogue-block">
+      <div class="speech"><span class="speaker">Papa Vazq</span> <span class="line">"How was your backhand today? Better than yesterday?"</span></div>
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"I think so. Don Emilio almost fell off his bench."</span></div>
+      <div class="speech"><span class="speaker">Papa Vazq</span> <span class="line">"Thinking isn't enough. Tomorrow I want you to know it."</span></div>
+      <div class="speech"><span class="speaker">Mama Vazq</span> <span class="line">"If you keep this up you're going to have lizard hands. Eat more, you're too skinny."</span></div>
+    </div>
+  </div>
+
+  <!-- E3: Yadi Meets Yen (missing) -->
+  <div class="manga-page">
+    <div class="page-label">E3 — Yadi Meets Yen on the Public Courts</div>
+    <div class="page-image-wrap"><div class="placeholder"><div class="ph-icon">🎾</div><div class="ph-name">E03_ch1_yadi_meets_yen_public_courts.png</div><div class="ph-desc">Yadi watching Yen through the fence</div></div></div>
+    <div class="dialogue-block">
+      <div class="thought">Yadi: "He's good... really good."</div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"You playing or just watching?"</span></div>
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"Let's go."</span></div>
+    </div>
+  </div>
+
+  <!-- E4: Supernatural Shot (missing) -->
+  <div class="manga-page panel-tilt-r panel-action">
+    <div class="page-label">E4 — The Supernatural Shot</div>
+    <div class="page-image-wrap"><div class="placeholder"><div class="ph-icon">💎</div><div class="ph-name">E04_ch1_supernatural_shot_yen_reaction.png</div><div class="ph-desc">Yadi's impossible passing shot — Yen's jaw drops</div></div></div>
+    <div class="dialogue-block">
+      <div class="sfx">WHACK!!</div>
+      <div class="thought">Yen: "What... was... that?"</div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"Yeah... you've got something too."</span></div>
+      <div class="thought">Yen: "What was that...? That kid... doesn't even know what he has."</div>
+    </div>
+  </div>
+
+  <div class="chapter-end"><div class="next">Next Chapter →</div><div class="next-title">"The Truth That Hurts"</div></div>
+</section>
+
+<!-- ═══════════════════ CHAPTER 2 ═══════════════════ -->
+<section class="chapter" id="ch2">
+  <div class="chapter-header">
+    <div class="chapter-num">Chapter 2 — Act 1: Roots</div>
+    <div class="chapter-title">"The Truth That Hurts"</div>
+    <div class="chapter-summary">Yen proposes training together. Through weeks of brutal honesty, Yen transforms Yadi's mentality. Yadi surpasses Yen and learns about the National Junior Tournament.</div>
+  </div>
+
+  <!-- E5: Bench Scene (missing) -->
+  <div class="manga-page">
+    <div class="page-label">E5 — The First Truth — Bench Scene</div>
+    <div class="page-image-wrap"><div class="placeholder"><div class="ph-icon">🪑</div><div class="ph-name">E05_ch2_first_truth_bench_scene.png</div><div class="ph-desc">Yen and Yadi on the bench, the hard truth</div></div></div>
+    <div class="dialogue-block">
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"You have something I never had. Something that can't be trained. That shot, that angle... that can't be taught."</span></div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"But right now you're a bomb without a detonator. All that talent... and your head sabotages you every 5 minutes."</span></div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"Train with me. I'm not going to teach you how to hit the ball — you already know that. I'm going to teach you how to use your head."</span></div>
+    </div>
+  </div>
+
+  <!-- E6: Handshake (missing) -->
+  <div class="manga-page">
+    <div class="page-label">E6 — The Handshake That Changed Everything</div>
+    <div class="page-image-wrap"><div class="placeholder"><div class="ph-icon">🤝</div><div class="ph-name">E06_ch2_handshake_changed_everything.png</div><div class="ph-desc">Yen extends his hand — Yadi takes it</div></div></div>
+    <div class="dialogue-block">
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"Because I have the mind but not your talent. You have the talent but not the mind. Between the two of us, we could make one complete player."</span></div>
+      <div class="narration">"I didn't know that handshake was going to change my life."</div>
+    </div>
+  </div>
+
+  <!-- Training Montage -->
+  <div class="manga-page panel-splash panel-action">
+    <div class="page-label">Pages 6-7 — Training Montage</div>
+    <div class="page-image-wrap"><img src="images/Training Montage.png" alt="Training Montage"></div>
+    <div class="dialogue-block">
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"Tennis isn't just what you see. It's what you feel."</span></div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"If you can't play with noise, you can't play in a stadium."</span></div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"See that ball? That ball doesn't know you're poor. Doesn't know you're scared. It only knows where you send it."</span></div>
+      <div class="speech"><span class="speaker">Mama Vazq</span> <span class="line">"Son, is that Yen training you or torturing you?"</span></div>
+      <div class="speech"><span class="speaker">Papa Vazq</span> <span class="line">"He's getting better. You can tell."</span></div>
+    </div>
+  </div>
+
+  <!-- E7: Yadi beats Yen (missing) -->
+  <div class="manga-page">
+    <div class="page-label">E7 — Yadi Beats Yen for the First Time</div>
+    <div class="page-image-wrap"><div class="placeholder"><div class="ph-icon">🏆</div><div class="ph-name">E07_ch2_yadi_beats_yen_first_time.png</div><div class="ph-desc">Handshake at the net — student surpasses teacher</div></div></div>
+    <div class="dialogue-block">
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"About time, idiot."</span></div>
+      <div class="narration">"I surpassed him on the court. But I'll never stop looking up to him."</div>
+    </div>
+  </div>
+
+  <!-- E8: Tournament Flyer (missing) -->
+  <div class="manga-page panel-inset">
+    <div class="page-label">E8 — The Tournament Flyer</div>
+    <div class="page-image-wrap"><div class="placeholder"><div class="ph-icon">📄</div><div class="ph-name">E08_ch2_tournament_flyer_trembling_hands.png</div><div class="ph-desc">Yadi's trembling hands hold the tournament flyer</div></div></div>
+    <div class="dialogue-block">
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"It's time for the world to see what I saw."</span></div>
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"Do you think I'm ready?"</span></div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"No. But you're going anyway."</span></div>
+    </div>
+  </div>
+
+  <div class="chapter-end"><div class="next">Next Chapter →</div><div class="next-title">"The World Out There"</div></div>
+</section>
+
+<!-- ═══════════════════ CHAPTER 3 ═══════════════════ -->
+<section class="chapter" id="ch3">
+  <div class="chapter-header">
+    <div class="chapter-num">Chapter 3 — Act 1: Roots</div>
+    <div class="chapter-title">"The World Out There"</div>
+    <div class="chapter-summary">Yadi leaves his island for the first time. Culture shock: perfect courts, rich players, elite teams. He meets Daimon Richwell, Kai Morimoto, and Luca Santori.</div>
+  </div>
+
+  <!-- E9: Farewell (missing) -->
+  <div class="manga-page">
+    <div class="page-label">E9 — The Farewell</div>
+    <div class="page-image-wrap"><div class="placeholder"><div class="ph-icon">👋</div><div class="ph-name">E09_ch3_farewell_parents_door.png</div><div class="ph-desc">Parents at the door, Yadi walks away at dawn</div></div></div>
+    <div class="dialogue-block">
+      <div class="speech"><span class="speaker">Mama Vazq</span> <span class="line">"Here. It's not new, but it has all my love."</span></div>
+      <div class="speech"><span class="speaker">Mama Vazq</span> <span class="line">"If you break it, I'll break you."</span></div>
+      <div class="speech"><span class="speaker">Papa Vazq</span> <span class="line">"Go and be a tiger. Don't be afraid of anyone."</span></div>
+      <div class="speech"><span class="speaker">Don Emilio</span> <span class="line">"Go, kid. This court is too small for you now."</span></div>
+    </div>
+  </div>
+
+  <!-- Mama's Racket -->
+  <div class="manga-page panel-strip panel-inset">
+    <div class="page-label">E10 — Mama's Racket — The Gift</div>
+    <div class="page-image-wrap"><img src="images/Mama's Racket1.png" alt="Mama's Racket"></div>
+    <div class="scene-note">A used racket with new grip and fresh strings — all of mama's love</div>
+  </div>
+
+  <!-- E11: Culture Shock (missing) -->
+  <div class="manga-page panel-diag-r">
+    <div class="page-label">E11 — Arrival at Youth Arena</div>
+    <div class="page-image-wrap"><div class="placeholder"><div class="ph-icon">🏟️</div><div class="ph-name">E11_ch3_arrival_youth_arena_culture_shock.png</div><div class="ph-desc">Yadi with old backpack in modern facility — out of place</div></div></div>
+    <div class="dialogue-block">
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"They've already started judging you. Good. Let them. You didn't come here to make friends."</span></div>
+      <div class="thought">Yadi: "This is real."</div>
+    </div>
+  </div>
+
+  <!-- E12: Daimon's Provocation (missing) -->
+  <div class="manga-page panel-diag-l">
+    <div class="page-label">E12 — Daimon's Provocation</div>
+    <div class="page-image-wrap"><div class="placeholder"><div class="ph-icon">😤</div><div class="ph-name">E12_ch3_daimon_provocation_locker_room.png</div><div class="ph-desc">Daimon confronts Yadi in the locker room</div></div></div>
+    <div class="dialogue-block">
+      <div class="speech"><span class="speaker">Daimon</span> <span class="line">"You? With that racket?"</span></div>
+      <div class="speech"><span class="speaker">Daimon</span> <span class="line">"Listen, this is professional tennis. I don't know how you got in, but... good luck."</span></div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"Save that rage. You'll need it on the court."</span></div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"You okay?"</span></div>
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"I'm furious."</span></div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"Good. Now turn that into points."</span></div>
+    </div>
+  </div>
+
+  <!-- Tupperware Note -->
+  <div class="manga-page panel-inset">
+    <div class="page-label">Page 7 — The Tupperware Note</div>
+    <div class="page-image-wrap"><div class="placeholder"><div class="ph-icon">📝</div><div class="ph-name">48_tupperware_note.png</div><div class="ph-desc">Mama's note: "Eat everything. I love you." Papa added: "Win."</div></div></div>
+    <div class="dialogue-block">
+      <div class="narration">"Eat everything. I love you. Win or lose, you're my champion." — Mama</div>
+      <div class="narration">"Win." — Papa</div>
+    </div>
+  </div>
+
+  <!-- E13: Court at Night (missing) -->
+  <div class="manga-page panel-diag-r">
+    <div class="page-label">E13 — Yadi Alone on the Perfect Court at Night</div>
+    <div class="page-image-wrap"><div class="placeholder"><div class="ph-icon">🌙</div><div class="ph-name">E13_ch3_yadi_alone_court_night.png</div><div class="ph-desc">Single lit court at night, Yadi alone under the lights</div></div></div>
+    <div class="dialogue-block">
+      <div class="thought">Yadi: "If I want to reach him... I have to win everything."</div>
+      <div class="narration">"I didn't come here to participate. I came here to make them know who I am."</div>
+    </div>
+  </div>
+
+  <!-- E14: Bandana Ritual (missing) -->
+  <div class="manga-page panel-inset">
+    <div class="page-label">E14 — Pre-Match Nerves — Bandana Ritual</div>
+    <div class="page-image-wrap"><div class="placeholder"><div class="ph-icon">🐯</div><div class="ph-name">E14_ch4_prematch_bandana_ritual.png</div><div class="ph-desc">Yadi tying bandana in the mirror: "Be a tiger."</div></div></div>
+    <div class="dialogue-block">
+      <div class="thought">Yen's voice: "Don't think about winning. Think about each ball. One at a time."</div>
+      <div class="thought">Yadi: "Be a tiger."</div>
+    </div>
+  </div>
+
+  <!-- Papa's Bandana -->
+  <div class="manga-page panel-strip panel-inset">
+    <div class="page-label">Object — Papa's Bandana</div>
+    <div class="page-image-wrap"><img src="images/Papa's Bandana2.png" alt="Papa's Bandana"></div>
+    <div class="scene-note">Papa's old bandana — faded, frayed, with faint tiger stripes</div>
+  </div>
+
+  <!-- E15: First Set Disaster (missing) -->
+  <div class="manga-page panel-tilt-l">
+    <div class="page-label">E15 — First Set Disaster</div>
+    <div class="page-image-wrap"><div class="placeholder"><div class="ph-icon">😰</div><div class="ph-name">E15_ch4_first_set_disaster_rigid.png</div><div class="ph-desc">Yadi rigid and failing — 0-4 down</div></div></div>
+    <div class="dialogue-block">
+      <div class="speech"><span class="speaker">Daimon</span> <span class="line">"This is the one who was going to face me? What a waste."</span></div>
+    </div>
+  </div>
+
+  <!-- Yadi Smiles -->
+  <div class="manga-page panel-diag-r panel-tilt-r">
+    <div class="page-label">Page 5 — Yadi Smiles for the First Time</div>
+    <div class="page-image-wrap"><img src="images/Yadi Smiles First Time in Match.png" alt="Yadi Smiles"></div>
+    <div class="dialogue-block">
+      <div class="thought">Yen's voice: "When everything goes against you, let go. Stop fighting yourself. Play."</div>
+      <div class="thought">Yadi: "Let go. Just let go."</div>
+    </div>
+  </div>
+
+  <!-- E17: Walking Off (missing) -->
+  <div class="manga-page">
+    <div class="page-label">E17 — The Comeback Victory</div>
+    <div class="page-image-wrap"><div class="placeholder"><div class="ph-icon">🚶</div><div class="ph-name">E17_ch4_comeback_victory_walking_off.png</div><div class="ph-desc">Yadi's silhouette walking off court — crowd applauds</div></div></div>
+    <div class="dialogue-block">
+      <div class="narration">Yadi wins: 2-6, 6-1, 6-3.</div>
+      <div class="speech"><span class="speaker">Crowd</span> <span class="line">"Who is that kid?"</span></div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"Welcome to tennis, Yadi."</span></div>
+    </div>
+  </div>
+
+  <div class="chapter-end"><div class="next">Next Chapter →</div><div class="next-title">"The Wall"</div></div>
+</section>
+
+<!-- ═══════════════════ CHAPTER 5 ═══════════════════ -->
+<section class="chapter" id="ch5">
+  <div class="chapter-header">
+    <div class="chapter-num">Chapter 5 — Act 2: The Fire</div>
+    <div class="chapter-title">"The Wall"</div>
+    <div class="chapter-summary">Yadi faces Kai Morimoto — the defensive player who returns absolutely everything. Talent without strategy isn't enough.</div>
+  </div>
+
+  <!-- Kai The Wall -->
+  <div class="manga-page panel-splash panel-action">
+    <div class="page-label">Pages 3-5 — Kai Returns Everything</div>
+    <div class="page-image-wrap"><img src="images/Kai The Wall Returning Everything.png" alt="Kai The Wall"></div>
+    <div class="dialogue-block">
+      <div class="thought">Yadi: "How did he get there?"</div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"That kid doesn't have your talent. But he has something worse: infinite patience. He's a wall."</span></div>
+    </div>
+  </div>
+
+  <!-- E20: Yen Shouts (missing) -->
+  <div class="manga-page panel-tilt-r">
+    <div class="page-label">E20 — Yen Shouts: “Fight Yourself!”</div>
+    <div class="page-image-wrap"><div class="placeholder"><div class="ph-icon">📢</div><div class="ph-name">E20_ch5_yen_shouts_fight_yourself.png</div><div class="ph-desc">Yen standing in the stands shouting — Yadi's realization</div></div></div>
+    <div class="dialogue-block">
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"STOP FIGHTING HIM! FIGHT YOURSELF!"</span></div>
+      <div class="thought">Yadi: "One ball at a time. Don't think about winning. You need a plan, not just talent."</div>
+    </div>
+  </div>
+
+  <!-- E22: Kai's Bow (missing) -->
+  <div class="manga-page">
+    <div class="page-label">E22 — Kai's Respectful Bow</div>
+    <div class="page-image-wrap"><div class="placeholder"><div class="ph-icon">🙇</div><div class="ph-name">E22_ch5_kai_respectful_bow.png</div><div class="ph-desc">Handshake at the net — silent respect</div></div></div>
+    <div class="dialogue-block">
+      <div class="narration">Yadi wins: 5-7, 6-3, 6-4.</div>
+      <div class="speech"><span class="speaker">Kai</span> <span class="line">"We'll play again."</span></div>
+      <div class="thought">Yadi: "There's more than one way to win a match."</div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"Today you didn't win with talent. Today you won with your head. That's more important."</span></div>
+    </div>
+  </div>
+
+  <div class="chapter-end"><div class="next">Next Chapter →</div><div class="next-title">"Venom"</div></div>
+</section>
+
+<!-- ═══════════════════ CHAPTER 6 ═══════════════════ -->
+<section class="chapter" id="ch6">
+  <div class="chapter-header">
+    <div class="chapter-num">Chapter 6 — Act 2: The Fire</div>
+    <div class="chapter-title">"Venom"</div>
+    <div class="chapter-summary">Yadi faces Luca Santori, the circuit's psychological manipulator. Yadi builds his "mental armor" — the shield that protects him forever.</div>
+  </div>
+
+  <!-- E23: Luca approaches (missing) -->
+  <div class="manga-page">
+    <div class="page-label">E23 — The Viper Approaches</div>
+    <div class="page-image-wrap"><div class="placeholder"><div class="ph-icon">🐍</div><div class="ph-name">E23_ch6_luca_fake_friendship_viper.png</div><div class="ph-desc">Luca's friendly handshake — snake shadows on the floor</div></div></div>
+    <div class="dialogue-block">
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"He doesn't play against your racket. He plays against your head. He's a viper. If you give him a crack, he gets in. And once he's inside, he destroys you."</span></div>
+      <div class="speech"><span class="speaker">Luca</span> <span class="line">"Great game yesterday! Hey, they say Daimon is waiting for you in the zone final. Doesn't that make you nervous?"</span></div>
+    </div>
+  </div>
+
+  <!-- E24: Mental Collapse (missing) -->
+  <div class="manga-page">
+    <div class="page-label">E24 — Yadi's Mental Collapse</div>
+    <div class="page-image-wrap"><div class="placeholder"><div class="ph-icon">🌑</div><div class="ph-name">E24_ch6_yadi_mental_collapse_inner_voices.png</div><div class="ph-desc">Darkness consuming — inner voices attacking</div></div></div>
+    <div class="dialogue-block">
+      <div class="thought">"You're not enough."</div>
+      <div class="thought">"What are you doing here?"</div>
+      <div class="thought">"You're just an island kid."</div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"Who controls your mind? You or him?"</span></div>
+    </div>
+  </div>
+
+  <!-- Birth of Mental Armor -->
+  <div class="manga-page panel-splash">
+    <div class="page-label">Page 10 — Birth of the Mental Armor</div>
+    <div class="page-image-wrap"><img src="images/Birth of Mental Armor.png" alt="Birth of Mental Armor"></div>
+    <div class="dialogue-block">
+      <div class="sfx">LET GO — ENJOY — FOCUS — ENDURE</div>
+      <div class="thought">Yadi: "I control my mind."</div>
+    </div>
+  </div>
+
+  <!-- E26: Final Ace (missing) -->
+  <div class="manga-page">
+    <div class="page-label">E26 — Final Ace — Luca's Mask Falls</div>
+    <div class="page-image-wrap"><div class="placeholder"><div class="ph-icon">💀</div><div class="ph-name">E26_ch6_final_ace_luca_mask_falls.png</div><div class="ph-desc">Yadi's cold ace — Luca's smile shatters like porcelain</div></div></div>
+    <div class="dialogue-block">
+      <div class="narration">Yadi wins: 4-6, 6-2, 6-2.</div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"Now yes... now you're ready."</span></div>
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"I felt it, Yen. Like... a shield."</span></div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"That's mental fortitude. And now that you have it, nobody takes it away."</span></div>
+      <div class="thought">Yadi: "Daimon Richwell. I'm coming for you."</div>
+    </div>
+  </div>
+
+  <div class="chapter-end"><div class="next">Next Chapter →</div><div class="next-title">"The Golden Boy vs The Island Diamond"</div></div>
+</section>
+
+<!-- ═══════════════════ CHAPTER 7 ═══════════════════ -->
+<section class="chapter" id="ch7">
+  <div class="chapter-header">
+    <div class="chapter-num">Chapter 7 — Act 2: The Fire</div>
+    <div class="chapter-title">"The Golden Boy vs The Island Diamond"</div>
+    <div class="chapter-summary">THE SPORTS CLIMAX. Yadi vs Daimon Richwell — money vs hunger, privilege vs will. Yadi activates Diamond Vision fully for the first time.</div>
+  </div>
+
+  <!-- Entrance -->
+  <div class="manga-page panel-splash panel-action">
+    <div class="page-label">Pages 1-2 — The Entrance</div>
+    <div class="page-image-wrap"><img src="images/Yadi vs Daimon Entrance.png" alt="Yadi vs Daimon Entrance"></div>
+    <div class="dialogue-block">
+      <div class="narration">"Money vs. hunger."</div>
+      <div class="narration">"Privilege vs. will."</div>
+    </div>
+  </div>
+
+  <!-- E27: Memory Fuel (missing) -->
+  <div class="manga-page">
+    <div class="page-label">E27 — Memory Fuel — Internal Flashback</div>
+    <div class="page-image-wrap"><div class="placeholder"><div class="ph-icon">💭</div><div class="ph-name">E27_ch7_yadi_memory_fuel_flashback.png</div><div class="ph-desc">Floating panels: family dinner, mama's racket, papa's words, the mural</div></div></div>
+    <div class="dialogue-block">
+      <div class="thought">Papa: "Go and be a tiger."</div>
+      <div class="thought">Yen: "Talent opens the door. Your mind decides if you walk through it."</div>
+      <div class="thought">Yadi: "I don't have what they have... but I have something money can't buy."</div>
+    </div>
+  </div>
+
+  <!-- Diamond Vision -->
+  <div class="manga-page panel-splash panel-action">
+    <div class="page-label">Pages 10-11 — DIAMOND VISION FULL ACTIVATION</div>
+    <div class="page-image-wrap"><img src="images/DIAMOND VISION FULL ACTIVATION.png" alt="Diamond Vision Full Activation"></div>
+    <div class="dialogue-block">
+      <div class="narration">Second set: Yadi 6-1.</div>
+      <div class="speech"><span class="speaker">Crowd</span> <span class="line">"Who is this kid...?"</span></div>
+    </div>
+  </div>
+
+  <!-- E29: On Knees (missing) -->
+  <div class="manga-page">
+    <div class="page-label">E29 — Yadi on His Knees — Silent Celebration</div>
+    <div class="page-image-wrap"><div class="placeholder"><div class="ph-icon">🧎</div><div class="ph-name">E29_ch7_yadi_knees_silent_celebration.png</div><div class="ph-desc">Yadi falls to his knees, silent tears, looking at the sky</div></div></div>
+    <div class="dialogue-block">
+      <div class="narration">Yadi wins: 6-7(5), 6-1, 6-2.</div>
+      <div class="narration">Someone was watching.</div>
+    </div>
+  </div>
+
+  <div class="chapter-end"><div class="next">Next Chapter →</div><div class="next-title">"What Comes Next"</div></div>
+</section>
+
+<!-- ═══════════════════ CHAPTER 8 ═══════════════════ -->
+<section class="chapter" id="ch8">
+  <div class="chapter-header">
+    <div class="chapter-num">Chapter 8 — Act 3: The Horizon</div>
+    <div class="chapter-title">"What Comes Next"</div>
+    <div class="chapter-summary">The three legends of tennis react to Yadi's victory. Yadi calls home, wins the trophy, and drives back to the island with Yen.</div>
+  </div>
+
+  <!-- Three Legends -->
+  <div class="manga-page panel-diag-l">
+    <div class="page-label">The Three Legends React</div>
+    <div class="page-image-wrap" style="display:flex; gap:2px; background:#000;">
+      <img src="images/08_ch8_novacronos_silhouette.png" alt="Novacronos" style="width:33.3%">
+      <img src="images/11_ch8_rafa_nal_silhouette.png" alt="Rafa Nal" style="width:33.3%">
+      <img src="images/14_ch8_noak_silhouette.png" alt="Noak" style="width:33.3%">
+    </div>
+    <div class="scene-note">LEFT: Novacronos — European office, eagle shadow | CENTER: Rafa Nal — clay court, steam erupting | RIGHT: Noak — corridor, unsettling smile</div>
+  </div>
+
+  <!-- E31: Phone Call (missing) -->
+  <div class="manga-page">
+    <div class="page-label">E31 — Parents' Reaction — Phone Call Home</div>
+    <div class="page-image-wrap"><div class="placeholder"><div class="ph-icon">📱</div><div class="ph-name">E31_ch8_parents_reaction_phone_call.png</div><div class="ph-desc">Split panel: Yadi laughing — Mama screaming "YOU WONNN!"</div></div></div>
+    <div class="dialogue-block">
+      <div class="speech"><span class="speaker">Mama Vazq</span> <span class="line">"YOU WONNN!!!"</span></div>
+    </div>
+  </div>
+
+  <!-- E33: Trophy (missing) -->
+  <div class="manga-page">
+    <div class="page-label">E33 — Trophy Ceremony</div>
+    <div class="page-image-wrap"><img src="images/Junior Trophy.png" alt="Junior Trophy"></div>
+    <div class="dialogue-block">
+      <div class="scene-note">Eye contact with Yen through the crowd — not at the trophy</div>
+    </div>
+  </div>
+
+  <!-- E35: Driving Home (missing) -->
+  <div class="manga-page">
+    <div class="page-label">E35 — Driving Home — Trophy in Moonlight</div>
+    <div class="page-image-wrap"><div class="placeholder"><div class="ph-icon">🚗</div><div class="ph-name">E35_ch8_driving_home_trophy_moonlight.png</div><div class="ph-desc">Old car, coastal road, Yadi asleep, trophy catching moonlight</div></div></div>
+  </div>
+
+  <div class="chapter-end"><div class="next">Next Chapter →</div><div class="next-title">"The Eyes of the World"</div></div>
+</section>
+
+<!-- ═══════════════════ CHAPTER 9 ═══════════════════ -->
+<section class="chapter" id="ch9">
+  <div class="chapter-header">
+    <div class="chapter-num">Chapter 9 — Act 3: The Horizon</div>
+    <div class="chapter-title">"The Eyes of the World"</div>
+    <div class="chapter-summary">Yadi enters the national circuit. He sees Charlie play — pure power and joy. Jani walks past — cold, terrifying. The big leagues are real.</div>
+  </div>
+
+  <!-- Yadi Sees Charlie -->
+  <div class="manga-page panel-splash panel-action">
+    <div class="page-label">Pages 6-7 — Yadi Sees Charlie</div>
+    <div class="page-image-wrap"><img src="images/Yadi Sees Charlie.png" alt="Yadi Sees Charlie"></div>
+    <div class="dialogue-block">
+      <div class="thought">Yadi's eyes: huge, hypnotized. The lion roars behind Charlie.</div>
+    </div>
+  </div>
+
+  <!-- Jani Walks Past -->
+  <div class="manga-page panel-diag-r panel-strip-right">
+    <div class="page-label">Page 10 — Jani Walks Past</div>
+    <div class="page-image-wrap"><img src="images/Jani Walks Past.png" alt="Jani Walks Past"></div>
+    <div class="dialogue-block">
+      <div class="scene-note">Arctic fox shadow on the floor. Ice crystals in his wake. The temperature drops.</div>
+    </div>
+  </div>
+
+  <!-- E38: Mirror (missing) -->
+  <div class="manga-page">
+    <div class="page-label">E38 — Yadi Mirror Scene</div>
+    <div class="page-image-wrap"><div class="placeholder"><div class="ph-icon">🪞</div><div class="ph-name">E38_ch9_yadi_mirror_bandana_will.png</div><div class="ph-desc">Yadi in the mirror, bandana, blazing eyes</div></div></div>
+    <div class="dialogue-block">
+      <div class="thought">Yadi: "Someday I'll be on that center court."</div>
+    </div>
+  </div>
+
+  <div class="chapter-end"><div class="next">Final Chapter →</div><div class="next-title">"The Call"</div></div>
+</section>
+
+<!-- ═══════════════════ CHAPTER 10 ═══════════════════ -->
+<section class="chapter" id="ch10">
+  <div class="chapter-header">
+    <div class="chapter-num">Chapter 10 — Act 3: The Horizon</div>
+    <div class="chapter-title">"The Call"</div>
+    <div class="chapter-summary">Yadi returns to the island. Back to the broken court. Then the phone rings in the dark. A mysterious voice. Everything changes.</div>
+  </div>
+
+  <!-- E41: Family Hug (missing) -->
+  <div class="manga-page">
+    <div class="page-label">E41 — Return to Isla Brava — Family Hug</div>
+    <div class="page-image-wrap"><div class="placeholder"><div class="ph-icon">🤗</div><div class="ph-name">E41_ch10_return_isla_brava_family_hug.png</div><div class="ph-desc">Mother running, father joining — all three locked together</div></div></div>
+  </div>
+
+  <!-- Cracked Wall -->
+  <div class="manga-page panel-diag-l">
+    <div class="page-label">E42 — Back at the Broken Court</div>
+    <div class="page-image-wrap"><img src="images/The Cracked Wall with Mural.png" alt="The Cracked Wall"></div>
+    <div class="scene-note">The same cracked wall — but the marks are deeper now</div>
+  </div>
+
+  <!-- E43: Phone Rings (missing) -->
+  <div class="manga-page">
+    <div class="page-label">E43 — The Phone Rings in the Dark</div>
+    <div class="page-image-wrap"><div class="placeholder"><div class="ph-icon">📞</div><div class="ph-name">E43_ch10_phone_rings_dark.png</div><div class="ph-desc">Phone screen blazing in absolute darkness — "YADI VAZQ"</div></div></div>
+  </div>
+
+  <!-- Final Splash -->
+  <div class="manga-page panel-splash">
+    <div class="page-label">Page 15 — VOLUME FINAL SPLASH</div>
+    <div class="page-image-wrap"><img src="images/VOLUME FINAL SPLASH1.png" alt="Volume Final Splash"></div>
+    <div class="dialogue-block">
+      <div class="sfx">THE RISE HAS ONLY JUST BEGUN</div>
+    </div>
+  </div>
+
+  <div class="chapter-end">
+    <div class="next">End of Volume 1</div>
+    <div class="next-title">To Be Continued...</div>
+  </div>
+</section>
+
+<!-- ═══════════════════ FOOTER ═══════════════════ -->
+<footer>
+  <div class="end-text">Broken Court — Volume 1: The Rise</div>
+  <div>A tennis manga by Jensen Padilla Figueroa</div>
+  <div style="margin-top:20px; color:#444; font-size:12px;">Art style: Kuroko no Basuke / Tadatoshi Fujimaki | Generated with Midjourney</div>
+</footer>
+
+<script>
+function scrollTo(sel) {
+  document.querySelector(sel).scrollIntoView({ behavior: 'smooth' });
+}
+
+// Progress bar
+window.addEventListener('scroll', () => {
+  const h = document.documentElement;
+  const pct = (h.scrollTop / (h.scrollHeight - h.clientHeight)) * 100;
+  document.getElementById('progress').style.width = pct + '%';
+});
+
+// Active nav
+const navObs = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+      const id = e.target.id;
+      const btn = document.querySelector(`.nav-btn[onclick="scrollTo('#${id}')"]`);
+      if (btn) btn.classList.add('active');
+    }
+  });
+}, { threshold: 0.15 });
+document.querySelectorAll('.chapter, .char-gallery').forEach(s => navObs.observe(s));
+
+// Scroll reveal
+const revealObs = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      e.target.classList.add('visible');
+    }
+  });
+}, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+
+document.querySelectorAll('.manga-page, .chapter-header, .chapter-end, .char-card').forEach(el => {
+  el.classList.add('reveal');
+  revealObs.observe(el);
+});
+
+// Track which image wraps are in view for Ken Burns
+const panelObs = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      e.target.classList.add('in-view');
+    } else {
+      e.target.classList.remove('in-view');
+    }
+  });
+}, { threshold: 0.1 });
+document.querySelectorAll('.page-image-wrap').forEach(w => panelObs.observe(w));
+</script>
+
+</body>
+</html>
