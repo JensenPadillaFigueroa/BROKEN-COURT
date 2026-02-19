@@ -3,6 +3,10 @@
 > *"It doesn't matter where you come from. It matters where you're going."*
 > *"No importa de dónde vienes. Importa hacia dónde vas."*
 
+<p align="center">
+  <img src="images/VOLUME 1 COVER.png" alt="Broken Court — Volume 1 Cover" width="400">
+</p>
+
 ---
 
 ## Volume 1: The Rise / El Ascenso
