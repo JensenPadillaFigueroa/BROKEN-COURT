@@ -1,4 +1,4 @@
-# Estructura — YADI VAZQ: El Ascenso
+# Estructura — YADI RODRÍGUEZ: El Ascenso
 
 ## Volumen 1 | ~150 páginas | 10 Capítulos
 
@@ -15,7 +15,7 @@
 | 1-2 | **Splash page de apertura** | Vista aérea de Isla Brava — isla tropical caribeña, palmeras, casas coloridas desgastadas por el sol y la sal, el mar turquesa de fondo. Una cancha de tenis rota e invadida por hierba tropical en el centro. Un mural descolorido de Luna Borín (la heroína local, oro olímpico) en la pared. Un chico solo, golpeando contra esa pared. Narración: *"En un mundo donde los gigantes dominan la cancha... a veces el trueno nace del silencio."* |
 | 3-4 | **Yadi practicando** | Yadi golpea pelotas viejas contra la pared. Sus movimientos son toscos pero hay destellos de algo extraordinario. Don Emilio lo observa desde un banco, fumando. |
 | 5-6 | **Flashback rápido** | Yadi de niño (8 años) viendo en una TV vieja la final entre Novacronos y Rafa Nal. Sus ojos brillan. Su padre, serio pero con una sonrisa orgullosa, le pone la bandana en la cabeza: *"El tenis es el único deporte donde juegas solo contra el mundo, hijo. Así que sé un tigre."* Su madre al lado, nerviosa incluso viendo la TV: *"¡Ay, que me da algo con estos partidos!"* |
-| 7-8 | **La familia Vazq** | Yadi llega a casa. Cena humilde pero llena de vida. Papá Vazq, serio y competitivo, le pregunta sobre cada detalle de su entrenamiento: *"¿Y cómo estuvo tu revés hoy? ¿Mejor que ayer?"* Mamá Vazq nota sus manos ampolladas y le pone hielo con cara de preocupación mientras hace un chiste: *"Si sigues así vas a tener manos de lagarto."* Ambos trabajan duro para que Yadi pueda seguir jugando. Momento de amor familiar. |
+| 7-8 | **La familia Rodríguez** | Yadi llega a casa. Cena humilde pero llena de vida. Papá Rodríguez, serio y competitivo, le pregunta sobre cada detalle de su entrenamiento: *"¿Y cómo estuvo tu revés hoy? ¿Mejor que ayer?"* Mamá Rodríguez nota sus manos ampolladas y le pone hielo con cara de preocupación mientras hace un chiste: *"Si sigues así vas a tener manos de lagarto."* Ambos trabajan duro para que Yadi pueda seguir jugando. Momento de amor familiar. |
 | 9-11 | **La cancha pública — Encuentro con Yen** | Día siguiente. Yadi llega temprano a las canchas públicas de la ciudad cercana. Un joven (Yen, 23 años) está practicando solo. Intercambian miradas. Yen lo reta casualmente: *"¿Juegas o solo miras?"* |
 | 12-14 | **El partido revelador** | Yadi vs Yen. Yen domina fácilmente al principio, pero de repente Yadi hace un tiro imposible — un passing shot con un ángulo que no debería existir. Sus ojos brillan por un instante (primera activación del poder). Yen se queda helado. Panel de los ojos de Yen abriéndose de par en par. |
 | 15 | **Cierre** | Yen, con la toalla en el hombro, mirando a Yadi que recoge pelotas sin darse cuenta de lo que acaba de hacer. Yen piensa: *"¿Qué fue eso...?"* |
@@ -43,7 +43,7 @@
 
 | Pág | Escena | Detalle |
 |-----|--------|---------|
-| 1-2 | **Despedida** | Mamá Vazq le entrega una raqueta usada envuelta en papel, con los ojos llorosos pero sonriendo: *"Si la rompes, te rompo yo a ti."* Papá Vazq, serio, le pone la mano en el hombro: *"Ve y sé un tigre. No le tengas miedo a nadie."* Mamá ya está llorando. Papá también, pero disimula. Don Emilio en la puerta de las canchas: *"Vete, muchacho. Esta cancha ya te queda chiquita."* |
+| 1-2 | **Despedida** | Mamá Rodríguez le entrega una raqueta usada envuelta en papel, con los ojos llorosos pero sonriendo: *"Si la rompes, te rompo yo a ti."* Papá Rodríguez, serio, le pone la mano en el hombro: *"Ve y sé un tigre. No le tengas miedo a nadie."* Mamá ya está llorando. Papá también, pero disimula. Don Emilio en la puerta de las canchas: *"Vete, muchacho. Esta cancha ya te queda chiquita."* |
 | 3-5 | **Llegada al torneo** | Yadi y Yen llegan al club donde se celebra el torneo. Todo es diferente: canchas perfectas, jugadores con equipos completos, entrenadores, fisioterapeutas, ropa de marca. Yadi con su raqueta usada y su ropa vieja. Las miradas lo juzgan. |
 | 6-8 | **Introducción de rivales** | Panel de presentación tipo manga: Daimon Richwell llega en carro de lujo, séquito completo. *"#1 del ranking juvenil"*. Kai Morimoto sentado solo en una esquina, estoico. Luca Santori sonriendo mientras observa a todos. Yadi es invisible para ellos. |
 | 9-11 | **La provocación** | Daimon ve a Yadi en los vestidores. Nota su ropa y raqueta. *"¿Tú? ¿Con esa raqueta? Esto no es caridad, es tenis profesional."* Risas de su grupo. Yadi no responde, pero aprieta los puños. Yen, desde atrás: *"Guarda esa rabia. La vas a necesitar en la cancha."* |
@@ -121,7 +121,7 @@
 
 | Pág | Escena | Detalle |
 |-----|--------|---------|
-| 1-3 | **Después del partido** | Yadi y Yen celebran modestamente. Llamada a casa — Mamá Vazq llora y grita: *"¡Yo sabía! ¡¿Pero estás bien?! ¡¿No te lesionaste?!"* Papá Vazq toma el teléfono, serio: *"Buen partido. Ahora el siguiente."* pero se le escucha la voz quebrada de orgullo. Don Emilio en la isla ve el resultado en un periódico viejo y sonríe. |
+| 1-3 | **Después del partido** | Yadi y Yen celebran modestamente. Llamada a casa — Mamá Rodríguez llora y grita: *"¡Yo sabía! ¡¿Pero estás bien?! ¡¿No te lesionaste?!"* Papá Rodríguez toma el teléfono, serio: *"Buen partido. Ahora el siguiente."* pero se le escucha la voz quebrada de orgullo. Don Emilio en la isla ve el resultado en un periódico viejo y sonríe. |
 | 4-6 | **El circuito toma nota** | Montaje de reacciones: artículos deportivos mencionando a Yadi, comentaristas hablando del "chico desconocido que destruyó al #1 juvenil". Redes sociales explotan con clips de sus mejores tiros. |
 | 7-9 | **Semi-final** | Partido rápido (no detallado) — Yadi gana con confianza pero sin soberbia. El torneo avanza. |
 | 10-12 | **La final** | Yadi gana la final del torneo juvenil nacional. Ceremonia. Levanta el trofeo. Pero lo que más le importa es la mirada de Yen desde las gradas — un asentimiento que vale más que cualquier trofeo. |
@@ -151,12 +151,12 @@
 | Pág | Escena | Detalle |
 |-----|--------|---------|
 | 1-3 | **Primer partido en liga nacional** | Yadi juega contra un profesional experimentado (30 años, ranking ~80 nacional). Pierde, pero da pelea. 6-4, 7-5. No es una humillación — es una declaración de intenciones. El veterano le da la mano con respeto: *"Nos vemos pronto, chico."* |
-| 4-6 | **Reconocimiento** | Los comentaristas lo notan: *"Este chico de 16 años acaba de poner en aprietos a un profesional veterano. Recuerden el nombre: Yadi Vazq."* Montaje de miradas de otros jugadores. Ya no es invisible. |
+| 4-6 | **Reconocimiento** | Los comentaristas lo notan: *"Este chico de 16 años acaba de poner en aprietos a un profesional veterano. Recuerden el nombre: Yadi Rodríguez."* Montaje de miradas de otros jugadores. Ya no es invisible. |
 | 7-8 | **Momento con Yen** | Yadi y Yen sentados en las gradas vacías después del torneo. Silencio cómodo. Yen: *"Perdiste el partido."* Yadi: *"Lo sé."* Yen: *"¿Y cómo te sientes?"* Yadi, sonriendo: *"Hambriento."* Yen ríe. Choque de puños. |
-| 9-11 | **El regreso** | Yadi vuelve a la isla brevemente. Mamá Vazq lo abraza y no lo suelta por un minuto entero. Papá Vazq lo mira serio, asiente: *"Bien. Pero todavía no terminaste."* Luego lo abraza también. Don Emilio. Todo igual pero todo diferente. Yadi ya no es el mismo chico. Ha visto el mundo. Pero no ha perdido sus raíces. Visita la cancha rota. Golpea unas pelotas contra la pared, como al inicio. Pero ahora cada golpe suena diferente — más fuerte, más seguro. |
+| 9-11 | **El regreso** | Yadi vuelve a la isla brevemente. Mamá Rodríguez lo abraza y no lo suelta por un minuto entero. Papá Rodríguez lo mira serio, asiente: *"Bien. Pero todavía no terminaste."* Luego lo abraza también. Don Emilio. Todo igual pero todo diferente. Yadi ya no es el mismo chico. Ha visto el mundo. Pero no ha perdido sus raíces. Visita la cancha rota. Golpea unas pelotas contra la pared, como al inicio. Pero ahora cada golpe suena diferente — más fuerte, más seguro. |
 | 12-13 | **La noche antes** | Yadi en su cama, mirando el techo. Recapitulación visual: todos los momentos del volumen pasan como flash — Yen, el primer partido, Daimon, la final, Charlie, Jani, la cancha grande. Se duerme con una sonrisa. |
-| 14 | **LA LLAMADA** | El teléfono suena. Yadi lo toma, medio dormido. Una voz al otro lado — no se revela quién es. Solo se escucha: *"¿Yadi Vazq? He estado observándote. Tengo una propuesta que va a cambiar tu vida."* Los ojos de Yadi se abren completamente. Panel de sus ojos brillando en la oscuridad. |
-| 15 | **PÁGINA FINAL — Splash page** | Panel completo: Yadi de pie, teléfono en la oreja, mirando por la ventana de su habitación humilde hacia las estrellas. La silueta de tres figuras enormes en el cielo (los Great 3) como sombras épicas. Texto final: **"El ascenso apenas comienza."** → **FIN DEL VOLUMEN 1** / **CONTINUARÁ EN: YADI VAZQ — LA ÉLITE** |
+| 14 | **LA LLAMADA** | El teléfono suena. Yadi lo toma, medio dormido. Una voz al otro lado — no se revela quién es. Solo se escucha: *"¿Yadi Rodríguez? He estado observándote. Tengo una propuesta que va a cambiar tu vida."* Los ojos de Yadi se abren completamente. Panel de sus ojos brillando en la oscuridad. |
+| 15 | **PÁGINA FINAL — Splash page** | Panel completo: Yadi de pie, teléfono en la oreja, mirando por la ventana de su habitación humilde hacia las estrellas. La silueta de tres figuras enormes en el cielo (los Great 3) como sombras épicas. Texto final: **"El ascenso apenas comienza."** → **FIN DEL VOLUMEN 1** / **CONTINUARÁ EN: YADI RODRÍGUEZ — LA ÉLITE** |
 
 ---
 

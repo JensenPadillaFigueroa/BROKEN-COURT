@@ -56,7 +56,7 @@ Yen ríe:
 
 **4 paneles — La Despedida (Breve)**
 
-- **Panel 1**: Casa Vazq. Yadi preparando su maleta (un poco mejor que la primera vez — misma mochila vieja, pero ahora tiene el trofeo juvenil en su cuarto).
+- **Panel 1**: Casa Rodríguez. Yadi preparando su maleta (un poco mejor que la primera vez — misma mochila vieja, pero ahora tiene el trofeo juvenil en su cuarto).
 - **Panel 2**: Mamá, nerviosa como siempre:
 
 > "¿Liga nacional? ¿Con adultos? Hijo, esos tipos son enormes. ¿Y si te lastiman?"

@@ -44,7 +44,7 @@ Yadi faces Kai Morimoto, the defensive player who returns absolutely everything.
 > "I'm not going to tell you what to do. I'll tell you what NOT to do: don't get frustrated. Don't force. Don't play faster than you need to. He wants you to get desperate. That's his weapon."
 
 - **Panel 3**: Yadi nods. But in his eyes you can see he doesn't fully understand. Thinks his talent will be enough.
-- **Panel 4 (wide)**: Sign on the court: **SECOND ROUND — Court 2 — Y. Vazq vs K. Morimoto**. Bigger crowd than yesterday — word of Yadi's comeback attracted the curious.
+- **Panel 4 (wide)**: Sign on the court: **SECOND ROUND — Court 2 — Y. Rodríguez vs K. Morimoto**. Bigger crowd than yesterday — word of Yadi's comeback attracted the curious.
 
 ---
 

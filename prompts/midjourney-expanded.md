@@ -16,13 +16,13 @@
 ### PLACEHOLDER KEY
 | Placeholder | Source Image |
 |-------------|-------------|
-| `[URL_01_YADI]` | `01_yadi_vazq_character_sheet.png` |
+| `[URL_01_YADI]` | `01_yadi_rodriguez_character_sheet.png` |
 | `[URL_04_YEN]` | `04_yen_character_sheet.png` |
 | `[URL_19_DAIMON]` | `19_daimon_richwell_character_sheet.png` |
 | `[URL_21_KAI]` | `21_kai_morimoto_character_sheet.png` |
 | `[URL_23_LUCA]` | `23_luca_santori_character_sheet.png` |
-| `[URL_25_PAPA]` | `25_papa_vazq_character_sheet.png` |
-| `[URL_26_MAMA]` | `26_mama_vazq_character_sheet.png` |
+| `[URL_25_PAPA]` | `25_papa_rodriguez_character_sheet.png` |
+| `[URL_26_MAMA]` | `26_mama_rodriguez_character_sheet.png` |
 | `[URL_27_EMILIO]` | `27_don_emilio_character_sheet.png` |
 | `[URL_STYLE]` | Tu mejor imagen generada (para estilo consistente) |
 
@@ -33,11 +33,11 @@
 ## E1. Yadi Practicing Alone — Don Emilio Watching
 > **Filename:** `E01_ch1_yadi_practicing_don_emilio_watching.png`
 ```
-black and white manga, Kuroko no Basuke style, wide shot, handsome athletic Latino teen tennis player right arm swinging tennis racket forehand hitting ball against cracked concrete wall, left foot planted forward body rotated, weeds in tennis court cracks, faded woman's mural on wall, dark shadowed elderly man on bench in background watching, heavy screentones, crosshatching shadows, rim lighting from sunset, ink wash background --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel --cref https://cdn.midjourney.com/94fa87d1-1777-417d-9312-b6b2d58a40a2/0_2.png --cw 100 --sref https://cdn.midjourney.com/94fa87d1-1777-417d-9312-b6b2d58a40a2/0_2.png
+black and white manga, Kuroko no Basuke style, wide shot, handsome athletic Latino teen tennis player right arm swinging tennis racket forehand hitting ball against cracked concrete wall, left foot planted forward body rotated, weeds in tennis court cracks, faded woman's mural on wall, dark shadowed elderly man on bench in background watching, heavy screentones, crosshatching shadows, rim lighting from sunset, ink wash background --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel--cref [URL_01_YADI]
 ```
 
-## E2. The Vazq Family Dinner
-> **Filename:** `E02_ch1_vazq_family_dinner.png`
+## E2. The Rodríguez Family Dinner
+> **Filename:** `E02_ch1_rodriguez_family_dinner.png`
 ```
 black and white manga, medium shot, humble Caribbean kitchen, three people sitting at small dinner table under single hanging lamp, LEFT dark shadowed middle-aged man strong build arms on table, CENTER teen boy with bandana eating head down, RIGHT dark shadowed woman warm smile putting ice on boy's blistered hands, three plates of food on table, warm intimate family atmosphere, single overhead light source, heavy shadows on walls, crosshatching on skin detail --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel --cref [URL_01_YADI] --cw 100 --sref [URL_STYLE]
 ```
@@ -51,7 +51,7 @@ black and white manga, Kuroko no Basuke style, over-the-shoulder shot through ch
 ## E4. The Supernatural Shot — Yen's Reaction
 > **Filename:** `E04_ch1_supernatural_shot_yen_reaction.png`
 ```
-black and white manga, Kuroko no Basuke style, split panel, LEFT handsome athletic teen tennis player right arm fully extended hitting impossible passing shot with tennis racket ball leaving light trail speed lines, eyes showing brief diamond flash like Zone, RIGHT dark shadowed figure across tennis court net eyes blown wide jaw dropped, dramatic chiaroscuro, heavy screentones --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel --cref https://cdn.midjourney.com/94fa87d1-1777-417d-9312-b6b2d58a40a2/0_2.png --cw 100 --sref https://cdn.midjourney.com/94fa87d1-1777-417d-9312-b6b2d58a40a2/0_2.png
+black and white manga, Kuroko no Basuke style, split panel, LEFT handsome athletic teen tennis player right arm fully extended hitting impossible passing shot with tennis racket ball leaving light trail speed lines, eyes showing brief diamond flash like Zone, RIGHT dark shadowed figure across tennis court net eyes blown wide jaw dropped, dramatic chiaroscuro, heavy screentones --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel --cref
 ```
 
 ---
@@ -217,7 +217,7 @@ black and white manga, Kuroko no Basuke style, extreme close-up, handsome athlet
 ```
 black and white manga, Kuroko no Basuke style, vertical split composition, TOP handsome athletic teen tennis player tossing ball high right arm reaching up with tennis racket back arched serving perfect ace, tennis ball leaving speed flash, cold calculated delivery, BOTTOM dark shadowed opponent smile cracking and shattering like porcelain, racket smashed on ground, mask falling apart, dramatic contrast, heavy screentones, harsh overhead lighting --niji 6 --ar 2:3 --s 30 --no color cute chibi childish pastel --cref [URL_01_YADI] --cw 100 --sref [URL_STYLE]
 ```
-
+Esta la separamos en dos una imagen de el sirviendo otra de la pelota golpeando la linea puse la primera como el nombre que pusiste(E26_ch6_final_ace_luca_mask_falls.png) la otra ballLine.png
 ---
 
 # CHAPTER 7 — "The Golden Boy vs The Island Diamond" (4 new scenes)

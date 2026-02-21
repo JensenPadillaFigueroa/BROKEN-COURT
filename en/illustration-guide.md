@@ -1,5 +1,5 @@
 # ILLUSTRATION GUIDE — VOLUME 1
-## "YADI VAZQ: The Rise"
+## "YADI RODRÍGUEZ: The Rise"
 
 ### For AI generation — Detailed prompts and defined style
 
@@ -36,7 +36,7 @@
 
 ---
 
-## IMAGE 1 — YADI VAZQ: "The Tiger" *(HUMAN + aura)*
+## IMAGE 1 — YADI RODRÍGUEZ: "The Tiger" *(HUMAN + aura)*
 
 **Animal association**: TIGER 🐯 — Fierce, instinctive, born hunter. **Only as aura/shadow, NEVER physical features.**
 
@@ -195,7 +195,7 @@
 
 ---
 
-## IMAGE 11 — PAPA VAZQ: "The Old Tiger"
+## IMAGE 11 — PAPA RODRÍGUEZ: "The Old Tiger"
 
 **Character Sheet:**
 
@@ -203,7 +203,7 @@
 
 ---
 
-## IMAGE 12 — MAMA VAZQ: "The Nervous One"
+## IMAGE 12 — MAMA RODRÍGUEZ: "The Nervous One"
 
 **Character Sheet:**
 
@@ -241,7 +241,7 @@
 
 ## SCENE 1 — VOLUME 1 COVER
 
-> `manga volume cover illustration, full color, cinematic composition, teenage Latino boy (Yadi) fully human in the center foreground, brown skin, dynamic tennis pose mid-swing, bandana flowing, eyes glowing with diamond facets, translucent tiger aura shadow behind him (separate from body), cracked tropical tennis court with weeds beneath his feet transitioning into a professional stadium court, behind him in the sky: three LITERAL ANIMAL-HEADED figures — an anthropomorphic GOLDEN EAGLE in a suit (left, elegant), an anthropomorphic BULL with massive horns and steam from nostrils (center, powerful), and an anthropomorphic GOAT with curved horns and rectangular pupils (right, calculating) — these three have ACTUAL animal heads on human bodies, they are gods looking down at the boy, below: Caribbean tropical island with palm trees and ocean, above: the professional world, title "YADI VAZQ: The Rise" in bold manga typography, dramatic lighting, vibrant colors, professional manga cover quality`
+> `manga volume cover illustration, full color, cinematic composition, teenage Latino boy (Yadi) fully human in the center foreground, brown skin, dynamic tennis pose mid-swing, bandana flowing, eyes glowing with diamond facets, translucent tiger aura shadow behind him (separate from body), cracked tropical tennis court with weeds beneath his feet transitioning into a professional stadium court, behind him in the sky: three LITERAL ANIMAL-HEADED figures — an anthropomorphic GOLDEN EAGLE in a suit (left, elegant), an anthropomorphic BULL with massive horns and steam from nostrils (center, powerful), and an anthropomorphic GOAT with curved horns and rectangular pupils (right, calculating) — these three have ACTUAL animal heads on human bodies, they are gods looking down at the boy, below: Caribbean tropical island with palm trees and ocean, above: the professional world, title "YADI RODRÍGUEZ: The Rise" in bold manga typography, dramatic lighting, vibrant colors, professional manga cover quality`
 
 ---
 
@@ -339,7 +339,7 @@
 
 ## ICON 4 — The Junior Trophy
 
-> `manga object illustration, a junior national tennis tournament trophy, modest size, golden cup on a wooden base, engraved nameplate reading "Y. VAZQ", sitting on a humble bedside table next to the bandana and a family photo, moonlight illuminating it through a small window`
+> `manga object illustration, a junior national tennis tournament trophy, modest size, golden cup on a wooden base, engraved nameplate reading "Y. RODRÍGUEZ", sitting on a humble bedside table next to the bandana and a family photo, moonlight illuminating it through a small window`
 
 ## ICON 5 — The Tupperware Note
 
@@ -354,7 +354,7 @@
 | **Roger Novacronos** | Eagle 🦅 | ⚠️ **LITERAL HYBRID** | Real golden eagle head on human body. ALWAYS. | Gold/white/cream |
 | **Rafa Nal** | Bull 🐂 | ⚠️ **LITERAL HYBRID** | Real bull head with horns on human body. ALWAYS. | Red/orange/earth |
 | **Noak** | Goat 🐐 | ⚠️ **LITERAL HYBRID** | Real goat head with curved horns on human body. ALWAYS. | Silver/grey/white |
-| **Yadi Vazq** | Tiger 🐯 | Human + aura | 100% human. Tiger appears as shadow/aura BEHIND, never ON him. | Orange/black/gold |
+| **Yadi Rodríguez** | Tiger 🐯 | Human + aura | 100% human. Tiger appears as shadow/aura BEHIND, never ON him. | Orange/black/gold |
 | **Yen** | Owl 🦉 | Human + aura | 100% human. Owl as background silhouette only. | Dark blue/silver |
 | **Charlie** | Lion 🦁 | Human + aura | 100% human. Lion as background aura/shadow. | Gold/multicolor |
 | **Jani** | Arctic Fox 🦊 | Human + aura | 100% human. Fox as floor shadow. | Ice blue/white/silver |

@@ -224,7 +224,7 @@ Yadi:
 - **Panel 2 (grande)**: Doble imagen — Yadi a la izquierda mirando el cuadro, Kai a la derecha en la cancha. Una línea imaginaria los conecta. Dos mundos que están a punto de chocar.
 - **Panel 3**: Close-up de los ojos de Kai. Fríos. Implacables. Por primera vez, un pensamiento:
 
-> *"Yadi Vazq. Veamos qué tienes."*
+> *"Yadi Rodríguez. Veamos qué tienes."*
 
 **Texto de cierre**:
 

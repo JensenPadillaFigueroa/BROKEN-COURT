@@ -248,7 +248,7 @@ The armor shines like a diamond. The darkness around him shatters like broken gl
 
 > "That's mental fortitude. And now that you have it, nobody takes it away."
 
-- **Panel 4 (large, final panel)**: Yadi from behind, walking through the club hallway. In the background, the next match sign updates: **ZONE FINAL — Y. Vazq vs D. Richwell.** Yadi doesn't look at the sign. Doesn't need to. Already knows who's next.
+- **Panel 4 (large, final panel)**: Yadi from behind, walking through the club hallway. In the background, the next match sign updates: **ZONE FINAL — Y. Rodríguez vs D. Richwell.** Yadi doesn't look at the sign. Doesn't need to. Already knows who's next.
 
 > Thought: *"Daimon Richwell. I'm coming for you."*
 

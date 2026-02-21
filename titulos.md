@@ -1,6 +1,6 @@
 # OPCIONES DE TÍTULO — Manga de Tenis
 
-## Título actual: **YADI VAZQ: El Ascenso**
+## Título actual: **YADI RODRÍGUEZ: El Ascenso**
 
 ---
 
@@ -8,9 +8,9 @@
 
 | # | Español | English | Por qué funciona |
 |---|---------|---------|-----------------|
-| A1 | **YADI VAZQ: El Ascenso** | **YADI VAZQ: The Rise** | Directo, personal, suena a marca. Problema: el nombre puede ser difícil de recordar para audiencia internacional |
+| A1 | **YADI RODRÍGUEZ: El Ascenso** | **YADI RODRÍGUEZ: The Rise** | Directo, personal, suena a marca. Problema: el nombre puede ser difícil de recordar para audiencia internacional |
 | A2 | **YADI** | **YADI** | Minimalista. Como "NARUTO" o "BLEACH". Una sola palabra. Impactante. Funciona en cualquier idioma |
-| A3 | **VAZQ** | **VAZQ** | Más misterioso. El apellido como identidad. Corto, fuerte, memorable |
+| A3 | **RODRÍGUEZ** | **RODRÍGUEZ** | Más misterioso. El apellido como identidad. Corto, fuerte, memorable |
 
 ---
 

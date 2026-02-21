@@ -1,4 +1,4 @@
-# Structure — YADI VAZQ: The Rise
+# Structure — YADI RODRÍGUEZ: The Rise
 
 ## Volume 1 | ~150 pages | 10 Chapters
 
@@ -15,7 +15,7 @@
 | 1-2 | **Opening splash page** | Aerial view of Isla Brava — Caribbean tropical island, palm trees, colorful houses faded by sun and salt, turquoise ocean in the background. A broken tennis court invaded by tropical weeds in the center. A faded mural of Luna Borín (the local heroine, Olympic gold) on the wall. A boy alone, hitting against that wall. Narration: *"In a world where giants rule the court... sometimes thunder is born from silence."* |
 | 3-4 | **Yadi practicing** | Yadi hits old balls against the wall. His movements are rough but there are flashes of something extraordinary. Don Emilio watches from a bench, smoking. |
 | 5-6 | **Quick flashback** | 8-year-old Yadi watching on an old TV the final between Novacronos and Rafa Nal. His eyes glow. His father, serious but with a proud smile, places the bandana on his head: *"Tennis is the only sport where you play alone against the world, son. So be a tiger."* His mother beside them, nervous even watching TV: *"Oh god, these matches are going to kill me!"* |
-| 7-8 | **The Vazq family** | Yadi comes home. Humble dinner but full of life. Papa Vazq, serious and competitive, asks about every detail of his training: *"How was your backhand today? Better than yesterday?"* Mama Vazq notices his blistered hands and puts ice on them with a worried face while cracking a joke: *"If you keep this up you're going to have lizard hands."* Both work hard so Yadi can keep playing. Family love moment. |
+| 7-8 | **The Rodríguez family** | Yadi comes home. Humble dinner but full of life. Papa Rodríguez, serious and competitive, asks about every detail of his training: *"How was your backhand today? Better than yesterday?"* Mama Rodríguez notices his blistered hands and puts ice on them with a worried face while cracking a joke: *"If you keep this up you're going to have lizard hands."* Both work hard so Yadi can keep playing. Family love moment. |
 | 9-11 | **Public courts — Meeting Yen** | Next day. Yadi arrives early at the public courts in the nearby city. A young man (Yen, 23) is practicing alone. They exchange glances. Yen challenges him casually: *"You playing or just watching?"* |
 | 12-14 | **The revealing match** | Yadi vs Yen. Yen dominates easily at first, but suddenly Yadi hits an impossible shot — a passing shot at an angle that shouldn't exist. His eyes glow for an instant (first power activation). Yen freezes. Panel of Yen's eyes widening. |
 | 15 | **Closing** | Yen, towel on his shoulder, watching Yadi pick up balls without realizing what he just did. Yen thinks: *"What was that...?"* |
@@ -43,7 +43,7 @@
 
 | Pg | Scene | Detail |
 |-----|--------|---------|
-| 1-2 | **Farewell** | Mama Vazq hands him a used racket wrapped in paper, eyes teary but smiling: *"If you break it, I'll break you."* Papa Vazq, serious, puts his hand on his shoulder: *"Go and be a tiger. Don't be afraid of anyone."* Mama already crying. Papa too, but hiding it. Don Emilio at the court gate: *"Go, kid. This court is too small for you now."* |
+| 1-2 | **Farewell** | Mama Rodríguez hands him a used racket wrapped in paper, eyes teary but smiling: *"If you break it, I'll break you."* Papa Rodríguez, serious, puts his hand on his shoulder: *"Go and be a tiger. Don't be afraid of anyone."* Mama already crying. Papa too, but hiding it. Don Emilio at the court gate: *"Go, kid. This court is too small for you now."* |
 | 3-5 | **Arriving at the tournament** | Yadi and Yen arrive at the club hosting the tournament. Everything is different: perfect courts, players with full teams, coaches, physiotherapists, brand-name clothes. Yadi with his used racket and old clothes. The stares judge him. |
 | 6-8 | **Rival introductions** | Manga-style introduction panel: Daimon Richwell arrives in a luxury car, full entourage. *"#1 Junior Ranking"*. Kai Morimoto sitting alone in a corner, stoic. Luca Santori smiling while watching everyone. Yadi is invisible to them. |
 | 9-11 | **The provocation** | Daimon sees Yadi in the locker room. Notices his clothes and racket. *"You? With that racket? This isn't charity, it's professional tennis."* Laughter from his group. Yadi doesn't respond, but clenches his fists. Yen, from behind: *"Save that rage. You'll need it on the court."* |
@@ -121,7 +121,7 @@
 
 | Pg | Scene | Detail |
 |-----|--------|---------|
-| 1-3 | **After the match** | Yadi and Yen celebrate modestly. Call home — Mama Vazq cries and screams: *"I knew it! But are you okay?! Did you get hurt?!"* Papa Vazq takes the phone, serious: *"Good match. Now the next one."* but his voice cracks with pride. Don Emilio on the island sees the result in an old newspaper and smiles big. |
+| 1-3 | **After the match** | Yadi and Yen celebrate modestly. Call home — Mama Rodríguez cries and screams: *"I knew it! But are you okay?! Did you get hurt?!"* Papa Rodríguez takes the phone, serious: *"Good match. Now the next one."* but his voice cracks with pride. Don Emilio on the island sees the result in an old newspaper and smiles big. |
 | 4-6 | **The circuit takes notice** | Reaction montage: sports articles mentioning Yadi, commentators talking about the "unknown kid who destroyed the #1 junior." Social media explodes with clips of his best shots. |
 | 7-9 | **Semi-final** | Quick match (not detailed) — Yadi wins with confidence but without arrogance. Tournament advances. |
 | 10-12 | **The final** | Yadi wins the national junior tournament final. Ceremony. Raises the trophy. But what matters most is Yen's look from the stands — a nod worth more than any trophy. |
@@ -151,12 +151,12 @@
 | Pg | Scene | Detail |
 |-----|--------|---------|
 | 1-3 | **First match in national league** | Yadi plays against an experienced professional (30 years old, ranking ~80 national). Loses, but puts up a fight. 6-4, 7-5. Not a humiliation — a statement of intent. The veteran shakes his hand with respect: *"See you soon, kid."* |
-| 4-6 | **Recognition** | Commentators take notice: *"This 16-year-old kid just gave a veteran professional a run for his money. Remember the name: Yadi Vazq."* Montage of looks from other players. He's no longer invisible. |
+| 4-6 | **Recognition** | Commentators take notice: *"This 16-year-old kid just gave a veteran professional a run for his money. Remember the name: Yadi Rodríguez."* Montage of looks from other players. He's no longer invisible. |
 | 7-8 | **Moment with Yen** | Yadi and Yen sitting in the empty stands after the tournament. Comfortable silence. Yen: *"You lost the match."* Yadi: *"I know."* Yen: *"And how do you feel?"* Yadi, smiling: *"Hungry."* Yen laughs. Fist bump. |
-| 9-11 | **The return** | Yadi returns to the island briefly. Mama Vazq hugs him and doesn't let go for a full minute. Papa Vazq looks at him seriously, nods: *"Good. But you're not done yet."* Then hugs him too. Don Emilio. Everything the same but everything different. Yadi is no longer the same kid. He's seen the world. But he hasn't lost his roots. Visits the broken court. Hits some balls against the wall, just like the beginning. But now every hit sounds different — stronger, more confident. |
+| 9-11 | **The return** | Yadi returns to the island briefly. Mama Rodríguez hugs him and doesn't let go for a full minute. Papa Rodríguez looks at him seriously, nods: *"Good. But you're not done yet."* Then hugs him too. Don Emilio. Everything the same but everything different. Yadi is no longer the same kid. He's seen the world. But he hasn't lost his roots. Visits the broken court. Hits some balls against the wall, just like the beginning. But now every hit sounds different — stronger, more confident. |
 | 12-13 | **The night before** | Yadi in bed, staring at the ceiling. Visual recap: every moment from the volume flashes by — Yen, the first match, Daimon, the final, Charlie, Jani, the big court. Falls asleep with a smile. |
-| 14 | **THE CALL** | The phone rings. Yadi picks up, half asleep. A voice on the other end — identity not revealed. All you hear: *"Yadi Vazq? I've been watching you. I have a proposal that's going to change your life."* Yadi's eyes snap fully open. Panel of his eyes glowing in the darkness. |
-| 15 | **FINAL PAGE — Splash page** | Full panel: Yadi standing, phone to his ear, looking out his humble bedroom window at the stars. The silhouettes of three enormous figures in the sky (the Great 3) as epic shadows. Final text: **"The rise has only just begun."** → **END OF VOLUME 1** / **TO BE CONTINUED IN: YADI VAZQ — THE ELITE** |
+| 14 | **THE CALL** | The phone rings. Yadi picks up, half asleep. A voice on the other end — identity not revealed. All you hear: *"Yadi Rodríguez? I've been watching you. I have a proposal that's going to change your life."* Yadi's eyes snap fully open. Panel of his eyes glowing in the darkness. |
+| 15 | **FINAL PAGE — Splash page** | Full panel: Yadi standing, phone to his ear, looking out his humble bedroom window at the stars. The silhouettes of three enormous figures in the sky (the Great 3) as epic shadows. Final text: **"The rise has only just begun."** → **END OF VOLUME 1** / **TO BE CONTINUED IN: YADI RODRÍGUEZ — THE ELITE** |
 
 ---
 

@@ -1,4 +1,4 @@
-# 🎾 YADI VAZQ — The Rise
+# 🎾 YADI RODRÍGUEZ — The Rise
 
 ## Tennis Manga | Volume 1 | ~150 pages
 
@@ -6,7 +6,7 @@
 
 ### General Concept
 
-A Japanese-style manga (shōnen sports) about **Yadi Vazq**, a 16-year-old with supernatural tennis talent who comes from **Isla Brava** — a small Caribbean tropical island (inspired by Puerto Rico) with no resources or money. The only legend who ever made it out of that island was Luna Borín, who won the Olympic gold medal in tennis. Yadi grew up staring at her mural and dreaming of being the next one. Through pure attitude, talent, and the guidance of an unexpected mentor, he rises from minor circuits to being noticed by the greatest stars in world tennis.
+A Japanese-style manga (shōnen sports) about **Yadi Rodríguez**, a 16-year-old with supernatural tennis talent who comes from **Isla Brava** — a small Caribbean tropical island (inspired by Puerto Rico) with no resources or money. The only legend who ever made it out of that island was Luna Borín, who won the Olympic gold medal in tennis. Yadi grew up staring at her mural and dreaming of being the next one. Through pure attitude, talent, and the guidance of an unexpected mentor, he rises from minor circuits to being noticed by the greatest stars in world tennis.
 
 ### Genre & Style
 

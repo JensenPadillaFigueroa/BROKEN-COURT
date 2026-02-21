@@ -1,4 +1,4 @@
-# Themes & Style — YADI VAZQ: The Rise
+# Themes & Style — YADI RODRÍGUEZ: The Rise
 
 ---
 
@@ -28,8 +28,8 @@ Tennis is a mental sport. Yen teaches Yadi that talent without mental fortitude 
 
 Unlike many manga where the protagonist is alone, Yadi has both parents present and active:
 
-- **Papa Vazq** gives him the competitive fire, the tiger mentality, the healthy demanding nature
-- **Mama Vazq** gives him love, humor, humanity — and reminds him there's life outside the court
+- **Papa Rodríguez** gives him the competitive fire, the tiger mentality, the healthy demanding nature
+- **Mama Rodríguez** gives him love, humor, humanity — and reminds him there's life outside the court
 - Both sacrifice everything so their son can compete
 - The family is the root of Yadi's humility — success never goes to his head because he knows what it costs
 
@@ -73,7 +73,7 @@ Through Yen, the story proposes that brutal honesty is an act of love:
 | Aspect | Description |
 |--------|-------------|
 | **Energy** | High — matches are intense, training is hard, emotions are big |
-| **Humor** | Present but not dominant — comes mainly from Mama Vazq (nervous sarcasm) and Yen (dry humor) |
+| **Humor** | Present but not dominant — comes mainly from Mama Rodríguez (nervous sarcasm) and Yen (dry humor) |
 | **Drama** | Emotional but never melodramatic — sad moments carry real weight because they aren't overused |
 | **Inspiration** | The central tone — every chapter should leave the reader wanting to get up and do something |
 | **Tension** | Matches are psychological battles as much as physical ones |
@@ -138,7 +138,7 @@ Main references:
 | Location | Color Palette | Panel Style |
 |----------|--------------|-------------|
 | Isla Brava (tropical island) | Vibrant tropicals: turquoise, jungle green, sunset orange, ocean blue | Open panels, big sky, ocean background, palm trees, visible heat, freedom and isolation |
-| Vazq House | Warm but intimate: soft yellow | Closed panels, cozy, full of life |
+| Rodríguez House | Warm but intimate: soft yellow | Closed panels, cozy, full of life |
 | Public courts (city) | Greys, cold blues | More rigid, urban panels |
 | Youth Arena (tournament) | Bright whites, court greens | Clean, professional, intimidating panels |
 | Corona Stadium (national league) | Epic: deep blacks, white lights | Enormous panels, splash pages, coliseum feeling |
@@ -200,7 +200,7 @@ To help define the tone while drawing, these are the "vibes" per moment:
 
 Phrases that repeat or evolve throughout the volume:
 
-1. *"Be a tiger"* — Papa Vazq → becomes Yadi's internal mantra
+1. *"Be a tiger"* — Papa Rodríguez → becomes Yadi's internal mantra
 2. *"One ball at a time"* — Yen → the philosophy of focus
 3. *"I don't have what they have... but I have something money can't buy"* — Yadi → evolves from defense to declaration of war
 4. *"The rise has only just begun"* — Volume closing → promise of the future

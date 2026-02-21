@@ -1,5 +1,5 @@
 {
-  "character": "Yadi Vazq",
+  "character": "Yadi Rodríguez",
   "alias": "The Tiger",
   "animal": "Tiger",
   "type": "HUMAN_AURA",
@@ -9,7 +9,7 @@
   "illustrations": [
     {
       "id": "char_yadi_sheet",
-      "name": "Yadi Vazq — Character Sheet",
+      "name": "Yadi Rodríguez — Character Sheet",
       "category": "character_sheet",
       "priority": 2,
       "color": false,
@@ -19,7 +19,7 @@
     },
     {
       "id": "char_yadi_power",
-      "name": "Yadi Vazq — Tiger Aura Power Version",
+      "name": "Yadi Rodríguez — Tiger Aura Power Version",
       "category": "character_power",
       "priority": 6,
       "color": true,
@@ -29,7 +29,7 @@
     },
     {
       "id": "char_yadi_eyes",
-      "name": "Yadi Vazq — Diamond Vision Eyes Close-up",
+      "name": "Yadi Rodríguez — Diamond Vision Eyes Close-up",
       "category": "character_detail",
       "priority": 6,
       "color": true,

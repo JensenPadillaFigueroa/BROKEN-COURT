@@ -3,13 +3,13 @@
   "illustrations": [
     {
       "id": "scene_cover_vol1",
-      "name": "Volume 1 Cover — YADI VAZQ: The Rise",
+      "name": "Volume 1 Cover — YADI RODRÍGUEZ: The Rise",
       "chapter": null,
       "page": null,
       "type": "cover",
       "priority": 3,
       "color": true,
-      "prompt": "manga volume cover illustration, full color, cinematic composition, teenage Latino boy (Yadi) fully human in the center foreground, brown skin, dynamic tennis pose mid-swing, bandana flowing, eyes glowing with diamond facets, translucent tiger aura shadow behind him (separate from body), cracked tropical tennis court with weeds beneath his feet transitioning into a professional stadium court, behind him in the sky: three LITERAL ANIMAL-HEADED figures — an anthropomorphic GOLDEN EAGLE in a suit (left, elegant), an anthropomorphic BULL with massive horns and steam from nostrils (center, powerful), and an anthropomorphic GOAT with curved horns and rectangular pupils (right, calculating) — these three have ACTUAL animal heads on human bodies, they are gods looking down at the boy, below: Caribbean tropical island with palm trees and ocean, above: the professional world, title \"YADI VAZQ: The Rise\" in bold manga typography, dramatic lighting, vibrant colors, professional manga cover quality",
+      "prompt": "manga volume cover illustration, full color, cinematic composition, teenage Latino boy (Yadi) fully human in the center foreground, brown skin, dynamic tennis pose mid-swing, bandana flowing, eyes glowing with diamond facets, translucent tiger aura shadow behind him (separate from body), cracked tropical tennis court with weeds beneath his feet transitioning into a professional stadium court, behind him in the sky: three LITERAL ANIMAL-HEADED figures — an anthropomorphic GOLDEN EAGLE in a suit (left, elegant), an anthropomorphic BULL with massive horns and steam from nostrils (center, powerful), and an anthropomorphic GOAT with curved horns and rectangular pupils (right, calculating) — these three have ACTUAL animal heads on human bodies, they are gods looking down at the boy, below: Caribbean tropical island with palm trees and ocean, above: the professional world, title \"YADI RODRÍGUEZ: The Rise\" in bold manga typography, dramatic lighting, vibrant colors, professional manga cover quality",
       "negative_prompt": "bad anatomy, deformed hands, extra fingers, blurry, low quality, chibi, super deformed, western cartoon style",
       "resolution": "2048x2048"
     }

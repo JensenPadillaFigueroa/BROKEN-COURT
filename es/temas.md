@@ -1,4 +1,4 @@
-# Temas y Estilo — YADI VAZQ: El Ascenso
+# Temas y Estilo — YADI RODRÍGUEZ: El Ascenso
 
 ---
 
@@ -28,8 +28,8 @@ El tenis es un deporte mental. Yen le enseña a Yadi que el talento sin fortalez
 
 A diferencia de muchos manga donde el protagonista está solo, Yadi tiene a sus dos padres presentes y activos:
 
-- **Papá Vazq** le da el fuego competitivo, la mentalidad de tigre, la exigencia sana
-- **Mamá Vazq** le da el amor, el humor, la humanidad — y le recuerda que hay vida fuera de la cancha
+- **Papá Rodríguez** le da el fuego competitivo, la mentalidad de tigre, la exigencia sana
+- **Mamá Rodríguez** le da el amor, el humor, la humanidad — y le recuerda que hay vida fuera de la cancha
 - Ambos sacrifican todo para que su hijo pueda competir
 - La familia es la raíz de la humildad de Yadi — nunca se le sube el éxito a la cabeza porque sabe lo que cuesta
 
@@ -73,7 +73,7 @@ A través de Yen, la historia propone que la honestidad brutal es un acto de amo
 | Aspecto | Descripción |
 |---------|-------------|
 | **Energía** | Alta — los partidos son intensos, los entrenamientos son duros, las emociones son grandes |
-| **Humor** | Presente pero no dominante — viene principalmente de Mamá Vazq (sarcasmo nervioso) y Yen (humor seco) |
+| **Humor** | Presente pero no dominante — viene principalmente de Mamá Rodríguez (sarcasmo nervioso) y Yen (humor seco) |
 | **Drama** | Emocional pero nunca melodramático — los momentos tristes tienen peso real porque no se abusan |
 | **Inspiración** | El tono central — cada capítulo debe dejar al lector con ganas de levantarse y hacer algo |
 | **Tensión** | Los partidos son batallas psicológicas tanto como físicas |
@@ -138,7 +138,7 @@ Referentes principales:
 | Locación | Paleta de Colores | Estilo de Panel |
 |----------|------------------|-----------------|
 | Isla Brava (isla tropical) | Tropicales vibrantes: turquesa, verde selva, naranja atardecer, azul océano | Paneles abiertos, cielo grande, mar de fondo, palmeras, calor visible, libertad y aislamiento |
-| Casa Vazq | Cálidos pero íntimos: amarillo suave | Paneles cerrados, acogedores, llenos de vida |
+| Casa Rodríguez | Cálidos pero íntimos: amarillo suave | Paneles cerrados, acogedores, llenos de vida |
 | Canchas públicas (ciudad) | Grises, azules fríos | Paneles más rígidos, urbanos |
 | Arena Juventud (torneo) | Blancos brillantes, verdes cancha | Paneles limpios, profesionales, intimidantes |
 | Estadio Corona (liga nacional) | Épico: negros profundos, luces blancas | Paneles enormes, splash pages, sensación de coliseo |
@@ -200,7 +200,7 @@ Para ayudar a definir el tono al dibujar, estas son las "vibes" por momento:
 
 Frases que se repiten o evolucionan a lo largo del volumen:
 
-1. *"Sé un tigre"* — Papá Vazq → se convierte en el mantra interno de Yadi
+1. *"Sé un tigre"* — Papá Rodríguez → se convierte en el mantra interno de Yadi
 2. *"Una pelota a la vez"* — Yen → la filosofía de concentración
 3. *"No tengo lo que tienen ellos... pero tengo algo que el dinero no compra"* — Yadi → evoluciona de defensa a declaración de guerra
 4. *"El ascenso apenas comienza"* — Cierre del volumen → promesa del futuro

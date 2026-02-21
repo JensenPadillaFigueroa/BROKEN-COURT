@@ -548,6 +548,115 @@
     .char-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
     .hero h1 { letter-spacing: 6px; }
   }
+  /* ═══ TTS AUDIO CONTROLS ═══ */
+  .tts-line-btn {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 26px; height: 26px; border-radius: 50%;
+    background: rgba(212,168,83,0.1); border: 1px solid rgba(212,168,83,0.2);
+    color: var(--gold); cursor: pointer; font-size: 12px;
+    margin-right: 8px; vertical-align: middle;
+    transition: all 0.25s; flex-shrink: 0;
+    float: left; margin-top: 2px;
+  }
+  .tts-line-btn:hover {
+    background: rgba(212,168,83,0.25); transform: scale(1.15);
+    box-shadow: 0 0 12px rgba(212,168,83,0.2);
+  }
+  .tts-line-btn.playing {
+    background: var(--gold); color: #000;
+    animation: tts-pulse 1.2s ease infinite;
+  }
+  @keyframes tts-pulse {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(212,168,83,0.4); }
+    50% { box-shadow: 0 0 0 8px rgba(212,168,83,0); }
+  }
+
+  .tts-panel-btn {
+    display: flex; align-items: center; gap: 8px;
+    padding: 8px 18px; margin: 14px 0 6px;
+    background: rgba(212,168,83,0.06); border: 1px solid rgba(212,168,83,0.15);
+    border-radius: 3px; cursor: pointer;
+    font-family: 'Oswald', sans-serif; font-size: 10px;
+    letter-spacing: 2.5px; text-transform: uppercase;
+    color: rgba(212,168,83,0.6); transition: all 0.3s;
+  }
+  .tts-panel-btn:hover {
+    background: rgba(212,168,83,0.12); color: var(--gold);
+    border-color: rgba(212,168,83,0.3);
+  }
+  .tts-panel-btn.playing { color: var(--gold); border-color: var(--gold); }
+  .tts-panel-btn .tts-icon { font-size: 14px; }
+
+  .tts-speaking {
+    background: rgba(212,168,83,0.05) !important;
+    border-left-color: var(--gold) !important;
+    transition: background 0.3s, border-color 0.3s;
+  }
+
+  /* Floating audio bar */
+  #tts-bar {
+    position: fixed; bottom: 0; left: 0; right: 0; z-index: 9999;
+    background: linear-gradient(180deg, #0a0a0a 0%, #111 100%);
+    border-top: 1px solid rgba(212,168,83,0.2);
+    padding: 10px 24px; display: none; align-items: center; gap: 14px;
+    font-family: 'Oswald', sans-serif; backdrop-filter: blur(20px);
+    box-shadow: 0 -8px 40px rgba(0,0,0,0.6);
+  }
+  #tts-bar.visible { display: flex; }
+  #tts-bar .tts-bar-btn {
+    width: 36px; height: 36px; border-radius: 50%;
+    border: 1px solid rgba(212,168,83,0.3); background: rgba(212,168,83,0.08);
+    color: var(--gold); font-size: 16px; cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    transition: all 0.2s;
+  }
+  #tts-bar .tts-bar-btn:hover {
+    background: rgba(212,168,83,0.2); transform: scale(1.1);
+  }
+  #tts-bar .tts-bar-btn.primary {
+    width: 42px; height: 42px; font-size: 18px;
+    background: var(--gold); color: #000; border-color: var(--gold);
+  }
+  #tts-bar .tts-bar-btn.primary:hover { opacity: 0.85; }
+  #tts-bar .tts-bar-info {
+    flex: 1; min-width: 0;
+  }
+  #tts-bar .tts-bar-speaker {
+    font-size: 10px; letter-spacing: 2px; color: var(--gold);
+    text-transform: uppercase; white-space: nowrap;
+    overflow: hidden; text-overflow: ellipsis;
+  }
+  #tts-bar .tts-bar-text {
+    font-family: 'Crimson Text', serif; font-size: 14px;
+    color: #888; white-space: nowrap;
+    overflow: hidden; text-overflow: ellipsis;
+    max-width: 500px;
+  }
+  #tts-bar .tts-bar-close {
+    width: 28px; height: 28px; border-radius: 50%;
+    border: none; background: rgba(255,255,255,0.05);
+    color: #555; font-size: 14px; cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    transition: all 0.2s;
+  }
+  #tts-bar .tts-bar-close:hover { background: rgba(255,0,0,0.15); color: #f66; }
+
+  #tts-bar .tts-bar-loading {
+    width: 18px; height: 18px;
+    border: 2px solid rgba(212,168,83,0.2);
+    border-top-color: var(--gold);
+    border-radius: 50%;
+    animation: tts-spin 0.8s linear infinite;
+    display: none;
+  }
+  #tts-bar .tts-bar-loading.active { display: block; }
+  @keyframes tts-spin { to { transform: rotate(360deg); } }
+
+  @media (max-width: 600px) {
+    #tts-bar { padding: 8px 12px; gap: 8px; }
+    #tts-bar .tts-bar-text { max-width: 200px; font-size: 12px; }
+    #tts-bar .tts-bar-btn.primary { width: 36px; height: 36px; }
+  }
 </style>
 </head>
 <body>
@@ -588,7 +697,7 @@
     <div class="chapter-title">Character Sheets</div>
   </div>
   <div class="char-grid">
-    <div class="char-card"><img src="images/01_yadi_vazq_character_sheet.png" alt="Yadi"><div class="char-name">Yadi Vazq</div></div>
+    <div class="char-card"><img src="images/01_yadi_vazq_character_sheet.png" alt="Yadi"><div class="char-name">Yadi Rodríguez</div></div>
     <div class="char-card"><img src="images/04_yen_character_sheet.png" alt="Yen"><div class="char-name">Yen</div></div>
     <div class="char-card"><img src="images/06_novacronos_character_sheet.png" alt="Novacronos"><div class="char-name">Novacronos</div></div>
     <div class="char-card"><img src="images/09_rafa_nal_character_sheet.png" alt="Rafa Nal"><div class="char-name">Rafa Nal</div></div>
@@ -598,8 +707,8 @@
     <div class="char-card"><img src="images/19_daimon_richwell_character_sheet.png" alt="Daimon"><div class="char-name">Daimon Richwell</div></div>
     <div class="char-card"><img src="images/21_kai_morimoto_character.png" alt="Kai"><div class="char-name">Kai Morimoto</div></div>
     <div class="char-card"><img src="images/23_luca_santori_character_sheet.png" alt="Luca"><div class="char-name">Luca Santori</div></div>
-    <div class="char-card"><img src="images/25_papa_vazq_character_sheet.png" alt="Papa Vazq"><div class="char-name">Papa Vazq</div></div>
-    <div class="char-card"><img src="images/26_mama_vazq_character_sheet.png" alt="Mama Vazq"><div class="char-name">Mama Vazq</div></div>
+    <div class="char-card"><img src="images/25_papa_vazq_character_sheet.png" alt="Papa Rodríguez"><div class="char-name">Papa Rodríguez</div></div>
+    <div class="char-card"><img src="images/26_mama_vazq_character_sheet.png" alt="Mama Rodríguez"><div class="char-name">Mama Rodríguez</div></div>
     <div class="char-card"><img src="images/27_don_emilio_character_sheet.png" alt="Don Emilio"><div class="char-name">Don Emilio</div></div>
   </div>
 </section>
@@ -609,7 +718,7 @@
   <div class="chapter-header">
     <div class="chapter-num">Chapter 1 — Act 1: Roots</div>
     <div class="chapter-title">"The Broken Court"</div>
-    <div class="chapter-summary">We meet Yadi Vazq, a 16-year-old with supernatural tennis talent, trapped on a Caribbean island with no resources. A casual encounter with a stranger named Yen reveals he has something special.</div>
+    <div class="chapter-summary">We meet Yadi Rodríguez, a 16-year-old with supernatural tennis talent, trapped on a Caribbean island with no resources. A casual encounter with a stranger named Yen reveals he has something special.</div>
   </div>
 
   <!-- Pg 1: Aerial -->
@@ -642,6 +751,12 @@
     </div>
   </div>
 
+  <!-- The Crack — Don Emilio sees it -->
+  <div class="manga-page panel-inset">
+    <div class="page-label">The Cracked Wall with Mural</div>
+    <div class="page-image-wrap"><img src="images/The Cracked Wall with Mural.png" alt="The Cracked Wall with Mural — Don Emilio sees the crack"></div>
+  </div>
+
   <!-- Don Emilio watching -->
   <div class="manga-page panel-strip-left panel-tilt-l">
     <div class="page-label">E1 — Don Emilio Watching</div>
@@ -656,28 +771,28 @@
     <div class="page-label">Pages 5-6 — Flashback: Young Yadi Watching TV</div>
     <div class="page-image-wrap"><img src="images/Flashback Young Yadi Watching TV.png" alt="Flashback Young Yadi"></div>
     <div class="dialogue-block">
-      <div class="speech"><span class="speaker">Papa Vazq</span> <span class="line">"Tennis is the only sport where you play alone against the world, son. So be a tiger."</span></div>
-      <div class="speech"><span class="speaker">Mama Vazq</span> <span class="line">"Oh god, these matches are going to kill me!"</span></div>
+      <div class="speech"><span class="speaker">Papa Rodríguez</span> <span class="line">"Tennis is the only sport where you play alone against the world, son. So be a tiger."</span></div>
+      <div class="speech"><span class="speaker">Mama Rodríguez</span> <span class="line">"Oh god, these matches are going to kill me!"</span></div>
       <div class="narration">"That was the day I knew tennis was my thing. Not because it was easy. Because it was impossible."</div>
     </div>
   </div>
 
   <!-- Family Dinner -->
   <div class="manga-page panel-inset">
-    <div class="page-label">E2 — The Vazq Family Dinner</div>
-    <div class="page-image-wrap"><img src="images/familydinner.png" alt="Vazq Family Dinner"></div>
+    <div class="page-label">E2 — The Rodríguez Family Dinner</div>
+    <div class="page-image-wrap"><img src="images/familydinner.png" alt="Rodríguez Family Dinner"></div>
     <div class="dialogue-block">
-      <div class="speech"><span class="speaker">Papa Vazq</span> <span class="line">"How was your backhand today? Better than yesterday?"</span></div>
+      <div class="speech"><span class="speaker">Papa Rodríguez</span> <span class="line">"How was your backhand today? Better than yesterday?"</span></div>
       <div class="speech"><span class="speaker">Yadi</span> <span class="line">"I think so. Don Emilio almost fell off his bench."</span></div>
-      <div class="speech"><span class="speaker">Papa Vazq</span> <span class="line">"Thinking isn't enough. Tomorrow I want you to know it."</span></div>
-      <div class="speech"><span class="speaker">Mama Vazq</span> <span class="line">"If you keep this up you're going to have lizard hands. Eat more, you're too skinny."</span></div>
+      <div class="speech"><span class="speaker">Papa Rodríguez</span> <span class="line">"Thinking isn't enough. Tomorrow I want you to know it."</span></div>
+      <div class="speech"><span class="speaker">Mama Rodríguez</span> <span class="line">"If you keep this up you're going to have lizard hands. Eat more, you're too skinny."</span></div>
     </div>
   </div>
 
   <!-- E3: Yadi Meets Yen (missing) -->
   <div class="manga-page">
     <div class="page-label">E3 — Yadi Meets Yen on the Public Courts</div>
-    <div class="page-image-wrap"><div class="placeholder"><div class="ph-icon">🎾</div><div class="ph-name">E03_ch1_yadi_meets_yen_public_courts.png</div><div class="ph-desc">Yadi watching Yen through the fence</div></div></div>
+    <div class="page-image-wrap"><img src="images/E03_ch1_yadi_meets_yen_public_courts.png" alt="Yadi Meets Yen on the Public Courts"></div>
     <div class="dialogue-block">
       <div class="thought">Yadi: "He's good... really good."</div>
       <div class="speech"><span class="speaker">Yen</span> <span class="line">"You playing or just watching?"</span></div>
@@ -688,7 +803,7 @@
   <!-- E4: Supernatural Shot (missing) -->
   <div class="manga-page panel-tilt-r panel-action">
     <div class="page-label">E4 — The Supernatural Shot</div>
-    <div class="page-image-wrap"><div class="placeholder"><div class="ph-icon">💎</div><div class="ph-name">E04_ch1_supernatural_shot_yen_reaction.png</div><div class="ph-desc">Yadi's impossible passing shot — Yen's jaw drops</div></div></div>
+    <div class="page-image-wrap"><img src="images/E04_ch1_supernatural_shot_yen_reaction.png" alt="The Supernatural Shot — Yen's Reaction"></div>
     <div class="dialogue-block">
       <div class="sfx">WHACK!!</div>
       <div class="thought">Yen: "What... was... that?"</div>
@@ -711,7 +826,7 @@
   <!-- E5: Bench Scene (missing) -->
   <div class="manga-page">
     <div class="page-label">E5 — The First Truth — Bench Scene</div>
-    <div class="page-image-wrap"><div class="placeholder"><div class="ph-icon">🪑</div><div class="ph-name">E05_ch2_first_truth_bench_scene.png</div><div class="ph-desc">Yen and Yadi on the bench, the hard truth</div></div></div>
+    <div class="page-image-wrap"><img src="images/E5 — The First Truth — Bench Scene.png" alt="The First Truth — Bench Scene"></div>
     <div class="dialogue-block">
       <div class="speech"><span class="speaker">Yen</span> <span class="line">"You have something I never had. Something that can't be trained. That shot, that angle... that can't be taught."</span></div>
       <div class="speech"><span class="speaker">Yen</span> <span class="line">"But right now you're a bomb without a detonator. All that talent... and your head sabotages you every 5 minutes."</span></div>
@@ -722,7 +837,7 @@
   <!-- E6: Handshake (missing) -->
   <div class="manga-page">
     <div class="page-label">E6 — The Handshake That Changed Everything</div>
-    <div class="page-image-wrap"><div class="placeholder"><div class="ph-icon">🤝</div><div class="ph-name">E06_ch2_handshake_changed_everything.png</div><div class="ph-desc">Yen extends his hand — Yadi takes it</div></div></div>
+    <div class="page-image-wrap"><img src="images/E06_ch2_handshake_changed_everything.png" alt="The Handshake That Changed Everything"></div>
     <div class="dialogue-block">
       <div class="speech"><span class="speaker">Yen</span> <span class="line">"Because I have the mind but not your talent. You have the talent but not the mind. Between the two of us, we could make one complete player."</span></div>
       <div class="narration">"I didn't know that handshake was going to change my life."</div>
@@ -737,15 +852,15 @@
       <div class="speech"><span class="speaker">Yen</span> <span class="line">"Tennis isn't just what you see. It's what you feel."</span></div>
       <div class="speech"><span class="speaker">Yen</span> <span class="line">"If you can't play with noise, you can't play in a stadium."</span></div>
       <div class="speech"><span class="speaker">Yen</span> <span class="line">"See that ball? That ball doesn't know you're poor. Doesn't know you're scared. It only knows where you send it."</span></div>
-      <div class="speech"><span class="speaker">Mama Vazq</span> <span class="line">"Son, is that Yen training you or torturing you?"</span></div>
-      <div class="speech"><span class="speaker">Papa Vazq</span> <span class="line">"He's getting better. You can tell."</span></div>
+      <div class="speech"><span class="speaker">Mama Rodríguez</span> <span class="line">"Son, is that Yen training you or torturing you?"</span></div>
+      <div class="speech"><span class="speaker">Papa Rodríguez</span> <span class="line">"He's getting better. You can tell."</span></div>
     </div>
   </div>
 
   <!-- E7: Yadi beats Yen (missing) -->
   <div class="manga-page">
     <div class="page-label">E7 — Yadi Beats Yen for the First Time</div>
-    <div class="page-image-wrap"><div class="placeholder"><div class="ph-icon">🏆</div><div class="ph-name">E07_ch2_yadi_beats_yen_first_time.png</div><div class="ph-desc">Handshake at the net — student surpasses teacher</div></div></div>
+    <div class="page-image-wrap"><img src="images/E07_ch2_yadi_beats_yen_first_time.png" alt="Yadi Beats Yen for the First Time"></div>
     <div class="dialogue-block">
       <div class="speech"><span class="speaker">Yen</span> <span class="line">"About time, idiot."</span></div>
       <div class="narration">"I surpassed him on the court. But I'll never stop looking up to him."</div>
@@ -755,7 +870,7 @@
   <!-- E8: Tournament Flyer (missing) -->
   <div class="manga-page panel-inset">
     <div class="page-label">E8 — The Tournament Flyer</div>
-    <div class="page-image-wrap"><div class="placeholder"><div class="ph-icon">📄</div><div class="ph-name">E08_ch2_tournament_flyer_trembling_hands.png</div><div class="ph-desc">Yadi's trembling hands hold the tournament flyer</div></div></div>
+    <div class="page-image-wrap"><img src="images/E08_ch2_tournament_flyer_trembling_hands.png" alt="The Tournament Flyer — Trembling Hands"></div>
     <div class="dialogue-block">
       <div class="speech"><span class="speaker">Yen</span> <span class="line">"It's time for the world to see what I saw."</span></div>
       <div class="speech"><span class="speaker">Yadi</span> <span class="line">"Do you think I'm ready?"</span></div>
@@ -777,11 +892,11 @@
   <!-- E9: Farewell (missing) -->
   <div class="manga-page">
     <div class="page-label">E9 — The Farewell</div>
-    <div class="page-image-wrap"><div class="placeholder"><div class="ph-icon">👋</div><div class="ph-name">E09_ch3_farewell_parents_door.png</div><div class="ph-desc">Parents at the door, Yadi walks away at dawn</div></div></div>
+    <div class="page-image-wrap"><img src="images/E09_ch3_farewell_parents_door.png" alt="The Farewell — Parents at the Door"></div>
     <div class="dialogue-block">
-      <div class="speech"><span class="speaker">Mama Vazq</span> <span class="line">"Here. It's not new, but it has all my love."</span></div>
-      <div class="speech"><span class="speaker">Mama Vazq</span> <span class="line">"If you break it, I'll break you."</span></div>
-      <div class="speech"><span class="speaker">Papa Vazq</span> <span class="line">"Go and be a tiger. Don't be afraid of anyone."</span></div>
+      <div class="speech"><span class="speaker">Mama Rodríguez</span> <span class="line">"Here. It's not new, but it has all my love."</span></div>
+      <div class="speech"><span class="speaker">Mama Rodríguez</span> <span class="line">"If you break it, I'll break you."</span></div>
+      <div class="speech"><span class="speaker">Papa Rodríguez</span> <span class="line">"Go and be a tiger. Don't be afraid of anyone."</span></div>
       <div class="speech"><span class="speaker">Don Emilio</span> <span class="line">"Go, kid. This court is too small for you now."</span></div>
     </div>
   </div>
@@ -796,7 +911,7 @@
   <!-- E11: Culture Shock (missing) -->
   <div class="manga-page panel-diag-r">
     <div class="page-label">E11 — Arrival at Youth Arena</div>
-    <div class="page-image-wrap"><div class="placeholder"><div class="ph-icon">🏟️</div><div class="ph-name">E11_ch3_arrival_youth_arena_culture_shock.png</div><div class="ph-desc">Yadi with old backpack in modern facility — out of place</div></div></div>
+    <div class="page-image-wrap"><img src="images/E11_ch3_arrival_youth_arena_culture_shock.png" alt="Arrival at Youth Arena — Culture Shock"></div>
     <div class="dialogue-block">
       <div class="speech"><span class="speaker">Yen</span> <span class="line">"They've already started judging you. Good. Let them. You didn't come here to make friends."</span></div>
       <div class="thought">Yadi: "This is real."</div>
@@ -806,7 +921,7 @@
   <!-- E12: Daimon's Provocation (missing) -->
   <div class="manga-page panel-diag-l">
     <div class="page-label">E12 — Daimon's Provocation</div>
-    <div class="page-image-wrap"><div class="placeholder"><div class="ph-icon">😤</div><div class="ph-name">E12_ch3_daimon_provocation_locker_room.png</div><div class="ph-desc">Daimon confronts Yadi in the locker room</div></div></div>
+    <div class="page-image-wrap"><img src="images/E12_ch3_daimon_provocation_locker_room.png" alt="Daimon's Provocation in the Locker Room"></div>
     <div class="dialogue-block">
       <div class="speech"><span class="speaker">Daimon</span> <span class="line">"You? With that racket?"</span></div>
       <div class="speech"><span class="speaker">Daimon</span> <span class="line">"Listen, this is professional tennis. I don't know how you got in, but... good luck."</span></div>
@@ -820,17 +935,16 @@
   <!-- Tupperware Note -->
   <div class="manga-page panel-inset">
     <div class="page-label">Page 7 — The Tupperware Note</div>
-    <div class="page-image-wrap"><div class="placeholder"><div class="ph-icon">📝</div><div class="ph-name">48_tupperware_note.png</div><div class="ph-desc">Mama's note: "Eat everything. I love you." Papa added: "Win."</div></div></div>
     <div class="dialogue-block">
-      <div class="narration">"Eat everything. I love you. Win or lose, you're my champion." — Mama</div>
-      <div class="narration">"Win." — Papa</div>
+      <div class="narration" style="font-size:1.1em; padding:18px 24px; background:rgba(255,255,255,0.02); border-left:3px solid #333;">"Eat everything. I love you. Win or lose, you're my champion." <span style="opacity:0.5">— Mama</span></div>
+      <div class="narration" style="font-size:1.4em; font-weight:700; letter-spacing:2px; padding:12px 24px;">"Win." <span style="opacity:0.5">— Papa</span></div>
     </div>
   </div>
 
   <!-- E13: Court at Night (missing) -->
   <div class="manga-page panel-diag-r">
     <div class="page-label">E13 — Yadi Alone on the Perfect Court at Night</div>
-    <div class="page-image-wrap"><div class="placeholder"><div class="ph-icon">🌙</div><div class="ph-name">E13_ch3_yadi_alone_court_night.png</div><div class="ph-desc">Single lit court at night, Yadi alone under the lights</div></div></div>
+    <div class="page-image-wrap"><img src="images/E13_ch3_yadi_alone_court_night.png" alt="Yadi Alone on the Perfect Court at Night"></div>
     <div class="dialogue-block">
       <div class="thought">Yadi: "If I want to reach him... I have to win everything."</div>
       <div class="narration">"I didn't come here to participate. I came here to make them know who I am."</div>
@@ -840,7 +954,7 @@
   <!-- E14: Bandana Ritual (missing) -->
   <div class="manga-page panel-inset">
     <div class="page-label">E14 — Pre-Match Nerves — Bandana Ritual</div>
-    <div class="page-image-wrap"><div class="placeholder"><div class="ph-icon">🐯</div><div class="ph-name">E14_ch4_prematch_bandana_ritual.png</div><div class="ph-desc">Yadi tying bandana in the mirror: "Be a tiger."</div></div></div>
+    <div class="page-image-wrap"><img src="images/E14_ch4_prematch_bandana_ritual.png" alt="Pre-Match Nerves — Bandana Ritual"></div>
     <div class="dialogue-block">
       <div class="thought">Yen's voice: "Don't think about winning. Think about each ball. One at a time."</div>
       <div class="thought">Yadi: "Be a tiger."</div>
@@ -857,7 +971,7 @@
   <!-- E15: First Set Disaster (missing) -->
   <div class="manga-page panel-tilt-l">
     <div class="page-label">E15 — First Set Disaster</div>
-    <div class="page-image-wrap"><div class="placeholder"><div class="ph-icon">😰</div><div class="ph-name">E15_ch4_first_set_disaster_rigid.png</div><div class="ph-desc">Yadi rigid and failing — 0-4 down</div></div></div>
+    <div class="page-image-wrap"><img src="images/E15a_ch4_first_set_disaster_frustrated.png" alt="First Set Disaster — Rigid and Frustrated"></div>
     <div class="dialogue-block">
       <div class="speech"><span class="speaker">Daimon</span> <span class="line">"This is the one who was going to face me? What a waste."</span></div>
     </div>
@@ -876,7 +990,7 @@
   <!-- E17: Walking Off (missing) -->
   <div class="manga-page">
     <div class="page-label">E17 — The Comeback Victory</div>
-    <div class="page-image-wrap"><div class="placeholder"><div class="ph-icon">🚶</div><div class="ph-name">E17_ch4_comeback_victory_walking_off.png</div><div class="ph-desc">Yadi's silhouette walking off court — crowd applauds</div></div></div>
+    <div class="page-image-wrap"><img src="images/E17_ch4_comeback_victory_walking_off.png" alt="The Comeback Victory — Walking Off Court"></div>
     <div class="dialogue-block">
       <div class="narration">Yadi wins: 2-6, 6-1, 6-3.</div>
       <div class="speech"><span class="speaker">Crowd</span> <span class="line">"Who is that kid?"</span></div>
@@ -908,7 +1022,7 @@
   <!-- E20: Yen Shouts (missing) -->
   <div class="manga-page panel-tilt-r">
     <div class="page-label">E20 — Yen Shouts: “Fight Yourself!”</div>
-    <div class="page-image-wrap"><div class="placeholder"><div class="ph-icon">📢</div><div class="ph-name">E20_ch5_yen_shouts_fight_yourself.png</div><div class="ph-desc">Yen standing in the stands shouting — Yadi's realization</div></div></div>
+    <div class="page-image-wrap"><img src="images/E20_ch5_yen_shouts_fight_yourself.png" alt="Yen Shouts: Fight Yourself!"></div>
     <div class="dialogue-block">
       <div class="speech"><span class="speaker">Yen</span> <span class="line">"STOP FIGHTING HIM! FIGHT YOURSELF!"</span></div>
       <div class="thought">Yadi: "One ball at a time. Don't think about winning. You need a plan, not just talent."</div>
@@ -918,7 +1032,7 @@
   <!-- E22: Kai's Bow (missing) -->
   <div class="manga-page">
     <div class="page-label">E22 — Kai's Respectful Bow</div>
-    <div class="page-image-wrap"><div class="placeholder"><div class="ph-icon">🙇</div><div class="ph-name">E22_ch5_kai_respectful_bow.png</div><div class="ph-desc">Handshake at the net — silent respect</div></div></div>
+    <div class="page-image-wrap"><img src="images/E22_ch5_kai_respectful_bow.png" alt="Kai's Respectful Bow — Silent Respect"></div>
     <div class="dialogue-block">
       <div class="narration">Yadi wins: 5-7, 6-3, 6-4.</div>
       <div class="speech"><span class="speaker">Kai</span> <span class="line">"We'll play again."</span></div>
@@ -941,7 +1055,7 @@
   <!-- E23: Luca approaches (missing) -->
   <div class="manga-page">
     <div class="page-label">E23 — The Viper Approaches</div>
-    <div class="page-image-wrap"><div class="placeholder"><div class="ph-icon">🐍</div><div class="ph-name">E23_ch6_luca_fake_friendship_viper.png</div><div class="ph-desc">Luca's friendly handshake — snake shadows on the floor</div></div></div>
+    <div class="page-image-wrap"><img src="images/E23_ch6_luca_fake_friendship_viper.png" alt="The Viper Approaches — Luca's Fake Friendship"></div>
     <div class="dialogue-block">
       <div class="speech"><span class="speaker">Yen</span> <span class="line">"He doesn't play against your racket. He plays against your head. He's a viper. If you give him a crack, he gets in. And once he's inside, he destroys you."</span></div>
       <div class="speech"><span class="speaker">Luca</span> <span class="line">"Great game yesterday! Hey, they say Daimon is waiting for you in the zone final. Doesn't that make you nervous?"</span></div>
@@ -951,7 +1065,7 @@
   <!-- E24: Mental Collapse (missing) -->
   <div class="manga-page">
     <div class="page-label">E24 — Yadi's Mental Collapse</div>
-    <div class="page-image-wrap"><div class="placeholder"><div class="ph-icon">🌑</div><div class="ph-name">E24_ch6_yadi_mental_collapse_inner_voices.png</div><div class="ph-desc">Darkness consuming — inner voices attacking</div></div></div>
+    <div class="page-image-wrap"><img src="images/E24_ch6_yadi_mental_collapse_inner_voices.png" alt="Yadi's Mental Collapse — Inner Voices"></div>
     <div class="dialogue-block">
       <div class="thought">"You're not enough."</div>
       <div class="thought">"What are you doing here?"</div>
@@ -973,7 +1087,7 @@
   <!-- E26: Final Ace (missing) -->
   <div class="manga-page">
     <div class="page-label">E26 — Final Ace — Luca's Mask Falls</div>
-    <div class="page-image-wrap"><div class="placeholder"><div class="ph-icon">💀</div><div class="ph-name">E26_ch6_final_ace_luca_mask_falls.png</div><div class="ph-desc">Yadi's cold ace — Luca's smile shatters like porcelain</div></div></div>
+    <div class="page-image-wrap"><img src="images/E26_ch6_final_ace_luca_mask_fall.png" alt="Final Ace — Luca's Mask Falls"></div>
     <div class="dialogue-block">
       <div class="narration">Yadi wins: 4-6, 6-2, 6-2.</div>
       <div class="speech"><span class="speaker">Yen</span> <span class="line">"Now yes... now you're ready."</span></div>
@@ -1007,7 +1121,7 @@
   <!-- E27: Memory Fuel (missing) -->
   <div class="manga-page">
     <div class="page-label">E27 — Memory Fuel — Internal Flashback</div>
-    <div class="page-image-wrap"><div class="placeholder"><div class="ph-icon">💭</div><div class="ph-name">E27_ch7_yadi_memory_fuel_flashback.png</div><div class="ph-desc">Floating panels: family dinner, mama's racket, papa's words, the mural</div></div></div>
+    <div class="page-image-wrap"><img src="images/E27_ch7_yadi_memory_fuel_flashback.png" alt="Memory Fuel — Internal Flashback Collage"></div>
     <div class="dialogue-block">
       <div class="thought">Papa: "Go and be a tiger."</div>
       <div class="thought">Yen: "Talent opens the door. Your mind decides if you walk through it."</div>
@@ -1028,7 +1142,7 @@
   <!-- E29: On Knees (missing) -->
   <div class="manga-page">
     <div class="page-label">E29 — Yadi on His Knees — Silent Celebration</div>
-    <div class="page-image-wrap"><div class="placeholder"><div class="ph-icon">🧎</div><div class="ph-name">E29_ch7_yadi_knees_silent_celebration.png</div><div class="ph-desc">Yadi falls to his knees, silent tears, looking at the sky</div></div></div>
+    <div class="page-image-wrap"><img src="images/E29_ch7_yadi_knees_silent_celebration.png" alt="Yadi on His Knees — Silent Celebration"></div>
     <div class="dialogue-block">
       <div class="narration">Yadi wins: 6-7(5), 6-1, 6-2.</div>
       <div class="narration">Someone was watching.</div>
@@ -1060,9 +1174,9 @@
   <!-- E31: Phone Call (missing) -->
   <div class="manga-page">
     <div class="page-label">E31 — Parents' Reaction — Phone Call Home</div>
-    <div class="page-image-wrap"><div class="placeholder"><div class="ph-icon">📱</div><div class="ph-name">E31_ch8_parents_reaction_phone_call.png</div><div class="ph-desc">Split panel: Yadi laughing — Mama screaming "YOU WONNN!"</div></div></div>
+    <div class="page-image-wrap"><img src="images/E31_ch8_parents_reaction_phone_call.png" alt="Parents' Reaction — Phone Call Home"></div>
     <div class="dialogue-block">
-      <div class="speech"><span class="speaker">Mama Vazq</span> <span class="line">"YOU WONNN!!!"</span></div>
+      <div class="speech"><span class="speaker">Mama Rodríguez</span> <span class="line">"YOU WONNN!!!"</span></div>
     </div>
   </div>
 
@@ -1078,7 +1192,7 @@
   <!-- E35: Driving Home (missing) -->
   <div class="manga-page">
     <div class="page-label">E35 — Driving Home — Trophy in Moonlight</div>
-    <div class="page-image-wrap"><div class="placeholder"><div class="ph-icon">🚗</div><div class="ph-name">E35_ch8_driving_home_trophy_moonlight.png</div><div class="ph-desc">Old car, coastal road, Yadi asleep, trophy catching moonlight</div></div></div>
+    <div class="page-image-wrap"><img src="images/E35_ch8_driving_home_trophy_moonlight.png" alt="Driving Home — Trophy in Moonlight"></div>
   </div>
 
   <div class="chapter-end"><div class="next">Next Chapter →</div><div class="next-title">"The Eyes of the World"</div></div>
@@ -1113,7 +1227,7 @@
   <!-- E38: Mirror (missing) -->
   <div class="manga-page">
     <div class="page-label">E38 — Yadi Mirror Scene</div>
-    <div class="page-image-wrap"><div class="placeholder"><div class="ph-icon">🪞</div><div class="ph-name">E38_ch9_yadi_mirror_bandana_will.png</div><div class="ph-desc">Yadi in the mirror, bandana, blazing eyes</div></div></div>
+    <div class="page-image-wrap"><img src="images/E38_ch9_yadi_mirror_bandana_will.png" alt="Yadi Mirror Scene — Bandana and Will"></div>
     <div class="dialogue-block">
       <div class="thought">Yadi: "Someday I'll be on that center court."</div>
     </div>
@@ -1133,7 +1247,7 @@
   <!-- E41: Family Hug (missing) -->
   <div class="manga-page">
     <div class="page-label">E41 — Return to Isla Brava — Family Hug</div>
-    <div class="page-image-wrap"><div class="placeholder"><div class="ph-icon">🤗</div><div class="ph-name">E41_ch10_return_isla_brava_family_hug.png</div><div class="ph-desc">Mother running, father joining — all three locked together</div></div></div>
+    <div class="page-image-wrap"><img src="images/E41_ch10_return_isla_brava_family_hug.png" alt="Return to Isla Brava — Family Hug"></div>
   </div>
 
   <!-- Cracked Wall -->
@@ -1146,7 +1260,7 @@
   <!-- E43: Phone Rings (missing) -->
   <div class="manga-page">
     <div class="page-label">E43 — The Phone Rings in the Dark</div>
-    <div class="page-image-wrap"><div class="placeholder"><div class="ph-icon">📞</div><div class="ph-name">E43_ch10_phone_rings_dark.png</div><div class="ph-desc">Phone screen blazing in absolute darkness — "YADI VAZQ"</div></div></div>
+    <div class="page-image-wrap"><img src="images/E43_ch10_phone_rings_dark.png" alt="The Phone Rings in the Dark"></div>
   </div>
 
   <!-- Final Splash -->
@@ -1170,6 +1284,19 @@
   <div>A tennis manga by Jensen Padilla Figueroa</div>
   <div style="margin-top:20px; color:#444; font-size:12px;">Art style: Kuroko no Basuke / Tadatoshi Fujimaki | Generated with Midjourney</div>
 </footer>
+
+<!-- TTS Floating Bar -->
+<div id="tts-bar">
+  <button class="tts-bar-btn" id="tts-prev" title="Previous">⏮</button>
+  <button class="tts-bar-btn primary" id="tts-play" title="Play / Pause">▶</button>
+  <button class="tts-bar-btn" id="tts-next" title="Next">⏭</button>
+  <div class="tts-bar-loading" id="tts-loading"></div>
+  <div class="tts-bar-info">
+    <div class="tts-bar-speaker" id="tts-bar-speaker">—</div>
+    <div class="tts-bar-text" id="tts-bar-text">Click a play button to start</div>
+  </div>
+  <button class="tts-bar-close" id="tts-close" title="Close">✕</button>
+</div>
 
 <script>
 function scrollTo(sel) {
@@ -1221,6 +1348,347 @@ const panelObs = new IntersectionObserver(entries => {
   });
 }, { threshold: 0.1 });
 document.querySelectorAll('.page-image-wrap').forEach(w => panelObs.observe(w));
+
+// ═══════════════════════════════════════════════════════
+// TTS ENGINE — Kokoro.js (local AI) + Web Speech API fallback
+// GitHub: https://github.com/hexgrad/kokoro  |  npm: kokoro-js
+// Model: Kokoro-82M — 100% browser, no API key, no server
+// ═══════════════════════════════════════════════════════
+
+const TTS = (() => {
+  // ── Kokoro voice names per character ──
+  // af_ = American Female, am_ = American Male
+  // bf_ = British Female, bm_ = British Male
+  const VOICES = {
+    'Yadi':            'am_adam',    // young energetic male
+    'Yen':             'am_michael', // mature authoritative male
+    'Papa Rodríguez':  'am_eric',    // deep warm male
+    'Mama Rodríguez':  'af_bella',   // warm female
+    'Don Emilio':      'bm_george',  // calm elderly male
+    'Daimon':          'bm_daniel',  // refined arrogant male
+    'Kai':             'am_onyx',    // stoic deep male
+    'Luca':            'bm_fable',   // smooth charming male
+    'Crowd':           'am_puck',    // generic male
+    'Narrator':        'af_sky',     // clear narrator
+    'Thought':         'am_adam',    // same as Yadi (inner voice)
+    '_default':        'af_sky',     // fallback
+  };
+
+  // Web Speech API fallback voice configs (pitch, rate)
+  const FALLBACK_VOICES = {
+    'Yadi':            { pitch: 1.15, rate: 1.05 },
+    'Yen':             { pitch: 0.8,  rate: 0.9  },
+    'Papa Rodríguez':  { pitch: 0.7,  rate: 0.85 },
+    'Mama Rodríguez':  { pitch: 1.3,  rate: 1.0  },
+    'Don Emilio':      { pitch: 0.6,  rate: 0.8  },
+    'Daimon':          { pitch: 0.9,  rate: 1.1  },
+    'Kai':             { pitch: 0.75, rate: 0.85 },
+    'Luca':            { pitch: 1.0,  rate: 1.05 },
+    'Crowd':           { pitch: 1.0,  rate: 1.15 },
+    'Narrator':        { pitch: 1.0,  rate: 0.92 },
+    '_default':        { pitch: 1.0,  rate: 1.0  },
+  };
+
+  let kokoroModel = null;
+  let kokoroLoading = false;
+  let kokoroFailed = false;
+  let queue = [];
+  let currentIndex = -1;
+  let currentAudio = null;
+  let audioCtx = null;
+  let currentSource = null;
+  let isPlaying = false;
+  let isPaused = false;
+  let useKokoro = true;
+
+  // DOM refs
+  const bar       = document.getElementById('tts-bar');
+  const btnPlay   = document.getElementById('tts-play');
+  const btnPrev   = document.getElementById('tts-prev');
+  const btnNext   = document.getElementById('tts-next');
+  const btnClose  = document.getElementById('tts-close');
+  const elSpeaker = document.getElementById('tts-bar-speaker');
+  const elText    = document.getElementById('tts-bar-text');
+  const elLoading = document.getElementById('tts-loading');
+
+  // ── Load Kokoro model (lazy, on first play) ──
+  async function loadKokoro() {
+    if (kokoroModel) return kokoroModel;
+    if (kokoroFailed) return null;
+    if (kokoroLoading) {
+      // Wait for existing load
+      while (kokoroLoading) await new Promise(r => setTimeout(r, 200));
+      return kokoroModel;
+    }
+    kokoroLoading = true;
+    updateBar('SYSTEM', 'Loading Kokoro AI voice model... (first time only, ~80MB)', true);
+    try {
+      const { KokoroTTS } = await import('https://esm.sh/kokoro-js@1.1.0');
+      kokoroModel = await KokoroTTS.from_pretrained(
+        'onnx-community/Kokoro-82M-v1.0-ONNX',
+        { dtype: 'q8' }
+      );
+      kokoroLoading = false;
+      console.log('Kokoro TTS model loaded successfully');
+      return kokoroModel;
+    } catch (err) {
+      console.error('Kokoro load failed, using Web Speech API fallback:', err);
+      kokoroFailed = true;
+      kokoroLoading = false;
+      useKokoro = false;
+      updateBar('SYSTEM', 'Using browser voices (Kokoro unavailable)', false);
+      return null;
+    }
+  }
+
+  // ── Resolve voice from speaker name ──
+  function getVoice(speaker) {
+    if (!speaker) return useKokoro ? VOICES['_default'] : FALLBACK_VOICES['_default'];
+    const map = useKokoro ? VOICES : FALLBACK_VOICES;
+    const key = Object.keys(map).find(k =>
+      speaker.toLowerCase().includes(k.toLowerCase())
+    );
+    return key ? map[key] : map['_default'];
+  }
+
+  // ── Extract speaker + text from a dialogue element ──
+  function parseLine(el) {
+    const raw = el.textContent.trim();
+    if (el.classList.contains('speech')) {
+      const speakerEl = el.querySelector('.speaker');
+      const lineEl = el.querySelector('.line');
+      const speaker = speakerEl ? speakerEl.textContent.trim() : 'Narrator';
+      const text = lineEl ? lineEl.textContent.trim().replace(/^[""\u201C]|[""\u201D]$/g, '') : raw;
+      return { speaker, text, type: 'speech' };
+    }
+    if (el.classList.contains('thought')) {
+      const match = raw.match(/^(.+?):\s*[""\u201C]?(.+?)[""\u201D]?$/s);
+      if (match) {
+        let speaker = match[1].replace(/\u2019s voice|'s voice/g, '').trim();
+        return { speaker, text: match[2], type: 'thought' };
+      }
+      return { speaker: 'Yadi', text: raw, type: 'thought' };
+    }
+    if (el.classList.contains('narration')) {
+      const text = raw.replace(/[—–]\s*(Mama|Papa|Narrator)/g, '').replace(/^[""\u201C]|[""\u201D]$/g, '');
+      return { speaker: 'Narrator', text, type: 'narration' };
+    }
+    if (el.classList.contains('sfx')) {
+      return { speaker: 'SFX', text: raw, type: 'sfx' };
+    }
+    return { speaker: 'Narrator', text: raw, type: 'unknown' };
+  }
+
+  // ── Speak via Kokoro.js (returns a Promise that resolves when done) ──
+  async function speakKokoro(speaker, text) {
+    const model = await loadKokoro();
+    if (!model) return speakFallback(speaker, text);
+    const voiceName = getVoice(speaker);
+    elLoading.classList.add('active');
+    try {
+      const result = await model.generate(text, { voice: voiceName });
+      elLoading.classList.remove('active');
+      if (!audioCtx) audioCtx = new AudioContext();
+      if (audioCtx.state === 'suspended') await audioCtx.resume();
+      const samples = result.audio;
+      const sampleRate = result.sampling_rate || 24000;
+      const buffer = audioCtx.createBuffer(1, samples.length, sampleRate);
+      buffer.getChannelData(0).set(samples);
+      return new Promise((resolve) => {
+        const source = audioCtx.createBufferSource();
+        source.buffer = buffer;
+        source.connect(audioCtx.destination);
+        currentSource = source;
+        source.onended = () => { currentSource = null; resolve(); };
+        source.start();
+      });
+    } catch (err) {
+      console.warn('Kokoro generate error:', err, '— using fallback');
+      elLoading.classList.remove('active');
+      return speakFallback(speaker, text);
+    }
+  }
+
+  // ── Speak via Web Speech API (fallback) ──
+  function speakFallback(speaker, text) {
+    return new Promise((resolve) => {
+      if (!window.speechSynthesis) { resolve(); return; }
+      window.speechSynthesis.cancel();
+      const utter = new SpeechSynthesisUtterance(text);
+      utter.lang = 'en-US';
+      const cfg = getVoice(speaker);
+      if (typeof cfg === 'object') {
+        utter.pitch = cfg.pitch || 1;
+        utter.rate = cfg.rate || 1;
+      }
+      // Try to pick a good system voice
+      const voices = speechSynthesis.getVoices();
+      const isFemaleSpeaker = ['Mama', 'af_'].some(p =>
+        (speaker || '').includes(p) || (typeof cfg === 'object' && (cfg.pitch || 1) > 1.2)
+      );
+      const preferred = isFemaleSpeaker
+        ? voices.find(v => v.name.includes('Zira') || v.name.includes('Jenny') || v.name.includes('Samantha') || (v.lang.startsWith('en') && v.name.toLowerCase().includes('female')))
+        : voices.find(v => v.name.includes('David') || v.name.includes('Guy') || v.name.includes('Mark') || (v.lang.startsWith('en') && v.name.toLowerCase().includes('male')));
+      if (preferred) utter.voice = preferred;
+      else {
+        const eng = voices.find(v => v.lang.startsWith('en'));
+        if (eng) utter.voice = eng;
+      }
+      utter.onend = resolve;
+      utter.onerror = resolve;
+      speechSynthesis.speak(utter);
+      currentAudio = utter;
+    });
+  }
+
+  // ── Main speak function ──
+  async function speakLine(speaker, text) {
+    if (!text || text.length < 2) return;
+    if (useKokoro && !kokoroFailed) {
+      return speakKokoro(speaker, text);
+    }
+    return speakFallback(speaker, text);
+  }
+
+  // ── UI updates ──
+  function showBar() { bar.classList.add('visible'); }
+  function hideBar() { bar.classList.remove('visible'); }
+  function updateBar(speaker, text, playing) {
+    elSpeaker.textContent = speaker || '—';
+    elText.textContent = text ? ('\u201C' + text.substring(0, 120) + (text.length > 120 ? '…' : '') + '\u201D') : '—';
+    btnPlay.textContent = playing ? '⏸' : '▶';
+  }
+
+  function highlightLine(el) {
+    document.querySelectorAll('.tts-speaking').forEach(e => e.classList.remove('tts-speaking'));
+    document.querySelectorAll('.tts-line-btn.playing').forEach(e => e.classList.remove('playing'));
+    if (el) {
+      el.classList.add('tts-speaking');
+      const btn = el.querySelector('.tts-line-btn');
+      if (btn) btn.classList.add('playing');
+      el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+  }
+
+  // ── Queue playback ──
+  async function playIndex(idx) {
+    if (idx < 0 || idx >= queue.length) { stop(); return; }
+    currentIndex = idx;
+    isPlaying = true;
+    isPaused = false;
+
+    const item = queue[idx];
+    highlightLine(item.el);
+    updateBar(item.speaker, item.text, true);
+    showBar();
+
+    if (item.type === 'sfx') {
+      updateBar('SFX', item.text, true);
+      await new Promise(r => setTimeout(r, 800));
+      if (isPlaying) playIndex(idx + 1);
+      return;
+    }
+
+    try {
+      await speakLine(item.speaker, item.text);
+      if (isPlaying && !isPaused) playIndex(idx + 1);
+    } catch (err) {
+      console.warn('Playback error:', err);
+      if (isPlaying) playIndex(idx + 1);
+    }
+  }
+
+  function stop() {
+    isPlaying = false;
+    isPaused = false;
+    currentIndex = -1;
+    // Stop Kokoro audio
+    if (currentSource) {
+      try { currentSource.stop(); } catch(e) {}
+      currentSource = null;
+    }
+    // Stop Web Speech
+    if (window.speechSynthesis) speechSynthesis.cancel();
+    currentAudio = null;
+    highlightLine(null);
+    updateBar('—', 'Stopped', false);
+    elLoading.classList.remove('active');
+    setTimeout(hideBar, 2000);
+  }
+
+  function togglePause() {
+    if (!isPlaying) return;
+    if (isPaused) {
+      isPaused = false;
+      if (window.speechSynthesis && speechSynthesis.paused) speechSynthesis.resume();
+      if (audioCtx && audioCtx.state === 'suspended') audioCtx.resume();
+      updateBar(queue[currentIndex]?.speaker, queue[currentIndex]?.text, true);
+    } else {
+      isPaused = true;
+      if (window.speechSynthesis && speechSynthesis.speaking) speechSynthesis.pause();
+      if (audioCtx && audioCtx.state === 'running') audioCtx.suspend();
+      updateBar(queue[currentIndex]?.speaker, queue[currentIndex]?.text, false);
+    }
+  }
+
+  // ── Public: play a single line ──
+  function playSingle(el) {
+    stop();
+    const parsed = parseLine(el);
+    queue = [{ ...parsed, el }];
+    showBar();
+    playIndex(0);
+  }
+
+  // ── Public: play all lines in a dialogue block ──
+  function playPanel(dialogueBlock) {
+    stop();
+    const lines = dialogueBlock.querySelectorAll('.speech, .thought, .narration, .sfx');
+    queue = Array.from(lines).map(el => ({ ...parseLine(el), el }));
+    if (queue.length === 0) return;
+    showBar();
+    playIndex(0);
+  }
+
+  // ── Wire up bar buttons ──
+  btnPlay.addEventListener('click', () => {
+    if (!isPlaying && queue.length > 0) {
+      playIndex(currentIndex >= 0 ? currentIndex : 0);
+    } else {
+      togglePause();
+    }
+  });
+  btnPrev.addEventListener('click', () => {
+    if (queue.length > 0 && currentIndex > 0) { stop(); playIndex(currentIndex - 1); }
+  });
+  btnNext.addEventListener('click', () => {
+    if (queue.length > 0 && currentIndex < queue.length - 1) { stop(); playIndex(currentIndex + 1); }
+  });
+  btnClose.addEventListener('click', stop);
+
+  // Pre-load voices for Web Speech fallback
+  if (window.speechSynthesis) speechSynthesis.getVoices();
+
+  return { playSingle, playPanel, stop, VOICES };
+})();
+
+// ── Inject play buttons into every dialogue line ──
+document.querySelectorAll('.dialogue-block').forEach(block => {
+  const panelBtn = document.createElement('div');
+  panelBtn.className = 'tts-panel-btn';
+  panelBtn.innerHTML = '<span class="tts-icon">▶</span> PLAY PANEL AUDIO';
+  panelBtn.addEventListener('click', () => TTS.playPanel(block));
+  block.insertBefore(panelBtn, block.firstChild);
+
+  block.querySelectorAll('.speech, .thought, .narration').forEach(line => {
+    const btn = document.createElement('button');
+    btn.className = 'tts-line-btn';
+    btn.textContent = '▶';
+    btn.title = 'Play this line';
+    btn.addEventListener('click', (e) => { e.stopPropagation(); TTS.playSingle(line); });
+    line.insertBefore(btn, line.firstChild);
+  });
+});
 </script>
 
 </body>

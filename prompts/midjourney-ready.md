@@ -8,8 +8,8 @@
 
 # CHARACTER SHEETS
 
-## 1. Yadi Vazq — Character Sheet
-> **Filename:** `01_yadi_vazq_character_sheet.png`
+## 1. Yadi Rodríguez — Character Sheet
+> **Filename:** `01_yadi_rodriguez_character_sheet.png`
 ```
 black and white manga character sheet, exactly 3 poses front view side view back view only, Kuroko no Basuke art style, handsome 16-year-old Latino boy tennis player, brown skin, tall lean athletic build, sharp facial features, dark messy hair, intense dark eyes with diamond glint, old worn tennis clothes, bandana on forehead, taped racket, worn sneakers, confident stance, Tadatoshi Fujimaki protagonist design, heavy screentones, crosshatching shadows --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel multiple poses
 ```
@@ -152,14 +152,14 @@ black and white manga character sheet, exactly 3 poses front view side view back
 black and white manga, medium shot, thin teen tennis player on tennis court smiling warmly, translucent snake shadows slithering from his feet on ground, poison smoke rising as ink wash effect, venomous words as smoke-text floating in air, court distorting like heat haze, terrifying contrast between friendly face and dark aura, heavy screentones, dramatic underlighting --niji 6 --ar 2:3 --s 30 --no color cute chibi childish pastel
 ```
 
-## 25. Papa Vazq — Character Sheet
-> **Filename:** `25_papa_vazq_character_sheet.png`
+## 25. Papa Rodríguez — Character Sheet
+> **Filename:** `25_papa_rodriguez_character_sheet.png`
 ```
 black and white manga character sheet, exactly 3 poses front view side view back view only, middle-aged Latino man, strong weathered build, serious but warm face with caring piercing eyes, short dark hair greying, stained work clothes, calloused rough hands, arms crossed, proud posture, heavy crosshatching on face details, warm side lighting --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel multiple poses
 ```
 
-## 26. Mama Vazq — Character Sheet
-> **Filename:** `26_mama_vazq_character_sheet.png`
+## 26. Mama Rodríguez — Character Sheet
+> **Filename:** `26_mama_rodriguez_character_sheet.png`
 ```
 black and white manga character sheet, exactly 3 poses front view side view back view only, middle-aged Latina woman, warm loving expressive face, gentle worried eyes full of care, hands gesturing mid-motion, flower-print dress, wild hair, bright happy smile, carrying food towels and first-aid supplies, nurturing maternal posture, expressive linework, warm soft overhead lighting --niji 6 --ar 16:9 --s 30 --no color cute chibi childish pastel multiple poses
 ```
@@ -279,7 +279,7 @@ black and white manga, wide shot, old concrete wall on tropical tennis court, fa
 
 ## 47. Junior Trophy
 ```
-black and white manga object illustration, modest junior tennis trophy cup on wooden base, nameplate Y VAZQ, sitting on humble bedside table next to bandana and family photo, moonlight through small window casting sharp shadows, heavy chiaroscuro --niji 6 --ar 4:5 --s 30 --no color cute chibi childish pastel
+black and white manga object illustration, modest junior tennis trophy cup on wooden base, nameplate Y RODRÍGUEZ, sitting on humble bedside table next to bandana and family photo, moonlight through small window casting sharp shadows, heavy chiaroscuro --niji 6 --ar 4:5 --s 30 --no color cute chibi childish pastel
 ```
 
 ## 48. The Tupperware Note
@@ -299,7 +299,7 @@ black and white manga extreme close-up, small handwritten note on folded paper, 
 ## CHARACTER SHEETS (usar como referencia visual en todo el manga)
 | # | Imagen | Archivo |
 |---|--------|---------|
-| 1 | Yadi Vazq — Character Sheet | midjourney-ready.md |
+| 1 | Yadi Rodríguez — Character Sheet | midjourney-ready.md |
 | 2 | Yadi — Tiger Aura Power Version | midjourney-ready.md |
 | 3 | Yadi — Diamond Vision Eyes | midjourney-ready.md |
 | 4 | Yen — Character Sheet | midjourney-ready.md |
@@ -320,8 +320,8 @@ black and white manga extreme close-up, small handwritten note on folded paper, 
 | 22 | Kai — Turtle Shell Aura | midjourney-ready.md |
 | 23 | Luca Santori — Character Sheet | midjourney-ready.md |
 | 24 | Luca — Viper Shadow | midjourney-ready.md |
-| 25 | Papa Vazq — Character Sheet | midjourney-ready.md |
-| 26 | Mama Vazq — Character Sheet | midjourney-ready.md |
+| 25 | Papa Rodríguez — Character Sheet | midjourney-ready.md |
+| 26 | Mama Rodríguez — Character Sheet | midjourney-ready.md |
 | 27 | Don Emilio — Character Sheet | midjourney-ready.md |
 
 ## CAPÍTULO 1 — "The Broken Court"
@@ -332,7 +332,7 @@ black and white manga extreme close-up, small handwritten note on folded paper, 
 | 42 | Luna Borín — The Mural | midjourney-ready.md |
 | 43 | Luna Borín Mural — With Yadi Practicing | midjourney-ready.md |
 | E1 | Yadi Practicing Alone — Don Emilio Watching | midjourney-expanded.md |
-| E2 | The Vazq Family Dinner | midjourney-expanded.md |
+| E2 | The Rodríguez Family Dinner | midjourney-expanded.md |
 | E3 | Yadi Meets Yen on the Public Courts | midjourney-expanded.md |
 | E4 | The Supernatural Shot — Yen's Reaction | midjourney-expanded.md |
 

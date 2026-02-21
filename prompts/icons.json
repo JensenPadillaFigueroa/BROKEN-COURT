@@ -37,7 +37,7 @@
       "type": "object",
       "priority": 8,
       "color": true,
-      "prompt": "manga object illustration, a junior national tennis tournament trophy, modest size, golden cup on a wooden base, engraved nameplate reading \"Y. VAZQ\", sitting on a humble bedside table next to the bandana and a family photo, moonlight illuminating it through a small window",
+      "prompt": "manga object illustration, a junior national tennis tournament trophy, modest size, golden cup on a wooden base, engraved nameplate reading \"Y. RODRÍGUEZ\", sitting on a humble bedside table next to the bandana and a family photo, moonlight illuminating it through a small window",
       "negative_prompt": "bad anatomy, blurry, low quality, chibi, super deformed, western cartoon style",
       "resolution": "1024x1024"
     },

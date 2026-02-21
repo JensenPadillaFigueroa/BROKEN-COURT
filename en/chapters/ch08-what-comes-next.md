@@ -6,7 +6,7 @@
 
 ## Summary
 
-The consequences of the victory over Daimon. Yadi wins the entire national junior tournament. The world starts noticing his name. But the most important thing happens in silence: in different parts of the world, the three legends of tennis learn of Yadi Vazq's existence. Someone picks up a phone.
+The consequences of the victory over Daimon. Yadi wins the entire national junior tournament. The world starts noticing his name. But the most important thing happens in silence: in different parts of the world, the three legends of tennis learn of Yadi Rodríguez's existence. Someone picks up a phone.
 
 ---
 
@@ -16,7 +16,7 @@ The consequences of the victory over Daimon. Yadi wins the entire national junio
 
 **4 panels**
 
-- **Panel 1 (wide)**: Exterior of Youth Arena. Golden sunset. The tournament continues — there are more matches, but the murmur is about only one: Yadi Vazq.
+- **Panel 1 (wide)**: Exterior of Youth Arena. Golden sunset. The tournament continues — there are more matches, but the murmur is about only one: Yadi Rodríguez.
 - **Panel 2**: Yadi and Yen walking through the complex after the match against Daimon. Yadi still has the bandana on. Walks in silence. Processing.
 - **Panel 3**: Yen:
 
@@ -72,7 +72,7 @@ Yadi closes his eyes. His lip trembles. Doesn't cry. But he's close.
 **4 panels**
 
 - **Panel 1**: Yadi after hanging up. Looks at mama's note (from the tupperware) which he taped to his room wall with adhesive tape. Smiles.
-- **Panel 2**: On Isla Brava, Papa Vazq hangs up the phone. Mama still crying. Papa hugs her. Serious on the outside. Destroyed with emotion on the inside.
+- **Panel 2**: On Isla Brava, Papa Rodríguez hangs up the phone. Mama still crying. Papa hugs her. Serious on the outside. Destroyed with emotion on the inside.
 - **Panel 3**: Don Emilio at his front door. A neighbor shows him something on the phone — a sports article about the tournament. Don Emilio adjusts his glasses, reads, and smiles big.
 - **Panel 4**: Don Emilio at the broken island court, alone, looking at the wall with Luna Borín's mural where Yadi used to practice. The ball marks are still there next to the faded mural. Thinks:
 
@@ -84,16 +84,16 @@ Yadi closes his eyes. His lip trembles. Doesn't cry. But he's close.
 
 **4 panels — The Circuit Takes Notice**
 
-- **Panel 1 (wide)**: Media montage: computer screen with sports article: *"Yadi Vazq: the unknown who destroyed the #1 junior"*. Another screen: video clip — Yadi's passing shot against Daimon. Social media: comments: *"Where did this kid come from?"* *"Look at his eyes in the second set."* *"The kid with the old racket."*
+- **Panel 1 (wide)**: Media montage: computer screen with sports article: *"Yadi Rodríguez: the unknown who destroyed the #1 junior"*. Another screen: video clip — Yadi's passing shot against Daimon. Social media: comments: *"Where did this kid come from?"* *"Look at his eyes in the second set."* *"The kid with the old racket."*
 - **Panel 2**: Journalists at the complex talking among themselves:
 
-> "Does anyone have info on this Vazq? He doesn't show up in any academy records."
+> "Does anyone have info on this Rodríguez? He doesn't show up in any academy records."
 > "Because he doesn't come from any academy."
 
 - **Panel 3**: The tournament director in his office, looking at Yadi's statistics on his computer. Raises his eyebrows.
 - **Panel 4**: A sports commentator recording a video:
 
-> "Ladies and gentlemen, remember this name: Yadi Vazq. He's 16 years old, comes from an island that doesn't even show up on the map, and just did something you don't see every day on the junior circuit."
+> "Ladies and gentlemen, remember this name: Yadi Rodríguez. He's 16 years old, comes from an island that doesn't even show up on the map, and just did something you don't see every day on the junior circuit."
 
 ---
 

@@ -56,7 +56,7 @@ Yen laughs:
 
 **4 panels — The Farewell (Brief)**
 
-- **Panel 1**: Vazq house. Yadi packing his bag (a bit better than the first time — same old backpack, but now he has the junior trophy in his room).
+- **Panel 1**: Rodríguez house. Yadi packing his bag (a bit better than the first time — same old backpack, but now he has the junior trophy in his room).
 - **Panel 2**: Mama, nervous as always:
 
 > "National league? With adults? Son, those guys are huge. What if they hurt you?"

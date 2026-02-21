@@ -1,10 +1,10 @@
-# Personajes — YADI VAZQ: El Ascenso
+# Personajes — YADI RODRÍGUEZ: El Ascenso
 
 ---
 
 ## PROTAGONISTA
 
-### Yadi Vazq — "El Diamante de la Isla"
+### Yadi Rodríguez — "El Diamante de la Isla"
 
 - **Edad**: 16 años
 - **Origen**: Isla Brava — isla pequeña tropical caribeña (inspirada en Puerto Rico), familia humilde, sin recursos económicos
@@ -187,7 +187,7 @@
 
 ## FAMILIA
 
-### Papá Vazq — "El Tigre Viejo"
+### Papá Rodríguez — "El Tigre Viejo"
 
 - **Rol**: Padre de Yadi. Trabaja duro para que su hijo tenga la mejor experiencia posible y pueda competir. Deja todo por él.
 - **Personalidad**:
@@ -199,7 +199,7 @@
 - **Momento clave**: Le pone la bandana en la cabeza cuando Yadi es niño: *"El tenis es el único deporte donde juegas solo contra el mundo, hijo. Así que sé un tigre."*
 - **Frase característica**: *"¿Perdiste? Bien. Ahora dime qué vas a hacer diferente mañana."*
 
-### Mamá Vazq — "La Nerviosa"
+### Mamá Rodríguez — "La Nerviosa"
 
 - **Rol**: Madre de Yadi. Trabaja junto a su esposo para darle todo a su hijo. Deja su todo para que Yadi pueda competir.
 - **Personalidad**:
@@ -228,7 +228,7 @@
   - Hay un **mural enorme** de ella en la pared de la cancha donde Yadi practica — está descolorido por el sol y la sal, pero sigue ahí
   - Los viejos del barrio hablan de ella: *"Luna salió de aquí con una raqueta prestada y volvió con oro."*
   - Yadi creció pasando frente a ese mural cada día — es la prueba viviente de que el sueño es posible
-  - Su historia es el argumento que Papá Vazq usa cuando alguien dice que de Isla Brava no sale nadie: *"Luna salió. Mi hijo también va a salir."*
+  - Su historia es el argumento que Papá Rodríguez usa cuando alguien dice que de Isla Brava no sale nadie: *"Luna salió. Mi hijo también va a salir."*
 - **Significado temático**: Si Luna pudo hacerlo sola, siendo mujer, en un deporte dominado por países ricos… entonces Yadi también puede. Ella es la chispa original. Sin Luna, tal vez Yadi nunca habría soñado.
 - **Potencial futuro** (Vol. 2+): Podría aparecer en persona como mentora, comentarista, o figura inspiracional directa.
 
@@ -240,7 +240,7 @@
 Yadi ←—[mentor/verdad]—→ Yen
 Yadi ←—[rivalidad]—→ Daimon Richwell
 Yadi ←—[idolatría]—→ Los Great 3 + Nueva Generación
-Yadi ←—[amor incondicional]—→ Papá y Mamá Vazq
+Yadi ←—[amor incondicional]—→ Papá y Mamá Rodríguez
 Yadi ←—[raíces]—→ Don Emilio
 Yadi ←—[inspiración original]—→ Luna Borín (mural)
 Roger Novacronos ←—[heredero espiritual]—→ Jani

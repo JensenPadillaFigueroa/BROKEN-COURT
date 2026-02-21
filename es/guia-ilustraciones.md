@@ -1,5 +1,5 @@
 # GUÍA DE ILUSTRACIONES — VOLUMEN 1
-## "YADI VAZQ: El Ascenso"
+## "YADI RODRÍGUEZ: El Ascenso"
 
 ### Para generación con IA — Prompts detallados y estilo definido
 
@@ -36,7 +36,7 @@
 
 ---
 
-## IMAGEN 1 — YADI VAZQ: "El Tigre" *(HUMANO + aura)*
+## IMAGEN 1 — YADI RODRÍGUEZ: "El Tigre" *(HUMANO + aura)*
 
 **Asociación animal**: TIGRE 🐯 — Feroz, instintivo, cazador nato. **Solo como aura/sombra, NUNCA rasgos físicos.**
 
@@ -195,7 +195,7 @@
 
 ---
 
-## IMAGEN 11 — PAPÁ VAZQ: "El Tigre Viejo"
+## IMAGEN 11 — PAPÁ RODRÍGUEZ: "El Tigre Viejo"
 
 **Character Sheet:**
 
@@ -203,7 +203,7 @@
 
 ---
 
-## IMAGEN 12 — MAMÁ VAZQ: "La Nerviosa"
+## IMAGEN 12 — MAMÁ RODRÍGUEZ: "La Nerviosa"
 
 **Character Sheet:**
 
@@ -241,7 +241,7 @@
 
 ## ESCENA 1 — PORTADA DEL VOLUMEN 1
 
-> `manga volume cover illustration, full color, cinematic composition, teenage Latino boy (Yadi) fully human in the center foreground, brown skin, dynamic tennis pose mid-swing, bandana flowing, eyes glowing with diamond facets, translucent tiger aura shadow behind him (separate from body), cracked tropical tennis court with weeds beneath his feet transitioning into a professional stadium court, behind him in the sky: three LITERAL ANIMAL-HEADED figures — an anthropomorphic GOLDEN EAGLE in a suit (left, elegant), an anthropomorphic BULL with massive horns and steam from nostrils (center, powerful), and an anthropomorphic GOAT with curved horns and rectangular pupils (right, calculating) — these three have ACTUAL animal heads on human bodies, they are gods looking down at the boy, below: Caribbean tropical island with palm trees and ocean, above: the professional world, title "YADI VAZQ: El Ascenso" in bold manga typography, dramatic lighting, vibrant colors, professional manga cover quality`
+> `manga volume cover illustration, full color, cinematic composition, teenage Latino boy (Yadi) fully human in the center foreground, brown skin, dynamic tennis pose mid-swing, bandana flowing, eyes glowing with diamond facets, translucent tiger aura shadow behind him (separate from body), cracked tropical tennis court with weeds beneath his feet transitioning into a professional stadium court, behind him in the sky: three LITERAL ANIMAL-HEADED figures — an anthropomorphic GOLDEN EAGLE in a suit (left, elegant), an anthropomorphic BULL with massive horns and steam from nostrils (center, powerful), and an anthropomorphic GOAT with curved horns and rectangular pupils (right, calculating) — these three have ACTUAL animal heads on human bodies, they are gods looking down at the boy, below: Caribbean tropical island with palm trees and ocean, above: the professional world, title "YADI RODRÍGUEZ: El Ascenso" in bold manga typography, dramatic lighting, vibrant colors, professional manga cover quality`
 
 ---
 
@@ -339,7 +339,7 @@
 
 ## ICONO 4 — El Trofeo Juvenil
 
-> `manga object illustration, a junior national tennis tournament trophy, modest size, golden cup on a wooden base, engraved nameplate reading "Y. VAZQ", sitting on a humble bedside table next to the bandana and a family photo, moonlight illuminating it through a small window`
+> `manga object illustration, a junior national tennis tournament trophy, modest size, golden cup on a wooden base, engraved nameplate reading "Y. RODRÍGUEZ", sitting on a humble bedside table next to the bandana and a family photo, moonlight illuminating it through a small window`
 
 ## ICONO 5 — La Nota del Tupper
 
@@ -354,7 +354,7 @@
 | **Roger Novacronos** | Águila 🦅 | ⚠️ **HÍBRIDO LITERAL** | Cabeza de águila dorada real sobre cuerpo humano. SIEMPRE. | Dorado/blanco/crema |
 | **Rafa Nal** | Toro 🐂 | ⚠️ **HÍBRIDO LITERAL** | Cabeza de toro real con cuernos sobre cuerpo humano. SIEMPRE. | Rojo/naranja/tierra |
 | **Noak** | Cabra 🐐 | ⚠️ **HÍBRIDO LITERAL** | Cabeza de cabra real con cuernos curvos sobre cuerpo humano. SIEMPRE. | Plata/gris/blanco |
-| **Yadi Vazq** | Tigre 🐯 | Humano + aura | 100% humano. Tigre aparece como sombra/aura DETRÁS, nunca EN él. | Naranja/negro/dorado |
+| **Yadi Rodríguez** | Tigre 🐯 | Humano + aura | 100% humano. Tigre aparece como sombra/aura DETRÁS, nunca EN él. | Naranja/negro/dorado |
 | **Yen** | Búho 🦉 | Humano + aura | 100% humano. Búho como silueta de fondo solamente. | Azul oscuro/plata |
 | **Charlie** | León 🦁 | Humano + aura | 100% humano. León como aura/sombra de fondo. | Dorado/multicolor |
 | **Jani** | Zorro Ártico 🦊 | Humano + aura | 100% humano. Zorro como sombra en el suelo. | Azul hielo/blanco/plata |

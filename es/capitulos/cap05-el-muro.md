@@ -44,7 +44,7 @@ Yadi enfrenta a Kai Morimoto, el jugador defensivo que devuelve absolutamente to
 > "No te voy a decir qué hacer. Te voy a decir qué NO hacer: no te frustres. No fuerces. No juegues más rápido de lo que necesitas. Él quiere que te desesperes. Es su arma."
 
 - **Panel 3**: Yadi asiente. Pero en su mirada se ve que no lo entiende completamente. Piensa que su talento será suficiente.
-- **Panel 4 (ancho)**: Cartel en la cancha: **SEGUNDA RONDA — Cancha 2 — Y. Vazq vs K. Morimoto**. Público más numeroso que ayer — el rumor de la remontada de Yadi atrajo curiosos.
+- **Panel 4 (ancho)**: Cartel en la cancha: **SEGUNDA RONDA — Cancha 2 — Y. Rodríguez vs K. Morimoto**. Público más numeroso que ayer — el rumor de la remontada de Yadi atrajo curiosos.
 
 ---
 

@@ -4,7 +4,7 @@
   "rule": "These characters are fully human with no animal associations or auras.",
   "characters": [
     {
-      "character": "Papa Vazq",
+      "character": "Papa Rodríguez",
       "alias": "The Old Tiger",
       "age": "middle-aged",
       "role": "Father",
@@ -12,7 +12,7 @@
       "illustrations": [
         {
           "id": "char_papa_sheet",
-          "name": "Papa Vazq — Character Sheet",
+          "name": "Papa Rodríguez — Character Sheet",
           "category": "character_sheet",
           "priority": 6,
           "color": false,
@@ -23,7 +23,7 @@
       ]
     },
     {
-      "character": "Mama Vazq",
+      "character": "Mama Rodríguez",
       "alias": "The Nervous One",
       "age": "middle-aged",
       "role": "Mother",
@@ -31,7 +31,7 @@
       "illustrations": [
         {
           "id": "char_mama_sheet",
-          "name": "Mama Vazq — Character Sheet",
+          "name": "Mama Rodríguez — Character Sheet",
           "category": "character_sheet",
           "priority": 6,
           "color": false,

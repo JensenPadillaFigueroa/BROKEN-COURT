@@ -108,7 +108,7 @@ No es cortesía. Es certeza. Sabe que volverá a ver a Yadi. Probablemente más 
 
 - **Panel 1 (ancho)**: En la cabina de comentaristas (o periodistas en la sala de prensa):
 
-> "Este chico de 16 años acaba de poner en aprietos a un profesional veterano de ranking 80. Perdió, sí, pero... recuerden el nombre: Yadi Vazq."
+> "Este chico de 16 años acaba de poner en aprietos a un profesional veterano de ranking 80. Perdió, sí, pero... recuerden el nombre: Yadi Rodríguez."
 
 - **Panel 2**: Montaje rápido de reacciones: otros jugadores del torneo que vieron el partido o las estadísticas. Miradas. Comentarios en voz baja. Ya nadie se pregunta "¿quién es este chico?" Ahora la pregunta es "¿hasta dónde puede llegar?"
 - **Panel 3**: Yadi en el vestidor, sentado. Perdió. Pero su expresión no es de derrota. Es de alguien que acaba de ver el techo y sabe que puede alcanzarlo.
@@ -147,12 +147,12 @@ Yen ríe. Genuino. Choque de puños. Sin palabras adicionales necesarias.
 
 **4 paneles — El Regreso**
 
-- **Panel 1 (ancho)**: Isla Brava. La isla de Yadi. El carro viejo de Yen estacionado frente a la casa Vazq. Atardecer tropical dorado, palmeras, brisa del mar, coquíes empezando a cantar. Los colores vibrantes de la isla — como volver a un abrazo.
-- **Panel 2**: Mamá Vazq en la puerta. Lo ve bajar del carro. Corre hacia él. Lo abraza y no lo suelta por un minuto entero. Lo revisa — brazos, piernas, cara:
+- **Panel 1 (ancho)**: Isla Brava. La isla de Yadi. El carro viejo de Yen estacionado frente a la casa Rodríguez. Atardecer tropical dorado, palmeras, brisa del mar, coquíes empezando a cantar. Los colores vibrantes de la isla — como volver a un abrazo.
+- **Panel 2**: Mamá Rodríguez en la puerta. Lo ve bajar del carro. Corre hacia él. Lo abraza y no lo suelta por un minuto entero. Lo revisa — brazos, piernas, cara:
 
 > "¡Estás flaco! ¡¿No comiste?! ¡¿Te trataron bien?!"
 
-- **Panel 3**: Papá Vazq en el marco de la puerta. Serio. Mira a su hijo. Asiente lento:
+- **Panel 3**: Papá Rodríguez en el marco de la puerta. Serio. Mira a su hijo. Asiente lento:
 
 > "Bien. Pero todavía no terminaste."
 
@@ -166,7 +166,7 @@ Pausa. Luego, sin poder contenerse, camina hacia Yadi y lo abraza también. Fuer
 
 **4 paneles**
 
-- **Panel 1**: Cena en casa Vazq. La mesa de siempre. La comida de mamá. Yadi les cuenta todo — los jugadores, las canchas, Charlie, Jani, el partido. Sus ojos brillan al hablar. Mamá lo escucha con la mano en el pecho. Papá come en silencio pero no pierde una palabra.
+- **Panel 1**: Cena en casa Rodríguez. La mesa de siempre. La comida de mamá. Yadi les cuenta todo — los jugadores, las canchas, Charlie, Jani, el partido. Sus ojos brillan al hablar. Mamá lo escucha con la mano en el pecho. Papá come en silencio pero no pierde una palabra.
 - **Panel 2**: Después de cenar, Papá lava los platos (detalle que humaniza). Mamá y Yadi en la sala. Ella le toca la cara:
 
 > "Cambiaste, mi amor."
@@ -219,7 +219,7 @@ Yadi sonríe:
 
 - **Panel 4 (grande)**: La voz al otro lado. No se ve quién habla. Solo un globo de texto negro con letras blancas — diferente a cualquier otro diálogo en el manga. Misterioso. Poderoso.
 
-> **"¿Yadi Vazq?"**
+> **"¿Yadi Rodríguez?"**
 
 Yadi, ahora completamente despierto:
 
@@ -275,7 +275,7 @@ Yadi es pequeño abajo. Pero mira hacia arriba. Sin miedo.
 
 > **FIN DEL VOLUMEN 1**
 >
-> **YADI VAZQ continuará en:**
+> **YADI RODRÍGUEZ continuará en:**
 >
 > **VOLUMEN 2 — "LA ÉLITE"**
 

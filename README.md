@@ -11,7 +11,7 @@
 
 ## Volume 1: The Rise / El Ascenso
 
-A Japanese-style shōnen sports manga about **Yadi Vazq**, a 16-year-old with supernatural tennis talent from **Isla Brava** — a small Caribbean tropical island inspired by Puerto Rico. Through pure attitude, talent, and the guidance of an unexpected mentor, he rises from broken courts to being noticed by the gods of tennis.
+A Japanese-style shōnen sports manga about **Yadi Rodríguez**, a 16-year-old with supernatural tennis talent from **Isla Brava** — a small Caribbean tropical island inspired by Puerto Rico. Through pure attitude, talent, and the guidance of an unexpected mentor, he rises from broken courts to being noticed by the gods of tennis.
 
 | | |
 |---|---|

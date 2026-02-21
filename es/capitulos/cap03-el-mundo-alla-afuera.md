@@ -16,8 +16,8 @@ Yadi deja su isla por primera vez para competir en el Torneo Nacional Juvenil. C
 
 **5 paneles**
 
-- **Panel 1 (ancho)**: Exterior de la casa Vazq. Amanecer. Maleta pequeña en la puerta. Yadi con su bolsa de siempre + una mochila vieja.
-- **Panel 2**: Mamá Vazq le entrega algo envuelto en papel de regalo (reciclado). Ojos llorosos pero sonrisa:
+- **Panel 1 (ancho)**: Exterior de la casa Rodríguez. Amanecer. Maleta pequeña en la puerta. Yadi con su bolsa de siempre + una mochila vieja.
+- **Panel 2**: Mamá Rodríguez le entrega algo envuelto en papel de regalo (reciclado). Ojos llorosos pero sonrisa:
 
 > "Toma. No es nueva, pero tiene todo mi amor."
 
@@ -34,7 +34,7 @@ Yadi deja su isla por primera vez para competir en el Torneo Nacional Juvenil. C
 
 **4 paneles**
 
-- **Panel 1**: Papá Vazq, serio, le pone la mano en el hombro. Lo mira directo a los ojos:
+- **Panel 1**: Papá Rodríguez, serio, le pone la mano en el hombro. Lo mira directo a los ojos:
 
 > "Ve y sé un tigre. No le tengas miedo a nadie."
 
@@ -43,7 +43,7 @@ Yadi deja su isla por primera vez para competir en el Torneo Nacional Juvenil. C
 
 > Mamá: "¡Llámame cuando llegues! ¡Y come bien! ¡Y no te quedes despierto hasta tarde!"
 
-- **Panel 4 (grande, inferior)**: Yadi caminando por la calle colorida de la isla hacia donde Yen lo espera con un carro viejo. La casa Vazq atrás, pintada de azul celeste desgastado, con sus padres en la puerta. Palmeras, brisa del mar. Don Emilio apoyado en la puerta de la cancha, brazos cruzados:
+- **Panel 4 (grande, inferior)**: Yadi caminando por la calle colorida de la isla hacia donde Yen lo espera con un carro viejo. La casa Rodríguez atrás, pintada de azul celeste desgastado, con sus padres en la puerta. Palmeras, brisa del mar. Don Emilio apoyado en la puerta de la cancha, brazos cruzados:
 
 > "Vete, muchacho. Esta cancha ya te queda chiquita."
 

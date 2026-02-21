@@ -1,10 +1,10 @@
-# Characters — YADI VAZQ: The Rise
+# Characters — YADI RODRÍGUEZ: The Rise
 
 ---
 
 ## PROTAGONIST
 
-### Yadi Vazq — "The Island Diamond"
+### Yadi Rodríguez — "The Island Diamond"
 
 - **Age**: 16 years old
 - **Origin**: Isla Brava — a small Caribbean tropical island (inspired by Puerto Rico), humble family, no financial resources
@@ -175,7 +175,7 @@
 
 ## FAMILY
 
-### Papa Vazq — "The Old Tiger"
+### Papa Rodríguez — "The Old Tiger"
 
 - **Role**: Yadi's father. Works hard so his son can have the best experience possible and compete. Gives everything for him.
 - **Personality**:
@@ -187,7 +187,7 @@
 - **Key moment**: Puts the bandana on Yadi's head when he's a child: *"Tennis is the only sport where you play alone against the world, son. So be a tiger."*
 - **Signature phrase**: *"You lost? Good. Now tell me what you'll do differently tomorrow."*
 
-### Mama Vazq — "The Nervous One"
+### Mama Rodríguez — "The Nervous One"
 
 - **Role**: Yadi's mother. Works alongside her husband to give everything to their son. Gives her all so Yadi can compete.
 - **Personality**:
@@ -216,7 +216,7 @@
   - There's a **massive mural** of her on the wall of the court where Yadi practices — faded by sun and salt, but still there
   - The old folks in the neighborhood talk about her: *"Luna left here with a borrowed racket and came back with gold."*
   - Yadi grew up passing that mural every day — it's living proof that the dream is possible
-  - Her story is the argument Papa Vazq uses when anyone says nobody makes it out of Isla Brava: *"Luna made it. My son will too."*
+  - Her story is the argument Papa Rodríguez uses when anyone says nobody makes it out of Isla Brava: *"Luna made it. My son will too."*
 - **Thematic significance**: If Luna could do it alone, as a woman, in a sport dominated by rich countries… then Yadi can too. She is the original spark. Without Luna, maybe Yadi would never have dreamed.
 - **Future potential** (Vol. 2+): Could appear in person as a mentor, commentator, or direct inspirational figure.
 
@@ -228,7 +228,7 @@
 Yadi ←—[mentor/truth]—→ Yen
 Yadi ←—[rivalry]—→ Daimon Richwell
 Yadi ←—[idolatry]—→ The Great 3 + New Generation
-Yadi ←—[unconditional love]—→ Papa and Mama Vazq
+Yadi ←—[unconditional love]—→ Papa and Mama Rodríguez
 Yadi ←—[roots]—→ Don Emilio
 Yadi ←—[original inspiration]—→ Luna Borín (mural)
 Roger Novacronos ←—[spiritual heir]—→ Jani

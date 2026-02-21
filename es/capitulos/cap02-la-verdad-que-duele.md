@@ -121,7 +121,7 @@ Yadi lo mira, respirando pesado:
 
 > Yen: "Si no puedes jugar con ruido, no puedes jugar en un estadio."
 
-**Panel D**: Yadi corriendo al amanecer. Solo. Las calles de la isla todavía oscuras, palmeras como sombras contra el cielo. Papá Vazq lo ve salir desde la ventana. Asiente silencioso.
+**Panel D**: Yadi corriendo al amanecer. Solo. Las calles de la isla todavía oscuras, palmeras como sombras contra el cielo. Papá Rodríguez lo ve salir desde la ventana. Asiente silencioso.
 
 **Panel E**: Yen y Yadi jugando bajo lluvia. Yadi resbala. Se levanta. Sigue.
 
@@ -133,11 +133,11 @@ Yadi lo mira, respirando pesado:
 
 **Panel H (grande, centro de la doble página)**: Close-up de los ojos de Yadi durante un rally de entrenamiento — más enfocados, más tranquilos. El destello en sus ojos aparece de nuevo, esta vez un poco más visible.
 
-**Panel I**: Mamá Vazq viendo a Yadi llegar a casa exhausto cada noche. Le prepara comida con cara preocupada pero sonriendo:
+**Panel I**: Mamá Rodríguez viendo a Yadi llegar a casa exhausto cada noche. Le prepara comida con cara preocupada pero sonriendo:
 
 > "Hijo, ¿ese Yen te está entrenando o te está torturando?"
 
-**Panel J**: Papá Vazq al final de la mesa, serio:
+**Panel J**: Papá Rodríguez al final de la mesa, serio:
 
 > "Lo está haciendo mejor. Se le nota."
 

@@ -121,7 +121,7 @@ Yadi looks at him, breathing heavy:
 
 > Yen: "If you can't play with noise, you can't play in a stadium."
 
-**Panel D**: Yadi running at dawn. Alone. The island streets still dark, palm trees like shadows against the sky. Papa Vazq watches him leave from the window. Nods silently.
+**Panel D**: Yadi running at dawn. Alone. The island streets still dark, palm trees like shadows against the sky. Papa Rodríguez watches him leave from the window. Nods silently.
 
 **Panel E**: Yen and Yadi playing in the rain. Yadi slips. Gets up. Keeps going.
 
@@ -133,11 +133,11 @@ Yadi looks at him, breathing heavy:
 
 **Panel H (large, center of the double page)**: Close-up of Yadi's eyes during a training rally — more focused, calmer. The flash in his eyes appears again, this time a bit more visible.
 
-**Panel I**: Mama Vazq watching Yadi come home exhausted every night. Prepares food with a worried face but smiling:
+**Panel I**: Mama Rodríguez watching Yadi come home exhausted every night. Prepares food with a worried face but smiling:
 
 > "Son, is that Yen training you or torturing you?"
 
-**Panel J**: Papa Vazq at the end of the table, serious:
+**Panel J**: Papa Rodríguez at the end of the table, serious:
 
 > "He's getting better. You can tell."
 

@@ -248,7 +248,7 @@ La armadura brilla como un diamante. La oscuridad a su alrededor se quiebra como
 
 > "Eso es fortaleza mental. Y ahora que la tienes, nadie te la quita."
 
-- **Panel 4 (grande, panel final)**: Yadi de espaldas, caminando por el pasillo del club. Al fondo, el cartel del próximo partido se actualiza: **FINAL DE ZONA — Y. Vazq vs D. Richwell.** Yadi no mira el cartel. No necesita hacerlo. Ya sabe quién es el siguiente.
+- **Panel 4 (grande, panel final)**: Yadi de espaldas, caminando por el pasillo del club. Al fondo, el cartel del próximo partido se actualiza: **FINAL DE ZONA — Y. Rodríguez vs D. Richwell.** Yadi no mira el cartel. No necesita hacerlo. Ya sabe quién es el siguiente.
 
 > Pensamiento: *"Daimon Richwell. Te estoy buscando."*
 

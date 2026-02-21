@@ -16,8 +16,8 @@ Yadi leaves his island for the first time to compete in the National Junior Tour
 
 **5 panels**
 
-- **Panel 1 (wide)**: Exterior of the Vazq house. Dawn. Small suitcase at the door. Yadi with his usual bag + an old backpack.
-- **Panel 2**: Mama Vazq hands him something wrapped in gift paper (recycled). Teary eyes but smiling:
+- **Panel 1 (wide)**: Exterior of the Rodríguez house. Dawn. Small suitcase at the door. Yadi with his usual bag + an old backpack.
+- **Panel 2**: Mama Rodríguez hands him something wrapped in gift paper (recycled). Teary eyes but smiling:
 
 > "Here. It's not new, but it has all my love."
 
@@ -34,7 +34,7 @@ Yadi leaves his island for the first time to compete in the National Junior Tour
 
 **4 panels**
 
-- **Panel 1**: Papa Vazq, serious, puts his hand on his shoulder. Looks him straight in the eyes:
+- **Panel 1**: Papa Rodríguez, serious, puts his hand on his shoulder. Looks him straight in the eyes:
 
 > "Go and be a tiger. Don't be afraid of anyone."
 
@@ -43,7 +43,7 @@ Yadi leaves his island for the first time to compete in the National Junior Tour
 
 > Mama: "Call me when you get there! And eat well! And don't stay up late!"
 
-- **Panel 4 (large, bottom)**: Yadi walking down the colorful island street toward where Yen waits with an old car. The Vazq house behind, painted in faded sky blue, with his parents at the door. Palm trees, sea breeze. Don Emilio leaning against the court gate, arms crossed:
+- **Panel 4 (large, bottom)**: Yadi walking down the colorful island street toward where Yen waits with an old car. The Rodríguez house behind, painted in faded sky blue, with his parents at the door. Palm trees, sea breeze. Don Emilio leaning against the court gate, arms crossed:
 
 > "Go, kid. This court is too small for you now."
 

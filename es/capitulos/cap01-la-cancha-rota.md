@@ -6,7 +6,7 @@
 
 ## Resumen
 
-Presentamos a Yadi Vazq, un joven de 16 años con talento sobrenatural para el tenis, atrapado en una isla tropical caribeña sin recursos. Conocemos su mundo, su familia y su hambre. Al final del capítulo, un encuentro casual con un extraño llamado Yen revela por primera vez que Yadi tiene algo especial.
+Presentamos a Yadi Rodríguez, un joven de 16 años con talento sobrenatural para el tenis, atrapado en una isla tropical caribeña sin recursos. Conocemos su mundo, su familia y su hambre. Al final del capítulo, un encuentro casual con un extraño llamado Yen revela por primera vez que Yadi tiene algo especial.
 
 ---
 
@@ -83,11 +83,11 @@ Don Emilio murmura solo:
 
 - **Panel central grande**: Yadi de niño (8 años), sentado en el suelo frente a una TV vieja y pequeña. En la pantalla: la final épica entre Roger Novacronos y Rafa Nal. La TV muestra a Novacronos ejecutando su revés elegante.
 - **Panel izquierdo**: Los ojos del pequeño Yadi — enormes, llenos de asombro, reflejando la pantalla de la TV.
-- **Panel derecho superior**: Papá Vazq detrás de él, serio pero con una sonrisa orgullosa. Le pone la bandana en la cabeza al pequeño Yadi. Diálogo:
+- **Panel derecho superior**: Papá Rodríguez detrás de él, serio pero con una sonrisa orgullosa. Le pone la bandana en la cabeza al pequeño Yadi. Diálogo:
 
 > "El tenis es el único deporte donde juegas solo contra el mundo, hijo. Así que sé un tigre."
 
-- **Panel derecho inferior**: Mamá Vazq al lado, con la mano en el pecho, nerviosa incluso viendo televisión:
+- **Panel derecho inferior**: Mamá Rodríguez al lado, con la mano en el pecho, nerviosa incluso viendo televisión:
 
 > "¡Ay, que me da algo con estos partidos!"
 
@@ -101,10 +101,10 @@ Don Emilio murmura solo:
 
 ### PÁGINA 7
 
-**5 paneles — Escena: La casa de los Vazq**
+**5 paneles — Escena: La casa de los Rodríguez**
 
-- **Panel 1 (ancho)**: Exterior de la casa Vazq. Pequeña, humilde, pero cuidada. Pintada de colores caribeños desgastados (azul celeste con marcos amarillos). Hay flores tropicales en la ventana (toque de mamá). Se escucha salsa desde alguna casa vecina. La luz cálida sale por la puerta abierta.
-- **Panel 2**: Interior. Cena. Mesa pequeña. Papá Vazq serio, comiendo, pero haciendo preguntas:
+- **Panel 1 (ancho)**: Exterior de la casa Rodríguez. Pequeña, humilde, pero cuidada. Pintada de colores caribeños desgastados (azul celeste con marcos amarillos). Hay flores tropicales en la ventana (toque de mamá). Se escucha salsa desde alguna casa vecina. La luz cálida sale por la puerta abierta.
+- **Panel 2**: Interior. Cena. Mesa pequeña. Papá Rodríguez serio, comiendo, pero haciendo preguntas:
 
 > "¿Y cómo estuvo tu revés hoy? ¿Mejor que ayer?"
 
@@ -112,11 +112,11 @@ Don Emilio murmura solo:
 
 > "Creo que sí. Don Emilio casi se cae del banco."
 
-- **Panel 4**: Papá Vazq, sin sonreír pero con un brillo en los ojos:
+- **Panel 4**: Papá Rodríguez, sin sonreír pero con un brillo en los ojos:
 
 > "Creer no es suficiente. Mañana quiero que lo sepas."
 
-- **Panel 5**: Mamá Vazq ve las manos ampolladas de Yadi mientras le sirve más comida. Le pone hielo con cara de preocupación:
+- **Panel 5**: Mamá Rodríguez ve las manos ampolladas de Yadi mientras le sirve más comida. Le pone hielo con cara de preocupación:
 
 > "Si sigues así vas a tener manos de lagarto. Come más, que estás flaco."
 
@@ -127,11 +127,11 @@ Don Emilio murmura solo:
 **4 paneles**
 
 - **Panel 1**: Yadi en su cuarto (pequeño, una cama, un póster viejo de Novacronos en la pared, otro de Rafa Nal, y una foto recortada de revista de Luna Borín con la medalla de oro). Brisa tropical entra por la ventana abierta. Se pone la bandana en la mesita de noche. La toca con los dedos.
-- **Panel 2**: Desde la puerta, Mamá y Papá Vazq lo miran sin que él lo note. Mamá susurra:
+- **Panel 2**: Desde la puerta, Mamá y Papá Rodríguez lo miran sin que él lo note. Mamá susurra:
 
 > "¿Crees que llegue lejos?"
 
-- **Panel 3**: Papá Vazq, serio:
+- **Panel 3**: Papá Rodríguez, serio:
 
 > "Ese muchacho tiene algo. Solo necesita que alguien lo vea."
 

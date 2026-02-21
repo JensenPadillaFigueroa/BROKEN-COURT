@@ -6,7 +6,7 @@
 
 ## Resumen
 
-Las consecuencias de la victoria sobre Daimon. Yadi gana el torneo juvenil nacional completo. El mundo empieza a notar su nombre. Pero lo más importante sucede en silencio: en diferentes partes del mundo, las tres leyendas del tenis se enteran de la existencia de Yadi Vazq. Alguien toma un teléfono.
+Las consecuencias de la victoria sobre Daimon. Yadi gana el torneo juvenil nacional completo. El mundo empieza a notar su nombre. Pero lo más importante sucede en silencio: en diferentes partes del mundo, las tres leyendas del tenis se enteran de la existencia de Yadi Rodríguez. Alguien toma un teléfono.
 
 ---
 
@@ -16,7 +16,7 @@ Las consecuencias de la victoria sobre Daimon. Yadi gana el torneo juvenil nacio
 
 **4 paneles**
 
-- **Panel 1 (ancho)**: Exterior de Arena Juventud. Atardecer dorado. El torneo sigue — hay más partidos, pero el murmullo es sobre uno solo: Yadi Vazq.
+- **Panel 1 (ancho)**: Exterior de Arena Juventud. Atardecer dorado. El torneo sigue — hay más partidos, pero el murmullo es sobre uno solo: Yadi Rodríguez.
 - **Panel 2**: Yadi y Yen caminando por el complejo después del partido contra Daimon. Yadi todavía tiene la bandana puesta. Camina en silencio. Procesando.
 - **Panel 3**: Yen:
 
@@ -72,7 +72,7 @@ Yadi cierra los ojos. Le tiembla el labio. No llora. Pero está cerca.
 **4 paneles**
 
 - **Panel 1**: Yadi después de colgar. Mira la nota de mamá (la del tupper) que tiene pegada en la pared de su habitación con cinta adhesiva. Sonríe.
-- **Panel 2**: En Isla Brava, Papá Vazq cuelga el teléfono. Mamá todavía llorando. Papá la abraza. Serio por fuera. Destruido de emoción por dentro.
+- **Panel 2**: En Isla Brava, Papá Rodríguez cuelga el teléfono. Mamá todavía llorando. Papá la abraza. Serio por fuera. Destruido de emoción por dentro.
 - **Panel 3**: Don Emilio en la puerta de su casa. Un vecino le muestra algo en el teléfono — un artículo deportivo sobre el torneo. Don Emilio ajusta sus lentes, lee, y sonríe enorme.
 - **Panel 4**: Don Emilio en la cancha rota de la isla, solo, mirando la pared con el mural de Luna Borín donde Yadi practicaba. Las marcas de las pelotas siguen ahí al lado del mural descolorido. Piensa:
 
@@ -84,16 +84,16 @@ Yadi cierra los ojos. Le tiembla el labio. No llora. Pero está cerca.
 
 **4 paneles — El Circuito Toma Nota**
 
-- **Panel 1 (ancho)**: Montaje de medios: pantalla de computadora con artículo deportivo: *"Yadi Vazq: el desconocido que destruyó al #1 juvenil"*. Otra pantalla: clip de video — el passing shot de Yadi contra Daimon. Redes sociales: comentarios: *"¿De dónde salió este chico?"* *"Miren sus ojos en el segundo set."* *"El chico de la raqueta vieja."*
+- **Panel 1 (ancho)**: Montaje de medios: pantalla de computadora con artículo deportivo: *"Yadi Rodríguez: el desconocido que destruyó al #1 juvenil"*. Otra pantalla: clip de video — el passing shot de Yadi contra Daimon. Redes sociales: comentarios: *"¿De dónde salió este chico?"* *"Miren sus ojos en el segundo set."* *"El chico de la raqueta vieja."*
 - **Panel 2**: Periodistas en el complejo hablando entre ellos:
 
-> "¿Alguien tiene datos de este Vazq? No aparece en ningún registro de academias."
+> "¿Alguien tiene datos de este Rodríguez? No aparece en ningún registro de academias."
 > "Porque no viene de ninguna academia."
 
 - **Panel 3**: El director del torneo en su oficina, mirando las estadísticas de Yadi en su computadora. Levanta las cejas.
 - **Panel 4**: Un comentarista deportivo grabando un video:
 
-> "Damas y caballeros, recuerden este nombre: Yadi Vazq. Tiene 16 años, viene de una isla que ni aparece en el mapa, y acaba de hacer algo que no se ve todos los días en el circuito juvenil."
+> "Damas y caballeros, recuerden este nombre: Yadi Rodríguez. Tiene 16 años, viene de una isla que ni aparece en el mapa, y acaba de hacer algo que no se ve todos los días en el circuito juvenil."
 
 ---
 

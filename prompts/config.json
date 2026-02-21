@@ -1,5 +1,5 @@
 {
-  "project": "YADI VAZQ: The Rise",
+  "project": "YADI RODRÍGUEZ: The Rise",
   "volume": 1,
   "total_illustrations": 48,
   "style": {
@@ -21,7 +21,7 @@
   },
   "generation_priority": [
     "1. Character sheets: Great 3 (Novacronos, Rafa Nal, Noak)",
-    "2. Character sheet: Yadi Vazq",
+    "2. Character sheet: Yadi Rodríguez",
     "3. Volume 1 Cover",
     "4. Final splash (Scene 14 — Great 3 in the sky)",
     "5. Diamond Vision Activation (Scene 10)",
@@ -33,15 +33,15 @@
     {"name": "Roger Novacronos", "animal": "Eagle", "type": "LITERAL_HYBRID", "palette": "gold/white/cream"},
     {"name": "Rafa Nal", "animal": "Bull", "type": "LITERAL_HYBRID", "palette": "red/orange/earth"},
     {"name": "Noak", "animal": "Goat", "type": "LITERAL_HYBRID", "palette": "silver/grey/white"},
-    {"name": "Yadi Vazq", "animal": "Tiger", "type": "HUMAN_AURA", "palette": "orange/black/gold"},
+    {"name": "Yadi Rodríguez", "animal": "Tiger", "type": "HUMAN_AURA", "palette": "orange/black/gold"},
     {"name": "Yen", "animal": "Owl", "type": "HUMAN_AURA", "palette": "dark blue/silver"},
     {"name": "Charlie", "animal": "Lion", "type": "HUMAN_AURA", "palette": "gold/multicolor"},
     {"name": "Jani", "animal": "Arctic Fox", "type": "HUMAN_AURA", "palette": "ice blue/white/silver"},
     {"name": "Daimon Richwell", "animal": "Peacock", "type": "HUMAN_AURA", "palette": "blue-green/iridescent"},
     {"name": "Kai Morimoto", "animal": "Turtle", "type": "HUMAN_AURA", "palette": "grey/green/stone"},
     {"name": "Luca Santori", "animal": "Viper", "type": "HUMAN_AURA", "palette": "green/purple/venom"},
-    {"name": "Papa Vazq", "animal": null, "type": "HUMAN", "palette": "earth/warm"},
-    {"name": "Mama Vazq", "animal": null, "type": "HUMAN", "palette": "warm/colorful"},
+    {"name": "Papa Rodríguez", "animal": null, "type": "HUMAN", "palette": "earth/warm"},
+    {"name": "Mama Rodríguez", "animal": null, "type": "HUMAN", "palette": "warm/colorful"},
     {"name": "Don Emilio", "animal": null, "type": "HUMAN", "palette": "brown/grey"},
     {"name": "Luna Borín", "animal": null, "type": "MURAL_ONLY", "palette": "faded colors"}
   ]

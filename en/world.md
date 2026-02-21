@@ -1,4 +1,4 @@
-# World — YADI VAZQ: The Rise
+# World — YADI RODRÍGUEZ: The Rise
 
 ## The Tennis Universe in the Manga
 
@@ -51,8 +51,8 @@
 | #2 | (vacant — previous holder graduated to pro circuit) |
 | #3 | Kai Morimoto |
 | #5 | Luca Santori |
-| Unranked | Yadi Vazq (at the start) |
-| **#1** | **Yadi Vazq (by end of Vol. 1)** |
+| Unranked | Yadi Rodríguez (at the start) |
+| **#1** | **Yadi Rodríguez (by end of Vol. 1)** |
 
 ---
 
@@ -152,8 +152,8 @@ In this world, elite players have shots that transcend the normal. They're not l
 | Yen's towel | His identity as mentor/player, always present |
 | The Great 3 shadows | What Yadi aspires to reach, always present as giant figures |
 | Mama's used racket | Family love, the sacrifice of both parents |
-| Papa Vazq serious/proud | The inherited competitiveness, the tiger instinct |
-| Mama Vazq nervous/sarcastic | The humor that relieves pressure, the worried love |
+| Papa Rodríguez serious/proud | The inherited competitiveness, the tiger instinct |
+| Mama Rodríguez nervous/sarcastic | The humor that relieves pressure, the worried love |
 | Luna Borín's mural | Proof that you can make it off the island, the dream is possible |
 | The sea / the island | Geographic isolation, the world is far away, but also freedom and beauty |
 

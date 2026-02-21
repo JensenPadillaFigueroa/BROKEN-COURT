@@ -6,7 +6,7 @@
 
 ## Summary
 
-We introduce Yadi Vazq, a 16-year-old with supernatural tennis talent, trapped on a Caribbean tropical island with no resources. We meet his world, his family, and his hunger. At the end of the chapter, a casual encounter with a stranger named Yen reveals for the first time that Yadi has something special.
+We introduce Yadi Rodríguez, a 16-year-old with supernatural tennis talent, trapped on a Caribbean tropical island with no resources. We meet his world, his family, and his hunger. At the end of the chapter, a casual encounter with a stranger named Yen reveals for the first time that Yadi has something special.
 
 ---
 
@@ -83,11 +83,11 @@ Don Emilio mutters to himself:
 
 - **Large center panel**: Young Yadi (8 years old), sitting on the floor in front of an old, small TV. On the screen: the epic final between Roger Novacronos and Rafa Nal. The TV shows Novacronos executing his elegant backhand.
 - **Left panel**: Little Yadi's eyes — huge, full of wonder, reflecting the TV screen.
-- **Upper right panel**: Papa Vazq behind him, serious but with a proud smile. Places the bandana on little Yadi's head. Dialogue:
+- **Upper right panel**: Papa Rodríguez behind him, serious but with a proud smile. Places the bandana on little Yadi's head. Dialogue:
 
 > "Tennis is the only sport where you play alone against the world, son. So be a tiger."
 
-- **Lower right panel**: Mama Vazq beside them, hand on her chest, nervous even watching television:
+- **Lower right panel**: Mama Rodríguez beside them, hand on her chest, nervous even watching television:
 
 > "Oh god, these matches are going to kill me!"
 
@@ -101,10 +101,10 @@ Don Emilio mutters to himself:
 
 ### PAGE 7
 
-**5 panels — Scene: The Vazq House**
+**5 panels — Scene: The Rodríguez House**
 
-- **Panel 1 (wide)**: Exterior of the Vazq house. Small, humble, but well-kept. Painted in faded Caribbean colors (sky blue with yellow trim). Tropical flowers in the window (mama's touch). Salsa music from a neighbor's house. Warm light coming through the open door.
-- **Panel 2**: Interior. Dinner. Small table. Papa Vazq serious, eating, but asking questions:
+- **Panel 1 (wide)**: Exterior of the Rodríguez house. Small, humble, but well-kept. Painted in faded Caribbean colors (sky blue with yellow trim). Tropical flowers in the window (mama's touch). Salsa music from a neighbor's house. Warm light coming through the open door.
+- **Panel 2**: Interior. Dinner. Small table. Papa Rodríguez serious, eating, but asking questions:
 
 > "How was your backhand today? Better than yesterday?"
 
@@ -112,11 +112,11 @@ Don Emilio mutters to himself:
 
 > "I think so. Don Emilio almost fell off his bench."
 
-- **Panel 4**: Papa Vazq, not smiling but with a glint in his eyes:
+- **Panel 4**: Papa Rodríguez, not smiling but with a glint in his eyes:
 
 > "Thinking isn't enough. Tomorrow I want you to know it."
 
-- **Panel 5**: Mama Vazq sees Yadi's blistered hands while serving him more food. Puts ice on them with a worried face:
+- **Panel 5**: Mama Rodríguez sees Yadi's blistered hands while serving him more food. Puts ice on them with a worried face:
 
 > "If you keep this up you're going to have lizard hands. Eat more, you're too skinny."
 
@@ -127,11 +127,11 @@ Don Emilio mutters to himself:
 **4 panels**
 
 - **Panel 1**: Yadi in his room (small, one bed, an old poster of Novacronos on the wall, another of Rafa Nal, and a magazine clipping of Luna Borín with the gold medal). Tropical breeze through the open window. Places the bandana on the nightstand. Touches it with his fingers.
-- **Panel 2**: From the doorway, Mama and Papa Vazq watch him without him noticing. Mama whispers:
+- **Panel 2**: From the doorway, Mama and Papa Rodríguez watch him without him noticing. Mama whispers:
 
 > "Do you think he'll make it far?"
 
-- **Panel 3**: Papa Vazq, serious:
+- **Panel 3**: Papa Rodríguez, serious:
 
 > "That kid has something. He just needs someone to see it."
 

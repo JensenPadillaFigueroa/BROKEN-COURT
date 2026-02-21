@@ -108,7 +108,7 @@ It's not courtesy. It's certainty. He knows he'll see Yadi again. Probably highe
 
 - **Panel 1 (wide)**: In the commentators' booth (or journalists in the press room):
 
-> "This 16-year-old kid just gave a veteran professional ranked 80 a run for his money. He lost, yes, but... remember the name: Yadi Vazq."
+> "This 16-year-old kid just gave a veteran professional ranked 80 a run for his money. He lost, yes, but... remember the name: Yadi Rodríguez."
 
 - **Panel 2**: Quick reaction montage: other players at the tournament who saw the match or the statistics. Looks. Quiet comments. Nobody asks "who is this kid?" anymore. Now the question is "how far can he go?"
 - **Panel 3**: Yadi in the locker room, sitting. Lost. But his expression isn't defeat. It's someone who just saw the ceiling and knows he can reach it.
@@ -147,12 +147,12 @@ Yen laughs. Genuine. Fist bump. No additional words necessary.
 
 **4 panels — The Return**
 
-- **Panel 1 (wide)**: Isla Brava. Yadi's island. Yen's old car parked in front of the Vazq house. Golden tropical sunset, palm trees, sea breeze, coquíes starting to sing. The island's vibrant colors — like coming home to a hug.
-- **Panel 2**: Mama Vazq at the door. Sees him get out of the car. Runs to him. Hugs him and doesn't let go for a full minute. Checks him — arms, legs, face:
+- **Panel 1 (wide)**: Isla Brava. Yadi's island. Yen's old car parked in front of the Rodríguez house. Golden tropical sunset, palm trees, sea breeze, coquíes starting to sing. The island's vibrant colors — like coming home to a hug.
+- **Panel 2**: Mama Rodríguez at the door. Sees him get out of the car. Runs to him. Hugs him and doesn't let go for a full minute. Checks him — arms, legs, face:
 
 > "You're skinny! Didn't you eat?! Did they treat you well?!"
 
-- **Panel 3**: Papa Vazq in the doorframe. Serious. Looks at his son. Nods slowly:
+- **Panel 3**: Papa Rodríguez in the doorframe. Serious. Looks at his son. Nods slowly:
 
 > "Good. But you're not done yet."
 
@@ -166,7 +166,7 @@ Pause. Then, unable to contain himself, walks to Yadi and hugs him too. Hard. Lo
 
 **4 panels**
 
-- **Panel 1**: Dinner at the Vazq house. The usual table. Mama's cooking. Yadi tells them everything — the players, the courts, Charlie, Jani, the match. His eyes shine as he talks. Mama listens with her hand on her chest. Papa eats in silence but doesn't miss a word.
+- **Panel 1**: Dinner at the Rodríguez house. The usual table. Mama's cooking. Yadi tells them everything — the players, the courts, Charlie, Jani, the match. His eyes shine as he talks. Mama listens with her hand on her chest. Papa eats in silence but doesn't miss a word.
 - **Panel 2**: After dinner, Papa washes the dishes (a detail that humanizes him). Mama and Yadi in the living room. She touches his face:
 
 > "You've changed, my love."
@@ -219,7 +219,7 @@ Yadi smiles:
 
 - **Panel 4 (large)**: The voice on the other end. Can't see who's speaking. Only a black speech bubble with white letters — different from any other dialogue in the manga. Mysterious. Powerful.
 
-> **"Yadi Vazq?"**
+> **"Yadi Rodríguez?"**
 
 Yadi, now fully awake:
 
@@ -275,7 +275,7 @@ Yadi is small below. But looking up. Without fear.
 
 > **END OF VOLUME 1**
 >
-> **YADI VAZQ will continue in:**
+> **YADI RODRÍGUEZ will continue in:**
 >
 > **VOLUME 2 — "THE ELITE"**
 

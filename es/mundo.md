@@ -1,4 +1,4 @@
-# Mundo — YADI VAZQ: El Ascenso
+# Mundo — YADI RODRÍGUEZ: El Ascenso
 
 ## El Universo del Tenis en el Manga
 
@@ -51,8 +51,8 @@
 | #2 | (vacante — el anterior se graduó al circuito pro) |
 | #3 | Kai Morimoto |
 | #5 | Luca Santori |
-| Sin ranking | Yadi Vazq (al inicio) |
-| **#1** | **Yadi Vazq (al final del Vol. 1)** |
+| Sin ranking | Yadi Rodríguez (al inicio) |
+| **#1** | **Yadi Rodríguez (al final del Vol. 1)** |
 
 ---
 
@@ -152,8 +152,8 @@ En este mundo, los jugadores de élite tienen golpes que trascienden lo normal. 
 | La toalla de Yen | Su identidad como mentor/jugador, siempre presente |
 | Las sombras de los Great 3 | Lo que Yadi aspira alcanzar, siempre presentes como figuras gigantes |
 | La raqueta usada de mamá | Amor familiar, el sacrificio de ambos padres |
-| Papá Vazq serio/orgulloso | La competitividad heredada, el instinto tigre |
-| Mamá Vazq nerviosa/sarcástica | El humor que alivia la presión, el amor preocupado |
+| Papá Rodríguez serio/orgulloso | La competitividad heredada, el instinto tigre |
+| Mamá Rodríguez nerviosa/sarcástica | El humor que alivia la presión, el amor preocupado |
 | El mural de Luna Borín | La prueba de que se puede salir de la isla, el sueño es posible |
 | El mar / la isla | Aislamiento geográfico, el mundo queda lejos, pero también libertad y belleza |
 

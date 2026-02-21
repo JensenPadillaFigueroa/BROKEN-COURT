@@ -224,7 +224,7 @@ Yadi:
 - **Panel 2 (large)**: Split image — Yadi on the left looking at the bracket, Kai on the right on the court. An imaginary line connects them. Two worlds about to collide.
 - **Panel 3**: Close-up of Kai's eyes. Cold. Relentless. For the first time, a thought:
 
-> *"Yadi Vazq. Let's see what you've got."*
+> *"Yadi Rodríguez. Let's see what you've got."*
 
 **Closing text**:
 
