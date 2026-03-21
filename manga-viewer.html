@@ -10,15 +10,15 @@
   * { margin: 0; padding: 0; box-sizing: border-box; }
 
   :root {
-    --bg: #050505;
-    --surface: #0c0c0c;
-    --card: #111;
-    --border: #1e1e1e;
-    --text: #e0e0e0;
-    --text-dim: #666;
-    --accent: #fff;
-    --gold: #d4a853;
-    --gold-dim: rgba(212,168,83,0.15);
+    --bg: #f8f4ed;
+    --surface: #f0ebe3;
+    --card: #ffffff;
+    --border: #e0d8cc;
+    --text: #2a2520;
+    --text-dim: #8a8278;
+    --accent: #1a1510;
+    --gold: #a0792a;
+    --gold-dim: rgba(160,121,42,0.12);
   }
 
   html { scroll-behavior: smooth; }
@@ -28,22 +28,24 @@
     font-family: 'Space Grotesk', sans-serif;
     line-height: 1.7;
     overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
   }
 
   /* PROGRESS BAR */
   #progress {
-    position: fixed; top: 0; left: 0; height: 2px; z-index: 200;
-    background: linear-gradient(90deg, var(--gold), #fff, var(--gold));
+    position: fixed; top: 0; left: 0; height: 3px; z-index: 200;
+    background: linear-gradient(90deg, var(--gold), #c9a045, var(--gold));
     width: 0%; transition: width 0.1s linear;
-    box-shadow: 0 0 12px rgba(212,168,83,0.6);
+    box-shadow: 0 1px 6px rgba(160,121,42,0.3);
   }
 
   /* NAV */
   nav {
-    position: fixed; top: 2px; left: 0; right: 0; z-index: 100;
-    background: rgba(5,5,5,0.85);
+    position: fixed; top: 3px; left: 0; right: 0; z-index: 100;
+    background: rgba(255,255,255,0.92);
     backdrop-filter: blur(20px) saturate(1.2);
-    border-bottom: 1px solid rgba(255,255,255,0.04);
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+    box-shadow: 0 1px 8px rgba(0,0,0,0.06);
   }
   .nav-inner {
     max-width: 1200px; margin: 0 auto;
@@ -58,7 +60,7 @@
     padding: 16px 24px;
     white-space: nowrap;
     color: var(--gold);
-    border-right: 1px solid rgba(255,255,255,0.06);
+    border-right: 1px solid rgba(0,0,0,0.08);
     cursor: pointer;
   }
   .nav-btn {
@@ -70,7 +72,7 @@
     position: relative;
   }
   .nav-btn::after {
-    content: ''; position: absolute; bottom: 0; left: 50%; width: 0; height: 1px;
+    content: ''; position: absolute; bottom: 0; left: 50%; width: 0; height: 2px;
     background: var(--gold); transition: all 0.3s; transform: translateX(-50%);
   }
   .nav-btn:hover { color: var(--accent); }
@@ -83,12 +85,12 @@
     align-items: center; justify-content: center;
     text-align: center; padding: 100px 20px 60px;
     position: relative;
-    background: radial-gradient(ellipse at 50% 30%, rgba(212,168,83,0.03) 0%, transparent 60%),
-                radial-gradient(ellipse at center, #0c0c0c 0%, #050505 70%);
+    background: radial-gradient(ellipse at 50% 30%, rgba(160,121,42,0.06) 0%, transparent 60%),
+                radial-gradient(ellipse at center, #f0ebe3 0%, #f8f4ed 70%);
   }
   .hero::before {
     content: ''; position: absolute; inset: 0;
-    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="4" height="4"><rect width="1" height="1" fill="rgba(255,255,255,0.015)"/></svg>') repeat;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="4" height="4"><rect width="1" height="1" fill="rgba(0,0,0,0.015)"/></svg>') repeat;
     pointer-events: none;
   }
   .hero-cover {
@@ -96,8 +98,8 @@
   }
   .hero-cover img {
     max-height: 62vh; width: auto; max-width: 85%;
-    border: 1px solid rgba(255,255,255,0.08);
-    box-shadow: 0 30px 100px rgba(0,0,0,0.9), 0 0 60px rgba(212,168,83,0.08);
+    border: 1px solid rgba(0,0,0,0.08);
+    box-shadow: 0 20px 60px rgba(0,0,0,0.15), 0 0 30px rgba(160,121,42,0.08);
     animation: kenburns-hero 16s ease-in-out infinite alternate;
   }
   @keyframes kenburns-hero {
@@ -106,7 +108,7 @@
   }
   .hero-cover::after {
     content: ''; position: absolute; inset: -1px;
-    background: linear-gradient(180deg, transparent 60%, var(--bg) 100%);
+    background: linear-gradient(180deg, transparent 60%, #f8f4ed 100%);
     pointer-events: none;
   }
   .hero h1 {
@@ -114,7 +116,7 @@
     font-size: clamp(40px, 7vw, 80px);
     font-weight: 700; letter-spacing: 12px;
     text-transform: uppercase; margin-bottom: 4px;
-    background: linear-gradient(180deg, #fff 0%, #999 100%);
+    background: linear-gradient(180deg, #2a2520 0%, #5a4e42 100%);
     -webkit-background-clip: text; -webkit-text-fill-color: transparent;
     background-clip: text;
   }
@@ -127,17 +129,17 @@
   .hero .quote {
     font-family: 'Crimson Text', serif;
     font-style: italic; font-size: 19px;
-    color: #aaa; max-width: 480px;
+    color: #6a5e52; max-width: 480px;
     line-height: 1.8;
   }
   .hero .scroll-hint {
     margin-top: 50px; font-family: 'Oswald', sans-serif;
-    font-size: 9px; letter-spacing: 4px; color: #333;
+    font-size: 9px; letter-spacing: 4px; color: #bbb0a0;
     text-transform: uppercase;
   }
   .scroll-arrow {
     display: block; margin: 12px auto 0; width: 20px; height: 20px;
-    border-right: 1px solid #333; border-bottom: 1px solid #333;
+    border-right: 1px solid #bbb0a0; border-bottom: 1px solid #bbb0a0;
     transform: rotate(45deg);
     animation: bob 2s ease-in-out infinite;
   }
@@ -154,8 +156,8 @@
 
   /* CHAPTER */
   .chapter {
-    max-width: 860px; margin: 0 auto;
-    padding: 0 20px 80px;
+    max-width: 780px; margin: 0 auto;
+    padding: 0 24px 80px;
   }
   .chapter-header {
     text-align: center;
@@ -177,19 +179,19 @@
     font-size: clamp(30px, 5vw, 56px);
     font-weight: 700; letter-spacing: 4px;
     text-transform: uppercase; margin-bottom: 20px;
-    background: linear-gradient(180deg, #fff 20%, #bbb 100%);
+    background: linear-gradient(180deg, #2a2520 0%, #6a5e52 100%);
     -webkit-background-clip: text; -webkit-text-fill-color: transparent;
     background-clip: text;
   }
   .chapter-summary {
     font-family: 'Crimson Text', serif;
-    font-size: 17px; color: #aaa;
-    max-width: 540px; margin: 0 auto;
-    font-style: italic; line-height: 1.8;
+    font-size: 18px; color: #7a6e62;
+    max-width: 560px; margin: 0 auto;
+    font-style: italic; line-height: 1.9;
   }
   .chapter-divider {
     width: 100%; height: 120px;
-    background: linear-gradient(180deg, var(--bg) 0%, rgba(212,168,83,0.03) 50%, var(--bg) 100%);
+    background: linear-gradient(180deg, var(--bg) 0%, rgba(160,121,42,0.06) 50%, var(--bg) 100%);
     position: relative;
   }
   .chapter-divider::after {
@@ -199,28 +201,28 @@
 
   /* MANGA PAGE */
   .manga-page {
-    margin-bottom: 48px;
+    margin-bottom: 56px;
     background: var(--card);
     border: 1px solid var(--border);
     overflow: hidden;
-    border-radius: 2px;
-    box-shadow: 0 8px 40px rgba(0,0,0,0.4);
+    border-radius: 4px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08), 0 1px 4px rgba(0,0,0,0.04);
     transition: box-shadow 0.4s;
   }
   .manga-page:hover {
-    box-shadow: 0 12px 60px rgba(0,0,0,0.6), 0 0 30px rgba(212,168,83,0.03);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.12), 0 0 20px rgba(160,121,42,0.04);
   }
   .page-label {
     font-family: 'Oswald', sans-serif;
-    font-size: 10px; font-weight: 400; letter-spacing: 3px;
-    color: #444; text-transform: uppercase;
-    padding: 14px 24px;
-    background: rgba(0,0,0,0.5);
+    font-size: 11px; font-weight: 400; letter-spacing: 3px;
+    color: var(--text-dim); text-transform: uppercase;
+    padding: 16px 28px;
+    background: var(--surface);
     border-bottom: 1px solid var(--border);
   }
   .page-image-wrap {
     position: relative;
-    background: #000;
+    background: #1a1510;
     display: flex; align-items: center; justify-content: center;
     min-height: 280px;
     overflow: hidden;
@@ -240,7 +242,7 @@
   }
   .page-image-wrap::after {
     content: ''; position: absolute; inset: 0;
-    background: linear-gradient(180deg, transparent 70%, rgba(0,0,0,0.5) 100%);
+    background: linear-gradient(180deg, transparent 70%, rgba(0,0,0,0.3) 100%);
     pointer-events: none;
   }
 
@@ -250,106 +252,170 @@
     display: flex; flex-direction: column;
     align-items: center; justify-content: center;
     background:
-      radial-gradient(ellipse at center, rgba(212,168,83,0.02) 0%, transparent 70%),
-      linear-gradient(135deg, #080808 0%, #111 50%, #080808 100%);
+      radial-gradient(ellipse at center, rgba(160,121,42,0.03) 0%, transparent 70%),
+      linear-gradient(135deg, #f0ebe3 0%, #f8f4ed 50%, #f0ebe3 100%);
     gap: 14px; position: relative;
   }
   .placeholder::before {
     content: ''; position: absolute; inset: 20px;
-    border: 1px dashed rgba(255,255,255,0.05);
+    border: 1px dashed rgba(0,0,0,0.08);
     border-radius: 2px;
   }
   .placeholder .ph-icon {
-    font-size: 36px; opacity: 0.15;
+    font-size: 36px; opacity: 0.25;
     filter: grayscale(1);
   }
   .placeholder .ph-name {
     font-family: 'Oswald', sans-serif;
     font-size: 11px; letter-spacing: 3px;
-    color: #333; text-transform: uppercase;
+    color: var(--text-dim); text-transform: uppercase;
   }
   .placeholder .ph-desc {
     font-family: 'Crimson Text', serif;
     font-style: italic;
-    font-size: 15px; color: #2a2a2a;
+    font-size: 15px; color: #7a6e62;
     max-width: 320px; text-align: center;
     line-height: 1.6;
   }
 
   /* DIALOGUE */
   .dialogue-block {
-    padding: 28px 32px;
+    padding: 32px 36px;
     border-top: 1px solid var(--border);
-    background: rgba(0,0,0,0.2);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(248,244,237,0.6) 100%);
+    display: flex; flex-direction: column; gap: 4px;
   }
   .dialogue-block .narration {
     font-family: 'Crimson Text', serif;
-    font-style: italic; color: #666;
-    font-size: 18px; margin-bottom: 16px;
-    padding-left: 20px;
-    border-left: 2px solid rgba(212,168,83,0.4);
-    line-height: 1.8;
+    font-style: italic; color: #5a4e42;
+    font-size: 19px; margin-bottom: 10px;
+    padding: 12px 20px 12px 22px;
+    border-left: 3px solid rgba(160,121,42,0.4);
+    line-height: 1.85;
+    background: rgba(160,121,42,0.04);
+    border-radius: 0 4px 4px 0;
   }
   .dialogue-block .speech {
-    margin-bottom: 14px; font-size: 15px;
-    padding: 10px 16px;
-    background: rgba(255,255,255,0.02);
-    border-left: 3px solid rgba(255,255,255,0.08);
-    border-radius: 0 4px 4px 0;
+    margin-bottom: 8px; font-size: 16px;
+    padding: 14px 20px;
+    background: rgba(42,37,32,0.03);
+    border-left: 3px solid rgba(42,37,32,0.15);
+    border-radius: 0 6px 6px 0;
+    transition: background 0.2s;
+  }
+  .dialogue-block .speech:hover {
+    background: rgba(42,37,32,0.06);
   }
   .dialogue-block .speaker {
     font-family: 'Oswald', sans-serif;
-    font-weight: 600; font-size: 10px;
+    font-weight: 600; font-size: 11px;
     letter-spacing: 2.5px; text-transform: uppercase;
     color: var(--gold);
-    display: block; margin-bottom: 4px;
+    display: block; margin-bottom: 6px;
   }
   .dialogue-block .line {
-    color: var(--text); font-size: 15px;
+    color: #2a2520; font-size: 17px;
     font-family: 'Crimson Text', serif;
-    line-height: 1.7;
+    line-height: 1.75;
   }
   .dialogue-block .sfx {
     font-family: 'Oswald', sans-serif;
-    font-weight: 700; font-size: 28px;
-    letter-spacing: 8px; color: var(--accent);
-    text-align: center; margin: 24px 0;
-    text-shadow: 0 0 30px rgba(255,255,255,0.1);
+    font-weight: 700; font-size: 32px;
+    letter-spacing: 10px; color: var(--accent);
+    text-align: center; margin: 28px 0;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 12px 0;
   }
   .dialogue-block .thought {
     font-family: 'Crimson Text', serif;
-    font-style: italic; color: #555;
-    margin-bottom: 12px; font-size: 16px;
-    padding-left: 20px;
-    line-height: 1.7;
+    font-style: italic; color: #3a7aa8;
+    margin-bottom: 8px; font-size: 18px;
+    padding: 10px 20px 10px 22px;
+    border-left: 3px solid rgba(58,122,168,0.3);
+    line-height: 1.8;
+    background: rgba(58,122,168,0.04);
+    border-radius: 0 4px 4px 0;
   }
   .scene-note {
-    font-family: 'Oswald', sans-serif;
-    font-size: 10px; letter-spacing: 2px;
-    color: #333; text-transform: uppercase;
-    padding: 12px 32px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px; letter-spacing: 1px;
+    color: #7a6e62; 
+    padding: 14px 36px;
     border-top: 1px solid var(--border);
-    background: rgba(0,0,0,0.4);
+    background: var(--surface);
+    line-height: 1.7;
+  }
+
+  /* Character-specific speech accents */
+  .speech[data-char="yadi"]        { border-left-color: #b8942e; }
+  .speech[data-char="yadi"] .speaker { color: #9a7a20; }
+  .speech[data-char="yen"]         { border-left-color: #2e8a5e; }
+  .speech[data-char="yen"] .speaker  { color: #2e8a5e; }
+  .speech[data-char="papa"]        { border-left-color: #b06830; }
+  .speech[data-char="papa"] .speaker { color: #a05e28; }
+  .speech[data-char="mama"]        { border-left-color: #c0507a; }
+  .speech[data-char="mama"] .speaker { color: #b04868; }
+  .speech[data-char="daimon"]      { border-left-color: #7a5aaa; }
+  .speech[data-char="daimon"] .speaker { color: #7a5aaa; }
+  .speech[data-char="don-emilio"]  { border-left-color: #5e7a3e; }
+  .speech[data-char="don-emilio"] .speaker { color: #5e7a3e; }
+  .speech[data-char="kai"]         { border-left-color: #3a7a9a; }
+  .speech[data-char="kai"] .speaker  { color: #3a7a9a; }
+  .speech[data-char="luca"]        { border-left-color: #a83a3a; }
+  .speech[data-char="luca"] .speaker { color: #a83a3a; }
+  .speech[data-char="charlie"]     { border-left-color: #c07a10; }
+  .speech[data-char="charlie"] .speaker { color: #b07010; }
+  .speech[data-char="mystery"]     { border-left-color: #777; }
+  .speech[data-char="mystery"] .speaker { color: #777; }
+
+  /* Handwritten notes (tupperware, letters) */
+  .note-handwritten {
+    font-size: 1.1em !important;
+    padding: 18px 24px !important;
+    background: rgba(160,121,42,0.05) !important;
+    border-left: 3px solid rgba(160,121,42,0.35) !important;
+    color: #5a4e42 !important;
+  }
+  .note-bold {
+    font-size: 1.4em !important;
+    font-weight: 700 !important;
+    letter-spacing: 2px;
+    padding: 14px 24px !important;
+  }
+  .note-author { opacity: 0.45; }
+
+  /* Text-only manga pages (no image) get a subtle visual frame */
+  .manga-page:not(:has(.page-image-wrap)) .dialogue-block {
+    border-top: none;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    min-height: 120px;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(248,244,237,0.8) 100%);
   }
 
   /* CHAPTER END */
   .chapter-end {
     text-align: center; padding: 80px 20px;
     position: relative;
+    cursor: pointer;
+    transition: transform 0.3s;
   }
+  .chapter-end:hover { transform: translateY(-2px); }
   .chapter-end::before {
     content: ''; display: block; width: 30px; height: 1px;
     background: rgba(212,168,83,0.3); margin: 0 auto 24px;
   }
   .chapter-end .next {
     font-family: 'Oswald', sans-serif;
-    font-size: 10px; font-weight: 300; letter-spacing: 4px;
-    color: #333; text-transform: uppercase;
+    font-size: 11px; font-weight: 300; letter-spacing: 4px;
+    color: var(--text-dim); text-transform: uppercase;
+    transition: color 0.3s;
   }
+  .chapter-end:hover .next { color: var(--accent); }
   .chapter-end .next-title {
     font-family: 'Oswald', sans-serif;
-    font-size: 26px; font-weight: 600; letter-spacing: 3px;
-    color: #555; margin-top: 8px;
+    font-size: 28px; font-weight: 600; letter-spacing: 3px;
+    color: #5a4e42; margin-top: 10px;
     transition: color 0.3s;
   }
   .chapter-end:hover .next-title { color: var(--gold); }
@@ -371,8 +437,8 @@
   }
   .char-card:hover {
     transform: translateY(-6px);
-    box-shadow: 0 16px 50px rgba(0,0,0,0.5), 0 0 20px rgba(212,168,83,0.05);
-    border-color: rgba(212,168,83,0.15);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.1), 0 0 15px rgba(160,121,42,0.06);
+    border-color: rgba(160,121,42,0.25);
   }
   .char-card img {
     width: 100%; height: auto; display: block;
@@ -384,7 +450,7 @@
     font-family: 'Oswald', sans-serif;
     font-size: 10px; font-weight: 400; letter-spacing: 2.5px;
     text-transform: uppercase; padding: 12px 14px;
-    text-align: center; color: #444;
+    text-align: center; color: var(--text-dim);
     transition: color 0.3s;
   }
   .char-card:hover .char-name { color: var(--gold); }
@@ -392,12 +458,12 @@
   /* FOOTER */
   footer {
     text-align: center; padding: 80px 20px;
-    color: #333; font-size: 13px;
+    color: var(--text-dim); font-size: 13px;
     position: relative;
   }
   footer::before {
     content: ''; display: block; width: 60px; height: 1px;
-    background: linear-gradient(90deg, transparent, rgba(212,168,83,0.3), transparent);
+    background: linear-gradient(90deg, transparent, rgba(160,121,42,0.3), transparent);
     margin: 0 auto 30px;
   }
   footer .end-text {
@@ -438,7 +504,7 @@
     border-radius: 2px;
     overflow: hidden;
     margin-bottom: 48px;
-    box-shadow: 0 8px 40px rgba(0,0,0,0.4);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
   }
   .panel-side .page-label {
     grid-column: 1 / -1;
@@ -463,19 +529,27 @@
 
   /* Dramatic full-width splash with diagonal bottom edge */
   .panel-splash {
-    margin-left: -20px; margin-right: -20px;
+    margin-left: -24px; margin-right: -24px;
     border-left: none; border-right: none; border-radius: 0;
     position: relative;
   }
+  .panel-splash .dialogue-block { padding-left: 48px; padding-right: 48px; }
   .panel-splash .page-image-wrap {
     clip-path: polygon(0 0, 100% 0, 100% 92%, 0 100%);
     max-height: 90vh;
   }
   .panel-splash .page-image-wrap::before {
     content: ''; position: absolute; inset: 0; z-index: 1;
-    background: linear-gradient(135deg, rgba(0,0,0,0.4) 0%, transparent 50%);
+    background: linear-gradient(135deg, rgba(0,0,0,0.2) 0%, transparent 50%);
     pointer-events: none;
   }
+
+  /* Remove bottom margin from last element in dialogue block */
+  .dialogue-block > :last-child { margin-bottom: 0 !important; }
+
+  /* Better visual rhythm: speech after narration gets extra top space */
+  .dialogue-block .narration + .speech { margin-top: 6px; }
+  .dialogue-block .speech + .narration { margin-top: 10px; }
 
   /* Vertical strip — narrow tall panel like manga side cuts */
   .panel-strip {
@@ -494,7 +568,7 @@
     gap: 0; margin-bottom: 48px;
     background: var(--card); border: 1px solid var(--border);
     border-radius: 2px; overflow: hidden;
-    box-shadow: 0 8px 40px rgba(0,0,0,0.4);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
   }
   .panel-double .page-label { grid-column: 1 / -1; }
   .panel-double .page-image-wrap { min-height: 200px; }
@@ -515,7 +589,7 @@
       repeating-linear-gradient(
         -15deg,
         transparent 0px, transparent 8px,
-        rgba(255,255,255,0.015) 8px, rgba(255,255,255,0.015) 9px
+        rgba(0,0,0,0.015) 8px, rgba(0,0,0,0.015) 9px
       );
     pointer-events: none;
   }
@@ -523,7 +597,7 @@
   /* Inset panel — smaller centered panel for intimate moments */
   .panel-inset {
     max-width: 70%; margin-left: auto; margin-right: auto;
-    border: 2px solid rgba(212,168,83,0.1);
+    border: 2px solid rgba(160,121,42,0.15);
   }
 
   @media (max-width: 600px) {
@@ -543,52 +617,21 @@
   }
 
   @media (max-width: 600px) {
-    .dialogue-block { padding: 18px 16px; }
+    .dialogue-block { padding: 22px 18px; gap: 2px; }
+    .dialogue-block .narration { font-size: 17px; padding: 10px 14px 10px 16px; }
+    .dialogue-block .speech { padding: 12px 14px; }
+    .dialogue-block .line { font-size: 16px; }
+    .dialogue-block .thought { font-size: 16px; padding: 8px 14px 8px 16px; }
+    .dialogue-block .sfx { font-size: 26px; letter-spacing: 6px; }
+    .panel-splash .dialogue-block { padding-left: 22px; padding-right: 22px; }
     .chapter { padding: 0 14px 60px; }
     .char-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
     .hero h1 { letter-spacing: 6px; }
+    .scene-note { padding: 12px 18px; }
   }
-  /* ═══ TTS AUDIO CONTROLS ═══ */
-  .tts-line-btn {
-    display: inline-flex; align-items: center; justify-content: center;
-    width: 26px; height: 26px; border-radius: 50%;
-    background: rgba(212,168,83,0.1); border: 1px solid rgba(212,168,83,0.2);
-    color: var(--gold); cursor: pointer; font-size: 12px;
-    margin-right: 8px; vertical-align: middle;
-    transition: all 0.25s; flex-shrink: 0;
-    float: left; margin-top: 2px;
-  }
-  .tts-line-btn:hover {
-    background: rgba(212,168,83,0.25); transform: scale(1.15);
-    box-shadow: 0 0 12px rgba(212,168,83,0.2);
-  }
-  .tts-line-btn.playing {
-    background: var(--gold); color: #000;
-    animation: tts-pulse 1.2s ease infinite;
-  }
-  @keyframes tts-pulse {
-    0%, 100% { box-shadow: 0 0 0 0 rgba(212,168,83,0.4); }
-    50% { box-shadow: 0 0 0 8px rgba(212,168,83,0); }
-  }
-
-  .tts-panel-btn {
-    display: flex; align-items: center; gap: 8px;
-    padding: 8px 18px; margin: 14px 0 6px;
-    background: rgba(212,168,83,0.06); border: 1px solid rgba(212,168,83,0.15);
-    border-radius: 3px; cursor: pointer;
-    font-family: 'Oswald', sans-serif; font-size: 10px;
-    letter-spacing: 2.5px; text-transform: uppercase;
-    color: rgba(212,168,83,0.6); transition: all 0.3s;
-  }
-  .tts-panel-btn:hover {
-    background: rgba(212,168,83,0.12); color: var(--gold);
-    border-color: rgba(212,168,83,0.3);
-  }
-  .tts-panel-btn.playing { color: var(--gold); border-color: var(--gold); }
-  .tts-panel-btn .tts-icon { font-size: 14px; }
-
+  /* ═══ TTS AUDIO ═══ */
   .tts-speaking {
-    background: rgba(212,168,83,0.05) !important;
+    background: rgba(160,121,42,0.06) !important;
     border-left-color: var(--gold) !important;
     transition: background 0.3s, border-color 0.3s;
   }
@@ -596,31 +639,29 @@
   /* Floating audio bar */
   #tts-bar {
     position: fixed; bottom: 0; left: 0; right: 0; z-index: 9999;
-    background: linear-gradient(180deg, #0a0a0a 0%, #111 100%);
-    border-top: 1px solid rgba(212,168,83,0.2);
+    background: linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(248,244,237,0.98) 100%);
+    border-top: 1px solid rgba(160,121,42,0.2);
     padding: 10px 24px; display: none; align-items: center; gap: 14px;
     font-family: 'Oswald', sans-serif; backdrop-filter: blur(20px);
-    box-shadow: 0 -8px 40px rgba(0,0,0,0.6);
+    box-shadow: 0 -4px 20px rgba(0,0,0,0.08);
   }
   #tts-bar.visible { display: flex; }
   #tts-bar .tts-bar-btn {
     width: 36px; height: 36px; border-radius: 50%;
-    border: 1px solid rgba(212,168,83,0.3); background: rgba(212,168,83,0.08);
+    border: 1px solid rgba(160,121,42,0.25); background: rgba(160,121,42,0.06);
     color: var(--gold); font-size: 16px; cursor: pointer;
     display: flex; align-items: center; justify-content: center;
     transition: all 0.2s;
   }
   #tts-bar .tts-bar-btn:hover {
-    background: rgba(212,168,83,0.2); transform: scale(1.1);
+    background: rgba(160,121,42,0.15); transform: scale(1.1);
   }
   #tts-bar .tts-bar-btn.primary {
     width: 42px; height: 42px; font-size: 18px;
-    background: var(--gold); color: #000; border-color: var(--gold);
+    background: var(--gold); color: #fff; border-color: var(--gold);
   }
   #tts-bar .tts-bar-btn.primary:hover { opacity: 0.85; }
-  #tts-bar .tts-bar-info {
-    flex: 1; min-width: 0;
-  }
+  #tts-bar .tts-bar-info { flex: 1; min-width: 0; }
   #tts-bar .tts-bar-speaker {
     font-size: 10px; letter-spacing: 2px; color: var(--gold);
     text-transform: uppercase; white-space: nowrap;
@@ -628,34 +669,182 @@
   }
   #tts-bar .tts-bar-text {
     font-family: 'Crimson Text', serif; font-size: 14px;
-    color: #888; white-space: nowrap;
+    color: var(--text-dim); white-space: nowrap;
     overflow: hidden; text-overflow: ellipsis;
     max-width: 500px;
   }
   #tts-bar .tts-bar-close {
     width: 28px; height: 28px; border-radius: 50%;
-    border: none; background: rgba(255,255,255,0.05);
-    color: #555; font-size: 14px; cursor: pointer;
+    border: none; background: rgba(0,0,0,0.05);
+    color: var(--text-dim); font-size: 14px; cursor: pointer;
     display: flex; align-items: center; justify-content: center;
     transition: all 0.2s;
   }
   #tts-bar .tts-bar-close:hover { background: rgba(255,0,0,0.15); color: #f66; }
 
-  #tts-bar .tts-bar-loading {
-    width: 18px; height: 18px;
-    border: 2px solid rgba(212,168,83,0.2);
-    border-top-color: var(--gold);
-    border-radius: 50%;
-    animation: tts-spin 0.8s linear infinite;
+  /* ═══ READER OVERLAY (visual novel text box) ═══ */
+  #reader-overlay {
+    position: fixed;
+    bottom: 56px; left: 0; right: 0;
+    background: linear-gradient(transparent 0%, rgba(10,8,5,0.92) 30%);
+    padding: 50px 40px 24px;
+    z-index: 55;
     display: none;
+    pointer-events: none;
   }
-  #tts-bar .tts-bar-loading.active { display: block; }
-  @keyframes tts-spin { to { transform: rotate(360deg); } }
+  body.slide-mode.reading #reader-overlay { display: block; }
+
+  #reader-speaker {
+    font-family: 'Oswald', sans-serif;
+    font-size: 11px; letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #c4a55a;
+    margin-bottom: 10px;
+  }
+  #reader-text {
+    font-family: 'Crimson Text', serif;
+    font-size: 21px; line-height: 1.65;
+    color: #f0ebe3;
+    min-height: 40px;
+  }
+  #reader-text.is-thought { font-style: italic; color: #c8bfae; }
+  #reader-text.is-sfx {
+    font-family: 'Oswald', sans-serif;
+    font-size: 26px; letter-spacing: 6px;
+    text-transform: uppercase;
+    text-align: center; color: #e8c85a;
+  }
+  #reader-cursor {
+    display: inline-block;
+    width: 2px; height: 1em;
+    background: #c4a55a;
+    margin-left: 2px;
+    vertical-align: text-bottom;
+    animation: cursorBlink 0.7s infinite;
+  }
+  @keyframes cursorBlink {
+    0%, 49% { opacity: 1; }
+    50%, 100% { opacity: 0; }
+  }
 
   @media (max-width: 600px) {
-    #tts-bar { padding: 8px 12px; gap: 8px; }
-    #tts-bar .tts-bar-text { max-width: 200px; font-size: 12px; }
-    #tts-bar .tts-bar-btn.primary { width: 36px; height: 36px; }
+    #reader-overlay { padding: 40px 20px 16px; }
+    #reader-text { font-size: 17px; }
+  }
+
+  /* ═══ SLIDE / READER MODE ═══ */
+  body.slide-mode { overflow: hidden; }
+  body.slide-mode > nav,
+  body.slide-mode > #progress { display: none !important; }
+  body.slide-mode .hero,
+  body.slide-mode .char-gallery,
+  body.slide-mode footer,
+  body.slide-mode .chapter-divider { display: none !important; }
+  body.slide-mode .chapter { padding: 0; max-width: none; }
+
+  body.slide-mode .manga-page,
+  body.slide-mode .chapter-header,
+  body.slide-mode .chapter-end { display: none !important; }
+
+  body.slide-mode .slide-active {
+    display: flex !important;
+    flex-direction: column;
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 56px;
+    overflow-y: auto;
+    background: var(--bg);
+    z-index: 50;
+    margin: 0; border: none; border-radius: 0; box-shadow: none;
+    animation: slideFadeIn 0.25s ease;
+  }
+  body.slide-mode .manga-page.slide-active { background: var(--card); }
+  body.slide-mode .manga-page .page-image-wrap { max-height: 55vh; }
+  /* In reading mode: hide dialogue (overlay shows it), give image full space */
+  body.slide-mode.reading .manga-page .dialogue-block { opacity: 0.08; }
+  body.slide-mode.reading .manga-page .page-image-wrap { max-height: 75vh; }
+  body.slide-mode.reading .manga-page .page-label { margin-bottom: 0; }
+  body.slide-mode .chapter-header.slide-active {
+    justify-content: center; align-items: center;
+    text-align: center; padding: 60px 30px;
+  }
+  body.slide-mode .chapter-end.slide-active {
+    justify-content: center; align-items: center;
+  }
+  body.slide-mode .reveal { opacity: 1 !important; transform: none !important; }
+  body.slide-mode .panel-tilt-r,
+  body.slide-mode .panel-tilt-l { transform: none !important; }
+  body.slide-mode .panel-splash {
+    margin-left: 0 !important; margin-right: 0 !important;
+    border-radius: 0 !important;
+  }
+  body.slide-mode #tts-bar { bottom: 56px; }
+
+  @keyframes slideFadeIn {
+    from { opacity: 0; transform: translateX(30px); }
+    to { opacity: 1; transform: translateX(0); }
+  }
+
+  #slide-nav {
+    display: none;
+    position: fixed; bottom: 0; left: 0; right: 0;
+    height: 56px;
+    background: rgba(255,255,255,0.96);
+    border-top: 1px solid var(--border);
+    z-index: 200;
+    align-items: center; justify-content: center;
+    gap: 16px; padding: 0 60px 0 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.05);
+  }
+  body.slide-mode #slide-nav { display: flex; }
+
+  .slide-btn {
+    width: 40px; height: 40px; border-radius: 50%;
+    border: 1px solid var(--border); background: var(--card);
+    color: var(--text); font-size: 16px; cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    transition: all 0.2s; flex-shrink: 0;
+  }
+  .slide-btn:hover { border-color: var(--gold); color: var(--gold); }
+  .slide-btn:disabled { opacity: 0.3; cursor: default; }
+
+  #slide-counter {
+    font-family: 'Oswald', sans-serif;
+    font-size: 11px; letter-spacing: 2px;
+    color: var(--text-dim); min-width: 80px; text-align: center;
+  }
+  #slide-play-all {
+    padding: 8px 20px; border-radius: 20px;
+    border: 1px solid var(--gold); background: var(--gold);
+    color: #fff; font-family: 'Oswald', sans-serif;
+    font-size: 10px; letter-spacing: 2px;
+    text-transform: uppercase; cursor: pointer;
+    transition: all 0.2s; white-space: nowrap;
+  }
+  #slide-play-all:hover { opacity: 0.85; }
+  #slide-close {
+    position: absolute; right: 14px;
+    width: 32px; height: 32px; border-radius: 50%;
+    border: none; background: rgba(0,0,0,0.05);
+    color: var(--text-dim); font-size: 14px; cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    transition: all 0.2s;
+  }
+  #slide-close:hover { background: rgba(255,0,0,0.1); color: #c44; }
+
+  .start-reading-btn {
+    display: inline-block; margin-top: 40px; padding: 14px 40px;
+    border: 1px solid var(--gold); background: var(--gold);
+    color: #fff; font-family: 'Oswald', sans-serif;
+    font-size: 12px; letter-spacing: 4px; text-transform: uppercase;
+    cursor: pointer; border-radius: 30px; transition: all 0.3s;
+  }
+  .start-reading-btn:hover { opacity: 0.85; transform: translateY(-2px); box-shadow: 0 6px 20px rgba(160,121,42,0.3); }
+
+  @media (max-width: 600px) {
+    #slide-nav { padding: 0 50px 0 10px; gap: 10px; }
+    #slide-play-all { padding: 6px 14px; font-size: 9px; }
+    .slide-btn { width: 36px; height: 36px; font-size: 14px; }
   }
 </style>
 </head>
@@ -686,8 +875,7 @@
   <h1>Broken Court</h1>
   <div class="subtitle">Volume 1 — The Rise</div>
   <div class="quote">"In a world where giants rule the court... sometimes thunder is born from silence."</div>
-  <div class="scroll-hint">Scroll to begin</div>
-  <span class="scroll-arrow"></span>
+  <button class="start-reading-btn" onclick="startReader()">&#9654; Start Reading</button>
 </section>
 
 <!-- ═══════════════════ CHARACTERS ═══════════════════ -->
@@ -718,7 +906,7 @@
   <div class="chapter-header">
     <div class="chapter-num">Chapter 1 — Act 1: Roots</div>
     <div class="chapter-title">"The Broken Court"</div>
-    <div class="chapter-summary">We meet Yadi Rodríguez, a 16-year-old with supernatural tennis talent, trapped on a Caribbean island with no resources. A casual encounter with a stranger named Yen reveals he has something special.</div>
+    <div class="chapter-summary">We meet Yadi Rodríguez, a 16-year-old with supernatural tennis talent, trapped on a Caribbean island with no resources. A casual encounter with a stranger named Yen reveals for the first time that Yadi has something special.</div>
   </div>
 
   <!-- Pg 1: Aerial -->
@@ -729,24 +917,45 @@
       <div class="narration">"In a world where giants rule the court..."</div>
       <div class="narration">"...sometimes thunder is born from silence."</div>
     </div>
+    <div class="scene-note">Isla Brava — Caribbean tropical island. Palm trees, colorful houses faded by sun and sea salt. In the center of the barrio: a cracked tennis court invaded by tropical weeds. On the court wall: a massive faded mural of Luna Borín — the local heroine who won Olympic gold.</div>
   </div>
 
   <!-- Luna Mural -->
   <div class="manga-page panel-diag-r panel-strip-right">
     <div class="page-label">The Mural — Luna Borín</div>
     <div class="page-image-wrap"><img src="images/Luna Borín — The Mural1.png" alt="Luna Borín Mural"></div>
-    <div class="scene-note">Luna Borín's faded mural — proof you can make it off the island</div>
+    <div class="scene-note">Luna Borín's faded mural — eaten by years of sun and sea salt, but still recognizable: a young woman raising a gold medal. Proof you can make it off the island.</div>
+  </div>
+
+  <!-- Don Emilio watching -->
+  <div class="manga-page panel-strip-left panel-tilt-l">
+    <div class="page-label">Page 2 — Don Emilio Watching</div>
+    <div class="page-image-wrap"><img src="images/donemiliowatchpractice.png" alt="Don Emilio watching Yadi practice"></div>
+    <div class="dialogue-block">
+      <div class="thought">Don Emilio: "This kid again... He's been at it for 3 hours."</div>
+      <div class="narration">Don Emilio sits on an old bench at the edge of the court. A machete leans beside him — for cutting the weeds that keep invading the court. He watches Yadi with squinted eyes through cigarette smoke.</div>
+    </div>
   </div>
 
   <!-- Yadi Practicing -->
   <div class="manga-page panel-diag-l">
-    <div class="page-label">Pages 2-4 — Yadi Practicing Alone</div>
+    <div class="page-label">Pages 3-4 — Yadi Practicing Alone</div>
     <div class="page-image-wrap"><img src="images/Luna Borín Mural — With Yadi Practicing.png" alt="Yadi Practicing"></div>
     <div class="dialogue-block">
+      <div class="narration">Yadi stops, breathing hard, wipes sweat with his old faded shirt. Looks at the wall as if it were an opponent. His eyes — dark, intense — have a spark of something contained.</div>
       <div class="speech"><span class="speaker">Don Emilio</span> <span class="line">"Hey, kid! It's already 7! Don't you have a home?"</span></div>
       <div class="speech"><span class="speaker">Yadi</span> <span class="line">"Coming, Don Emilio. One more."</span></div>
       <div class="thought">Don Emilio: "He always says 'one more'..."</div>
+    </div>
+  </div>
+
+  <!-- The CRACK moment -->
+  <div class="manga-page panel-diag-l">
+    <div class="page-label">Page 4 — The Last Shot</div>
+    <div class="dialogue-block">
+      <div class="narration">Yadi hits the "last" ball. This time the shot is different — cleaner, faster. The ball hits the wall with a sharp, loud sound.</div>
       <div class="sfx">CRACK.</div>
+      <div class="narration">Don Emilio raises his eyebrows. The cigarette nearly falls from his mouth. He looks at the mark the ball left on the wall — it's deep. He touches the dent with his fingers.</div>
       <div class="thought">Don Emilio: "What the hell...?"</div>
     </div>
   </div>
@@ -755,15 +964,7 @@
   <div class="manga-page panel-inset">
     <div class="page-label">The Cracked Wall with Mural</div>
     <div class="page-image-wrap"><img src="images/The Cracked Wall with Mural.png" alt="The Cracked Wall with Mural — Don Emilio sees the crack"></div>
-  </div>
-
-  <!-- Don Emilio watching -->
-  <div class="manga-page panel-strip-left panel-tilt-l">
-    <div class="page-label">E1 — Don Emilio Watching</div>
-    <div class="page-image-wrap"><img src="images/donemiliowatchpractice.png" alt="Don Emilio watching Yadi practice"></div>
-    <div class="dialogue-block">
-      <div class="thought">Don Emilio: "This kid again... He's been at it for 3 hours."</div>
-    </div>
+    <div class="scene-note">The ball mark on the wall — deeper than any normal shot should leave. Next to Luna Borín's faded mural.</div>
   </div>
 
   <!-- Flashback -->
@@ -771,17 +972,20 @@
     <div class="page-label">Pages 5-6 — Flashback: Young Yadi Watching TV</div>
     <div class="page-image-wrap"><img src="images/Flashback Young Yadi Watching TV.png" alt="Flashback Young Yadi"></div>
     <div class="dialogue-block">
+      <div class="narration">Young Yadi, 8 years old, sitting on the floor in front of an old small TV. On the screen: the epic final between Roger Novacronos and Rafa Nal.</div>
       <div class="speech"><span class="speaker">Papa Rodríguez</span> <span class="line">"Tennis is the only sport where you play alone against the world, son. So be a tiger."</span></div>
       <div class="speech"><span class="speaker">Mama Rodríguez</span> <span class="line">"Oh god, these matches are going to kill me!"</span></div>
+      <div class="narration">Little Yadi touches the bandana Papa placed on his head. Huge smile. His eyes reflect the screen's light.</div>
       <div class="narration">"That was the day I knew tennis was my thing. Not because it was easy. Because it was impossible."</div>
     </div>
   </div>
 
   <!-- Family Dinner -->
   <div class="manga-page panel-inset">
-    <div class="page-label">E2 — The Rodríguez Family Dinner</div>
+    <div class="page-label">Page 7 — The Rodríguez Family Dinner</div>
     <div class="page-image-wrap"><img src="images/familydinner.png" alt="Rodríguez Family Dinner"></div>
     <div class="dialogue-block">
+      <div class="narration">Small table. Warm light. Salsa music from a neighbor's house.</div>
       <div class="speech"><span class="speaker">Papa Rodríguez</span> <span class="line">"How was your backhand today? Better than yesterday?"</span></div>
       <div class="speech"><span class="speaker">Yadi</span> <span class="line">"I think so. Don Emilio almost fell off his bench."</span></div>
       <div class="speech"><span class="speaker">Papa Rodríguez</span> <span class="line">"Thinking isn't enough. Tomorrow I want you to know it."</span></div>
@@ -789,30 +993,87 @@
     </div>
   </div>
 
-  <!-- E3: Yadi Meets Yen (missing) -->
-  <div class="manga-page">
-    <div class="page-label">E3 — Yadi Meets Yen on the Public Courts</div>
-    <div class="page-image-wrap"><img src="images/E03_ch1_yadi_meets_yen_public_courts.png" alt="Yadi Meets Yen on the Public Courts"></div>
+  <!-- Yadi's Room at Night -->
+  <div class="manga-page panel-inset">
+    <div class="page-label">Page 8 — Yadi's Room at Night</div>
+    <div class="page-image-wrap"><img src="images/E_ch1_yadi_room_night_parents_doorway.png" alt="Yadi's Room at Night — Parents at Doorway"></div>
     <div class="dialogue-block">
+      <div class="narration">Yadi's small room — one bed, an old poster of Novacronos on the wall, another of Rafa Nal, and a magazine clipping of Luna Borín with her gold medal. Tropical breeze through the open window. He places the bandana on the nightstand and touches it with his fingers.</div>
+      <div class="speech"><span class="speaker">Mama Rodríguez</span> <span class="line">"Do you think he'll make it far?"</span></div>
+      <div class="narration">Mama whispers from the doorway, watching Yadi without him noticing.</div>
+      <div class="speech"><span class="speaker">Papa Rodríguez</span> <span class="line">"That kid has something. He just needs someone to see it."</span></div>
+      <div class="narration">Yadi asleep. The bandana on the nightstand. The Novacronos poster and Luna Borín photo on the wall lit by moonlight. Sound of coquíes outside. The feeling of big dreams in a small room on a small island.</div>
+    </div>
+  </div>
+
+  <!-- E3: Yadi Meets Yen -->
+  <div class="manga-page">
+    <div class="page-label">Page 9 — The Public Courts — Yadi Meets Yen</div>
+    <div class="page-image-wrap"><img src="images/Page 9 — The Public Courts — Yadi Meets Yen.png" alt="Yadi Meets Yen on the Public Courts"></div>
+    <div class="dialogue-block">
+      <div class="narration">Next day. The public courts at the Municipal Sports Center. 4 cement courts, better maintained than the island's. Yadi arrives with his plastic bag and racket — eyes wide. These courts are better than anything he's ever seen.</div>
+      <div class="narration">On one of the courts, a young man — Yen, 23 — practices alone. Tall, lean, ponytail, towel on shoulder. Hits the ball with clean technique but no emotion. Mechanical.</div>
       <div class="thought">Yadi: "He's good... really good."</div>
+      <div class="narration">Yen notices Yadi watching through the fence. Pauses. Looks him up and down — notes the old racket, the worn clothes. No judgment, just observation.</div>
       <div class="speech"><span class="speaker">Yen</span> <span class="line">"You playing or just watching?"</span></div>
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"Me?"</span></div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"I don't see anyone else here."</span></div>
+      <div class="narration">Yen tosses a ball to Yadi over the net. Yadi catches it. Looks at Yen. Looks at the court. His expression changes — from surprise to subtle determination.</div>
       <div class="speech"><span class="speaker">Yadi</span> <span class="line">"Let's go."</span></div>
     </div>
   </div>
 
-  <!-- E4: Supernatural Shot (missing) -->
+  <!-- The Match Against Yen -->
+  <div class="manga-page panel-diag-l">
+    <div class="page-label">Pages 11-12 — The Match</div>
+    <div class="dialogue-block">
+      <div class="narration">Yen serves. Clean, precise. Yadi barely reacts — the ball passes. 15-0.</div>
+      <div class="narration">Second serve. Yadi returns this time, but short. Yen puts away an easy winner. Quick montage: Yen dominates. His technique is superior in every way — serve, forehand, backhand, positioning. Yadi runs everything but can't compete. 3-0.</div>
+      <div class="thought">Yen: "He's fast... and he doesn't give up. But he's very raw."</div>
+      <div class="narration">Yadi at the back of the court, sweating, frustrated but not beaten. Grips the racket harder. Rally — 4 shots, 5, 6. Yadi starts reading the pattern. Yen always goes cross-court after a center shot.</div>
+      <div class="narration">Yen hits to the center. Yadi is already moving before Yen goes cross-court.</div>
+    </div>
+  </div>
+
+  <!-- E4: Supernatural Shot -->
   <div class="manga-page panel-tilt-r panel-action">
-    <div class="page-label">E4 — The Supernatural Shot</div>
+    <div class="page-label">Page 12 — The Supernatural Shot</div>
     <div class="page-image-wrap"><img src="images/E04_ch1_supernatural_shot_yen_reaction.png" alt="The Supernatural Shot — Yen's Reaction"></div>
     <div class="dialogue-block">
+      <div class="narration">Yadi hits a passing shot down the line. The angle is impossible — the ball passes brushing the net, hits the line, and rockets away. Yen doesn't reach it.</div>
       <div class="sfx">WHACK!!</div>
+      <div class="narration">The ball lands inside the line. A point for Yadi. But it's not a normal point. The speed, the angle, the anticipation — everything was supernatural.</div>
+      <div class="narration">Yadi's eyes — for an instant, a FLASH. A glow that wasn't there before. Like a diamond reflecting light. It lasted half a second. Yadi didn't even notice.</div>
       <div class="thought">Yen: "What... was... that?"</div>
+    </div>
+  </div>
+
+  <!-- E1: Post-Match — Don Emilio Watching -->
+  <div class="manga-page">
+    <div class="page-label">Pages 13-14 — After the Match</div>
+    <div class="page-image-wrap"><img src="images/E01_ch1_yadi_practicing_don_emilio_watching.png" alt="Yadi Practicing Alone — Don Emilio Watching"></div>
+    <div class="dialogue-block">
+      <div class="narration">The match continues. Yen wins easily — 6-1 — but he's distracted. Keeps looking at Yadi between points. Yadi hits another good shot — not as spectacular as the previous one, but there are flashes of something.</div>
+      <div class="narration">End of match. They shake hands at the net.</div>
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"Thanks for the match. You're really good."</span></div>
       <div class="speech"><span class="speaker">Yen</span> <span class="line">"Yeah... you've got something too."</span></div>
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"Something?"</span></div>
+      <div class="narration">Yen doesn't respond. Just looks at him.</div>
+    </div>
+  </div>
+
+  <!-- Closing -->
+  <div class="manga-page panel-diag-r">
+    <div class="page-label">Page 15 — Closing</div>
+    <div class="page-image-wrap"><img src="images/E_ch1_yen_watching_yadi_closing.png" alt="Yen Watching Yadi from Afar"></div>
+    <div class="dialogue-block">
+      <div class="narration">Yadi picks up balls on the other side of the court, humming, not knowing he just changed his life. Relaxed.</div>
+      <div class="narration">Yen in the foreground, towel in hand, watching Yadi from afar. Serious expression. Analytical. Then a half-smile forming.</div>
       <div class="thought">Yen: "What was that...? That kid... doesn't even know what he has."</div>
     </div>
   </div>
 
-  <div class="chapter-end"><div class="next">Next Chapter →</div><div class="next-title">"The Truth That Hurts"</div></div>
+  <div class="chapter-end" onclick="scrollTo('#ch2')"><div class="next">Next Chapter →</div><div class="next-title">"The Truth That Hurts"</div></div>
 </section>
 
 <!-- ═══════════════════ CHAPTER 2 ═══════════════════ -->
@@ -820,65 +1081,150 @@
   <div class="chapter-header">
     <div class="chapter-num">Chapter 2 — Act 1: Roots</div>
     <div class="chapter-title">"The Truth That Hurts"</div>
-    <div class="chapter-summary">Yen proposes training together. Through weeks of brutal honesty, Yen transforms Yadi's mentality. Yadi surpasses Yen and learns about the National Junior Tournament.</div>
+    <div class="chapter-summary">Yen seeks out Yadi and proposes training together. Through weeks of brutal training and unfiltered honesty, Yen transforms Yadi's mentality. By the end, Yadi surpasses Yen in level and receives the news that will change everything: there's a National Junior Tournament.</div>
   </div>
 
-  <!-- E5: Bench Scene (missing) -->
+  <!-- Page 1: Yen waiting -->
   <div class="manga-page">
-    <div class="page-label">E5 — The First Truth — Bench Scene</div>
+    <div class="page-label">Page 1 — Yen Was Waiting</div>
+    <div class="page-image-wrap"><img src="images/E_ch2_yen_waiting_courts_dawn.png" alt="Yen Waiting at Courts at Dawn"></div>
+    <div class="dialogue-block">
+      <div class="narration">Next day. Public courts at the Municipal Sports Center. Morning. Yadi arrives as always — plastic bag, old racket. He stops. On the court where they played yesterday, Yen is already there. Sitting on the bench, towel on shoulder, waiting. As if he knew Yadi would come.</div>
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"Were you waiting for me?"</span></div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"Don't flatter yourself. I come every day."</span></div>
+      <div class="narration">Pause.</div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"But yeah. I was waiting for you. Let's play."</span></div>
+    </div>
+  </div>
+
+  <!-- Page 2: Second demolition -->
+  <div class="manga-page">
+    <div class="page-label">Page 2 — The Demolition</div>
+    <div class="dialogue-block">
+      <div class="narration">They play. Yen wins the first point easily. Second point — tests Yadi with a drop shot. Yadi runs but doesn't make it. Third point — moves him side to side. Yadi runs everything but his shots are desperate.</div>
+      <div class="narration">After 20 minutes, the score is demolishing. Yadi leaning on his knees, sweating, exhausted. Yen isn't even sweating. Approaches the net:</div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"Do you want me to be honest with you?"</span></div>
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"Yes."</span></div>
+    </div>
+  </div>
+
+  <!-- E5: The First Truth — Bench Scene -->
+  <div class="manga-page">
+    <div class="page-label">Pages 3-4 — The First Truth</div>
     <div class="page-image-wrap"><img src="images/E5 — The First Truth — Bench Scene.png" alt="The First Truth — Bench Scene"></div>
     <div class="dialogue-block">
-      <div class="speech"><span class="speaker">Yen</span> <span class="line">"You have something I never had. Something that can't be trained. That shot, that angle... that can't be taught."</span></div>
-      <div class="speech"><span class="speaker">Yen</span> <span class="line">"But right now you're a bomb without a detonator. All that talent... and your head sabotages you every 5 minutes."</span></div>
+      <div class="narration">Yen and Yadi sitting on the bench at the edge of the court. Water bottles. Silence for a moment.</div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"You have something I never had. Something that can't be trained. I saw it yesterday — that shot, that angle... that can't be taught."</span></div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"But right now you're a bomb without a detonator. All that talent... and your head sabotages you every 5 minutes. You get frustrated, you lose focus, you worry about things you can't control. If you don't fix that, you're going to be another kid with potential who never amounted to anything."</span></div>
+      <div class="narration">Yadi clenches his fists. Eyes wet — not from sadness, from frustration. It hurts because he knows it's true.</div>
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"And what do you know? You don't know me."</span></div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"I know you carry a racket held together with tape and sneakers with the sole falling off. I know you come from an island where nobody plays tennis. And I know that yesterday you hit a shot that I, with 7 years of formal training, can't hit."</span></div>
+      <div class="narration">Silence. Yadi looks at him.</div>
       <div class="speech"><span class="speaker">Yen</span> <span class="line">"Train with me. I'm not going to teach you how to hit the ball — you already know that. I'm going to teach you how to use your head."</span></div>
     </div>
   </div>
 
-  <!-- E6: Handshake (missing) -->
+  <!-- Page 5: Why would you help me? -->
+  <div class="manga-page">
+    <div class="page-label">Page 5 — Why Would You Help Me?</div>
+    <div class="dialogue-block">
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"Why would you help me?"</span></div>
+      <div class="narration">Yen stands up, puts the towel on his shoulder. Looks at the court.</div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"Because I have the mind but not your talent. You have the talent but not the mind. Between the two of us, we could make one complete player."</span></div>
+    </div>
+  </div>
+
+  <!-- E6: The Handshake -->
   <div class="manga-page">
     <div class="page-label">E6 — The Handshake That Changed Everything</div>
     <div class="page-image-wrap"><img src="images/E06_ch2_handshake_changed_everything.png" alt="The Handshake That Changed Everything"></div>
     <div class="dialogue-block">
-      <div class="speech"><span class="speaker">Yen</span> <span class="line">"Because I have the mind but not your talent. You have the talent but not the mind. Between the two of us, we could make one complete player."</span></div>
+      <div class="narration">Yen extends his hand to Yadi. Yadi looks at it. Takes it. Firm handshake.</div>
       <div class="narration">"I didn't know that handshake was going to change my life."</div>
     </div>
   </div>
 
   <!-- Training Montage -->
   <div class="manga-page panel-splash panel-action">
-    <div class="page-label">Pages 6-7 — Training Montage</div>
+    <div class="page-label">Pages 6-7 — Training Montage — Weeks Compressed</div>
     <div class="page-image-wrap"><img src="images/Training Montage.png" alt="Training Montage"></div>
     <div class="dialogue-block">
+      <div class="narration">Yen blindfolds Yadi. Throws balls at him. Yadi must listen to the ball and react.</div>
       <div class="speech"><span class="speaker">Yen</span> <span class="line">"Tennis isn't just what you see. It's what you feel."</span></div>
+      <div class="narration">Yadi meditating on the court. Eyes closed. Yen timing him. Yadi fidgets.</div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"3 minutes without thinking about anything. Can you?"</span></div>
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"...No."</span></div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"Again."</span></div>
+      <div class="narration">Yen blasts music from an old speaker while they play. Reggaetón, rock, noise. Yadi can't concentrate, misses everything.</div>
       <div class="speech"><span class="speaker">Yen</span> <span class="line">"If you can't play with noise, you can't play in a stadium."</span></div>
-      <div class="speech"><span class="speaker">Yen</span> <span class="line">"See that ball? That ball doesn't know you're poor. Doesn't know you're scared. It only knows where you send it."</span></div>
+      <div class="narration">Yadi running at dawn. Alone. The island streets still dark, palm trees like shadows against the sky. Papa Rodríguez watches him leave from the window. Nods silently.</div>
+      <div class="narration">Yen and Yadi playing in the rain. Yadi slips. Gets up. Keeps going.</div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"You're worrying again. See that ball? That ball doesn't know you're poor. Doesn't know you're scared. It only knows where you send it."</span></div>
+      <div class="narration">Yadi hitting against the wall with Luna Borín's mural at night, on the island court. Alone. Determined. The mark on the wall is getting deeper and deeper.</div>
+      <div class="narration">Close-up of Yadi's eyes during a training rally — more focused, calmer. The flash in his eyes appears again, this time a bit more visible.</div>
       <div class="speech"><span class="speaker">Mama Rodríguez</span> <span class="line">"Son, is that Yen training you or torturing you?"</span></div>
       <div class="speech"><span class="speaker">Papa Rodríguez</span> <span class="line">"He's getting better. You can tell."</span></div>
     </div>
   </div>
 
-  <!-- E7: Yadi beats Yen (missing) -->
+  <!-- Page 8: Yadi changing -->
   <div class="manga-page">
-    <div class="page-label">E7 — Yadi Beats Yen for the First Time</div>
+    <div class="page-label">Page 8 — Something is Different</div>
+    <div class="dialogue-block">
+      <div class="narration">Weeks later. Public court. Yadi and Yen playing. But something is different — Yadi moves with more fluidity, more looseness. He smiles on the court. For the first time, he's having FUN during a match with Yen. Not frustrated, not tense.</div>
+      <div class="narration">The flash in his eyes appears more often — brief flashes during rallies. Yen notices but says nothing.</div>
+      <div class="thought">Yen: "He's changing... faster than I expected."</div>
+    </div>
+  </div>
+
+  <!-- Pages 9-10: Yen's Knee — The Connection Moment -->
+  <div class="manga-page">
+    <div class="page-label">Pages 9-10 — Yen's Secret</div>
+    <div class="page-image-wrap"><img src="images/E_ch2_yen_knee_scar_connection.png" alt="Yen's Knee Scar — Connection Moment"></div>
+    <div class="dialogue-block">
+      <div class="narration">After a training session. Sitting in the Sports Center stands, sharing water.</div>
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"Hey, Yen... why did you stop competing?"</span></div>
+      <div class="narration">Yen looks at his knee. The scar. Long silence.</div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"My knee decided for me. But my head had already given up before that."</span></div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"That's why I tell you to fix the head first. Because the body can fail you, but if your mind is strong... you always find a way."</span></div>
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"Do you regret it?"</span></div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"Every day."</span></div>
+      <div class="narration">Pause.</div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"But if I can make sure you don't have to regret anything... maybe that's worth something."</span></div>
+      <div class="narration">Silence. Yadi looks at the sky. Yen looks at the ground. Two people who need each other without saying it. Panoramic of both sitting in the empty stands. Small in the frame. But together.</div>
+    </div>
+  </div>
+
+  <!-- E7: Yadi beats Yen -->
+  <div class="manga-page">
+    <div class="page-label">Pages 11-13 — Yadi Beats Yen for the First Time</div>
     <div class="page-image-wrap"><img src="images/E07_ch2_yadi_beats_yen_first_time.png" alt="Yadi Beats Yen for the First Time"></div>
     <div class="dialogue-block">
+      <div class="narration">Weeks later. Court. Practice match. Yadi vs Yen. First set: Yen wins but it cost him. 6-4. Second set: long rally. 15 shots, 20. Both running. But Yadi reads the game, anticipates, and hits a cross-court winner. Second set: Yadi 6-3.</div>
+      <div class="narration">Third set. Crucial point. Yadi serves. Clean serve, with direction. Ace. His eyes flash for an instant. Final rally — 30 shots. Both at their limit. But Yadi is mentally fresher — Yen gets frustrated first.</div>
+      <div class="narration">Yadi hits a perfect drop shot. Yen runs, doesn't make it. The ball bounces twice. Match point. Yadi wins.</div>
+      <div class="narration">Yadi at the net. Doesn't celebrate excessively. Doesn't shout. Looks at Yen with deep respect. Extends his hand.</div>
       <div class="speech"><span class="speaker">Yen</span> <span class="line">"About time, idiot."</span></div>
+      <div class="narration">Both smile. A moment of real camaraderie. Not student-teacher — it's something more. Yen ruffles Yadi's hair. Yadi laughs.</div>
       <div class="narration">"I surpassed him on the court. But I'll never stop looking up to him."</div>
     </div>
   </div>
 
-  <!-- E8: Tournament Flyer (missing) -->
+  <!-- E8: Tournament Flyer -->
   <div class="manga-page panel-inset">
-    <div class="page-label">E8 — The Tournament Flyer</div>
+    <div class="page-label">Pages 14-15 — The Tournament Flyer</div>
     <div class="page-image-wrap"><img src="images/E08_ch2_tournament_flyer_trembling_hands.png" alt="The Tournament Flyer — Trembling Hands"></div>
     <div class="dialogue-block">
+      <div class="narration">Yen sits on the bench. Takes something from his bag — a folded flyer. Opens it and shows it to Yadi. Close-up: "NATIONAL JUNIOR TOURNAMENT — OPEN REGISTRATION". Perfect courts in the image. Sponsor logos. Everything looks big, distant, impossible.</div>
       <div class="speech"><span class="speaker">Yen</span> <span class="line">"It's time for the world to see what I saw."</span></div>
+      <div class="narration">Yadi takes the flyer. His hands tremble. His eyes widen. It's the first time he's seen something like this up close — a real opportunity. Close-up of his eyes reflecting the images of professional courts, trophies, players.</div>
       <div class="speech"><span class="speaker">Yadi</span> <span class="line">"Do you think I'm ready?"</span></div>
+      <div class="narration">Yen, standing, towel on shoulder, looking at the horizon. Defiant smile:</div>
       <div class="speech"><span class="speaker">Yen</span> <span class="line">"No. But you're going anyway."</span></div>
     </div>
   </div>
 
-  <div class="chapter-end"><div class="next">Next Chapter →</div><div class="next-title">"The World Out There"</div></div>
+  <div class="chapter-end" onclick="scrollTo('#ch3')"><div class="next">Next Chapter →</div><div class="next-title">"The World Out There"</div></div>
 </section>
 
 <!-- ═══════════════════ CHAPTER 3 ═══════════════════ -->
@@ -886,17 +1232,24 @@
   <div class="chapter-header">
     <div class="chapter-num">Chapter 3 — Act 1: Roots</div>
     <div class="chapter-title">"The World Out There"</div>
-    <div class="chapter-summary">Yadi leaves his island for the first time. Culture shock: perfect courts, rich players, elite teams. He meets Daimon Richwell, Kai Morimoto, and Luca Santori.</div>
+    <div class="chapter-summary">Yadi leaves his island for the first time to compete in the National Junior Tournament. Brutal culture shock: perfect courts, rich players, elite teams. We meet the three main rivals — Daimon Richwell, Kai Morimoto, and Luca Santori. Yadi is verbally humiliated by Daimon but channels his rage into determination.</div>
   </div>
 
-  <!-- E9: Farewell (missing) -->
+  <!-- E9: Farewell -->
   <div class="manga-page">
-    <div class="page-label">E9 — The Farewell</div>
+    <div class="page-label">Pages 1-2 — The Farewell</div>
     <div class="page-image-wrap"><img src="images/E09_ch3_farewell_parents_door.png" alt="The Farewell — Parents at the Door"></div>
     <div class="dialogue-block">
+      <div class="narration">Exterior of the Rodríguez house. Dawn. Small suitcase at the door. Yadi with his usual bag and an old backpack.</div>
+      <div class="narration">Mama Rodríguez hands him something wrapped in recycled gift paper. Teary eyes but smiling:</div>
       <div class="speech"><span class="speaker">Mama Rodríguez</span> <span class="line">"Here. It's not new, but it has all my love."</span></div>
+      <div class="narration">Yadi opens the package — a used racket but in much better condition than his. New grip, freshly strung. Yadi touches it like it's treasure.</div>
       <div class="speech"><span class="speaker">Mama Rodríguez</span> <span class="line">"If you break it, I'll break you."</span></div>
+      <div class="narration">Yadi hugs her tight. She squeezes harder.</div>
       <div class="speech"><span class="speaker">Papa Rodríguez</span> <span class="line">"Go and be a tiger. Don't be afraid of anyone."</span></div>
+      <div class="narration">Handshake between father and son — strong, masculine, full of everything they don't say with words. Mama is openly crying now. Papa too, but hides it looking away and coughing.</div>
+      <div class="speech"><span class="speaker">Mama Rodríguez</span> <span class="line">"Call me when you get there! And eat well! And don't stay up late!"</span></div>
+      <div class="narration">Yadi walking down the colorful island street toward where Yen waits with an old car. The Rodríguez house behind, painted in faded sky blue, with his parents at the door.</div>
       <div class="speech"><span class="speaker">Don Emilio</span> <span class="line">"Go, kid. This court is too small for you now."</span></div>
     </div>
   </div>
@@ -905,27 +1258,61 @@
   <div class="manga-page panel-strip panel-inset">
     <div class="page-label">E10 — Mama's Racket — The Gift</div>
     <div class="page-image-wrap"><img src="images/Mama's Racket1.png" alt="Mama's Racket"></div>
-    <div class="scene-note">A used racket with new grip and fresh strings — all of mama's love</div>
+    <div class="scene-note">A used racket but in much better condition — new grip, freshly strung. All of mama's love wrapped in recycled gift paper.</div>
   </div>
 
-  <!-- E11: Culture Shock (missing) -->
+  <!-- The Journey -->
+  <div class="manga-page">
+    <div class="page-label">Page 3 — The Journey</div>
+    <div class="page-image-wrap"><img src="images/E_ch3_car_ride_journey.png" alt="The Journey — Car Ride"></div>
+    <div class="dialogue-block">
+      <div class="narration">Yen's car on an open road. Enormous sky. Yadi looks out the window. The new racket rests on his lap — he keeps touching it. Yen drives in silence.</div>
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"Yen... what's it like?"</span></div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"What's what like?"</span></div>
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"There. The tournament. The other players."</span></div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"Different. They have everything you don't. Except what matters."</span></div>
+    </div>
+  </div>
+
+  <!-- E11: Culture Shock -->
   <div class="manga-page panel-diag-r">
-    <div class="page-label">E11 — Arrival at Youth Arena</div>
+    <div class="page-label">Pages 4-5 — Arrival at Youth Arena</div>
     <div class="page-image-wrap"><img src="images/E11_ch3_arrival_youth_arena_culture_shock.png" alt="Arrival at Youth Arena — Culture Shock"></div>
     <div class="dialogue-block">
+      <div class="narration">The National Junior Club — "Youth Arena." Yadi and Yen standing in front of the entrance. Modern building, clean, bright. Perfect courts visible through glass. Sponsor logos everywhere. Yadi looks tiny in front of all this.</div>
+      <div class="narration">Interior. Lobby. Players in brand-name clothes, professional bags, latest-generation rackets — 3 or 4 each. Coaches with tablets, nutritionists with clipboards. A completely different world.</div>
+      <div class="narration">Yadi in the middle of it all, with his old backpack, mama's new racket, and worn-out athletic clothes. The stares. Subtle but real. Some see him and look away. Others murmur.</div>
       <div class="speech"><span class="speaker">Yen</span> <span class="line">"They've already started judging you. Good. Let them. You didn't come here to make friends."</span></div>
       <div class="thought">Yadi: "This is real."</div>
     </div>
   </div>
 
-  <!-- E12: Daimon's Provocation (missing) -->
+  <!-- Rival Introductions -->
+  <div class="manga-page panel-splash">
+    <div class="page-label">Page 6 — The Rivals</div>
+    <div class="dialogue-block">
+      <div class="narration">DAIMON RICHWELL — #1 National Junior Ranking — "The Golden Boy." Arrives in a luxury car. Gets out like he's famous. Blonde, perfect skin, brand-name clothes, 4 rackets in a professional bag. Entourage: personal coach, physiotherapist, an assistant carrying his things. Arrogant smile.</div>
+      <div class="narration">KAI MORIMOTO — #3 National Junior Ranking — "The Silent Wall." Sitting alone in a corner of the lobby. Short, stocky, completely impassive expression. Reading something on his phone. Doesn't talk to anyone. Doesn't need anyone.</div>
+      <div class="narration">LUCA SANTORI — #5 National Junior Ranking — "The Viper." Leaning against a pillar, watching everyone who enters with a permanent smile that doesn't reach his eyes. Thin, narrow eyes, calculating.</div>
+      <div class="narration">And in the background — Yadi. No introduction text. Invisible.</div>
+    </div>
+  </div>
+
+  <!-- E12: Daimon's Provocation -->
   <div class="manga-page panel-diag-l">
-    <div class="page-label">E12 — Daimon's Provocation</div>
+    <div class="page-label">Pages 8-9 — Daimon's Provocation</div>
     <div class="page-image-wrap"><img src="images/E12_ch3_daimon_provocation_locker_room.png" alt="Daimon's Provocation in the Locker Room"></div>
     <div class="dialogue-block">
+      <div class="narration">Yadi in the locker rooms, finding his locker. Opens his old backpack — clothes carefully folded by mama, a small towel, papa's bandana, and a tupperware with homemade food. Behind him, a group approaches. Laughter.</div>
+      <div class="narration">Daimon Richwell. Standing in front of him with two companions. Looks Yadi up and down. Stops at the racket. Stops at the sneakers. Stops at the clothes.</div>
       <div class="speech"><span class="speaker">Daimon</span> <span class="line">"You? With that racket?"</span></div>
+      <div class="narration">Laughter from the group. Another player:</div>
+      <div class="speech"><span class="speaker">Crowd</span> <span class="line">"This isn't charity, right?"</span></div>
       <div class="speech"><span class="speaker">Daimon</span> <span class="line">"Listen, this is professional tennis. I don't know how you got in, but... good luck."</span></div>
+      <div class="narration">Yadi doesn't respond. Stands still. Fists clenched at his sides. Jaw tight. Contained rage — but he doesn't explode.</div>
+      <div class="narration">Yen appears behind Yadi. Calm voice, hand on his shoulder:</div>
       <div class="speech"><span class="speaker">Yen</span> <span class="line">"Save that rage. You'll need it on the court."</span></div>
+      <div class="narration">Daimon looks at Yen, dismisses him with a gesture, and leaves with his group. Yadi exhales.</div>
       <div class="speech"><span class="speaker">Yen</span> <span class="line">"You okay?"</span></div>
       <div class="speech"><span class="speaker">Yadi</span> <span class="line">"I'm furious."</span></div>
       <div class="speech"><span class="speaker">Yen</span> <span class="line">"Good. Now turn that into points."</span></div>
@@ -936,27 +1323,69 @@
   <div class="manga-page panel-inset">
     <div class="page-label">Page 7 — The Tupperware Note</div>
     <div class="dialogue-block">
-      <div class="narration" style="font-size:1.1em; padding:18px 24px; background:rgba(255,255,255,0.02); border-left:3px solid #333;">"Eat everything. I love you. Win or lose, you're my champion." <span style="opacity:0.5">— Mama</span></div>
-      <div class="narration" style="font-size:1.4em; font-weight:700; letter-spacing:2px; padding:12px 24px;">"Win." <span style="opacity:0.5">— Papa</span></div>
+      <div class="narration">Note inside the tupperware, mama's handwriting:</div>
+      <div class="narration note-handwritten">"Eat everything. I love you. Win or lose, you're my champion." <span class="note-author">— Mama</span></div>
+      <div class="narration">Below, in papa's handwriting, added with a different pen:</div>
+      <div class="narration note-bold">"Win." <span class="note-author">— Papa</span></div>
+      <div class="narration">Yadi smiles. Puts the note in his pocket. Puts on the bandana.</div>
     </div>
   </div>
 
-  <!-- E13: Court at Night (missing) -->
+  <!-- Tournament Bracket -->
+  <div class="manga-page">
+    <div class="page-label">Pages 10-11 — The Tournament Bracket</div>
+    <div class="dialogue-block">
+      <div class="narration">Main hall. Big screen with the tournament bracket. All players gathered, watching. Murmurs, analysis, nerves. Yadi's name in the bottom half. Clear path: if he advances, he faces a lesser rival in the first round, then potentially Kai Morimoto, then Luca Santori, and Daimon would wait in the zone final.</div>
+      <div class="thought">Yadi: "If I want to reach him... I have to win everything."</div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"Did you see the bracket?"</span></div>
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"Yeah. Daimon's at the top."</span></div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"Scared?"</span></div>
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"Hungry."</span></div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"That's the right answer."</span></div>
+    </div>
+  </div>
+
+  <!-- E13: Court at Night -->
   <div class="manga-page panel-diag-r">
-    <div class="page-label">E13 — Yadi Alone on the Perfect Court at Night</div>
+    <div class="page-label">Pages 12-13 — Yadi Alone on the Perfect Court at Night</div>
     <div class="page-image-wrap"><img src="images/E13_ch3_yadi_alone_court_night.png" alt="Yadi Alone on the Perfect Court at Night"></div>
     <div class="dialogue-block">
-      <div class="thought">Yadi: "If I want to reach him... I have to win everything."</div>
+      <div class="narration">The empty courts at night. Artificial lights on at a single court. The rest in darkness. Yadi alone on the lit court. Mama's new racket in hand. Papa's bandana on his forehead. Hitting balls. His shots sound different here — cleaner on this surface. It feels good. It feels right.</div>
+      <div class="narration">He stops. Looks at the empty court in front of him. The perfect lines. The taut net. The lights. Imagines the stands full. For an instant, Yadi sees himself on a center court, with thousands of people. In front of him, enormous shadows — the silhouettes of the great players. The image fades. Back to reality. Alone. Empty court.</div>
+      <div class="narration">Takes out his phone. Calls home. Mama answers before the second ring:</div>
+      <div class="speech"><span class="speaker">Mama Rodríguez</span> <span class="line">"Son?! How are you?! Did you eat?! What are the courts like?!"</span></div>
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"I'm fine, ma. The courts are incredible."</span></div>
+      <div class="narration">Papa takes the phone:</div>
+      <div class="speech"><span class="speaker">Papa Rodríguez</span> <span class="line">"Did you see the other players?"</span></div>
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"Yeah."</span></div>
+      <div class="speech"><span class="speaker">Papa Rodríguez</span> <span class="line">"Are they good?"</span></div>
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"Yeah. But so am I."</span></div>
+      <div class="speech"><span class="speaker">Papa Rodríguez</span> <span class="line">"That's how you talk. Tiger."</span></div>
       <div class="narration">"I didn't come here to participate. I came here to make them know who I am."</div>
     </div>
   </div>
 
-  <!-- E14: Bandana Ritual (missing) -->
+  <div class="chapter-end" onclick="scrollTo('#ch4')"><div class="next">Next Chapter →</div><div class="next-title">"First Blood"</div></div>
+</section>
+
+<div class="chapter-divider"></div>
+
+<!-- ═══════════════════ CHAPTER 4 ═══════════════════ -->
+<section class="chapter" id="ch4">
+  <div class="chapter-header">
+    <div class="chapter-num">Chapter 4 — Act 2: The Fire</div>
+    <div class="chapter-title">"First Blood"</div>
+    <div class="chapter-summary">Yadi's first official tournament match. Nerves, initial disaster, and the first live transformation. Yadi learns to let go of fear and play free, coming back from a match that seemed lost. The circuit starts to notice something different about this unknown kid.</div>
+  </div>
+
+  <!-- E14: Bandana Ritual -->
   <div class="manga-page panel-inset">
-    <div class="page-label">E14 — Pre-Match Nerves — Bandana Ritual</div>
+    <div class="page-label">Page 1 — Pre-Match Nerves — Bandana Ritual</div>
     <div class="page-image-wrap"><img src="images/E14_ch4_prematch_bandana_ritual.png" alt="Pre-Match Nerves — Bandana Ritual"></div>
     <div class="dialogue-block">
+      <div class="narration">Morning of the first tournament day. Yadi in the locker room, alone. Sitting on the bench facing his open locker. Looks at the racket. Looks at his hands. Hands trembling slightly. Closes his eyes.</div>
       <div class="thought">Yen's voice: "Don't think about winning. Think about each ball. One at a time."</div>
+      <div class="narration">Opens his eyes. Takes out papa's bandana. Puts it on in front of the mirror. Looks at himself. Breathes.</div>
       <div class="thought">Yadi: "Be a tiger."</div>
     </div>
   </div>
@@ -965,40 +1394,121 @@
   <div class="manga-page panel-strip panel-inset">
     <div class="page-label">Object — Papa's Bandana</div>
     <div class="page-image-wrap"><img src="images/Papa's Bandana2.png" alt="Papa's Bandana"></div>
-    <div class="scene-note">Papa's old bandana — faded, frayed, with faint tiger stripes</div>
+    <div class="scene-note">Papa's old bandana — faded, frayed, with faint tiger stripes. A ritual now.</div>
   </div>
 
-  <!-- E15: First Set Disaster (missing) -->
-  <div class="manga-page panel-tilt-l">
-    <div class="page-label">E15 — First Set Disaster</div>
-    <div class="page-image-wrap"><img src="images/E15a_ch4_first_set_disaster_frustrated.png" alt="First Set Disaster — Rigid and Frustrated"></div>
+  <!-- Entering the court -->
+  <div class="manga-page">
+    <div class="page-label">Page 2 — Entering the Court</div>
+    <div class="page-image-wrap"><img src="images/E_ch4_entering_court_tunnel.png" alt="Entering the Court — Tunnel"></div>
     <div class="dialogue-block">
-      <div class="speech"><span class="speaker">Daimon</span> <span class="line">"This is the one who was going to face me? What a waste."</span></div>
+      <div class="narration">Yadi walks out into the hallway leading to the courts. Light at the end. Sound of balls and crowd. From the stands, Yen watches him walk toward the court. Arms crossed. Neutral face.</div>
+      <div class="narration">Yadi enters the court. Secondary court, not center, but the biggest thing he's seen up close. Scattered crowd — about 200 people. For Yadi, it might as well be 20,000.</div>
+      <div class="narration">His rival is already there: player #15 in the rankings. Perfect uniform, professional bag, coach in his corner. Everything Yadi doesn't have.</div>
     </div>
   </div>
 
-  <!-- Yadi Smiles -->
+  <!-- E15: First Set Disaster -->
+  <div class="manga-page panel-tilt-l">
+    <div class="page-label">Pages 3-4 — First Set: Disaster</div>
+    <div class="page-image-wrap"><img src="images/E15a_ch4_first_set_disaster_frustrated.png" alt="First Set Disaster — Rigid and Frustrated"></div>
+    <div class="dialogue-block">
+      <div class="narration">Yadi serves. The serve goes long. Fault. Second serve — weak, to the center. The rival hits a return winner. 0-3. The crowd murmurs. Some laugh quietly:</div>
+      <div class="speech"><span class="speaker">Crowd</span> <span class="line">"Where did this guy come from?"</span></div>
+      <div class="narration">In the stands, Daimon watches with arms crossed. Dismissive smile:</div>
+      <div class="speech"><span class="speaker">Daimon</span> <span class="line">"This is the one who was going to face me? What a waste."</span></div>
+      <div class="narration">0-4. His body is rigid. His mind is everywhere: on Daimon, on the crowd, on what they'll think if he loses. On everything except the ball.</div>
+      <div class="narration">Changeover. Yadi sitting in his chair. Towel on his face. Hands still trembling. Looks toward the stands. Sees Yen. Yen doesn't signal, doesn't shout. Just looks at him. Steady. Calm.</div>
+      <div class="narration">Yadi lowers his gaze. Sees mama's note peeking from his pocket. Thinks of papa:</div>
+      <div class="thought">Papa's voice: "You lost? Good. Now tell me what you'll do differently."</div>
+      <div class="narration">First set: 6-2 for the rival. Yadi stands up from the chair. Looks defeated... but something is changing.</div>
+    </div>
+  </div>
+
+  <!-- Yadi Smiles — The Transformation -->
   <div class="manga-page panel-diag-r panel-tilt-r">
     <div class="page-label">Page 5 — Yadi Smiles for the First Time</div>
     <div class="page-image-wrap"><img src="images/Yadi Smiles First Time in Match.png" alt="Yadi Smiles"></div>
     <div class="dialogue-block">
+      <div class="narration">Start of the second set. Yadi positions to receive serve. Closes his eyes for a second.</div>
       <div class="thought">Yen's voice: "When everything goes against you, let go. Stop fighting yourself. Play."</div>
+      <div class="narration">Yadi opens his eyes. Something is different. His posture relaxes. Shoulders drop. Jaw loosens. And then — Yadi smiles. The first smile of the match. Not forced — genuine. As if he suddenly remembered this is a game. That it's supposed to be FUN.</div>
       <div class="thought">Yadi: "Let go. Just let go."</div>
     </div>
   </div>
 
-  <!-- E17: Walking Off (missing) -->
-  <div class="manga-page">
-    <div class="page-label">E17 — The Comeback Victory</div>
-    <div class="page-image-wrap"><img src="images/E17_ch4_comeback_victory_walking_off.png" alt="The Comeback Victory — Walking Off Court"></div>
+  <!-- The Transformation -->
+  <div class="manga-page panel-action">
+    <div class="page-label">Pages 6-8 — The Transformation</div>
+    <div class="page-image-wrap"><img src="images/E16_ch4_transformation_second_set_loose.png" alt="Yadi's Transformation — Second Set, Playing Loose"></div>
     <div class="dialogue-block">
-      <div class="narration">Yadi wins: 2-6, 6-1, 6-3.</div>
-      <div class="speech"><span class="speaker">Crowd</span> <span class="line">"Who is that kid?"</span></div>
-      <div class="speech"><span class="speaker">Yen</span> <span class="line">"Welcome to tennis, Yadi."</span></div>
+      <div class="narration">The rival serves. Yadi returns — but different. The shot is loose, natural, with angle. The rival is surprised. Rally — 6 shots. Yadi moves with fluidity. No longer fighting himself. Reads the game. Anticipates. Winner from Yadi down the line. Clean. Fast. 15-0.</div>
+      <div class="narration">Yadi's eyes have a subtle flash. The Diamond Vision is starting to awaken.</div>
+      <div class="thought">Yen: "There it is."</div>
+      <div class="narration">Point montage: Yadi winning game after game. His shots are cleaner, more aggressive, with angles that shouldn't work but do. The rival starts getting frustrated. Looks at his coach seeking answers. The coach has none.</div>
+      <div class="narration">Yadi 5-1 in the second set. The crowd is silent — but a different silence. No longer mockery. It's attention.</div>
+      <div class="narration">Point to close the second set. 12-shot rally. Yadi dominating. His eyes flash intermittently. Yadi closes the set with a cross-court forehand winner that hits the exact corner.</div>
+      <div class="sfx">CRACK!!</div>
+      <div class="narration">Second set: Yadi 6-1. The rival looks at Yadi as if he were another person. Because he is. The Yadi from the first set died at the changeover.</div>
     </div>
   </div>
 
-  <div class="chapter-end"><div class="next">Next Chapter →</div><div class="next-title">"The Wall"</div></div>
+  <!-- E17: The Comeback Victory -->
+  <div class="manga-page">
+    <div class="page-label">Pages 10-11 — The Comeback Victory</div>
+    <div class="page-image-wrap"><img src="images/E17_ch4_comeback_victory_walking_off.png" alt="The Comeback Victory — Walking Off Court"></div>
+    <div class="dialogue-block">
+      <div class="narration">Third set. The rival tries to react but Yadi has found his rhythm. 5-2 Yadi. Match point. Final rally — 8 shots. Yadi finds the angle. Forehand down the line. The ball travels fast, low, grazing the net... and lands in.</div>
+      <div class="narration">Point. Set. Match. Yadi wins: 2-6, 6-1, 6-3.</div>
+      <div class="narration">The rival crosses the net. Shakes his hand:</div>
+      <div class="speech"><span class="speaker">Crowd</span> <span class="line">"Good match, kid. In the second set... what happened to you?"</span></div>
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"I don't know. I just stopped thinking."</span></div>
+      <div class="narration">Yadi from behind, walking toward the court exit. The scattered crowd applauds — with genuine respect. The murmur has changed:</div>
+      <div class="speech"><span class="speaker">Crowd</span> <span class="line">"Who is that kid?"</span></div>
+      <div class="speech"><span class="speaker">Crowd</span> <span class="line">"Where did he come from?"</span></div>
+      <div class="speech"><span class="speaker">Crowd</span> <span class="line">"Did you see that second set?"</span></div>
+    </div>
+  </div>
+
+  <!-- Rival Reactions -->
+  <div class="manga-page">
+    <div class="page-label">Page 12 — Rival Reactions</div>
+    <div class="page-image-wrap"><img src="images/E_ch4_daimon_reaction_shock.png" alt="Daimon's Reaction — First Shock"></div>
+    <div class="dialogue-block">
+      <div class="narration">Daimon in the stands. No longer smiling. Frowns for the first time. His coach whispers something. Daimon doesn't respond.</div>
+      <div class="narration">Kai Morimoto, sitting alone as always. But now looking toward the court where Yadi played. His eyes, for the first time, show a spark of interest.</div>
+      <div class="thought">Luca: "Interesting..."</div>
+      <div class="narration">Yen in the stands. Arms crossed again. Nodding imperceptibly. The slightest smile at the corner of his mouth.</div>
+    </div>
+  </div>
+
+  <!-- Post-Match with Yen -->
+  <div class="manga-page">
+    <div class="page-label">Pages 13-14 — After the Match</div>
+    <div class="dialogue-block">
+      <div class="narration">Yadi exits the court. Yen waits in the hallway.</div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"You played terrible the first set."</span></div>
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"I know."</span></div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"And in the second you played like you were a different person."</span></div>
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"I know."</span></div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"Welcome to tennis, Yadi."</span></div>
+      <div class="narration">Yadi in the locker room. Takes out his phone. Text from mama: "YOU WONNNN!!! I can't breathe! Your papa hasn't said anything but his eyes are red!" Message from papa (one minute later): "Good first match. The next one will be harder. Rest."</div>
+      <div class="narration">Yadi smiles. Puts the phone away. Looks at the tournament bracket on the locker room wall. His name advances. Next rival: Kai Morimoto — #3.</div>
+      <div class="thought">Yadi: "The Silent Wall..."</div>
+    </div>
+  </div>
+
+  <!-- Closing: Kai -->
+  <div class="manga-page">
+    <div class="page-label">Page 15 — Closing</div>
+    <div class="dialogue-block">
+      <div class="narration">Elsewhere in the club, Kai Morimoto is alone on an empty court, practicing returns against a ball machine. Every ball comes back. All of them. No exception. Impassive.</div>
+      <div class="narration">Split image — Yadi on the left looking at the bracket, Kai on the right on the court. An imaginary line connects them. Two worlds about to collide.</div>
+      <div class="thought">Kai: "Yadi Rodríguez. Let's see what you've got."</div>
+    </div>
+  </div>
+
+  <div class="chapter-end" onclick="scrollTo('#ch5')"><div class="next">Next Chapter →</div><div class="next-title">"The Wall"</div></div>
 </section>
 
 <!-- ═══════════════════ CHAPTER 5 ═══════════════════ -->
@@ -1006,7 +1516,22 @@
   <div class="chapter-header">
     <div class="chapter-num">Chapter 5 — Act 2: The Fire</div>
     <div class="chapter-title">"The Wall"</div>
-    <div class="chapter-summary">Yadi faces Kai Morimoto — the defensive player who returns absolutely everything. Talent without strategy isn't enough.</div>
+    <div class="chapter-summary">Yadi faces Kai Morimoto, the defensive player who returns absolutely everything. Yadi learns the hardest lesson yet: talent without strategy isn't enough. After losing a first set out of frustration, Yadi evolves his game and discovers new facets — variation, net play, tactical intelligence.</div>
+  </div>
+
+  <!-- Pages 1-2: Pre-match warning -->
+  <div class="manga-page">
+    <div class="page-label">Pages 1-2 — Yen's Warning</div>
+    <div class="page-image-wrap"><img src="images/E19_ch5_yadi_frustration_wall.png" alt="Yadi's Frustration Against The Wall"></div>
+    <div class="dialogue-block">
+      <div class="narration">Morning of day two. Yadi on the warm-up court, hitting balls with confidence. Feels good after yesterday's victory. Yen approaches. His expression doesn't share Yadi's optimism. Serious:</div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"We need to talk about your next rival."</span></div>
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"Kai Morimoto, right? The #3. I already saw him. He doesn't seem that intimidating."</span></div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"That kid doesn't have your talent. But he has something worse: infinite patience. He's a wall. Returns everything. Everything. And if you play his game, you lose."</span></div>
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"So what do I do?"</span></div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"I'm not going to tell you what to do. I'll tell you what NOT to do: don't get frustrated. Don't force. Don't play faster than you need to. He wants you to get desperate. That's his weapon."</span></div>
+      <div class="narration">Yadi nods. But in his eyes you can see he doesn't fully understand. Thinks his talent will be enough.</div>
+    </div>
   </div>
 
   <!-- Kai The Wall -->
@@ -1014,34 +1539,84 @@
     <div class="page-label">Pages 3-5 — Kai Returns Everything</div>
     <div class="page-image-wrap"><img src="images/Kai The Wall Returning Everything.png" alt="Kai The Wall"></div>
     <div class="dialogue-block">
+      <div class="narration">Both on the court. Kai on the other side: short, stocky, completely expressionless. Doesn't look at Yadi. Only looks at the ball. Yadi serves. Good serve. Kai returns it — no power, no style, but perfect placement. Deep to the center.</div>
+      <div class="narration">Yadi attacks. Cross-court forehand with angle. A shot that yesterday would be a winner...</div>
+      <div class="narration">Kai is there. Returns it. No apparent effort. The ball comes back like a mirror.</div>
       <div class="thought">Yadi: "How did he get there?"</div>
-      <div class="speech"><span class="speaker">Yen</span> <span class="line">"That kid doesn't have your talent. But he has something worse: infinite patience. He's a wall."</span></div>
+      <div class="narration">Rally. 10 shots. 15. 20. Yadi hits harder each time. Kai returns everything. No emotion. No tiring. Like a robot. Yadi forces a shot — too hard, too much angle. The ball goes out by centimeters. Unforced error. Kai doesn't celebrate. Doesn't react. Just walks to his position. The coldness is terrifying.</div>
+      <div class="narration">Point montage: Yadi attacking with everything — powerful forehands, cross-court backhands, drop shots. Every shot looks like a winner... and Kai returns ALL of them. Over and over and over. The visual effect is suffocating — like a wall that never breaks.</div>
+      <div class="narration">Yadi starting to get frustrated. Shouts after an error. Slaps the racket against his leg. Score: Kai 5-3, first set. Yadi is forcing everything. His shots are more powerful but less intelligent. Exactly what Kai wants.</div>
+      <div class="narration">First set: Kai 7-5. Yadi lost while hitting more winners than Kai, but making triple the errors. Yen was right.</div>
+      <div class="thought">Yadi: "I'm hitting harder than anyone and it doesn't work. What do I do? What do I do?"</div>
     </div>
   </div>
 
-  <!-- E20: Yen Shouts (missing) -->
+  <!-- E20: Yen Shouts -->
   <div class="manga-page panel-tilt-r">
-    <div class="page-label">E20 — Yen Shouts: “Fight Yourself!”</div>
+    <div class="page-label">Page 7 — Yen Shouts: "Fight Yourself!"</div>
     <div class="page-image-wrap"><img src="images/E20_ch5_yen_shouts_fight_yourself.png" alt="Yen Shouts: Fight Yourself!"></div>
     <div class="dialogue-block">
+      <div class="narration">Changeover. Yadi in the chair, towel on face. Looks at Yen in the stands. Desperate. Searching for an answer. Yen stands up. Doesn't shout — speaks loud, clear, direct. The whole crowd hears:</div>
       <div class="speech"><span class="speaker">Yen</span> <span class="line">"STOP FIGHTING HIM! FIGHT YOURSELF!"</span></div>
-      <div class="thought">Yadi: "One ball at a time. Don't think about winning. You need a plan, not just talent."</div>
+      <div class="narration">The words hit Yadi. "Fight yourself." He suddenly understands — he's not losing to Kai. He's losing to his own desperation. Kai only returns what Yadi gives him. The problem is Yadi.</div>
+      <div class="narration">Yadi closes his eyes. In the black, Yen's teachings appear:</div>
+      <div class="thought">"One ball at a time."</div>
+      <div class="thought">"Don't think about winning."</div>
+      <div class="thought">"You need a plan, not just talent."</div>
+      <div class="narration">Yadi opens his eyes. Different. Calmer. More dangerous.</div>
     </div>
   </div>
 
-  <!-- E22: Kai's Bow (missing) -->
+  <!-- Strategy change -->
+  <div class="manga-page panel-action">
+    <div class="page-label">Pages 8-10 — The Strategy Change</div>
+    <div class="page-image-wrap"><img src="images/E21_ch5_yadi_net_volley_new_territory.png" alt="Yadi at the Net — New Territory"></div>
+    <div class="dialogue-block">
+      <div class="narration">Second set. Yadi serves — but different. Not with max power. With placement. The ball goes to the T with slice. Kai returns, but slightly out of position. Yadi doesn't attack the open space. Instead, plays deep to the center. Waits. Now HE'S the one with patience.</div>
+      <div class="narration">After 8 shots, Yadi sees the opening — Kai is half a step to the left. Yadi changes direction: down the line to the empty side. Kai doesn't reach it. First winner that wasn't forced — it was constructed. Thought out. Strategic.</div>
+      <div class="thought">Yen: "He's learning in real time."</div>
+      <div class="narration">Yadi comes to the net for the first time in his competitive life. Volley. Short point. Kai didn't expect that. Next point: Yadi varies — slice, topspin, flat, drop shot, lob. Mixes rhythms. Changes heights. He's no longer a cannon — he's a chef mixing ingredients.</div>
+      <div class="narration">Kai for the first time shows something: a wrinkle on his forehead. Minimal. Almost invisible. But it's there. The crack in the wall.</div>
+      <div class="narration">Yadi 4-2, second set. The crowd starts getting hooked:</div>
+      <div class="speech"><span class="speaker">Crowd</span> <span class="line">"The kid completely changed his game."</span></div>
+      <div class="speech"><span class="speaker">Crowd</span> <span class="line">"Who taught him to do that?"</span></div>
+      <div class="narration">Second set: Yadi 6-3. Yadi doesn't celebrate excessively. Nods. Controls the emotion. He's in strategic mode.</div>
+      <div class="thought">Yen: "He's not just playing better. He's thinking better. He's growing right now, before my eyes."</div>
+    </div>
+  </div>
+
+  <!-- Third set and victory -->
+  <div class="manga-page panel-action">
+    <div class="page-label">Pages 11-13 — Third Set: The Battle</div>
+    <div class="page-image-wrap"><img src="images/E_ch5_third_set_epic_rally.png" alt="Third Set — Epic Rally"></div>
+    <div class="dialogue-block">
+      <div class="narration">Third set. Kai raises his level. Moves faster, returns with more depth. The wall has been reinforced. It won't fall easy.</div>
+      <div class="narration">Epic rally. 25 shots. Both running, both smart. Yadi mixes, Kai returns. Yadi comes forward, Kai lobs. Yadi runs back, returns with a smash. Kai gets there. The rally seems infinite. Finally, Yadi hits a drop shot after 30 shots. Kai runs, gets there, barely touches the ball... and sends it into the net. The crowd applauds.</div>
+      <div class="narration">4-3 Yadi. Both at their limit. But Yadi has something Kai doesn't: he's enjoying himself.</div>
+      <div class="narration">5-4 Yadi. Kai serving to stay in the match. Match point — 30-40. Kai serves. Yadi returns deep. 12-shot rally. Yadi sees the opening — eyes flash for an instant, trajectory lines visible for half a second. The Diamond Vision. Forehand down the line, powerful, to the corner.</div>
+      <div class="narration">The ball hits the line. IN. Point. Set. Match.</div>
+      <div class="narration">Yadi wins: 5-7, 6-3, 6-4. Hard-fought, grueling, intelligent victory.</div>
+    </div>
+  </div>
+
+  <!-- E22: Kai's Bow -->
   <div class="manga-page">
-    <div class="page-label">E22 — Kai's Respectful Bow</div>
+    <div class="page-label">Pages 14-15 — Kai's Respectful Bow</div>
     <div class="page-image-wrap"><img src="images/E22_ch5_kai_respectful_bow.png" alt="Kai's Respectful Bow — Silent Respect"></div>
     <div class="dialogue-block">
-      <div class="narration">Yadi wins: 5-7, 6-3, 6-4.</div>
+      <div class="narration">Yadi and Kai at the net. Handshake. The grip lasts longer than normal. Kai, looking Yadi in the eyes for the first time with a real expression. Low voice, almost a whisper:</div>
       <div class="speech"><span class="speaker">Kai</span> <span class="line">"We'll play again."</span></div>
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"I hope so."</span></div>
+      <div class="narration">Kai walks away. Turns back one last time. The slightest bow of the head — Japanese respect. Then disappears into the tunnel.</div>
+      <div class="narration">Yadi sitting in the locker room. Exhausted — physically and mentally. But there's something new on his face. Satisfaction. Not from winning, but from having learned something. Yen at the locker room door:</div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"Today you didn't win with talent."</span></div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"Today you won with your head. That's more important."</span></div>
       <div class="thought">Yadi: "There's more than one way to win a match."</div>
-      <div class="speech"><span class="speaker">Yen</span> <span class="line">"Today you didn't win with talent. Today you won with your head. That's more important."</span></div>
+      <div class="narration">In the corner, a glimpse of the tournament bracket: next rival — Luca Santori.</div>
     </div>
   </div>
 
-  <div class="chapter-end"><div class="next">Next Chapter →</div><div class="next-title">"Venom"</div></div>
+  <div class="chapter-end" onclick="scrollTo('#ch6')"><div class="next">Next Chapter →</div><div class="next-title">"Venom"</div></div>
 </section>
 
 <!-- ═══════════════════ CHAPTER 6 ═══════════════════ -->
@@ -1049,28 +1624,85 @@
   <div class="chapter-header">
     <div class="chapter-num">Chapter 6 — Act 2: The Fire</div>
     <div class="chapter-title">"Venom"</div>
-    <div class="chapter-summary">Yadi faces Luca Santori, the circuit's psychological manipulator. Yadi builds his "mental armor" — the shield that protects him forever.</div>
+    <div class="chapter-summary">Yadi faces Luca Santori, the circuit's psychological manipulator. For the first time, Yadi doesn't lose due to lack of talent or strategy — he loses mental control. But with Yen's guidance, Yadi builds his "mental armor" — the shield that will protect him forever.</div>
   </div>
 
-  <!-- E23: Luca approaches (missing) -->
+  <!-- Pages 1-2: Yen's Warning about Luca -->
   <div class="manga-page">
-    <div class="page-label">E23 — The Viper Approaches</div>
-    <div class="page-image-wrap"><img src="images/E23_ch6_luca_fake_friendship_viper.png" alt="The Viper Approaches — Luca's Fake Friendship"></div>
+    <div class="page-label">Pages 1-2 — Yen's Warning</div>
     <div class="dialogue-block">
-      <div class="speech"><span class="speaker">Yen</span> <span class="line">"He doesn't play against your racket. He plays against your head. He's a viper. If you give him a crack, he gets in. And once he's inside, he destroys you."</span></div>
-      <div class="speech"><span class="speaker">Luca</span> <span class="line">"Great game yesterday! Hey, they say Daimon is waiting for you in the zone final. Doesn't that make you nervous?"</span></div>
+      <div class="narration">Third day of the tournament. Yadi in the locker room preparing. Calmer than the first day. Puts on the bandana naturally — it's a ritual now. Yen enters. Sits across from him. More serious than usual.</div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"Listen. Today is different."</span></div>
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"Luca Santori. I saw him play yesterday. He doesn't seem that strong."</span></div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"He isn't. Technically he's the worst of the four you're going to face. But he's the most dangerous."</span></div>
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"How can he be the most dangerous if he's not the best?"</span></div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"Because he doesn't play against your racket. He plays against your head. He's a viper. Everything he does — every gesture, every word, every pause — is designed to get inside your mind. If you give him a crack, he gets in. And once he's inside, he destroys you."</span></div>
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"Then I don't give him a crack."</span></div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"That sounds easy here. Out there it's different. Just remember: don't give him anything. Not a reaction. Not a look. Nothing."</span></div>
     </div>
   </div>
 
-  <!-- E24: Mental Collapse (missing) -->
+  <!-- E23: Luca approaches — The Trap -->
   <div class="manga-page">
-    <div class="page-label">E24 — Yadi's Mental Collapse</div>
+    <div class="page-label">Page 3 — The Viper Approaches</div>
+    <div class="page-image-wrap"><img src="images/E23_ch6_luca_fake_friendship_viper.png" alt="The Viper Approaches — Luca's Fake Friendship"></div>
+    <div class="dialogue-block">
+      <div class="narration">Hallway before entering the court. Yadi walking. Suddenly, a friendly voice behind him:</div>
+      <div class="speech"><span class="speaker">Luca</span> <span class="line">"Hey! Yadi, right?"</span></div>
+      <div class="narration">Luca Santori. Wide smile. Hand extended. Friendly. Too friendly. Yadi shakes his hand out of politeness.</div>
+      <div class="speech"><span class="speaker">Luca</span> <span class="line">"Great game yesterday against Kai. Impressive. Hey, they say Daimon is waiting for you in the zone final. Doesn't that make you nervous?"</span></div>
+      <div class="narration">Close-up of Luca's eyes. The smile is perfect, but the eyes are cold. Calculating. He's planting seeds.</div>
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"Thanks. First I have to beat you."</span></div>
+      <div class="speech"><span class="speaker">Luca</span> <span class="line">"Of course, of course! Just talking."</span></div>
+    </div>
+  </div>
+
+  <!-- Pages 5-7: First Set — Psychological Domination -->
+  <div class="manga-page">
+    <div class="page-label">Pages 5-7 — First Set: Psychological Domination</div>
+    <div class="page-image-wrap"><img src="images/E_ch6_luca_psychological_domination.png" alt="Luca's Psychological Domination"></div>
+    <div class="dialogue-block">
+      <div class="narration">First game. Yadi serves. Quick point. 15-0. Yadi feels good. Second point — long rally, Yadi wins. But Luca takes 15 extra seconds to position. Ties his shoes. Wipes his face. Drinks water out of turn. The rhythm breaks. When Yadi finally serves, the serve is worse. Luca hits a return winner.</div>
+      <div class="narration">Luca celebrates the point with an exaggerated gesture — fist pump, shout, as if it were match point of a final. The crowd laughs.</div>
+      <div class="thought">Yadi: "What is he doing...?"</div>
+      <div class="narration">Luca's service game. Serves slow — deliberately slow. Yadi returns, wins the point. But Luca claps for Yadi as if he were a child who did something cute:</div>
+      <div class="speech"><span class="speaker">Luca</span> <span class="line">"Nice shot! Very good!"</span></div>
+      <div class="narration">Yadi gets irritated. Not by the point — by the tone. It's as if Luca treats him as inferior even when losing. Next point — Yadi forces a shot out of anger. Error. Luca smiles. Doesn't celebrate. Just smiles. The smile is worse than any shout.</div>
+      <div class="narration">Montage: Luca using every trick — moves when Yadi serves, takes maximum time at every changeover, makes quiet comments when passing the net that the umpire can't hear, celebrates every point like a Grand Crown final. Yadi falls apart piece by piece.</div>
+      <div class="narration">Score: Luca 5-3, first set. Yadi isn't playing badly technically — he's making bad decisions because he's angry. Exactly Luca's plan.</div>
+      <div class="narration">Changeover. Yadi grips the racket with rage. Thinks about Luca's words before the match: "Daimon is waiting for you in the final..." — the seed he planted is growing.</div>
+      <div class="thought">Yadi: "What if Daimon destroys me? What if this guy is right? What if I don't belong here?"</div>
+      <div class="narration">First set: Luca 6-4. Luca walks to his chair like nothing happened, humming. Yadi stays seated, head down.</div>
+    </div>
+  </div>
+
+  <!-- E24: Mental Collapse -->
+  <div class="manga-page">
+    <div class="page-label">Page 8 — Yadi's Mental Collapse</div>
     <div class="page-image-wrap"><img src="images/E24_ch6_yadi_mental_collapse_inner_voices.png" alt="Yadi's Mental Collapse — Inner Voices"></div>
     <div class="dialogue-block">
+      <div class="narration">Second set starts badly — Yadi loses his serve. 0-1. Luca's provocations are more subtle now — he doesn't need to do much. Yadi is destroying himself.</div>
+      <div class="narration">Yadi after another error, staring at the ground. Dark panel. The crowd noise fades. He only hears his own inner voice attacking him:</div>
       <div class="thought">"You're not enough."</div>
       <div class="thought">"What are you doing here?"</div>
+      <div class="thought">"Come beat me with that racket."</div>
       <div class="thought">"You're just an island kid."</div>
+      <div class="narration">In the stands, Yen watches. His jaw is tight. Knows Yadi is falling. Waits for the exact moment.</div>
+    </div>
+  </div>
+
+  <!-- Page 9: Yen's Intervention -->
+  <div class="manga-page">
+    <div class="page-label">Page 9 — The Intervention</div>
+    <div class="page-image-wrap"><img src="images/E_ch6_yen_who_controls_your_mind.png" alt="Yen: Who Controls Your Mind?"></div>
+    <div class="dialogue-block">
+      <div class="narration">Changeover. Yadi sitting, mentally defeated. Down 1-3 in the second set. If he loses this set, it's over.</div>
+      <div class="narration">Yen leans on the stands railing. Calm voice, but every word weighs tons:</div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"Yadi."</span></div>
+      <div class="narration">Yadi looks up.</div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"He's playing with you, not against you. You decide if you give him power over your head."</span></div>
       <div class="speech"><span class="speaker">Yen</span> <span class="line">"Who controls your mind? You or him?"</span></div>
+      <div class="narration">Close-up of Yadi. The words hit him like an electric shock. "Who controls your mind?" — The most important question anyone has ever asked him.</div>
     </div>
   </div>
 
@@ -1079,25 +1711,59 @@
     <div class="page-label">Page 10 — Birth of the Mental Armor</div>
     <div class="page-image-wrap"><img src="images/Birth of Mental Armor.png" alt="Birth of Mental Armor"></div>
     <div class="dialogue-block">
+      <div class="narration">Yadi closes his eyes in the chair. Dark panel. Total silence. In the darkness of his mind, an invisible armor forms around his body. Not physical — mental. Crystal light pieces cover his chest, arms, head. Each piece has a word engraved:</div>
       <div class="sfx">LET GO — ENJOY — FOCUS — ENDURE</div>
+      <div class="narration">The armor shines like a diamond. The darkness around him shatters like broken glass. Yadi opens his eyes. They're different. Not glowing like Diamond Vision — they're colder. More controlled. Emptier of unnecessary emotion. He stands from the chair.</div>
       <div class="thought">Yadi: "I control my mind."</div>
     </div>
   </div>
 
-  <!-- E26: Final Ace (missing) -->
+  <!-- Pages 11-12: The Cold Transformation -->
   <div class="manga-page">
-    <div class="page-label">E26 — Final Ace — Luca's Mask Falls</div>
+    <div class="page-label">Pages 11-12 — The Cold Transformation</div>
+    <div class="page-image-wrap"><img src="images/E25_ch6_cold_lethal_yadi_zero_reaction.png" alt="Cold and Lethal — Yadi Zero Reaction"></div>
+    <div class="dialogue-block">
+      <div class="narration">Yadi walks to his position. Luca notices something different — Yadi's posture has changed. He's no longer tense or frustrated. He's... nothing. Neutral. Unshakeable.</div>
+      <div class="narration">Luca serves. Rally. Tries his trick — celebrates a normal shot exaggeratedly. Looks at Yadi seeking a reaction. Close-up of Yadi: zero reaction. Not a raised eyebrow. Not a clenched fist. Nothing. The provocation bounces off like a ball against a wall.</div>
+      <div class="narration">Luca, for the first time, frowns slightly. His weapon doesn't work. Yadi wins the point with a clean forehand. Doesn't celebrate. Doesn't look at Luca. Simply walks to his position. Cold. Lethal.</div>
+      <div class="narration">Point montage: Yadi playing like a machine. No visible emotion. Every shot is precise, calculated, relentless. Luca tries more tricks — Yadi doesn't react to ANYTHING. Luca starts to crack. HIS emotions betray him. Unforced errors. Slaps his racket against his leg.</div>
+      <div class="narration">Yadi 5-3, second set. The irony: Luca, the manipulator, is emotionally crumbling. The crowd notices:</div>
+      <div class="speech"><span class="speaker">Crowd</span> <span class="line">"The island kid isn't giving him anything."</span></div>
+      <div class="speech"><span class="speaker">Crowd</span> <span class="line">"It's like he's playing against a wall."</span></div>
+      <div class="speech"><span class="speaker">Crowd</span> <span class="line">"But the wall hits winners."</span></div>
+      <div class="narration">Second set: Yadi 6-2. Came back from 1-3 down. No celebration. Just control.</div>
+    </div>
+  </div>
+
+  <!-- E26: Final Ace — Luca's Mask Falls -->
+  <div class="manga-page">
+    <div class="page-label">Pages 13-14 — Final Ace — Luca's Mask Falls</div>
     <div class="page-image-wrap"><img src="images/E26_ch6_final_ace_luca_mask_fall.png" alt="Final Ace — Luca's Mask Falls"></div>
     <div class="dialogue-block">
-      <div class="narration">Yadi wins: 4-6, 6-2, 6-2.</div>
+      <div class="narration">Third set. Without the mind games, Luca is a correct but not extraordinary player. Yadi dominates with intelligence and calm. 5-2. Match point. 40-30.</div>
+      <div class="narration">Yadi looks at Luca across the net before serving. Not with hate. Not with rage. With NOTHING. Total indifference — the most terrifying look you can give.</div>
+      <div class="narration">Yadi tosses the ball. Perfect serve motion. ACE. Down the center. Luca doesn't move.</div>
+      <div class="sfx">CRACK!!</div>
+      <div class="narration">Point. Set. Match. Yadi wins: 4-6, 6-2, 6-2. Luca smashes his racket on the ground. Furious. The smile mask has finally fallen. Underneath: a frustrated kid who only knows how to win one way and just lost his identity.</div>
+    </div>
+  </div>
+
+  <!-- Page 15: Closing -->
+  <div class="manga-page">
+    <div class="page-label">Page 15 — Closing</div>
+    <div class="page-image-wrap"><img src="images/E_ch6_yen_first_real_smile.png" alt="Yen's First Real Smile"></div>
+    <div class="dialogue-block">
+      <div class="narration">Yadi exits the court. Yen waits. Silence. Yen smiles genuinely — the first complete and real smile from Yen in the entire manga:</div>
       <div class="speech"><span class="speaker">Yen</span> <span class="line">"Now yes... now you're ready."</span></div>
+      <div class="narration">Yadi looks at him. Touches his chest — can feel the armor still there. It's not something you put on and take off. It's part of him now.</div>
       <div class="speech"><span class="speaker">Yadi</span> <span class="line">"I felt it, Yen. Like... a shield."</span></div>
       <div class="speech"><span class="speaker">Yen</span> <span class="line">"That's mental fortitude. And now that you have it, nobody takes it away."</span></div>
+      <div class="narration">Yadi from behind, walking through the club hallway. In the background, the next match sign updates: ZONE FINAL — Y. Rodríguez vs D. Richwell. Yadi doesn't look at the sign. Doesn't need to. Already knows who's next.</div>
       <div class="thought">Yadi: "Daimon Richwell. I'm coming for you."</div>
     </div>
   </div>
 
-  <div class="chapter-end"><div class="next">Next Chapter →</div><div class="next-title">"The Golden Boy vs The Island Diamond"</div></div>
+  <div class="chapter-end" onclick="scrollTo('#ch7')"><div class="next">Next Chapter →</div><div class="next-title">"The Golden Boy vs The Island Diamond"</div></div>
 </section>
 
 <!-- ═══════════════════ CHAPTER 7 ═══════════════════ -->
@@ -1105,7 +1771,7 @@
   <div class="chapter-header">
     <div class="chapter-num">Chapter 7 — Act 2: The Fire</div>
     <div class="chapter-title">"The Golden Boy vs The Island Diamond"</div>
-    <div class="chapter-summary">THE SPORTS CLIMAX. Yadi vs Daimon Richwell — money vs hunger, privilege vs will. Yadi activates Diamond Vision fully for the first time.</div>
+    <div class="chapter-summary">THE SPORTS CLIMAX OF THE VOLUME. Yadi vs Daimon Richwell — money vs hunger, privilege vs will. The longest, most intense, and most epic match in the book. Yadi activates Diamond Vision for the first time completely. A victory that shatters the tournament and attracts the eyes of someone mysterious from a VIP box.</div>
   </div>
 
   <!-- Entrance -->
@@ -1113,89 +1779,244 @@
     <div class="page-label">Pages 1-2 — The Entrance</div>
     <div class="page-image-wrap"><img src="images/Yadi vs Daimon Entrance.png" alt="Yadi vs Daimon Entrance"></div>
     <div class="dialogue-block">
+      <div class="narration">The center court of Youth Arena. Full stands — 2,000 people. The tournament has built anticipation. Lights on. Electric atmosphere.</div>
+      <div class="narration">The entrance tunnel divided in two. On the left: Yadi — mama's used racket in hand, papa's bandana on his forehead, old but clean athletic clothes, dark and steady eyes. On the right: Daimon — latest-generation racket, impeccable brand-name clothes, full team behind him, smile of superiority.</div>
       <div class="narration">"Money vs. hunger."</div>
       <div class="narration">"Privilege vs. will."</div>
+      <div class="narration">In a VIP box, barely visible in the upper corner: a silhouette sitting alone. Can't see who it is. Just a figure watching. Nobody notices.</div>
     </div>
   </div>
 
-  <!-- E27: Memory Fuel (missing) -->
+  <!-- Pages 3-5: First Set -->
   <div class="manga-page">
-    <div class="page-label">E27 — Memory Fuel — Internal Flashback</div>
+    <div class="page-label">Pages 3-5 — The First Set</div>
+    <div class="page-image-wrap"><img src="images/E_ch7_daimon_yadi_center_court_entrance.png" alt="Daimon vs Yadi — Center Court"></div>
+    <div class="dialogue-block">
+      <div class="narration">Daimon serves. Devastating — flat, fast, down the T. ACE. The sound echoes.</div>
+      <div class="sfx">BOOM!!</div>
+      <div class="narration">Second serve: ace again. Out wide. Yadi doesn't touch the ball. Third point: winner from Daimon. Fourth point: ace again. Game Daimon. 1-0.</div>
+      <div class="narration">Daimon smiles. Arrogant. Looks at Yadi as if saying "see?"</div>
+      <div class="thought">Yen: "Easy. Let him throw everything he's got."</div>
+      <div class="narration">Yadi's service game — serves well, not as powerful but with placement. Rally. Yadi's point. Daimon isn't worried. Wins his serve again. Plays technically better — shots cleaner, more polished. More formal tools. But Yadi has instinct. Sees angles Daimon doesn't expect. Wins impossible points.</div>
+      <div class="narration">Score: 4-4. Even match. They break each other once. The crowd is hooked. 5-5, 6-6. Tie-break. Maximum tension. Alternating points. Mini-break for Daimon at 4-3 — capitalizes on a weak second serve from Yadi. Closes 7-5.</div>
+      <div class="narration">First set: Daimon 7-6(5). Daimon celebrates exaggeratedly. Fist pump. Looks at Yadi, at the stands, at the crowd. Wants everyone to see he's in charge.</div>
+      <div class="narration">Yadi in his chair. Changeover. Towel on his knees. Head down. But he's not defeated — he's processing. Close-up of Yadi's eyes under the towel. No fear. No frustration. He's in armor mode.</div>
+    </div>
+  </div>
+
+  <!-- E27: Memory Fuel -->
+  <div class="manga-page">
+    <div class="page-label">Pages 7-8 — Memory Fuel — Internal Flashback</div>
     <div class="page-image-wrap"><img src="images/E27_ch7_yadi_memory_fuel_flashback.png" alt="Memory Fuel — Internal Flashback Collage"></div>
     <div class="dialogue-block">
+      <div class="narration">Yadi with eyes closed. In his mind — every memory is fuel:</div>
+      <div class="thought">Daimon's voice in the locker room: "You? With that racket?"</div>
+      <div class="narration">The stares from the first day. The murmurs. The old clothes. The taped racket.</div>
+      <div class="thought">The note in the tupperware: "Eat everything. I love you." And below: "Win."</div>
+      <div class="thought">Mama: "If you break it, I'll break you."</div>
       <div class="thought">Papa: "Go and be a tiger."</div>
       <div class="thought">Yen: "Talent opens the door. Your mind decides if you walk through it."</div>
+      <div class="narration">Yadi opens his eyes. Not with rage. With PURPOSE. Every memory is fuel. Every sacrifice is reason.</div>
       <div class="thought">Yadi: "I don't have what they have... but I have something money can't buy."</div>
     </div>
   </div>
 
-  <!-- Diamond Vision -->
+  <!-- Pages 9-11: Diamond Vision Full Activation -->
   <div class="manga-page panel-splash panel-action">
-    <div class="page-label">Pages 10-11 — DIAMOND VISION FULL ACTIVATION</div>
+    <div class="page-label">Pages 9-11 — DIAMOND VISION FULL ACTIVATION</div>
     <div class="page-image-wrap"><img src="images/DIAMOND VISION FULL ACTIVATION.png" alt="Diamond Vision Full Activation"></div>
     <div class="dialogue-block">
-      <div class="narration">Second set: Yadi 6-1.</div>
+      <div class="narration">Second set begins. Yadi positions to receive Daimon's serve. Something is different. His posture. His aura. The air around him seems to vibrate.</div>
+      <div class="narration">Daimon serves — the same devastating serve from the start. Fast, flat, down the T. The same one that was an ace four times.</div>
+      <div class="narration">Close-up of Yadi's eyes — they FULLY ILLUMINATE. Not a flash. Not a flicker. FULL ACTIVATION OF THE DIAMOND VISION. Pupils bright like cut diamonds. Trajectory lines of the ball visible in the air — like threads of light showing exactly where the ball is going, when it arrives, and where Yadi needs to be.</div>
+      <div class="narration">Time slows down.</div>
+      <div class="narration">Yadi returns Daimon's serve — the same one that was an ace. Returns it with an aggressive down-the-line return. Winner. Daimon: face of shock. The crowd: collective gasp.</div>
+      <div class="narration">Yadi in motion — eyes glowing, trajectory lines visible. Every shot is anticipated. Every move calculated. Sees tennis in slow motion. Cross-court forehand with impossible angle — the ball leaves a diamond-like light trail. Backhand down the line — Daimon runs but doesn't reach it. Not even close. Perfect drop shot — Daimon at the back of the court, the ball bounces twice before Daimon takes three steps.</div>
+      <div class="narration">Daimon's posture is defeat. Looks at Yadi as if seeing another person. Who is this kid?</div>
+      <div class="narration">Second set: Yadi 6-1. The crowd on their feet. Mouths open. Whispers becoming exclamations:</div>
       <div class="speech"><span class="speaker">Crowd</span> <span class="line">"Who is this kid...?"</span></div>
     </div>
   </div>
 
-  <!-- E29: On Knees (missing) -->
-  <div class="manga-page">
-    <div class="page-label">E29 — Yadi on His Knees — Silent Celebration</div>
-    <div class="page-image-wrap"><img src="images/E29_ch7_yadi_knees_silent_celebration.png" alt="Yadi on His Knees — Silent Celebration"></div>
+  <!-- Pages 12-13: Third Set -->
+  <div class="manga-page panel-action">
+    <div class="page-label">Pages 12-13 — Third Set: Destruction</div>
+    <div class="page-image-wrap"><img src="images/E28_ch7_daimon_broken_money_not_enough.png" alt="Daimon Broken — Money Not Enough"></div>
     <div class="dialogue-block">
-      <div class="narration">Yadi wins: 6-7(5), 6-1, 6-2.</div>
-      <div class="narration">Someone was watching.</div>
+      <div class="narration">Third set. Daimon tries to regroup. But psychologically he's broken. For the first time in his life, everything he has — money, team, coach, the best rackets — isn't enough.</div>
+      <div class="narration">Yadi stays in the zone — plays smart, varied, combining everything he's learned. Natural talent + strategy from the Kai match + mental armor from Luca + the zone. All together.</div>
+      <div class="narration">Daimon makes unforced errors. Looks at his coach seeking help. The coach has no answers. Money has no answers.</div>
+      <div class="narration">Score: Yadi 5-2, third set. Match point. The stadium in total silence. 2,000 people holding their breath.</div>
+      <div class="narration">Yadi serving for the match. Tosses the ball. Time freezes visually. Ball suspended. Yadi's eyes glowing underneath. The serve — the ball travels across the court leaving a diamond trail. Daimon attempts a return — goes wide. Yadi attacks the weak return with a winner to the corner.</div>
+      <div class="narration">The ball hits exactly on the line. Centimeters from the edge. Eternal pause.</div>
+      <div class="sfx">IN!</div>
+      <div class="narration">Point. Set. Match. Yadi wins: 6-7(5), 6-1, 6-2.</div>
     </div>
   </div>
 
-  <div class="chapter-end"><div class="next">Next Chapter →</div><div class="next-title">"What Comes Next"</div></div>
+  <!-- E29: On Knees — Silent Celebration -->
+  <div class="manga-page">
+    <div class="page-label">Page 14 — Silence Then Thunder</div>
+    <div class="page-image-wrap"><img src="images/E29_ch7_yadi_knees_silent_celebration.png" alt="Yadi on His Knees — Silent Celebration"></div>
+    <div class="dialogue-block">
+      <div class="narration">One second of absolute silence. Everything frozen. Yadi standing on the court. Racket in hand. Papa's bandana. Eyes returning to normal — the glow fades softly.</div>
+      <div class="narration">Then — the court EXPLODES. The crowd screams, applauds, on their feet. 2,000 people who came to watch a junior tournament and witnessed something extraordinary.</div>
+      <div class="narration">Yadi falls to his knees. Looks at the sky. Tears. Not of sadness — of everything. Relief, pride, validation. Mama's racket on the ground beside him. Papa's bandana on his forehead.</div>
+      <div class="narration">In the stands, Yen. Crying silently. With a smile. Doesn't wipe the tears. Lets them fall.</div>
+    </div>
+  </div>
+
+  <!-- Page 15: Closing + The Mystery -->
+  <div class="manga-page">
+    <div class="page-label">Page 15 — Closing + The Mystery</div>
+    <div class="page-image-wrap"><img src="images/E30_ch7_vip_box_mystery_silhouette.png" alt="VIP Box — Mystery Silhouette"></div>
+    <div class="dialogue-block">
+      <div class="narration">Daimon in his chair. Shattered. Looks at his thousand-dollar racket. The racket that wasn't enough. Not destroyed — simply held with hands that no longer trust it. For the first time, Daimon Richwell has no arrogant response. Just silence.</div>
+      <div class="narration">Yadi at the net, waiting for Daimon for the handshake. Daimon stands. Walks. Shakes his hand. Says nothing. Can't. But his eyes say what his mouth won't: "You're better than me."</div>
+      <div class="narration">Yadi from behind, looking at the emptying court. Mama's racket in one hand. Yen coming down from the stands toward him.</div>
+      <div class="narration">The VIP box. The mysterious silhouette that watched the entire match. Now standing. Phone in hand. Dialing a number. Can't see the face — only the silhouette against the light. And a smile. Just a smile.</div>
+      <div class="narration">"Someone was watching."</div>
+    </div>
+  </div>
+
+  <div class="chapter-end" onclick="scrollTo('#ch8')"><div class="next">Next Chapter →</div><div class="next-title">"What Comes Next"</div></div>
 </section>
+
+<div class="chapter-divider"></div>
 
 <!-- ═══════════════════ CHAPTER 8 ═══════════════════ -->
 <section class="chapter" id="ch8">
   <div class="chapter-header">
     <div class="chapter-num">Chapter 8 — Act 3: The Horizon</div>
     <div class="chapter-title">"What Comes Next"</div>
-    <div class="chapter-summary">The three legends of tennis react to Yadi's victory. Yadi calls home, wins the trophy, and drives back to the island with Yen.</div>
+    <div class="chapter-summary">The consequences of the victory over Daimon. Yadi wins the entire national junior tournament. The world starts noticing his name. But the most important thing happens in silence: in different parts of the world, the three legends of tennis learn of Yadi Rodríguez's existence. Someone picks up a phone.</div>
+  </div>
+
+  <!-- Page 1: Post-match processing -->
+  <div class="manga-page">
+    <div class="page-label">Page 1 — After the Storm</div>
+    <div class="dialogue-block">
+      <div class="narration">Exterior of Youth Arena. Golden sunset. The tournament continues — there are more matches, but the murmur is about only one: Yadi Rodríguez.</div>
+      <div class="narration">Yadi and Yen walking through the complex after the match against Daimon. Yadi still has the bandana on. Walks in silence. Processing.</div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"How are you?"</span></div>
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"I don't know. I think I still can't believe it."</span></div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"Believe it. Because tomorrow there's a semi-final."</span></div>
+    </div>
+  </div>
+
+  <!-- E31: Phone Call Home -->
+  <div class="manga-page">
+    <div class="page-label">Page 2 — The Call Home</div>
+    <div class="page-image-wrap"><img src="images/E31_ch8_parents_reaction_phone_call.png" alt="Parents' Reaction — Phone Call Home"></div>
+    <div class="dialogue-block">
+      <div class="narration">Yadi in his hotel room — the cheapest in the complex. Takes out his phone. Dials home. Mama answers before the second ring. The scream can be heard from the earpiece:</div>
+      <div class="speech"><span class="speaker">Mama Rodríguez</span> <span class="line">"SON!!! YOU WON!! Don't tell me anything, I already know! Your papa was glued to the phone waiting for results! Are you okay?! Did you get hurt?! Did you eat?!"</span></div>
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"Ma, I'm fine. I won."</span></div>
+      <div class="speech"><span class="speaker">Mama Rodríguez</span> <span class="line">"I KNOW YOU WON!! I had a heart attack! And that Daimon?! The one with the luxury car?! Tell me you crushed him!"</span></div>
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"I beat him, ma."</span></div>
+      <div class="narration">Silence. A sob is heard. Mama crying with pride. Whispers:</div>
+      <div class="speech"><span class="speaker">Mama Rodríguez</span> <span class="line">"I'm so proud of you, my love."</span></div>
+      <div class="narration">Papa takes the phone. Serious voice but it cracks:</div>
+      <div class="speech"><span class="speaker">Papa Rodríguez</span> <span class="line">"Good match. Now the next one."</span></div>
+      <div class="narration">Pause.</div>
+      <div class="speech"><span class="speaker">Papa Rodríguez</span> <span class="line">"...I'm proud, son."</span></div>
+      <div class="narration">Yadi closes his eyes. His lip trembles. Doesn't cry. But he's close.</div>
+    </div>
+  </div>
+
+  <!-- Page 3: Don Emilio and the Island -->
+  <div class="manga-page">
+    <div class="page-label">Page 3 — Back on the Island</div>
+    <div class="page-image-wrap"><img src="images/E32_ch8_don_emilio_mural_i_knew_it.png" alt="Don Emilio at the Mural — I Knew It"></div>
+    <div class="dialogue-block">
+      <div class="narration">On Isla Brava, Papa Rodríguez hangs up the phone. Mama still crying. Papa hugs her. Serious on the outside. Destroyed with emotion on the inside.</div>
+      <div class="narration">Don Emilio at his front door. A neighbor shows him something on the phone — a sports article about the tournament. Don Emilio adjusts his glasses, reads, and smiles big.</div>
+      <div class="narration">Don Emilio at the broken island court, alone, looking at the wall with Luna Borín's mural where Yadi used to practice. The ball marks are still there next to the faded mural.</div>
+      <div class="thought">Don Emilio: "I knew it, kid. I knew it."</div>
+    </div>
+  </div>
+
+  <!-- Pages 4-6: Media + Semi + Final -->
+  <div class="manga-page">
+    <div class="page-label">Pages 4-6 — The Circuit Takes Notice</div>
+    <div class="dialogue-block">
+      <div class="narration">Media montage: sports articles — "Yadi Rodríguez: the unknown who destroyed the #1 junior". Video clips of his passing shot against Daimon. Social media comments: "Where did this kid come from?" "Look at his eyes in the second set." "The kid with the old racket."</div>
+      <div class="speech"><span class="speaker">Crowd</span> <span class="line">"Does anyone have info on this Rodríguez? He doesn't show up in any academy records."</span></div>
+      <div class="speech"><span class="speaker">Crowd</span> <span class="line">"Because he doesn't come from any academy."</span></div>
+      <div class="narration">Semi-final: Yadi against the #4 ranking. Quick montage. Yadi plays with confidence but without arrogance. Mixes everything he's learned. Victory: 6-3, 6-4. Solid. No drama. Professional.</div>
+      <div class="thought">Yen: "He doesn't need comebacks anymore. He's playing like what he's been since the beginning."</div>
+      <div class="narration">Final day. Center court. Full stands — this time everyone came for Yadi. The rival is strong but doesn't have Daimon's emotional story or Luca's tricks. A technical, clean match. Victory: Yadi 6-4, 6-3. NATIONAL JUNIOR CHAMPION.</div>
+    </div>
+  </div>
+
+  <!-- E33: Trophy Ceremony -->
+  <div class="manga-page">
+    <div class="page-label">Page 7 — Trophy Ceremony</div>
+    <div class="page-image-wrap"><img src="images/E33_ch8_trophy_ceremony_eye_contact_yen.png" alt="Trophy Ceremony — Eye Contact with Yen"></div>
+    <div class="dialogue-block">
+      <div class="narration">Award ceremony. Yadi on the center podium. They hand him the trophy. It's bigger than anything he's ever had. Lifts it with both hands. The crowd applauds.</div>
+      <div class="narration">Yen in the stands — standing, clapping softly, eyes shining. A nod worth more than a thousand trophies.</div>
+      <div class="narration">Close-up of Yadi holding the trophy. He's not looking at the trophy — he's looking at Yen. Eye contact between the two. Everything said without words.</div>
+      <div class="narration">"This trophy has my name on it. But it has many people's hands on it."</div>
+    </div>
+  </div>
+
+  <!-- Post-Ceremony -->
+  <div class="manga-page">
+    <div class="page-label">Page 8 — Post-Ceremony</div>
+    <div class="dialogue-block">
+      <div class="narration">Yadi in the locker room with the trophy. Alone. Sets it on the bench and looks at it. Takes out the bandana, places it next to the trophy.</div>
+      <div class="narration">Takes out his phone. Sends a photo to his parents. Mama responds in 3 seconds: 47 heart and crying face emojis. Papa: a thumbs up. Then, 30 seconds later: "The trophy looks good. But I want to see more."</div>
+      <div class="narration">Yadi laughs. Yen knocks on the door. Peeks in:</div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"Congratulations, champion. Now let's go before they give you more trophies."</span></div>
+    </div>
   </div>
 
   <!-- Three Legends -->
   <div class="manga-page panel-diag-l">
-    <div class="page-label">The Three Legends React</div>
-    <div class="page-image-wrap" style="display:flex; gap:2px; background:#000;">
+    <div class="page-label">Pages 10-12 — The Three Legends React</div>
+    <div class="page-image-wrap" style="display:flex; gap:2px; background:#1a1510;">
       <img src="images/08_ch8_novacronos_silhouette.png" alt="Novacronos" style="width:33.3%">
       <img src="images/11_ch8_rafa_nal_silhouette.png" alt="Rafa Nal" style="width:33.3%">
       <img src="images/14_ch8_noak_silhouette.png" alt="Noak" style="width:33.3%">
     </div>
-    <div class="scene-note">LEFT: Novacronos — European office, eagle shadow | CENTER: Rafa Nal — clay court, steam erupting | RIGHT: Noak — corridor, unsettling smile</div>
-  </div>
-
-  <!-- E31: Phone Call (missing) -->
-  <div class="manga-page">
-    <div class="page-label">E31 — Parents' Reaction — Phone Call Home</div>
-    <div class="page-image-wrap"><img src="images/E31_ch8_parents_reaction_phone_call.png" alt="Parents' Reaction — Phone Call Home"></div>
     <div class="dialogue-block">
-      <div class="speech"><span class="speaker">Mama Rodríguez</span> <span class="line">"YOU WONNN!!!"</span></div>
+      <div class="narration">"And while an island kid celebrated his first title... thousands of kilometers away... the eyes of the world were beginning to open."</div>
+      <div class="narration">ROGER NOVACRONOS — "Tower of Time", his private academy in Europe. Elegant office. Perfect grass courts. Novacronos sitting in a leather armchair, reading his tablet. His golden eyes fixed on an article with Yadi's photo. Says nothing. Just looks. A glint of interest.</div>
+      <div class="narration">RAFA NAL — "Bull Fortress", his training center. Clay courts surrounded by mountains. Rafa Nal supervising a training session. An assistant shows him a video on a phone — a clip of Yadi's impossible angle shot against Daimon. Rafa Nal's eyes widen. His hand closes into a fist — not from anger, from emotion. He sees in that kid something that reminds him of someone: himself.</div>
+      <div class="narration">NOAK — A generic sports complex. Walking through a hallway after an exhibition match. His assistant shows him a tablet with statistics. Noak stops. Looks carefully. Yadi's stats: serve speed, winner percentage, points won on second serve. Noak smiles. Enigmatically. The smile of someone who just saw something the rest of the world doesn't yet understand.</div>
+      <div class="thought">Noak: "Interesting."</div>
     </div>
   </div>
 
-  <!-- E33: Trophy (missing) -->
+  <!-- Page 13: The Phone Hand -->
   <div class="manga-page">
-    <div class="page-label">E33 — Trophy Ceremony</div>
-    <div class="page-image-wrap"><img src="images/Junior Trophy.png" alt="Junior Trophy"></div>
+    <div class="page-label">Page 13 — Someone Decides to Act</div>
+    <div class="page-image-wrap"><img src="images/E34_ch8_mysterious_phone_hand.png" alt="The Mysterious Phone Hand"></div>
     <div class="dialogue-block">
-      <div class="scene-note">Eye contact with Yen through the crowd — not at the trophy</div>
+      <div class="narration">"And then... someone decided to act."</div>
+      <div class="narration">A hand — can't see who it belongs to — picking up a phone. The hand is strong, well-kept, with an elegant watch. Could be any of the three. The phone screen lights up. A contact list. A finger scrolls. Stops on a name that can't be seen — cut off by the panel edge. The finger presses "call."</div>
+      <div class="narration">The phone starts ringing...</div>
     </div>
   </div>
 
-  <!-- E35: Driving Home (missing) -->
+  <!-- E35: Driving Home -->
   <div class="manga-page">
-    <div class="page-label">E35 — Driving Home — Trophy in Moonlight</div>
+    <div class="page-label">Pages 14-15 — Driving Home</div>
     <div class="page-image-wrap"><img src="images/E35_ch8_driving_home_trophy_moonlight.png" alt="Driving Home — Trophy in Moonlight"></div>
+    <div class="dialogue-block">
+      <div class="narration">Night. Yadi and Yen in Yen's old car, returning from the tournament. The trophy in the back seat. Comfortable silence. Window open. Stars visible.</div>
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"Yen."</span></div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"Hm?"</span></div>
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"Thanks."</span></div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"Don't thank me. This is just the beginning."</span></div>
+      <div class="narration">Yen's car on the coastal road at night. Headlights illuminating the path. Enormous starry sky. The ocean on one side, the lights of Isla Brava in the distance.</div>
+      <div class="narration">Close-up of the trophy in the back seat, shining with moonlight through the window. Yadi asleep in the passenger seat. Bandana still on. A sleeping smile. Yen driving in silence, watching the road. Protective.</div>
+      <div class="narration">"A trophy in the back seat. A champion asleep. And somewhere in the world, a phone ringing."</div>
+    </div>
   </div>
 
-  <div class="chapter-end"><div class="next">Next Chapter →</div><div class="next-title">"The Eyes of the World"</div></div>
+  <div class="chapter-end" onclick="scrollTo('#ch9')"><div class="next">Next Chapter →</div><div class="next-title">"The Eyes of the World"</div></div>
 </section>
 
 <!-- ═══════════════════ CHAPTER 9 ═══════════════════ -->
@@ -1203,7 +2024,53 @@
   <div class="chapter-header">
     <div class="chapter-num">Chapter 9 — Act 3: The Horizon</div>
     <div class="chapter-title">"The Eyes of the World"</div>
-    <div class="chapter-summary">Yadi enters the national circuit. He sees Charlie play — pure power and joy. Jani walks past — cold, terrifying. The big leagues are real.</div>
+    <div class="chapter-summary">Yadi receives a wild card for the national professional league. He arrives at the highest level he's ever seen and for the first time feels truly small. He sees Charlie (#1 in the world) and Jani (#2) in person — one smiles at him, the other ignores him. Both moments mark him deeply.</div>
+  </div>
+
+  <!-- Pages 1-2: Wild Card -->
+  <div class="manga-page">
+    <div class="page-label">Pages 1-2 — The Wild Card</div>
+    <div class="page-image-wrap"><img src="images/E37_ch9_wild_card_letter.png" alt="The Wild Card Letter"></div>
+    <div class="dialogue-block">
+      <div class="narration">One week after the junior tournament. Yadi at the public courts, training with Yen as before. But something is different — Yadi plays with more authority. He's no longer the same kid.</div>
+      <div class="narration">Yen stops the training. Sits on the bench. Takes something from his bag — an official envelope. Hands it to Yadi. Yadi opens it. Key words highlighted: "WILD CARD" — "NATIONAL OPEN TOURNAMENT" — "SPECIAL INVITATION".</div>
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"Is this...?"</span></div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"National league. Adults. The real professionals."</span></div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"It's another level, Yadi. These aren't rich kids playing. These are professionals. Men who live from this. Who train 6 hours a day with full teams. Are you ready?"</span></div>
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"No."</span></div>
+      <div class="narration">Pause. Yen raises an eyebrow.</div>
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"But I'm going anyway."</span></div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"That's the right answer."</span></div>
+    </div>
+  </div>
+
+  <!-- Page 3: Brief Farewell -->
+  <div class="manga-page">
+    <div class="page-label">Page 3 — The Second Farewell</div>
+    <div class="dialogue-block">
+      <div class="narration">Rodríguez house. Yadi packing his bag — a bit better than the first time. The junior trophy sits in his room now.</div>
+      <div class="speech"><span class="speaker">Mama Rodríguez</span> <span class="line">"National league? With adults? Son, those guys are huge. What if they hurt you?"</span></div>
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"Ma, it's tennis, not boxing."</span></div>
+      <div class="speech"><span class="speaker">Mama Rodríguez</span> <span class="line">"It's the same thing! Those serves can kill you!"</span></div>
+      <div class="narration">Papa, from the table, reading the newspaper (which has a small article about Yadi):</div>
+      <div class="speech"><span class="speaker">Papa Rodríguez</span> <span class="line">"Leave him. He's a tiger. Tigers aren't afraid of anything."</span></div>
+      <div class="narration">Looks at Yadi over the newspaper:</div>
+      <div class="speech"><span class="speaker">Papa Rodríguez</span> <span class="line">"Right?"</span></div>
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"Right."</span></div>
+    </div>
+  </div>
+
+  <!-- Page 4: Corona Stadium Arrival -->
+  <div class="manga-page panel-splash">
+    <div class="page-label">Page 4 — Arrival at Corona Stadium</div>
+    <div class="page-image-wrap"><img src="images/E36_ch9_arrival_corona_stadium_feeling_small.png" alt="Arrival at Corona Stadium — Feeling Small"></div>
+    <div class="dialogue-block">
+      <div class="narration">Exterior of "Corona Stadium" — the complex hosting the National League. ENORMOUS. Center court with 10,000 seat capacity. Multiple secondary courts. Giant screens. Another planet compared to Youth Arena. Yadi and Yen standing in front of the entrance, tiny.</div>
+      <div class="narration">Everything is bigger, faster, more intense. Professional players warming up — taller, stronger, faster than anything Yadi has seen. Coaches with headsets. Television cameras.</div>
+      <div class="thought">Yadi: "This... is another world."</div>
+      <div class="narration">A veteran player on the next court practices his serve. Every serve exceeds 200 km/h. The sound is like a cannon. Yadi swallows hard.</div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"Welcome to real tennis."</span></div>
+    </div>
   </div>
 
   <!-- Yadi Sees Charlie -->
@@ -1211,29 +2078,74 @@
     <div class="page-label">Pages 6-7 — Yadi Sees Charlie</div>
     <div class="page-image-wrap"><img src="images/Yadi Sees Charlie.png" alt="Yadi Sees Charlie"></div>
     <div class="dialogue-block">
-      <div class="thought">Yadi's eyes: huge, hypnotized. The lion roars behind Charlie.</div>
+      <div class="narration">Yadi practicing. Suddenly, movement on the adjacent court. An entourage — coach, physio, assistant, cameras — surrounding someone. The crowd parts and there he is: CHARLIE — the #1 in the world. In person. Meters away. Curly hair, constant smile, eyes that shine with pure energy. His presence fills the space.</div>
+      <div class="narration">Charlie starts warming up. The ball travels with a power and precision Yadi has never seen in person. Visual speed trail. The sound is different — cleaner, deeper, more REAL than anything on TV.</div>
+      <div class="sfx">CRACK!!!</div>
+      <div class="narration">Yadi frozen. Racket in hand, ball in the other, but he doesn't move. Hypnotized.</div>
+      <div class="thought">Yadi: "This... this is the #1 in the world."</div>
+      <div class="thought">Yen: "That's how you ignite a dream."</div>
+      <div class="narration">Charlie finishes. Dries off. Walks toward the exit... and passes by Yadi's court. Notices Yadi. Looks at him. Direct eye contact between the #1 in the world and a 16-year-old kid from a tropical island. Charlie SMILES. Gives him a gesture with his racket — a casual greeting, pointing it at him and nodding.</div>
+      <div class="speech"><span class="speaker">Charlie</span> <span class="line">"Hey."</span></div>
+      <div class="narration">Yadi can't speak. Just raises his hand in an awkward wave. Charlie has already passed. Gone. The moment lasted 3 seconds. For Yadi it was an earthquake.</div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"Are you breathing?"</span></div>
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"I don't think so."</span></div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"He's just a guy with a racket. Like you."</span></div>
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"No. He's not like me. Not yet."</span></div>
+      <div class="narration">Yen smiles at the "not yet."</div>
     </div>
   </div>
 
   <!-- Jani Walks Past -->
   <div class="manga-page panel-diag-r panel-strip-right">
-    <div class="page-label">Page 10 — Jani Walks Past</div>
+    <div class="page-label">Pages 10-11 — Jani Walks Past</div>
     <div class="page-image-wrap"><img src="images/Jani Walks Past.png" alt="Jani Walks Past"></div>
     <div class="dialogue-block">
+      <div class="narration">Later. Yadi walking through the complex toward the locker rooms. A presence approaches. The hallway seems to grow colder. People step aside unconsciously. JANI — the #2 in the world — walks in the opposite direction. Tall, red-haired, absolutely cold and controlled expression. Aura of royalty. Two assistants walk behind him in silence.</div>
+      <div class="thought">Yadi: "It's like watching Novacronos in the videos... but young."</div>
+      <div class="narration">Jani passes by him. Centimeters away. Without looking at him. Without acknowledging his existence. A chill runs through Yadi. Jani disappears down the hallway.</div>
       <div class="scene-note">Arctic fox shadow on the floor. Ice crystals in his wake. The temperature drops.</div>
+      <div class="thought">Yadi: "Charlie saw me and smiled. Jani passed like I didn't exist."</div>
+      <div class="thought">Yadi: "Both motivated me equally."</div>
+      <div class="thought">Yadi: "Someday, Jani will look at me. Not because he wants to. Because he won't have a choice."</div>
     </div>
   </div>
 
-  <!-- E38: Mirror (missing) -->
+  <!-- Night Reflection -->
   <div class="manga-page">
-    <div class="page-label">E38 — Yadi Mirror Scene</div>
+    <div class="page-label">Pages 12-13 — Night Reflection</div>
+    <div class="page-image-wrap"><img src="images/E_ch9_night_reflection_hotel_ceiling.png" alt="Night Reflection — Hotel Ceiling"></div>
+    <div class="dialogue-block">
+      <div class="narration">Night. Complex hotel. Yadi in his room — the cheapest, the smallest. View of a parking lot instead of the courts. He doesn't care. Sitting on the bed. Takes out papa's bandana. Looks at it. Touches it with his fingers. Thinks out loud, whispering:</div>
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"Dad... I'm here. I'm where I always dreamed."</span></div>
+      <div class="narration">Wet eyes but not sad — moved. Full of something enormous that has no name. Awe + determination + fear + hope, all together.</div>
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"And it's bigger than I imagined."</span></div>
+      <div class="narration">Lying down, staring at the ceiling. Thinks about Charlie hitting the ball — the sound, the speed. Thinks about Jani walking without looking at him — the cold, the distance. Thinks about the island court, the cracked wall with Luna Borín's mural, Don Emilio on the bench, the ocean. How far away that feels.</div>
+      <div class="thought">Yadi: "The distance is enormous. But I've already taken the first step."</div>
+    </div>
+  </div>
+
+  <!-- E38: Mirror Scene -->
+  <div class="manga-page">
+    <div class="page-label">Page 14 — The Mirror</div>
     <div class="page-image-wrap"><img src="images/E38_ch9_yadi_mirror_bandana_will.png" alt="Yadi Mirror Scene — Bandana and Will"></div>
     <div class="dialogue-block">
-      <div class="thought">Yadi: "Someday I'll be on that center court."</div>
+      <div class="narration">Yadi gets up from bed. Walks to the bathroom. Looks at himself in the mirror. Puts on the bandana. Looks himself straight in the eyes. Dark eyes, steady, with a glow that isn't the Diamond Vision — it's pure human will.</div>
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"Someday, I'll be on that center court. Not watching from outside. Playing."</span></div>
     </div>
   </div>
 
-  <div class="chapter-end"><div class="next">Final Chapter →</div><div class="next-title">"The Call"</div></div>
+  <!-- Page 15: Closing -->
+  <div class="manga-page">
+    <div class="page-label">Page 15 — Closing</div>
+    <div class="page-image-wrap"><img src="images/E39_ch9_hotel_window_stadium_horizon.png" alt="Hotel Window — Corona Stadium on the Horizon"></div>
+    <div class="dialogue-block">
+      <div class="narration">Yadi lies down. Turns off the light. The room in shadow. Only the light from parking lot lamps coming through the window. Close-up of the bandana on the nightstand. Next to it, the wild card letter.</div>
+      <div class="narration">View from outside the window. Yadi asleep in the small hotel bed. The silhouette of Corona Stadium visible in the distance, illuminated. Enormous against the night sky. Yadi small in bed. The stadium giant on the horizon.</div>
+      <div class="narration">"The world of the greats was out there. Waiting."</div>
+    </div>
+  </div>
+
+  <div class="chapter-end" onclick="scrollTo('#ch10')"><div class="next">Final Chapter →</div><div class="next-title">"The Call"</div></div>
 </section>
 
 <!-- ═══════════════════ CHAPTER 10 ═══════════════════ -->
@@ -1241,26 +2153,136 @@
   <div class="chapter-header">
     <div class="chapter-num">Chapter 10 — Act 3: The Horizon</div>
     <div class="chapter-title">"The Call"</div>
-    <div class="chapter-summary">Yadi returns to the island. Back to the broken court. Then the phone rings in the dark. A mysterious voice. Everything changes.</div>
+    <div class="chapter-summary">Yadi plays his first professional match — and loses with dignity against a veteran. He returns to Isla Brava, visits the broken court one last time, and reconnects with his roots. Then, in the quiet of the night, a phone rings. A mysterious voice on the other end. Volume 1 ends with a cliffhanger that changes everything.</div>
   </div>
 
-  <!-- E41: Family Hug (missing) -->
+  <!-- Pages 1-3: The Professional Match -->
   <div class="manga-page">
-    <div class="page-label">E41 — Return to Isla Brava — Family Hug</div>
+    <div class="page-label">Pages 1-3 — The First Professional Match</div>
+    <div class="page-image-wrap"><img src="images/E40_ch10_yadi_vs_veteran_respect.png" alt="Yadi vs The Veteran — Mutual Respect"></div>
+    <div class="dialogue-block">
+      <div class="narration">Day of Yadi's first professional match. Secondary court at Corona Stadium — not the center one, but it's still the biggest stage he's ever played on. 1,500 people. Official cameras. Sponsored balls. Real line judges.</div>
+      <div class="narration">His rival: a veteran — 28 years old, ranked #47 nationally. 12 years of professional experience. Not spectacular, but incredibly solid. Knows every trick in the book.</div>
+      <div class="narration">Yadi serves. Good serve — but the veteran reads it perfectly. Returns deep. Rally. Yadi hits what would be a winner in the junior circuit... the veteran is already there. Returns casually.</div>
+      <div class="thought">Yadi: "He's not faster than Kai. He's not more powerful than Daimon. But he... knows."</div>
+      <div class="narration">First set: the veteran wins 6-3. Not by dominating — by managing. Every point is a lesson. He uses rhythm changes, height variations, slice serves Yadi has never seen. Professional tools that Yadi doesn't have yet.</div>
+    </div>
+  </div>
+
+  <!-- Pages 4-5: The Loss -->
+  <div class="manga-page">
+    <div class="page-label">Pages 4-5 — A Dignified Loss</div>
+    <div class="page-image-wrap"><img src="images/E_ch10_dignified_loss_handshake.png" alt="A Dignified Loss — Walking Off Court"></div>
+    <div class="dialogue-block">
+      <div class="narration">Second set. Yadi adjusts. Plays better. Finds moments of Diamond Vision — brief flashes where he reads the game perfectly. Wins spectacular points. The crowd starts paying attention. But the veteran is too consistent. Too experienced. Every time Yadi raises his level, the veteran has an answer.</div>
+      <div class="narration">Score: 5-4, veteran. Match point. Long rally — 15 shots. Yadi running, fighting. Hits a powerful forehand... the veteran anticipates, approaches the net, and hits a perfect volley drop shot. Yadi runs, stretches, almost reaches it...</div>
+      <div class="narration">Doesn't make it. The ball bounces twice.</div>
+      <div class="narration">Match over. Veteran wins: 6-3, 6-4.</div>
+      <div class="narration">At the net: handshake. The veteran, up close, looks Yadi in the eyes. What he sees surprises him. No frustration. No tears. Just hunger. Pure hunger.</div>
+      <div class="speech"><span class="speaker">Veteran</span> <span class="line">"How old are you, kid?"</span></div>
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"Sixteen."</span></div>
+      <div class="narration">The veteran nods. Pats Yadi on the shoulder:</div>
+      <div class="speech"><span class="speaker">Veteran</span> <span class="line">"I've been playing for 12 years. And you just made me work for every point. See you next year."</span></div>
+      <div class="narration">The veteran walks away. Yadi stands alone on the court. Doesn't break the racket. Doesn't shout. Doesn't cry. Just grips mama's racket. Touches the bandana. Breathes. Then walks off the court with his head high.</div>
+    </div>
+  </div>
+
+  <!-- Page 6: Post-Match with Yen -->
+  <div class="manga-page">
+    <div class="page-label">Page 6 — After the Match</div>
+    <div class="page-image-wrap"><img src="images/E_ch10_post_loss_with_yen.png" alt="Post-Loss — Yen's Support"></div>
+    <div class="dialogue-block">
+      <div class="narration">Exit tunnel. Yen waits at the end.</div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"You lost."</span></div>
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"I know."</span></div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"How do you feel?"</span></div>
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"Like I know exactly what I need to improve."</span></div>
+      <div class="narration">Yen smiles. Not satisfied by the loss — satisfied by the response.</div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"That's the difference between someone who plays tennis and someone who IS tennis. Let's go home."</span></div>
+    </div>
+  </div>
+
+  <!-- E41: Return to Isla Brava — Family Hug -->
+  <div class="manga-page">
+    <div class="page-label">Pages 7-8 — Return to Isla Brava</div>
     <div class="page-image-wrap"><img src="images/E41_ch10_return_isla_brava_family_hug.png" alt="Return to Isla Brava — Family Hug"></div>
+    <div class="dialogue-block">
+      <div class="narration">Isla Brava. Yen's car arrives. Colorful streets. Familiar sounds — salsa from neighbors, roosters, the ocean in the background. Everything is the same, but Yadi is different.</div>
+      <div class="narration">Rodríguez house. Mama at the door before the car stops. Running toward him. Hug that nearly knocks Yadi down. Crying (of course). Papa behind, leaning on the door frame, arms crossed, proud smile trying to hide behind a serious face.</div>
+      <div class="speech"><span class="speaker">Mama Rodríguez</span> <span class="line">"My boy!! You're too skinny! Did they feed you?! Those professionals must eat sand!"</span></div>
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"Ma, I'm fine."</span></div>
+      <div class="speech"><span class="speaker">Papa Rodríguez</span> <span class="line">"You lost."</span></div>
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"Yeah."</span></div>
+      <div class="speech"><span class="speaker">Papa Rodríguez</span> <span class="line">"Good. Now you know what the top looks like."</span></div>
+      <div class="narration">Hug between father and son. Mama joins from behind. A family embrace. Yen standing by the car, watching. Nods and starts to walk away.</div>
+      <div class="speech"><span class="speaker">Mama Rodríguez</span> <span class="line">"Yen! Where are you going? Come eat! I made arroz con pollo!"</span></div>
+      <div class="speech"><span class="speaker">Yen</span> <span class="line">"I don't want to intrude—"</span></div>
+      <div class="speech"><span class="speaker">Papa Rodríguez</span> <span class="line">"Get in. That's not a question."</span></div>
+      <div class="narration">Yen smiles. Follows them inside. The door closes behind them.</div>
+    </div>
+  </div>
+
+  <!-- Page 9: Don Emilio -->
+  <div class="manga-page">
+    <div class="page-label">Page 9 — Don Emilio</div>
+    <div class="page-image-wrap"><img src="images/E_ch10_don_emilio_island_court_moonlight.png" alt="Don Emilio at the Island Court"></div>
+    <div class="dialogue-block">
+      <div class="narration">Next day. The island court. Don Emilio sitting on his bench, machete beside him. Yadi walks up.</div>
+      <div class="speech"><span class="speaker">Don Emilio</span> <span class="line">"I heard you lost."</span></div>
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"Yeah."</span></div>
+      <div class="speech"><span class="speaker">Don Emilio</span> <span class="line">"Against a professional?"</span></div>
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"Yeah."</span></div>
+      <div class="speech"><span class="speaker">Don Emilio</span> <span class="line">"Good. Luna Borín lost her first 15 professional matches. Then she won Olympic gold."</span></div>
+      <div class="narration">Looks at the wall with the mural. The marks from Yadi's shots are still there, next to the faded paint of Luna's face.</div>
+      <div class="speech"><span class="speaker">Don Emilio</span> <span class="line">"The important thing isn't falling. It's getting up with the same hunger."</span></div>
+    </div>
   </div>
 
   <!-- Cracked Wall -->
   <div class="manga-page panel-diag-l">
-    <div class="page-label">E42 — Back at the Broken Court</div>
-    <div class="page-image-wrap"><img src="images/The Cracked Wall with Mural.png" alt="The Cracked Wall"></div>
-    <div class="scene-note">The same cracked wall — but the marks are deeper now</div>
+    <div class="page-label">Page 10 — Back at the Broken Court</div>
+    <div class="page-image-wrap"><img src="images/E42_ch10_broken_court_mirrored_evolution.png" alt="Broken Court — Mirrored Evolution"></div>
+    <div class="dialogue-block">
+      <div class="narration">Yadi alone on the island court. The same cracked court from the first page of the manga. The same weeds invading the corners. The same mural of Luna Borín — but now the ball marks next to it are deeper. Yadi hits balls against the wall. The sound echoes across the barrio. Familiar. Comforting.</div>
+      <div class="narration">But something is different about the way he plays. More controlled. More deliberate. The raw kid from Chapter 1 is gone. In his place: someone who has been tested and survived.</div>
+      <div class="scene-note">The same cracked wall — but the marks are deeper now. And the kid hitting the ball isn't the same.</div>
+    </div>
   </div>
 
-  <!-- E43: Phone Rings (missing) -->
+  <!-- Pages 11-12: Night at home -->
   <div class="manga-page">
-    <div class="page-label">E43 — The Phone Rings in the Dark</div>
+    <div class="page-label">Pages 11-12 — Night at Home</div>
+    <div class="page-image-wrap"><img src="images/E44_ch10_the_voice_edge_of_everything.png" alt="The Voice at the Edge of Everything"></div>
+    <div class="dialogue-block">
+      <div class="narration">Night. Rodríguez house. Family dinner — like the one from Chapter 1, but now Yen is there too. The same small table. The same warm light. Salsa music from the neighbor.</div>
+      <div class="speech"><span class="speaker">Mama Rodríguez</span> <span class="line">"Eat more, you're still too skinny."</span></div>
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"Ma, that's what you said before I left the first time."</span></div>
+      <div class="speech"><span class="speaker">Mama Rodríguez</span> <span class="line">"Because it's still true!"</span></div>
+      <div class="narration">Laughter. Yen and Papa Rodríguez talking quietly about tennis. Mama serving more food to everyone regardless of whether they want it.</div>
+      <div class="narration">Yadi's room. Later. The junior trophy on the shelf. Papa's bandana on the nightstand. The Novacronos poster and Luna Borín clipping still on the wall. But now, next to them, a new photo: Yadi and Yen after the junior tournament, both holding the trophy. Two people who found each other.</div>
+      <div class="narration">Yadi lying in bed. Thinking. The breeze through the window. The sound of coquíes. Everything is the same but nothing is the same.</div>
+    </div>
+  </div>
+
+  <!-- E43: The Phone Rings -->
+  <div class="manga-page">
+    <div class="page-label">Pages 13-14 — The Phone Rings in the Dark</div>
     <div class="page-image-wrap"><img src="images/E43_ch10_phone_rings_dark.png" alt="The Phone Rings in the Dark"></div>
+    <div class="dialogue-block">
+      <div class="narration">Night. Deep darkness. The room barely visible. Yadi asleep.</div>
+      <div class="narration">A sound. Distant. Growing. His phone, on the nightstand next to the bandana. Vibrating. Lighting up.</div>
+      <div class="narration">Yadi opens his eyes. Looks at the phone. UNKNOWN NUMBER. International area code. He sits up in bed. Looks at the phone. Heart beating harder. Answers:</div>
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"Hello?"</span></div>
+      <div class="narration">A voice on the other end. Can't distinguish it clearly — it's processed, low, but real. Authoritative. Someone who's used to giving orders, not asking.</div>
+      <div class="speech"><span class="speaker">???</span> <span class="line">"Yadi Rodríguez?"</span></div>
+      <div class="speech"><span class="speaker">Yadi</span> <span class="line">"...Yes?"</span></div>
+      <div class="speech"><span class="speaker">???</span> <span class="line">"My name won't mean much to you yet. But I saw your match against Richwell. And I saw your match against the veteran. I saw what you did... and what you didn't do."</span></div>
+      <div class="narration">Pause.</div>
+      <div class="speech"><span class="speaker">???</span> <span class="line">"I have a proposal for you. One that's going to change your life."</span></div>
+      <div class="narration">Close-up of Yadi's face. Eyes wide. Phone pressed against his ear. Moonlight on his face. The bandana on the nightstand illuminated by the phone screen.</div>
+      <div class="speech"><span class="speaker">???</span> <span class="line">"Are you ready?"</span></div>
+      <div class="narration">Yadi's eyes. Not scared. Not confused. BRIGHT. With that glow that isn't the Diamond Vision — it's the spark of someone who knows their life is about to change forever.</div>
+    </div>
   </div>
 
   <!-- Final Splash -->
@@ -1268,7 +2290,11 @@
     <div class="page-label">Page 15 — VOLUME FINAL SPLASH</div>
     <div class="page-image-wrap"><img src="images/VOLUME FINAL SPLASH1.png" alt="Volume Final Splash"></div>
     <div class="dialogue-block">
+      <div class="narration">Yadi from behind, standing at the window of his room. Bandana in one hand, phone in the other. Looking out at the island — palm trees, colorful houses, the ocean in the distance. Behind him, the room with his trophies, posters, memories. Everything that made him who he is.</div>
+      <div class="narration">And beyond the ocean, the world. Waiting.</div>
       <div class="sfx">THE RISE HAS ONLY JUST BEGUN</div>
+      <div class="narration">"BROKEN COURT — Volume 1: The Rise — END"</div>
+      <div class="narration">"Yadi Rodríguez will return in Volume 2: The Diamond"</div>
     </div>
   </div>
 
@@ -1285,17 +2311,19 @@
   <div style="margin-top:20px; color:#444; font-size:12px;">Art style: Kuroko no Basuke / Tadatoshi Fujimaki | Generated with Midjourney</div>
 </footer>
 
-<!-- TTS Floating Bar -->
-<div id="tts-bar">
-  <button class="tts-bar-btn" id="tts-prev" title="Previous">⏮</button>
-  <button class="tts-bar-btn primary" id="tts-play" title="Play / Pause">▶</button>
-  <button class="tts-bar-btn" id="tts-next" title="Next">⏭</button>
-  <div class="tts-bar-loading" id="tts-loading"></div>
-  <div class="tts-bar-info">
-    <div class="tts-bar-speaker" id="tts-bar-speaker">—</div>
-    <div class="tts-bar-text" id="tts-bar-text">Click a play button to start</div>
-  </div>
-  <button class="tts-bar-close" id="tts-close" title="Close">✕</button>
+<!-- Slide Navigation Bar -->
+<div id="slide-nav">
+  <button class="slide-btn" id="slide-prev" title="Previous">&larr;</button>
+  <div id="slide-counter">1 / 1</div>
+  <button id="slide-play-all">&#9654; Play Story</button>
+  <button class="slide-btn" id="slide-next" title="Next">&rarr;</button>
+  <button id="slide-close" title="Exit Reader">&times;</button>
+</div>
+
+<!-- Reader Overlay (visual novel text box) -->
+<div id="reader-overlay">
+  <div id="reader-speaker"></div>
+  <div id="reader-text"></div>
 </div>
 
 <script>
@@ -1337,6 +2365,30 @@ document.querySelectorAll('.manga-page, .chapter-header, .chapter-end, .char-car
   revealObs.observe(el);
 });
 
+// Character accent colors — assign data-char to speech elements
+const charMap = {
+  'yadi': 'yadi', 'yadi rodríguez': 'yadi',
+  'yen': 'yen',
+  'papa rodríguez': 'papa', 'papa': 'papa',
+  'mama rodríguez': 'mama', 'mama': 'mama',
+  'daimon': 'daimon', 'daimon richwell': 'daimon',
+  'don emilio': 'don-emilio',
+  'kai': 'kai', 'kai morimoto': 'kai',
+  'luca': 'luca', 'luca santori': 'luca',
+  'charlie': 'charlie',
+  'crowd': 'crowd',
+  'veteran': 'mystery',
+  '???': 'mystery',
+};
+document.querySelectorAll('.speech').forEach(el => {
+  const speaker = el.querySelector('.speaker');
+  if (speaker) {
+    const name = speaker.textContent.trim().toLowerCase();
+    const charKey = charMap[name];
+    if (charKey) el.setAttribute('data-char', charKey);
+  }
+});
+
 // Track which image wraps are in view for Ken Burns
 const panelObs = new IntersectionObserver(entries => {
   entries.forEach(e => {
@@ -1350,345 +2402,383 @@ const panelObs = new IntersectionObserver(entries => {
 document.querySelectorAll('.page-image-wrap').forEach(w => panelObs.observe(w));
 
 // ═══════════════════════════════════════════════════════
-// TTS ENGINE — Kokoro.js (local AI) + Web Speech API fallback
-// GitHub: https://github.com/hexgrad/kokoro  |  npm: kokoro-js
-// Model: Kokoro-82M — 100% browser, no API key, no server
+// TTS + READER ENGINE — typewriter overlay + Web Speech API
 // ═══════════════════════════════════════════════════════
-
 const TTS = (() => {
-  // ── Kokoro voice names per character ──
-  // af_ = American Female, am_ = American Male
-  // bf_ = British Female, bm_ = British Male
-  const VOICES = {
-    'Yadi':            'am_adam',    // young energetic male
-    'Yen':             'am_michael', // mature authoritative male
-    'Papa Rodríguez':  'am_eric',    // deep warm male
-    'Mama Rodríguez':  'af_bella',   // warm female
-    'Don Emilio':      'bm_george',  // calm elderly male
-    'Daimon':          'bm_daniel',  // refined arrogant male
-    'Kai':             'am_onyx',    // stoic deep male
-    'Luca':            'bm_fable',   // smooth charming male
-    'Crowd':           'am_puck',    // generic male
-    'Narrator':        'af_sky',     // clear narrator
-    'Thought':         'am_adam',    // same as Yadi (inner voice)
-    '_default':        'af_sky',     // fallback
-  };
-
-  // Web Speech API fallback voice configs (pitch, rate)
-  const FALLBACK_VOICES = {
-    'Yadi':            { pitch: 1.15, rate: 1.05 },
-    'Yen':             { pitch: 0.8,  rate: 0.9  },
-    'Papa Rodríguez':  { pitch: 0.7,  rate: 0.85 },
-    'Mama Rodríguez':  { pitch: 1.3,  rate: 1.0  },
-    'Don Emilio':      { pitch: 0.6,  rate: 0.8  },
-    'Daimon':          { pitch: 0.9,  rate: 1.1  },
-    'Kai':             { pitch: 0.75, rate: 0.85 },
-    'Luca':            { pitch: 1.0,  rate: 1.05 },
-    'Crowd':           { pitch: 1.0,  rate: 1.15 },
-    'Narrator':        { pitch: 1.0,  rate: 0.92 },
-    '_default':        { pitch: 1.0,  rate: 1.0  },
-  };
-
-  let kokoroModel = null;
-  let kokoroLoading = false;
-  let kokoroFailed = false;
   let queue = [];
   let currentIndex = -1;
-  let currentAudio = null;
-  let audioCtx = null;
-  let currentSource = null;
   let isPlaying = false;
-  let isPaused = false;
-  let useKokoro = true;
+  let maleVoice = null;
+  let lastSlideIdx = -1;
 
-  // DOM refs
-  const bar       = document.getElementById('tts-bar');
-  const btnPlay   = document.getElementById('tts-play');
-  const btnPrev   = document.getElementById('tts-prev');
-  const btnNext   = document.getElementById('tts-next');
-  const btnClose  = document.getElementById('tts-close');
-  const elSpeaker = document.getElementById('tts-bar-speaker');
-  const elText    = document.getElementById('tts-bar-text');
-  const elLoading = document.getElementById('tts-loading');
+  const readerSpeaker = document.getElementById('reader-speaker');
+  const readerText    = document.getElementById('reader-text');
+  const btnPlayAll    = document.getElementById('slide-play-all');
 
-  // ── Load Kokoro model (lazy, on first play) ──
-  async function loadKokoro() {
-    if (kokoroModel) return kokoroModel;
-    if (kokoroFailed) return null;
-    if (kokoroLoading) {
-      // Wait for existing load
-      while (kokoroLoading) await new Promise(r => setTimeout(r, 200));
-      return kokoroModel;
-    }
-    kokoroLoading = true;
-    updateBar('SYSTEM', 'Loading Kokoro AI voice model... (first time only, ~80MB)', true);
-    try {
-      const { KokoroTTS } = await import('https://esm.sh/kokoro-js@1.1.0');
-      kokoroModel = await KokoroTTS.from_pretrained(
-        'onnx-community/Kokoro-82M-v1.0-ONNX',
-        { dtype: 'q8' }
-      );
-      kokoroLoading = false;
-      console.log('Kokoro TTS model loaded successfully');
-      return kokoroModel;
-    } catch (err) {
-      console.error('Kokoro load failed, using Web Speech API fallback:', err);
-      kokoroFailed = true;
-      kokoroLoading = false;
-      useKokoro = false;
-      updateBar('SYSTEM', 'Using browser voices (Kokoro unavailable)', false);
-      return null;
-    }
+  // ── Find a male English voice ──
+  function pickMaleVoice() {
+    if (maleVoice) return maleVoice;
+    if (!window.speechSynthesis) return null;
+    const v = speechSynthesis.getVoices();
+    // Prefer Online/Neural voices for better quality
+    maleVoice = v.find(x => x.name.includes('Guy Online') && x.lang.startsWith('en'))
+      || v.find(x => x.name.includes('Andrew Online') && x.lang.startsWith('en'))
+      || v.find(x => x.name.includes('Mark Online') && x.lang.startsWith('en'))
+      || v.find(x => x.name.includes('David Online') && x.lang.startsWith('en'))
+      || v.find(x => x.name.includes('Google US English'))
+      || v.find(x => x.name.includes('David') && x.lang.startsWith('en'))
+      || v.find(x => x.name.includes('Guy') && x.lang.startsWith('en'))
+      || v.find(x => x.name.includes('Mark') && x.lang.startsWith('en'))
+      || v.find(x => x.lang.startsWith('en-US'))
+      || v.find(x => x.lang.startsWith('en'))
+      || null;
+    console.log('TTS voice selected:', maleVoice ? maleVoice.name : 'none');
+    return maleVoice;
+  }
+  if (window.speechSynthesis) {
+    speechSynthesis.getVoices();
+    speechSynthesis.addEventListener('voiceschanged', () => { maleVoice = null; pickMaleVoice(); });
   }
 
-  // ── Resolve voice from speaker name ──
-  function getVoice(speaker) {
-    if (!speaker) return useKokoro ? VOICES['_default'] : FALLBACK_VOICES['_default'];
-    const map = useKokoro ? VOICES : FALLBACK_VOICES;
-    const key = Object.keys(map).find(k =>
-      speaker.toLowerCase().includes(k.toLowerCase())
-    );
-    return key ? map[key] : map['_default'];
-  }
-
-  // ── Extract speaker + text from a dialogue element ──
+  // ── Parse a dialogue element ──
   function parseLine(el) {
     const raw = el.textContent.trim();
     if (el.classList.contains('speech')) {
-      const speakerEl = el.querySelector('.speaker');
-      const lineEl = el.querySelector('.line');
-      const speaker = speakerEl ? speakerEl.textContent.trim() : 'Narrator';
-      const text = lineEl ? lineEl.textContent.trim().replace(/^[""\u201C]|[""\u201D]$/g, '') : raw;
-      return { speaker, text, type: 'speech' };
+      const sp = el.querySelector('.speaker');
+      const ln = el.querySelector('.line');
+      return { speaker: sp ? sp.textContent.trim() : 'Narrator',
+               text: ln ? ln.textContent.trim().replace(/^[""\u201C]|[""\u201D]$/g, '') : raw,
+               type: 'speech' };
     }
     if (el.classList.contains('thought')) {
-      const match = raw.match(/^(.+?):\s*[""\u201C]?(.+?)[""\u201D]?$/s);
-      if (match) {
-        let speaker = match[1].replace(/\u2019s voice|'s voice/g, '').trim();
-        return { speaker, text: match[2], type: 'thought' };
-      }
+      const m = raw.match(/^(.+?):\s*[""\u201C]?(.+?)[""\u201D]?$/s);
+      if (m) return { speaker: m[1].trim(), text: m[2], type: 'thought' };
       return { speaker: 'Yadi', text: raw, type: 'thought' };
     }
-    if (el.classList.contains('narration')) {
-      const text = raw.replace(/[—–]\s*(Mama|Papa|Narrator)/g, '').replace(/^[""\u201C]|[""\u201D]$/g, '');
-      return { speaker: 'Narrator', text, type: 'narration' };
-    }
-    if (el.classList.contains('sfx')) {
-      return { speaker: 'SFX', text: raw, type: 'sfx' };
-    }
-    return { speaker: 'Narrator', text: raw, type: 'unknown' };
+    if (el.classList.contains('narration')) return { speaker: 'Narrator', text: raw, type: 'narration' };
+    if (el.classList.contains('sfx')) return { speaker: 'SFX', text: raw, type: 'sfx' };
+    if (el.classList.contains('scene-note')) return { speaker: 'Narrator', text: raw, type: 'narration' };
+    return { speaker: 'Narrator', text: raw, type: 'narration' };
   }
 
-  // ── Speak via Kokoro.js (returns a Promise that resolves when done) ──
-  async function speakKokoro(speaker, text) {
-    const model = await loadKokoro();
-    if (!model) return speakFallback(speaker, text);
-    const voiceName = getVoice(speaker);
-    elLoading.classList.add('active');
-    try {
-      const result = await model.generate(text, { voice: voiceName });
-      elLoading.classList.remove('active');
-      if (!audioCtx) audioCtx = new AudioContext();
-      if (audioCtx.state === 'suspended') await audioCtx.resume();
-      const samples = result.audio;
-      const sampleRate = result.sampling_rate || 24000;
-      const buffer = audioCtx.createBuffer(1, samples.length, sampleRate);
-      buffer.getChannelData(0).set(samples);
-      return new Promise((resolve) => {
-        const source = audioCtx.createBufferSource();
-        source.buffer = buffer;
-        source.connect(audioCtx.destination);
-        currentSource = source;
-        source.onended = () => { currentSource = null; resolve(); };
-        source.start();
-      });
-    } catch (err) {
-      console.warn('Kokoro generate error:', err, '— using fallback');
-      elLoading.classList.remove('active');
-      return speakFallback(speaker, text);
-    }
-  }
-
-  // ── Speak via Web Speech API (fallback) ──
-  function speakFallback(speaker, text) {
-    return new Promise((resolve) => {
-      if (!window.speechSynthesis) { resolve(); return; }
-      window.speechSynthesis.cancel();
-      const utter = new SpeechSynthesisUtterance(text);
-      utter.lang = 'en-US';
-      const cfg = getVoice(speaker);
-      if (typeof cfg === 'object') {
-        utter.pitch = cfg.pitch || 1;
-        utter.rate = cfg.rate || 1;
+  // ── Typewriter effect on the reader overlay ──
+  function typeWriter(text, speed) {
+    return new Promise(resolve => {
+      readerText.textContent = '';
+      if (!text) { resolve(); return; }
+      let i = 0;
+      const cursor = document.createElement('span');
+      cursor.id = 'reader-cursor';
+      function tick() {
+        if (!isPlaying) { resolve(); return; }
+        if (i < text.length) {
+          readerText.textContent = text.substring(0, i + 1);
+          readerText.appendChild(cursor);
+          i++;
+          setTimeout(tick, speed);
+        } else {
+          if (cursor.parentNode) cursor.remove();
+          resolve();
+        }
       }
-      // Try to pick a good system voice
-      const voices = speechSynthesis.getVoices();
-      const isFemaleSpeaker = ['Mama', 'af_'].some(p =>
-        (speaker || '').includes(p) || (typeof cfg === 'object' && (cfg.pitch || 1) > 1.2)
-      );
-      const preferred = isFemaleSpeaker
-        ? voices.find(v => v.name.includes('Zira') || v.name.includes('Jenny') || v.name.includes('Samantha') || (v.lang.startsWith('en') && v.name.toLowerCase().includes('female')))
-        : voices.find(v => v.name.includes('David') || v.name.includes('Guy') || v.name.includes('Mark') || (v.lang.startsWith('en') && v.name.toLowerCase().includes('male')));
-      if (preferred) utter.voice = preferred;
-      else {
-        const eng = voices.find(v => v.lang.startsWith('en'));
-        if (eng) utter.voice = eng;
-      }
-      utter.onend = resolve;
-      utter.onerror = resolve;
-      speechSynthesis.speak(utter);
-      currentAudio = utter;
+      tick();
     });
   }
 
-  // ── Main speak function ──
-  async function speakLine(speaker, text) {
-    if (!text || text.length < 2) return;
-    if (useKokoro && !kokoroFailed) {
-      return speakKokoro(speaker, text);
-    }
-    return speakFallback(speaker, text);
+  // ── Web Speech API with Chrome bug workarounds ──
+  function speak(text) {
+    return new Promise(resolve => {
+      if (!window.speechSynthesis || !text || text.length < 2) {
+        // No speech: simulate timing based on word count
+        const words = text ? text.split(/\s+/).length : 0;
+        setTimeout(resolve, Math.max(words * 380, 1200));
+        return;
+      }
+      const utter = new SpeechSynthesisUtterance(text);
+      utter.lang = 'en-US';
+      utter.pitch = 1.0;
+      utter.rate = 0.95;
+      utter.volume = 1.0;
+      const voice = pickMaleVoice();
+      if (voice) utter.voice = voice;
+
+      let done = false;
+      const finish = () => {
+        if (done) return;
+        done = true;
+        clearTimeout(safetyTimeout);
+        clearInterval(keepAlive);
+        resolve();
+      };
+
+      // Safety timeout: estimate max duration
+      const words = text.split(/\s+/).length;
+      const maxMs = Math.max(words * 650, 3000) + 3000;
+      const safetyTimeout = setTimeout(() => {
+        try { speechSynthesis.cancel(); } catch(e) {}
+        finish();
+      }, maxMs);
+
+      // Chrome bug workaround: periodic pause/resume prevents hang
+      const keepAlive = setInterval(() => {
+        if (!speechSynthesis.speaking) {
+          finish();
+        } else {
+          speechSynthesis.pause();
+          speechSynthesis.resume();
+        }
+      }, 8000);
+
+      utter.onend = finish;
+      utter.onerror = finish;
+      speechSynthesis.speak(utter);
+    });
   }
 
-  // ── UI updates ──
-  function showBar() { bar.classList.add('visible'); }
-  function hideBar() { bar.classList.remove('visible'); }
-  function updateBar(speaker, text, playing) {
-    elSpeaker.textContent = speaker || '—';
-    elText.textContent = text ? ('\u201C' + text.substring(0, 120) + (text.length > 120 ? '…' : '') + '\u201D') : '—';
-    btnPlay.textContent = playing ? '⏸' : '▶';
-  }
-
+  // ── Highlight current line in the dialogue block ──
   function highlightLine(el) {
     document.querySelectorAll('.tts-speaking').forEach(e => e.classList.remove('tts-speaking'));
-    document.querySelectorAll('.tts-line-btn.playing').forEach(e => e.classList.remove('playing'));
     if (el) {
       el.classList.add('tts-speaking');
-      const btn = el.querySelector('.tts-line-btn');
-      if (btn) btn.classList.add('playing');
-      el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      // In reading mode, don't scroll — images stay visible, overlay shows text
+      if (!document.body.classList.contains('reading')) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
     }
   }
 
-  // ── Queue playback ──
+  // ── Play a line by index ──
   async function playIndex(idx) {
-    if (idx < 0 || idx >= queue.length) { stop(); return; }
+    if (idx < 0 || idx >= queue.length || !isPlaying) { stop(); return; }
     currentIndex = idx;
-    isPlaying = true;
-    isPaused = false;
-
     const item = queue[idx];
-    highlightLine(item.el);
-    updateBar(item.speaker, item.text, true);
-    showBar();
 
+    // Auto-advance slide if needed
+    if (typeof SlideReader !== 'undefined' && SlideReader.isActive()) {
+      const slides = SlideReader.getSlides();
+      for (let s = 0; s < slides.length; s++) {
+        if (slides[s].contains(item.el)) {
+          if (s !== SlideReader.getCurrentSlide()) {
+            SlideReader.showSlide(s);
+            await delay(900);
+            if (!isPlaying) return;
+          }
+          break;
+        }
+      }
+    }
+
+    highlightLine(item.el);
+
+    // Update reader overlay style
+    readerText.className = '';
+    if (item.type === 'thought') readerText.classList.add('is-thought');
+    if (item.type === 'sfx') readerText.classList.add('is-sfx');
+
+    // SFX: just display briefly
     if (item.type === 'sfx') {
-      updateBar('SFX', item.text, true);
-      await new Promise(r => setTimeout(r, 800));
+      readerSpeaker.textContent = '';
+      readerText.textContent = item.text;
+      await delay(1200);
       if (isPlaying) playIndex(idx + 1);
       return;
     }
 
-    try {
-      await speakLine(item.speaker, item.text);
-      if (isPlaying && !isPaused) playIndex(idx + 1);
-    } catch (err) {
-      console.warn('Playback error:', err);
-      if (isPlaying) playIndex(idx + 1);
+    // Set speaker name
+    if (item.type === 'speech') {
+      readerSpeaker.textContent = item.speaker;
+    } else if (item.type === 'thought') {
+      readerSpeaker.textContent = item.speaker + ' (thinking)';
+    } else {
+      readerSpeaker.textContent = '';
     }
+
+    // Typewriter speed: adjust by text length
+    const len = item.text.length;
+    let typeSpeed = len < 60 ? 32 : len < 160 ? 22 : 15;
+
+    // Run typewriter + speech in parallel, wait for both
+    await Promise.all([
+      typeWriter(item.text, typeSpeed),
+      speak(item.text)
+    ]);
+
+    if (!isPlaying) return;
+
+    // Pause between lines
+    const pauseMs = item.type === 'narration' ? 500 : 350;
+    await delay(pauseMs);
+
+    if (isPlaying) playIndex(idx + 1);
+  }
+
+  function delay(ms) {
+    return new Promise(r => setTimeout(r, ms));
+  }
+
+  // ── Build queue and start reading ──
+  function playAll(startSlideIdx) {
+    stop();
+    const allSlides = document.querySelectorAll('.chapter .chapter-header, .manga-page, .chapter-end');
+    const allItems = [];
+    allSlides.forEach((slide, sIdx) => {
+      // Collect chapter header text
+      if (slide.classList.contains('chapter-header')) {
+        const num = slide.querySelector('.chapter-num');
+        const title = slide.querySelector('.chapter-title');
+        const summary = slide.querySelector('.chapter-summary');
+        if (num) allItems.push({ speaker: 'Narrator', text: num.textContent.trim(), type: 'narration', el: num, slideIdx: sIdx });
+        if (title) allItems.push({ speaker: 'Narrator', text: title.textContent.trim(), type: 'narration', el: title, slideIdx: sIdx });
+        if (summary) allItems.push({ speaker: 'Narrator', text: summary.textContent.trim(), type: 'narration', el: summary, slideIdx: sIdx });
+        return;
+      }
+      // Chapter-end transition slides
+      if (slide.classList.contains('chapter-end')) {
+        const nextTitle = slide.querySelector('.next-title');
+        if (nextTitle) {
+          allItems.push({ speaker: 'Narrator', text: nextTitle.textContent.trim(), type: 'narration', el: nextTitle, slideIdx: sIdx });
+        }
+        return;
+      }
+      const lines = slide.querySelectorAll('.speech, .thought, .narration, .sfx, .scene-note');
+      lines.forEach(el => {
+        allItems.push({ ...parseLine(el), el, slideIdx: sIdx });
+      });
+    });
+    if (allItems.length === 0) return;
+
+    let startIdx = 0;
+    if (startSlideIdx > 0) {
+      const found = allItems.findIndex(item => item.slideIdx >= startSlideIdx);
+      if (found >= 0) startIdx = found;
+    }
+
+    queue = allItems;
+    isPlaying = true;
+    document.body.classList.add('reading');
+    btnPlayAll.textContent = '\u25A0 Stop';
+    playIndex(startIdx);
   }
 
   function stop() {
     isPlaying = false;
-    isPaused = false;
     currentIndex = -1;
-    // Stop Kokoro audio
-    if (currentSource) {
-      try { currentSource.stop(); } catch(e) {}
-      currentSource = null;
-    }
-    // Stop Web Speech
     if (window.speechSynthesis) speechSynthesis.cancel();
-    currentAudio = null;
     highlightLine(null);
-    updateBar('—', 'Stopped', false);
-    elLoading.classList.remove('active');
-    setTimeout(hideBar, 2000);
+    document.body.classList.remove('reading');
+    btnPlayAll.textContent = '\u25B6 Play Story';
+    readerText.textContent = '';
+    readerSpeaker.textContent = '';
   }
 
-  function togglePause() {
-    if (!isPlaying) return;
-    if (isPaused) {
-      isPaused = false;
-      if (window.speechSynthesis && speechSynthesis.paused) speechSynthesis.resume();
-      if (audioCtx && audioCtx.state === 'suspended') audioCtx.resume();
-      updateBar(queue[currentIndex]?.speaker, queue[currentIndex]?.text, true);
-    } else {
-      isPaused = true;
-      if (window.speechSynthesis && speechSynthesis.speaking) speechSynthesis.pause();
-      if (audioCtx && audioCtx.state === 'running') audioCtx.suspend();
-      updateBar(queue[currentIndex]?.speaker, queue[currentIndex]?.text, false);
-    }
-  }
+  function playing() { return isPlaying; }
 
-  // ── Public: play a single line ──
-  function playSingle(el) {
-    stop();
-    const parsed = parseLine(el);
-    queue = [{ ...parsed, el }];
-    showBar();
-    playIndex(0);
-  }
-
-  // ── Public: play all lines in a dialogue block ──
-  function playPanel(dialogueBlock) {
-    stop();
-    const lines = dialogueBlock.querySelectorAll('.speech, .thought, .narration, .sfx');
-    queue = Array.from(lines).map(el => ({ ...parseLine(el), el }));
-    if (queue.length === 0) return;
-    showBar();
-    playIndex(0);
-  }
-
-  // ── Wire up bar buttons ──
-  btnPlay.addEventListener('click', () => {
-    if (!isPlaying && queue.length > 0) {
-      playIndex(currentIndex >= 0 ? currentIndex : 0);
-    } else {
-      togglePause();
-    }
-  });
-  btnPrev.addEventListener('click', () => {
-    if (queue.length > 0 && currentIndex > 0) { stop(); playIndex(currentIndex - 1); }
-  });
-  btnNext.addEventListener('click', () => {
-    if (queue.length > 0 && currentIndex < queue.length - 1) { stop(); playIndex(currentIndex + 1); }
-  });
-  btnClose.addEventListener('click', stop);
-
-  // Pre-load voices for Web Speech fallback
-  if (window.speechSynthesis) speechSynthesis.getVoices();
-
-  return { playSingle, playPanel, stop, VOICES };
+  return { playAll, stop, playing };
 })();
 
-// ── Inject play buttons into every dialogue line ──
-document.querySelectorAll('.dialogue-block').forEach(block => {
-  const panelBtn = document.createElement('div');
-  panelBtn.className = 'tts-panel-btn';
-  panelBtn.innerHTML = '<span class="tts-icon">▶</span> PLAY PANEL AUDIO';
-  panelBtn.addEventListener('click', () => TTS.playPanel(block));
-  block.insertBefore(panelBtn, block.firstChild);
+// ═══════════════════════════════════════════════════════
+// SLIDE READER MODE
+// ═══════════════════════════════════════════════════════
+const SlideReader = (() => {
+  let slides = [];
+  let currentSlide = 0;
+  let active = false;
 
-  block.querySelectorAll('.speech, .thought, .narration').forEach(line => {
-    const btn = document.createElement('button');
-    btn.className = 'tts-line-btn';
-    btn.textContent = '▶';
-    btn.title = 'Play this line';
-    btn.addEventListener('click', (e) => { e.stopPropagation(); TTS.playSingle(line); });
-    line.insertBefore(btn, line.firstChild);
+  const counter  = document.getElementById('slide-counter');
+  const btnPrev  = document.getElementById('slide-prev');
+  const btnNext  = document.getElementById('slide-next');
+  const btnPlay  = document.getElementById('slide-play-all');
+  const btnClose = document.getElementById('slide-close');
+
+  function collectSlides() {
+    slides = Array.from(document.querySelectorAll('.chapter .chapter-header, .manga-page, .chapter-end'));
+  }
+
+  function showSlide(idx) {
+    if (idx < 0 || idx >= slides.length) return;
+    slides.forEach(s => s.classList.remove('slide-active'));
+    currentSlide = idx;
+    slides[idx].classList.add('slide-active');
+    slides[idx].scrollTop = 0;
+    counter.textContent = (idx + 1) + ' / ' + slides.length;
+    btnPrev.disabled = idx === 0;
+    btnNext.disabled = idx === slides.length - 1;
+  }
+
+  function next() {
+    if (TTS.playing()) TTS.stop();
+    if (currentSlide < slides.length - 1) showSlide(currentSlide + 1);
+  }
+  function prev() {
+    if (TTS.playing()) TTS.stop();
+    if (currentSlide > 0) showSlide(currentSlide - 1);
+  }
+
+  function start(startIdx) {
+    collectSlides();
+    if (slides.length === 0) return;
+    active = true;
+    document.body.classList.add('slide-mode');
+    showSlide(startIdx || 0);
+  }
+
+  function exit() {
+    active = false;
+    document.body.classList.remove('slide-mode');
+    slides.forEach(s => s.classList.remove('slide-active'));
+    TTS.stop();
+  }
+
+  // Keyboard
+  document.addEventListener('keydown', (e) => {
+    if (!active) return;
+    if (e.key === 'ArrowRight' || e.key === 'ArrowDown') { e.preventDefault(); next(); }
+    if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') { e.preventDefault(); prev(); }
+    if (e.key === 'Escape') exit();
+    if (e.key === ' ') {
+      e.preventDefault();
+      if (TTS.playing()) TTS.stop();
+      else TTS.playAll(currentSlide);
+    }
   });
-});
+
+  // Touch swipe
+  let touchStartX = 0, touchStartY = 0;
+  document.addEventListener('touchstart', (e) => {
+    if (!active) return;
+    touchStartX = e.changedTouches[0].screenX;
+    touchStartY = e.changedTouches[0].screenY;
+  });
+  document.addEventListener('touchend', (e) => {
+    if (!active) return;
+    const dx = touchStartX - e.changedTouches[0].screenX;
+    const dy = touchStartY - e.changedTouches[0].screenY;
+    if (Math.abs(dx) > Math.abs(dy) && Math.abs(dx) > 60) {
+      if (dx > 0) next(); else prev();
+    }
+  });
+
+  // Buttons
+  btnPrev.addEventListener('click', prev);
+  btnNext.addEventListener('click', next);
+  btnClose.addEventListener('click', exit);
+  btnPlay.addEventListener('click', () => {
+    if (TTS.playing()) TTS.stop();
+    else TTS.playAll(currentSlide);
+  });
+
+  function isActive() { return active; }
+  function getCurrentSlide() { return currentSlide; }
+  function getSlides() { return slides; }
+
+  return { start, exit, next, prev, showSlide, isActive, getCurrentSlide, getSlides };
+})();
+
+function startReader() {
+  SlideReader.start(0);
+  // Auto-start playing from the beginning after a brief delay
+  setTimeout(() => TTS.playAll(0), 600);
+}
 </script>
 
 </body>
