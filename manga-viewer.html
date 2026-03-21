@@ -2409,18 +2409,42 @@ const TTS = (() => {
   let currentIndex = -1;
   let isPlaying = false;
   let maleVoice = null;
-  let lastSlideIdx = -1;
+  let femaleVoice = null;
 
   const readerSpeaker = document.getElementById('reader-speaker');
   const readerText    = document.getElementById('reader-text');
   const btnPlayAll    = document.getElementById('slide-play-all');
 
-  // ── Find a male English voice ──
+  // ── Per-character voice profiles ──
+  const PROFILES = {
+    'narrator':       { pitch: 0.95, rate: 0.93, female: false },
+    'yadi':           { pitch: 1.15, rate: 1.05, female: false },
+    'yen':            { pitch: 0.78, rate: 0.86, female: false },
+    'papa':           { pitch: 0.70, rate: 0.84, female: false },
+    'mama':           { pitch: 1.35, rate: 0.97, female: true  },
+    'don emilio':     { pitch: 0.63, rate: 0.80, female: false },
+    'daimon':         { pitch: 0.90, rate: 1.08, female: false },
+    'kai':            { pitch: 0.74, rate: 0.80, female: false },
+    'luca':           { pitch: 1.05, rate: 1.07, female: false },
+    'crowd':          { pitch: 1.0,  rate: 1.12, female: false },
+    'charlie':        { pitch: 1.1,  rate: 1.0,  female: false },
+    'veteran':        { pitch: 0.82, rate: 0.87, female: false },
+    '_default':       { pitch: 1.0,  rate: 0.95, female: false },
+  };
+
+  function getProfile(speaker) {
+    if (!speaker) return PROFILES['_default'];
+    const key = Object.keys(PROFILES).find(k =>
+      speaker.toLowerCase().includes(k)
+    );
+    return key ? PROFILES[key] : PROFILES['_default'];
+  }
+
+  // ── Voice pickers ──
   function pickMaleVoice() {
     if (maleVoice) return maleVoice;
     if (!window.speechSynthesis) return null;
     const v = speechSynthesis.getVoices();
-    // Prefer Online/Neural voices for better quality
     maleVoice = v.find(x => x.name.includes('Guy Online') && x.lang.startsWith('en'))
       || v.find(x => x.name.includes('Andrew Online') && x.lang.startsWith('en'))
       || v.find(x => x.name.includes('Mark Online') && x.lang.startsWith('en'))
@@ -2432,12 +2456,31 @@ const TTS = (() => {
       || v.find(x => x.lang.startsWith('en-US'))
       || v.find(x => x.lang.startsWith('en'))
       || null;
-    console.log('TTS voice selected:', maleVoice ? maleVoice.name : 'none');
     return maleVoice;
   }
+
+  function pickFemaleVoice() {
+    if (femaleVoice) return femaleVoice;
+    if (!window.speechSynthesis) return null;
+    const v = speechSynthesis.getVoices();
+    femaleVoice = v.find(x => x.name.includes('Jenny Online') && x.lang.startsWith('en'))
+      || v.find(x => x.name.includes('Michelle Online') && x.lang.startsWith('en'))
+      || v.find(x => x.name.includes('Aria Online') && x.lang.startsWith('en'))
+      || v.find(x => x.name.includes('Zira') && x.lang.startsWith('en'))
+      || v.find(x => x.name.includes('Jenny') && x.lang.startsWith('en'))
+      || v.find(x => x.name.includes('Samantha') && x.lang.startsWith('en'))
+      || v.find(x => x.name.toLowerCase().includes('female') && x.lang.startsWith('en'))
+      || pickMaleVoice();
+    return femaleVoice;
+  }
+
   if (window.speechSynthesis) {
     speechSynthesis.getVoices();
-    speechSynthesis.addEventListener('voiceschanged', () => { maleVoice = null; pickMaleVoice(); });
+    speechSynthesis.addEventListener('voiceschanged', () => {
+      maleVoice = null; femaleVoice = null;
+      pickMaleVoice(); pickFemaleVoice();
+      console.log('Voices loaded — male:', pickMaleVoice()?.name, '| female:', pickFemaleVoice()?.name);
+    });
   }
 
   // ── Parse a dialogue element ──
@@ -2486,20 +2529,20 @@ const TTS = (() => {
   }
 
   // ── Web Speech API with Chrome bug workarounds ──
-  function speak(text) {
+  function speak(text, speaker) {
     return new Promise(resolve => {
       if (!window.speechSynthesis || !text || text.length < 2) {
-        // No speech: simulate timing based on word count
         const words = text ? text.split(/\s+/).length : 0;
         setTimeout(resolve, Math.max(words * 380, 1200));
         return;
       }
+      const profile = getProfile(speaker);
       const utter = new SpeechSynthesisUtterance(text);
       utter.lang = 'en-US';
-      utter.pitch = 1.0;
-      utter.rate = 0.95;
+      utter.pitch = profile.pitch;
+      utter.rate = profile.rate;
       utter.volume = 1.0;
-      const voice = pickMaleVoice();
+      const voice = profile.female ? pickFemaleVoice() : pickMaleVoice();
       if (voice) utter.voice = voice;
 
       let done = false;
@@ -2600,7 +2643,7 @@ const TTS = (() => {
     // Run typewriter + speech in parallel, wait for both
     await Promise.all([
       typeWriter(item.text, typeSpeed),
-      speak(item.text)
+      speak(item.text, item.speaker)
     ]);
 
     if (!isPlaying) return;
